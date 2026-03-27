@@ -1,0 +1,5 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

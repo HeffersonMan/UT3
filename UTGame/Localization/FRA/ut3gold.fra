@@ -1,0 +1,27 @@
+;///////////////
+; UT3 Deployables
+;///////////////
+[UTDeployableXRayVolume]
+ItemName="Générateur de Champ Rayons-X"
+PickupMessage="Générateur de Champ Rayons-X"
+NeedToPickupAnnouncement.AnnouncementText="Saisis le Générateur de Champ Rayons-X !"
+
+[UTDeployableLinkGenerator]
+ItemName="Générateur de liens"
+PickupMessage="Générateur de liens"
+NeedToPickupAnnouncement.AnnouncementText="Saisis le Générateur de liens !"
+
+;///////////////
+; UT3 Pickups
+;///////////////
+[UTSlowField_Content]
+PickupMessage="ZONE AU RALENTI !"
+
+;///////////////
+; UT3 Weapons
+;///////////////
+[UTVWeap_EradicatorCannon_Content]
+ItemName="Éradicateur"
+
+[UTVWeap_StealthBenderGold_Content]
+ItemName="StealthBender"

@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Prime Node!"
+DefendAnnouncement.AnnouncementText="Defend the Prime Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Center Road"
+AttackAnnouncement.AnnouncementText="Attack the Center Road Node!"
+DefendAnnouncement.AnnouncementText="Defend the Center Road Node!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Prime Node!"
+DefendAnnouncement.AnnouncementText="Defend the Prime Node!"
+

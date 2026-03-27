@@ -1,0 +1,31 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Contrôle du Pont"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de Contrôle du Pont!"
+DefendAnnouncement.AnnouncementText="Défendez le Node de Contrôle du Pont!"
+
+[UTOnslaughtSpecialObjective_1 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Goliath ennemi sur votre Core!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Conduisez le Goliath à la rampe de pression"
+DefendAnnouncement.AnnouncementText="Le Goliath ennemi a passé le pont!"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Goliath ennemi sur votre Core!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Conduisez le Goliath à la rampe de pression"
+DefendAnnouncement.AnnouncementText="Le Goliath ennemi a passé le pont!"
+
+[UTOnslaughtSpecialObjective_4 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Le Goliath ennemi a passé le pont!"
+ObjectiveName="TankCross Rouge"
+AttackAnnouncement.AnnouncementText="Conduisez le Goliath de l'autre côté du pont"
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtSpecialObjective_7 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Le Goliath ennemi a passé le pont!"
+ObjectiveName="TankCross Bleu"
+AttackAnnouncement.AnnouncementText="Conduisez le Goliath de l'autre côté du pont"
+DefendAnnouncement.AnnouncementText=""
+

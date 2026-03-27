@@ -1,0 +1,24 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviathan Available!"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviathan Under Construction!"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviathan Construction Stopped!"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Mine Node"
+AttackAnnouncement.AnnouncementText="Attack the Mine Node!"
+DefendAnnouncement.AnnouncementText="Defend the Mine Node!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

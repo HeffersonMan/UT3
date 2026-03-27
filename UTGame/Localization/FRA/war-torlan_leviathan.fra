@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Voie Centrale"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de la Voie Centrale!"
+DefendAnnouncement.AnnouncementText="Défendez le Node de la Voie Centrale!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+

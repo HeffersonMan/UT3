@@ -1,0 +1,10 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Air"
+AttackAnnouncement.AnnouncementText="Attack the Air Node!"
+DefendAnnouncement.AnnouncementText="Defend the Air Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Prime Node!"
+DefendAnnouncement.AnnouncementText="Defend the Prime Node!"
+

@@ -1,0 +1,24 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="¡Leviathan preparado!"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviathan en construcción"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Construcción del Leviathan detenida"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Nodo de la Mina"
+AttackAnnouncement.AnnouncementText="Ataca el nodo de la mina"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la mina"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+

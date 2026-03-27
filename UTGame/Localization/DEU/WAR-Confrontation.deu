@@ -1,0 +1,37 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Feindlicher Leviathan"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="In der roten Basis"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Feindlicher Leviathan"
+
+[UTSeqAct_PlayAnnouncement_3 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="In der blauen Basis"
+
+[UTSeqAct_PlayAnnouncement_4 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Blauer Leviathan im Bau!"
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+ObjectiveName=Countdown-Knoten
+AttackAnnouncement.AnnouncementText="Countdown-Knoten angreifen!"
+DefendAnnouncement.AnnouncementText="Countdown-Knoten verteidigen!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+AttackAnnouncement.AnnouncementText="Greife den nördlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den nördlichen Knoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Primärknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Primärknoten!"
+
+[UTOnslaughtSpecialObjective_0 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="Feindlicher Leviathan in Ihrer Basis!"
+ObjectiveName="Blauer Leviathan ist nah"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="Feindlicher Leviathan in Ihrer Basis!"
+ObjectiveName="Roter Leviathan ist nah"
+

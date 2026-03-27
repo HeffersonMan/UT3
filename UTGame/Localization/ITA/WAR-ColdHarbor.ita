@@ -1,0 +1,24 @@
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+HalfTimeAnnouncements[0]="(AnnouncementText="Attacco missilistico in arrivo.")"
+TenSecondsLeftAnnouncements[0]="(AnnouncementText="Attacco missilistico imminente.")"
+SuccessAnnouncements[0]="(AnnouncementText="I missili attaccano il nucleo blu.")"
+SuccessAnnouncements[1]="(AnnouncementText="I missili attaccano il nucleo rosso.")"
+ObjectiveName="Collina"
+DefendAnnouncement.AnnouncementText="Difendi il nodo sulla collina!"
+AttackAnnouncement.AnnouncementText=Attacca il nodo sulla collina!
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Aereo est"
+AttackAnnouncement.AnnouncementText="Attacca il nodo aereo ad est!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo aereo ad est!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Aereo ovest"
+AttackAnnouncement.AnnouncementText="Attacca il nodo aereo ad ovest!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo aereo ad ovest!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Sommità collina"
+AttackAnnouncement.AnnouncementText="Attacca il nodo sopra la collina!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo sopra la collina! "

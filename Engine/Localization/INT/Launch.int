@@ -1,0 +1,12 @@
+[General]
+Start=Unreal Tournament 3 (Starting)
+Exit=Unreal Tournament 3 (Exiting)
+Run=Unreal Tournament 3 (Running)
+Product=Unreal Tournament 3
+
+[Errors]
+Error_RemoteDesktop=This game cannot run with 3D graphics over a Remote Desktop connection.
+Error_ParentalControls=The current level of parental controls do not allow you to run this game.
+Error_ResolutionTooLow=The current resolution is too low to run this game.
+Error_NotMinSpec=Your hardware does not meet the minimum requiremts. Do you want to continue?
+Error_ModifiedCode=Modified executable code is not allowed. Please reinstall the game.

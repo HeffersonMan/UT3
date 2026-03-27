@@ -1,0 +1,34 @@
+;///////////////
+; UT3 Game Modes
+;///////////////
+[UTHeroCTFGame_Content UTUIDataProvider_GameModeInfo]
+FriendlyName=Titán CTF
+Description=Captura del equipo de base de la bandera con titanes.  Invade la base del equipo contrincante, agarra su bandera y tráela contigo para triunfar.
+
+;///////////////
+; UT3 Deployables
+;///////////////
+[UTDeployableXRayVolume]
+ItemName="Generador de Campo Rayos X"
+PickupMessage="Generador de Campo Rayos X"
+NeedToPickupAnnouncement.AnnouncementText="¡Agarra el Generador de Campo Rayos X!"
+
+[UTDeployableLinkGenerator]
+ItemName="Generador de enlaces"
+PickupMessage="Generador de enlaces"
+NeedToPickupAnnouncement.AnnouncementText="¡Agarra el Generador de Enlaces!"
+
+;///////////////
+; UT3 Pickups
+;///////////////
+[UTSlowField_Content]
+PickupMessage="¡CAMPO LENTO!"
+
+;///////////////
+; UT3 Weapons
+;///////////////
+[UTVWeap_EradicatorCannon_Content]
+ItemName="Erradicador"
+
+[UTVWeap_StealthBenderGold_Content]
+ItemName="StealthBender"

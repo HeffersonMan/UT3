@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Strada Centrale"
+AttackAnnouncement.AnnouncementText="Attacca il nodo stradale centrale!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo stradale centrale!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+

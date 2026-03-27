@@ -1,0 +1,22 @@
+/*=============================================================================
+	HitProxyVertexShader.hlsl: Vertex shader for rendering hit proxies.
+	Copyright 1998-2007 Epic Games, Inc. All Rights Reserved.
+=============================================================================*/
+
+#include "Common.usf"
+#include "Material.usf"
+#include "VertexFactory.usf"
+
+void Main(
+	FVertexFactoryInput Input,
+	out FVertexFactoryInterpolants FactoryInterpolants,
+	out float4 ScreenPosition : TEXCOORD6,
+	out float3 CameraVector : TEXCOORD7,
+	out float4 Position : POSITION
+	)
+{
+	float4	WorldPosition = VertexFactoryGetWorldPosition(Input,FactoryInterpolants);
+	ScreenPosition = Position = MulMatrix(ViewProjectionMatrix,WorldPosition);
+	float3x3 TangentBasis = VertexFactoryGetTangentBasis(Input);
+	CameraVector = VertexFactoryWorldToTangentSpace(Input,TangentBasis,CameraPosition.xyz - WorldPosition.xyz * CameraPosition.w);
+}

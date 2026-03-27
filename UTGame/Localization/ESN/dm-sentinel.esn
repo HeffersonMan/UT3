@@ -1,0 +1,9 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="El ronin 2 ha caído"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="El ronin 3 ha caído"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="El ronin 4 ha caído"
+

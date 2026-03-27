@@ -1,0 +1,1882 @@
+[MessageBox]
+ExitGame_Title=Exit
+ExitGame_Message=Are you sure you want to exit the game?
+LogOut_Title=Logout
+LogOut_Message=Are you sure you want to logout?
+StartGame_Title=Start Match?
+StartGame_Message=Start the match using the current settings?
+StartDedicated_Title=Start Dedicated Server?
+StartDedicated_Message=Start a dedicated server using the current settings?
+FirstTimeCharacter_Title=Create Character
+FirstTimeCharacter_Message=It looks like you have not yet customized your online character.  Would you like to do that now?  If not, a character will be randomly generated for you.
+MustLogoutToLogin_Title=Must Logout
+MustLogoutToLogin_Message=In order to login to a new profile, you must logout of your currently logged-in profile.  Would you like to logout now?
+ProfileCreated_Title=Profile Created
+ProfileCreated_Message=Your profile has been created.  You can now login with the user name specified.
+BindKey_Title=Bind Key
+BindKey_Message=Press the key or button you wish to bind to.\nThe key will be bound to '`Binding`'\n(Shift-Escape Cancels)
+ResetToPreset_Title=Reset to Preset
+ResetToPreset_Message=By returning to preset mode, your customized controls will be lost.  Are you sure you want to do this?
+ResetToDefaults_Title=Reset to Defaults
+ResetToDefaults_Message=By resetting to defaults, your customized settings will be lost.  Are you sure you want to do this?
+FriendRequestSent_Title=Friend Request Sent
+FriendRequestSent_Message=Your friend request was sent to '`PlayerName`'.
+FriendRequestFailed_Title=Error
+FriendRequestFailed_Message=Failed to send a friend request to '`PlayerName`', please try again later.
+RemoveFriend_Title=Remove Friend
+RemoveFriend_Message=Are you sure you want to remove '`PlayerName`' from your friends list?
+SentGameInvite_Title=Sent Game Invite
+SentGameInvite_Message=An invite to play Unreal Tournament 3 has been sent to '`PlayerName`'!
+JoinFriend_Message=Joining...
+ViewMessage_Title=View Message
+ViewMessage_Message=Message From '`PlayerName`':\n\n`Message`
+ViewFriendRequest_Title=Accept Friend Request
+ViewFriendRequest_Message=Friend request from '`PlayerName`':\n\n`Message`
+ViewGameInvite_Title=Accept Game Invite
+ViewGameInvite_Message=Game invite from '`PlayerName`':\n\n`Message`
+DeleteMessage_Title=Delete Message
+DeleteMessage_Message=Delete message from '`PlayerName`'?
+DeleteContent_Title=Delete Content
+DeleteContent_Message=Delete the `ContentName` content package?  This action is not reversible!
+DeleteAllContent_Title=Delete All
+DeleteAllContent_Message=Delete all content packages?  This action is not reversible!
+ImportingMod_Message=Importing Mod...
+UnpackingMod_Message=Unpacking Mod...
+InstallPS3Start_Message=Installing...
+InstallPS3Cancelling_Message=Cancelling Install...
+InstallPS3Progress_Message=Installing... (`CurrentFile` of `TotalFiles`)
+InstallPS3Finished_Title=Install Complete
+InstallPS3Finished_Message=Unreal Tournament 3 has been fully installed.
+KeepResolution_Title=Keep Settings?
+KeepResolution_Message=Your resolution has been changed.  Do you want to keep these new settings?\n(Will automatically revert in `Seconds` second(s))
+DownloadContent_Title=Download Content
+DownloadContent_Message=The game will minimize and a webbrowser will launch to finish your content download.  Would you like to continue?
+SavingProfile=Saving Game. Please do not turn off the PLAYSTATION®3 system.
+EnterUnlockCode_Title=Unlock Character
+EnterUnlockCode_Message=Enter character unlock code:
+EnterServerPassword_Title=Password Required
+EnterServerPassword_Message=This server requires a password to join.  Please enter the correct password to continue.
+FirstTimeMultiplayer_Title=Setup Settings
+FirstTimeMultiplayer_Message=You must set your player name and internet settings before entering multiplayer.
+StompBindKey_Title=Duplicate Binding
+StompBindKey_Message=This action binds a command to a key that is already bound. Do you want to remove the previous binding?
+CrucialBindErrorMsg=A crucial action is not bound to input.  Please bind the action to continue.
+LoseChangesWarning_Title=Lose unsaved changes
+LoseChangesWarning_Message=You are about to lose unsaved changes.  Would you like to continue?
+QueryPending_Message=Please wait while the active query is completed.
+EnterServerIP_Title=Join IP
+EnterServerIP_Message=Enter the IP address and Port (in the format IP:Port) of the server you wish to join.
+AddServerIP_Title=Add IP
+AddServerIP_Message=Enter the IP address and Port (in the format IP:Port) of the server you wish to add.
+FindServerIPFail_Title=Error
+FindServerIPFail_Message=Failed to find a server matching the specified IP and Port.
+FindServerIPFailConnect_Message=Do you wish to connect directly instead?
+FindServerIPUninitialized_Message=Failed to initialize the query handler.
+FindServerIPInProgress_Message=Failed to initialize the query handler, as a query is already in progress.
+FindServerIPNotLoggedIn_Message=Failed to start query, not logged in.
+FindServerIPInvalid_Message=Invalid IP address.
+FindServerIPInvalidResult_Message=Invalid query result.
+FindServerIPJoinFailed_Message=Failed to join the server matching the specified IP and Port.
+AddIPAlreadyPresent_Message=Server already in favorites.
+SteamFail_License=Sorry, you do not appear to be authorized to play this game on Steam at this time.
+SteamFail_Connection=Unable to authenticate with Steam. Check your Steam connection.
+SteamFail_Cheat=You have been marked as a cheater by Steam.
+SteamFail_Generic=Unable to authenticate with Steam; reason unknown.
+
+
+[Errors]
+Error_Title=Error
+JoinGameFailed_Title=Error
+JoinGameFailed_Message=Unable to join the selected match.  Please try another match.
+QuickMatchFailed_Title=Error
+QuickMatchFailed_Message=Unable to find a suitable match for quick play.  Please try revising your filter settings and try again.
+IncompatibleVersion_Title=Error
+IncompatibleVersion_Message=The match you are trying to join is running an incompatible version of the game.  Please try upgrading your game version.
+UnableToFindMatch_Title=Error
+UnableToFindMatch_Message=Unable to find a match with the filters you described.  Please try changing your filters and searching again.
+LoginRequired_Title=Error
+LoginRequired_Message=This feature requires a currently logged in profile to continue.
+GoldRequired_Title=Error
+GoldRequired_Message=This feature requires a Xbox Live Gold membership to continue.
+OnlineRequired_Title=Error
+OnlineRequired_Message=Your profile does not allow online play.  Access to online features will be disabled.
+ContentRequired_Title=Error
+ContentRequired_Message=Your profile does not allow user created content.  Access to custom content features will be disabled.
+CommunicationRequired_Title=Error
+CommunicationRequired_Message=Your profile does not allow online communication.  Access to communication features will be disabled.
+OnlineRequiredForInternet_Message=Certain features require an online profile.  Access to online features will be disabled.
+LinkDisconnected_Message=No network connection detected.  Please check to make sure you are connected to a network to continue.
+NetworkLinkLost_Message=You no longer have a valid network connection.  Please double-check your network cables and configuration.
+ConnectionLost_Title=Error
+ConnectionLost_Message=Your connection to the server was lost.
+InvalidMessage_Title=Error
+InvalidMessage_Message=The message you have entered is blank.  Please enter a longer message.
+InvalidUserName_Title=Error
+InvalidUserName_Message=The user name you have entered is invalid.  A valid user name and password must be entered to login.
+InvalidUserName_LocalLogin=You must enter a name for your local profile.  Password is not required.
+InvalidUserNameCreateProfile_Message=The user name you have entered is invalid.  User names must be between 3 and 15 characters.
+InvalidUserNameFirstChar_Message=The user name you have entered is invalid.  A user name cannot start with a number, a space, or any of the following characters: #, @, +
+InvalidCDKey_Title=Error
+InvalidCDKey_Message=The CD key you have entered is invalid.  A valid CD Key is required to continue.  Please check your entry and try again.
+InvalidFriendName_Title=Error
+InvalidFriendName_Message=The friend name you have entered is invalid.  Please double check the spelling of your friend's name.
+InvalidPassword_Title=Error
+InvalidPassword_Message=The password you have entered has an invalid length.  A valid user name and password must be entered to login.
+InvalidPasswordConfirm_Title=Error
+InvalidPasswordConfirm_Message=The password and the password confirmation you have entered do not match.
+InvalidPasswordForEmail_Title=Error
+InvalidPasswordForEmail_Message=The password provided is invalid for the existing account based on the specified email address. If you have forgotten your username or password, please visit http://www.gamespyid.com.
+InvalidEMail_Title=Error
+InvalidEMail_Message=The email address you have entered is invalid.
+NameInUse_Title=Error
+NameInUse_Message=The user name you have provided is already in-use.  Please choose a different user name.
+ServiceUnavailable_Title=Error
+ServiceUnavailable_Message=The online service is currently unavailable.  Please wait and try reconnecting again.
+UpdateRequired_Title=Error
+UpdateRequired_Message=To continue playing online, you must update your software version.
+ServersTooBusy_Title=Error
+ServersTooBusy_Message=The online servers are currently too busy.  Please wait and try reconnecting again.
+DuplicateLogin_Title=Error
+DuplicateLogin_Message=A duplicate login has been detected.  Your connection to the server has been lost.
+InvalidUserLogin_Title=Error
+InvalidUserLogin_Message=The username and password provided are invalid.  Please check the spelling of your username and password.  Passwords are case sensitive. If you have forgotten your username or password, please visit http://www.gamespyid.com.
+LogoutFailed_Title=Error
+LogoutFailed_Message=Logout Failed
+ProfileCreationFailed_Title=Error
+ProfileCreationFailed_Message=Profile creation failed.  The User Name cannot contain any blank spaces or start with a non-alphanumeric character. Please try creating your profile again.
+FailedToSendMessage_Title=Error
+FailedToSendMessage_Message=Failed to send message to '`PlayerName`', please try again later.
+JoinFriendFailed_Title=Error
+JoinFriendFailed_Message=Failed to join your friend's game.  The game may already be full.
+SendInviteFailed_Title=Invite to Game Failed
+SendInviteFailed_Message=Failed to invite '`PlayerName`' to your game.
+CampaignOnlineFailure_Title=Alert
+CampaignOnlineFailure=Internet play has been disabled. Please enable your profile if you wish to play online with others.
+FailedToReadNews=There was an error reading the latest news from the online news server.  Please try again later.
+FailedToReadContent=There was an error reading the latest content from the online content server.  Please try again later.
+EmptyMapCycle_Title=Error
+EmptyMapCycle_Message=You need to add at least one map to your map cycle to begin the match.
+SomeChangesMayNotBeApplied_Title=Warning
+SomeChangesMayNotBeApplied_Message=Some changes may not be applied until the game is restarted.
+NeedSecondController_Title=Error
+NeedSecondController_Message=There needs to be 2 controllers connected before beginning a splitscreen match.
+CannotSendFriendRequestToYourself_Title=Error
+CannotSendFriendRequestToYourself_Message=You are unable to add yourself as a friend.  Please enter another username to send the request to.
+CannotSendMessageToYourself_Title=Error
+CannotSendMessageToYourself_Message=You are unable to send yourself messages.  Please enter another username to send the message to.
+CannotUseKeyboardMouse_Title=Error
+CannotUseKeyboardMouse_Message=Using the keyboard and/or mouse is prohibited on this server.
+CanOnlyConfigureEnabledMutators_Title=Error
+CanOnlyConfigureEnabledMutators_Message=Only enabled mutators can be configured.
+CurrentMutatorCannotBeConfigured_Title=Error
+CurrentMutatorCannotBeConfigured_Message=The currently selected mutator is not configurable.
+InvalidUnlockCode_Title=Error
+InvalidUnlockCode_Message=The unlock code you have entered is incorrect.  Please check your spelling and try again.
+NotAllPlayersCanJoin_Title=Error
+NotAllPlayersCanJoin_Message=Not all local players have permission to join the game invite.
+NotEnoughInviteSpace_Title=Error
+NotEnoughInviteSpace_Message=Not enough space for all local players in the game invite.
+UnableToJoinInvite_Title=Error
+UnableToJoinInvite_Message=Unable to join the game invite.  The game may already be full.
+StrictNAT_Message=Your network configuration may not be compatible with hosting matches.  Please check your router's manual for instructions on setting up 'Port Forwarding' or a 'DMZ server'.
+MinSpecMessage=Your machine is being detected as below the minimum system requirements for Unreal Tournament 3. Please check the Release Notes for suggestions on improving your visual quality.
+
+[ToastMessages]
+ReconnectController=Please reconnect your controller to continue.
+ReceivedMessage=Received a message from another player.
+ReceivedMessageSpecific=Received a message from '`PlayerName`'.
+ReceivedFriendInvite=Received a friend invite from another player.
+ReceivedFriendInviteSpecific=Received a friend invite from '`PlayerName`'.
+ReceivedGameInviteSpecific='`PlayerName`' has invited you to play in a UT3 match.
+CharacterUnlocked=A new character has been unlocked!
+AllPickupsOneMap=All powerups found!
+
+[Profiles]
+UserName=User Name:
+UserName_Description=Please enter a unique name between 3 and 15 characters.
+LoginUserName_Description=Please enter your profile name.  If you do not yet have a profile, use the Create Profile button below to create one.
+Password=Password:
+Password_Description=Please enter a password between 1 and 30 characters.
+LoginPassword_Description=Please enter the password for your profile.  Passwords are case-sensitive.
+ConfirmPassword=Confirm Password:
+ConfirmPassword_Description=Please re-enter your password.
+EMailAddress=Email Address:
+EMailAddress_Description=Please enter your email address.  This email will be used if there's a problem with your account.
+EMailAddress_ShortDescription=Please enter your email address.
+CDKey=CD Key:
+CDKey_Description=Enter the CD Key for the game.  The CD Key can be found on the inside of the game's case.
+Message=Message:
+MessageRecipient=Message Recipient
+SavePassword=Save Password
+SavePassword_Description=Toggle whether or not you would like your password saved.
+AutoLogin=Automatically Login
+AutoLogin_Description=Toggle whether or not to automatically login when the game starts.
+LoginLocallyOnly=Offline Mode
+LoginLocallyOnly_Description=Log in your profile in offline mode.
+
+[TitleScreen]
+PressStart=Press [START]
+PressAnyKey=Press Any Key
+Copyright=Copyright © 1998-2008 Epic Games, Inc. All Rights Reserved.
+
+[Generic]
+None=None
+Disabled=Disabled
+OK=<StringAliasMap:Accept>OK
+Cancel=<StringAliasMap:Cancel>CANCEL
+Refreshing=Refreshing...
+Loading=Loading...
+Searching=Searching...
+LoggingIn=Logging In...
+LoggingOut=Logging Out...
+CreatingProfile=Creating Profile...
+NotLoggedIn=(Not Signed-In)
+OfflineProfile=(Offline)
+Profile1=Profile 1:
+Profile2=Profile 2:
+Profile=Profile:
+Fire=FIRE
+On=On
+Buy=Buy Now!
+Exit=Exit
+
+[ButtonFont]
+Xenon_A=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_B=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>B<Fonts:/><Color:/>
+Xenon_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>X<Fonts:/><Color:/>
+Xenon_Y=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>Y<Fonts:/><Color:/>
+Xenon_LeftTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>w<Fonts:/><Color:/>
+Xenon_RightTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>x<Fonts:/><Color:/>
+Xenon_LeftBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>y<Fonts:/><Color:/>
+Xenon_RightBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>z<Fonts:/><Color:/>
+Xenon_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>><Fonts:/><Color:/>
+Xenon_Back=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18><<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>C<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>L<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>m<Fonts:/><Color:/>
+Xenon_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>o<Fonts:/><Color:/>
+Xenon_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>q<Fonts:/><Color:/>
+Xenon_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>s<Fonts:/><Color:/>
+Xenon_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>k<Fonts:/><Color:/>
+Xenon_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>i<Fonts:/><Color:/>
+PS3_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>X<Fonts:/><Color:/>
+PS3_Circle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>Y<Fonts:/><Color:/>
+PS3_Square=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>B<Fonts:/><Color:/>
+PS3_Triangle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>A<Fonts:/><Color:/>
+PS3_L1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>y<Fonts:/><Color:/>
+PS3_R1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>z<Fonts:/><Color:/>
+PS3_L2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>w<Fonts:/><Color:/>
+PS3_R2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>x<Fonts:/><Color:/>
+PS3_L3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_R3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>;<Fonts:/><Color:/>
+PS3_Select=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>:<Fonts:/><Color:/>
+PS3_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>m<Fonts:/><Color:/>
+PS3_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>o<Fonts:/><Color:/>
+PS3_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>q<Fonts:/><Color:/>
+PS3_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>s<Fonts:/><Color:/>
+PS3_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>k<Fonts:/><Color:/>
+PS3_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>i<Fonts:/><Color:/>
+
+[Icons]
+Unreal=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>0<Fonts:/>
+Skull=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>1<Fonts:/>
+People=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>2<Fonts:/>
+True=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>3<Fonts:/>
+False=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>4<Fonts:/>
+Locked=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>5<Fonts:/>
+Keyboard=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>6<Fonts:/>
+
+[Terms]
+Controller_PC=Gamepad
+Controller_PS3=controller
+Controller_360=Xbox 360 Controller
+GamerCard_360=GAMER CARD
+GamerCard_PS3=PLAYER CARD
+GamerCard_PC=PLAYER CARD
+
+[ButtonCallouts]
+PlayOffline=<StringAliasMap:Cancel>PLAY OFFLINE
+Advanced=<StringAliasMap:Conditional2>ADVANCED
+StartPrivateGame=<StringAliasMap:Conditional1>START PRIVATE GAME
+StartPublicGame=<StringAliasMap:Conditional2>START PUBLIC GAME
+StartGame=<StringAliasMap:Accept>BEGIN MISSION
+ExitGame=<StringAliasMap:Accept>EXIT GAME
+StartDedicated=START DEDICATED
+JoinServer=<StringAliasMap:Accept>JOIN
+FindMatch=<StringAliasMap:Accept>FIND MATCH
+Refresh=<StringAliasMap:Conditional2>REFRESH
+SpectateServer=<StringAliasMap:RightTrigger>SPECTATE
+QuickStartGame=<StringAliasMap:Start>START GAME
+Accept=<StringAliasMap:Accept>ACCEPT
+CreateProfile=<StringAliasMap:Accept>CREATE PROFILE
+CreateProfileLoginScreen=<StringAliasMap:Conditional1>CREATE PROFILE
+Login=<StringAliasMap:Accept>LOGIN
+LoginMainMenu=<StringAliasMap:Conditional1>LOGIN
+LogOut=<StringAliasMap:Accept>LOGOUT
+LogOutMainMenu=<StringAliasMap:Conditional2>LOGOUT
+Profiles=<StringAliasMap:Conditional2>PLAYER PROFILES
+Details=<StringAliasMap:Accept>DETAILS
+Apply=<StringAliasMap:Accept>APPLY
+Next=<StringAliasMap:Accept>NEXT
+Select=<StringAliasMap:Accept>SELECT
+Search=<StringAliasMap:Accept>SEARCH
+Back=<StringAliasMap:Cancel>BACK
+Cancel=<StringAliasMap:Cancel>CANCEL
+CancelSearch=<StringAliasMap:Cancel>CANCEL
+GamerCard=<StringAliasMap:Conditional1><StringAliasMap:Term_GamerCard>
+AcceptMission=<StringAliasMap:Accept>ACCEPT MISSION
+ReplayMission=<StringAliasMap:Accept>REPLAY MISSION
+MissionBrief=<StringAliasMap:Accept>MISSION BRIEFING
+Ready=<StringAliasMap:Accept>READY
+AddMutator=<StringAliasMap:Conditional1>ADD
+RemoveMutator=<StringAliasMap:Conditional1>REMOVE
+ClearMutators=<StringAliasMap:Conditional2>CLEAR
+PlayerAdmin=<StringAliasMap:Accept>ADMIN
+ToggleGameMode=<StringAliasMap:Conditional2>GAME TYPE
+ToggleView=<StringAliasMap:Conditional2>VIEW FILTER
+ToggleMatchType=<StringAliasMap:Conditional1>SERVER TYPE
+ToggleShoulderType=<StringAliasMap:Conditional1>TOGGLE SHOULDER TYPE
+ConfigureControls=<StringAliasMap:Conditional1>CONFIGURE CONTROLS
+ConfigureController=<StringAliasMap:Conditional1>CONTROLLER
+ConfigureKeys=<StringAliasMap:Conditional2>KEYS
+ConfigureMutator=<StringAliasMap:Conditional2>CONFIGURE
+WeaponPreference=<StringAliasMap:Conditional1>WEAPON PRIORITY
+ResetToDefaults=<StringAliasMap:Defaults>DEFAULTS
+ResetToDefaultAccept=<StringAliasMap:Accept>RESET TO DEFAULTS
+ShiftUp=<StringAliasMap:ShiftUp>SHIFT UP
+ShiftDown=<StringAliasMap:ShiftDown>SHIFT DOWN
+ShiftUpTrigger=<StringAliasMap:ShiftUpTrigger>SHIFT UP
+ShiftDownTrigger=<StringAliasMap:ShiftDownTrigger>SHIFT DOWN
+ShiftMap=<StringAliasMap:ShiftBothTrigger>SHIFT
+PlayDemo=<StringAliasMap:Accept>PLAY DEMO
+DeleteDemo=DELETE DEMO
+MapCycle=<StringAliasMap:Conditional2>SETUP MAP CYCLE
+SingleMap=<StringAliasMap:Conditional2>SINGLE
+AddMap=<StringAliasMap:Conditional1>ADD
+RemoveMap=<StringAliasMap:Conditional1>REMOVE
+AddBot=<StringAliasMap:Conditional1>ADD
+RemoveBot=<StringAliasMap:Conditional1>REMOVE
+BotSelection=<StringAliasMap:Conditional1>BOTS
+SelectMutators=<StringAliasMap:Conditional2>MUTATORS
+AddFriend=<StringAliasMap:Conditional1>ADD FRIEND
+SendFriendRequest=<StringAliasMap:Accept>SEND FRIEND REQUEST
+SendMessage=<StringAliasMap:Accept>SEND MESSAGE
+PlayerDetails=<StringAliasMap:Accept>DETAILS
+ServerDetails=<StringAliasMap:Conditional1>DETAILS
+Presets=<StringAliasMap:Conditional1>PRESETS
+Customize=<StringAliasMap:Conditional1>CUSTOMIZE
+ChangeTeam=<StringAliasMap:Conditional2>CHANGE TEAM
+Keyboard=<StringAliasMap:Conditional2>KEYBOARD
+RemoveFriend=<StringAliasMap:Conditional2>REMOVE FRIEND
+RemoveFriendConfirm=<StringAliasMap:Accept>REMOVE FRIEND
+AcceptFriendRequest=<StringAliasMap:Accept>ACCEPT
+DeclineFriendRequest=<StringAliasMap:Conditional2>DECLINE
+AcceptGameInvite=<StringAliasMap:Accept>ACCEPT
+DeclineGameInvite=<StringAliasMap:Conditional2>DECLINE
+ViewMessage=<StringAliasMap:Accept>VIEW MESSAGE
+DeleteMessage=<StringAliasMap:Conditional1>DELETE MESSAGE
+MarkAsUnread=<StringAliasMap:Conditional2>MARK AS UNREAD
+DeleteContent=<StringAliasMap:Conditional1>DELETE CONTENT
+DeleteAllContent=<StringAliasMap:Select>DELETE ALL CONTENT
+DeleteContentAccept=<StringAliasMap:Accept>DELETE CONTENT
+DeleteAllContentAccept=<StringAliasMap:Accept>DELETE ALL CONTENT
+ImportContent=<StringAliasMap:Conditional2>IMPORT CONTENT
+DownloadContent=<StringAliasMap:Conditional2>DOWNLOAD CONTENT
+DownloadContentAccept=<StringAliasMap:Accept>DOWNLOAD CONTENT
+Admin=<StringAliasMap:Conditional2>ADMIN
+CustomizePlayerButtonBar=<StringAliasMap:Conditional1>CUSTOMIZE CHARACTER
+ChooseReplacementWeapon=<StringAliasMap:Accept>CHOOSE REPLACEMENT
+AnyKey=<StringAliasBindings:GBA_Fire> to Continue...
+EnterUnlockCode=<StringAliasMap:Conditional1>ENTER UNLOCK CODE
+Close=<StringAliasMap:Cancel>CLOSE
+CycleTab=<StringAliasMap:ShiftUp><StringAliasMap:ShiftDown> <StringAliasMap:CycleTabs>
+ReenableMods=MODS ARE DISABLED, PRESS <Strings:UTGameUI.ButtonFont.PS3_Start> TO REENABLE.
+AddToFavorite=<StringAliasMap:Conditional1>ADD FAVORITE
+RemoveFromFavorite=<StringAliasMap:Conditional1>REMOVE FAVORITE
+AddIP=<StringAliasMap:Conditional2>ADD IP
+JoinIP=<StringAliasMap:Conditional2>JOIN IP
+SpectateIP=<StringAliasMap:Conditional2>SPECTATE IP
+ModSettings=MOD SETTINGS
+ExpandCollapse=<StringAliasMap:Accept>EXPAND/COLLAPSE
+ClearAll=CLEAR ALL
+
+[KeyboardPrompts]
+LoginScreen_Name_Title=Enter your profile user name
+LoginScreen_Name_Message=Please enter a user name to login with.
+LoginScreen_Password_Title=Enter your profile password
+LoginScreen_Password_Message=Please enter the password associated with your profile.
+FriendRequestMessage_Title=Enter a message
+FriendRequestMessage_Message=Enter a message to send with your friend request.
+FriendRequestName_Title=Enter player name
+FriendRequestName_Message=Enter the name of the player you want to send the friend request to.
+SendMessage_Title=Enter a message
+SendMessage_Message=Enter a message to send to your friend.
+
+[PlayerCard]
+SendFriendRequest=Send Friend Request
+SendFriendRequest_Desc=Send a friend request to this player.
+SendMessage=Send Message
+SendMessage_Desc=Send a message to this player.
+InviteToGame=Invite to game
+InviteToGame_Desc=Invite this player to the current game.
+Follow=Follow Player
+Follow_Desc=Follow this player from match to match.
+DefaultFriendRequestMessage=Hey there!  Would you like to become my friend?
+Caption=Details on...
+Kick=Kick
+Kick_Desc=Remove this player from the game
+KickWarning=You are about to kick remove this player from the game.  Continue?
+Ban=Kick/Ban
+Ban_Desc=Remove this player from the game and stop them from returning.
+BanWarning=You are about to kick remove this player from the game and restrict their access to your server.  Continue?
+AIBot=(AI Controlled)
+
+[Titles]
+TitleScreen=
+MainMenu=[Main Menu]
+Community=[Community]
+Multiplayer=[Multiplayer]
+Settings=[Settings]
+Credits=[Credits]
+DemoPlayback=[Demo Playback]
+LoginScreen=[Login]
+CreateProfile=[Create Profile]
+Friends=[Friends]
+Leaderboards=[Stats]
+PlayerStats=[Player Stats]
+BindKeysPC=[Configure Controls]
+BindKeys360=[Configure Controls]
+BindKeysPS3=[Configure Controls]
+Mutators=[Mutators]
+MapCycle=[Map Cycle]
+BotSelection=[Bot Selection]
+CharacterFaction=[Factions]
+CharacterSelection=[Characters]
+News=[News]
+WeaponPreference=[Weapon Priority]
+QuickMatch=[Quick Match]
+PlayerCard=[Player Card]
+SendFriendRequest=[Send Friend Request]
+SendOnlineMessage=[Send Message]
+CharacterCustomization=[Character Customization]
+CampOptions=OPTIONS
+SettingsVideoAdvanced=[Advanced Video Settings]
+CampNewOrContinue=[Campaign]
+CDKey=[CD Key]
+WeaponReplacement=[Weapon Replacement]
+BrowserMutatorFilters=[Mutator Filters]
+ModSettingsScene=[Mod Settings]
+
+[FrontEnd]
+TabCaption_GameMode=GAME MODE
+TabCaption_Map=MAP
+TabCaption_GameSettings=SETTINGS
+TabCaption_ServerSettings=SERVER
+TabCaption_Mutators=MUTATORS
+TabCaption_Lobby=LOBBY
+TabCaption_CharPart[0]=HEAD
+TabCaption_CharPart[1]=HELMET
+TabCaption_CharPart[2]=FACEMASK
+TabCaption_CharPart[3]=GOGGLES
+TabCaption_CharPart[4]=TORSO
+TabCaption_CharPart[5]=SHOULDERS
+TabCaption_CharPart[6]=ARMS
+TabCaption_CharPart[7]=THIGHS
+TabCaption_CharPart[8]=BOOTS
+
+[JoinGame]
+Filter=FILTER
+Servers=SERVERS
+History=HISTORY
+Favorites=FAVORITES
+ServerCount=SERVERS RECEIVED: <SceneData:NumServersReceived>
+Rules=RULES
+Players=PLAYERS
+Ping=Ping
+IconLegend=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>0<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Pure Server<Fonts:/>\n<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>7<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Private Server<Fonts:/>\n<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>6<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Allows Keyboard & Mouse<Fonts:/>
+
+[MutatorFilterMenu]
+MutatorCombo=Mutators
+MutatorComboList=No Mutators,Any Mutators,Custom
+MutatorComboDesc=Determines how server mutators are filtered
+MutatorClassAddEdit=Add Mutator Class
+MutatorClassAddEditDesc=Allows you to manually add mutator classes to the filter list (only provide the class name, not package name)
+MutatorNameAddEdit=Add Mutator Name
+MutatorNameAddEditDesc=Allows you to add mutator names to the filter list, which lets you filter mutators based upon their full or partial name
+MutatorInstalledComboList=On,Off,Doesn't Matter
+MutatorAdditionalComboList=On,Off,Doesn't Matter,Delete Entry
+MutatorFilterDesc=Filter servers based on whether or not it is running this mutator
+
+[ModSettingsMenu]
+MenuDescription=Select a mod to configure
+ModListLabel=Configurable Mods
+
+[MapCycleMenu]
+ClearAll=Clear All
+
+[Community]
+News=NEWS
+Friends=FRIENDS
+Messages=MESSAGES
+MyContent=MY CONTENT
+EpicContent=EPIC CONTENT
+DemoDelWarning=You are about to delete the selected demo.  Are you sure?
+AchievementProgress=AWARD PROGRESS
+
+[Achievements]
+AchievementName=Name
+AchievementProgress=Progress
+AchievementUnlocked=Award Unlocked
+
+[Settings]
+Player=PLAYER
+Video=VIDEO
+Audio=AUDIO
+Input=INPUT
+Advanced=ADVANCED
+Weapons=WEAPONS
+HUD=HUD
+Game=GAME
+Network=NETWORK
+Credits=CREDITS
+NotBound=(Not Bound)
+PressKeyToBind=(Press Key To Bind)
+AvailableMutators=Available Mutators
+EnabledMutators=Enabled Mutators
+AvailableBots=Available Bots
+ActiveBots=Active Bots
+AvailableMaps=Available Maps
+MapCycle=Map Cycle
+WeaponPriority=Weapon Priority
+
+[Content]
+Description=Description
+Filename=Filename
+Name=Name
+
+[Stats]
+General=GENERAL
+Weapons=WEAPONS
+Vehicles=VEHICLES
+VehicleWeapons=TURRETS
+Rewards=REWARDS
+WeaponName=Weapon Name
+Kills=Kills
+Deaths=Deaths
+Suicides=Suicides
+PlayerName=Player Name
+VehicleKills=Destroyed
+DrivingTime=Driving Time
+VehicleName=Vehicle
+Statistic=Statistic
+Value=Value
+
+[VehicleWeapons]
+CicadaRocket=Cicada Rocket
+CicadaTurret=Cicada Turret
+DarkWalkerPassGun=Darkwalker Passgun
+DarkWalkerTurret=Darkwalker Turret
+FuryGun=Fury Gun
+GoliathMachineGun=Goliath Machine Gun
+GoliathTurret=Goliath Turret
+HellbenderPrimary=Hellbender Main Gun
+LeviathanExplosion=Leviathan Main Gun
+LeviathanPrimary=Leviathan Main Turret
+LeviathanTurretBeam=Leviathan Beam Turret
+LeviathanTurretRocket=Leviathan Rocket Turret
+LeviathanTurretStinger=Leviathan Stinger Turret
+LeviathanTurretShock=Leviathan Shock Turret
+MantaGun=Manta Gun
+NemesisTurret=Nemesis Turret
+NightshadeGun=Nightshade Beam Gun
+PaladinExplosion=Paladin Explosion
+PaladinGun=Paladin Gun
+RaptorGun=Raptor Gun
+RaptorRocket=Raptor Rockets
+Redeemer=Redeemer
+ScavengerGun=Scavenger Seeker
+ScavengerStabbed=Scavenger Blades
+ScorpionBlade=Scorpion Blades
+ScorpionGlob=Scorpion Turret
+ScorpionSelfDestruct=Scorpion Self-Destruct
+SPMACameraCrush=Hellfire SPMA Camera Crush
+SPMACannon=Hellfire SPMA Cannon
+SPMATurret=Hellfire SPMA Main Turret
+StealthBenderGun=Stealthbender Beam Gun
+TurretPrimary=Rail Turret
+TurretRocket=Rocket Turret
+TurretShock=Shock Turret
+TurretStinger=Stinger Turret
+ViperGun=Viper Gun
+ViperSelfDestruct=Viper Self-Destruct
+
+[ServerBrowser]
+ServerName=Server
+Ping=Ping
+MapName=Map
+GameMode=Game Mode
+Key=Key
+Value=Value
+CurrentServerMutators=Mutators
+PlayerName=Player
+Team=Team
+RedTeam=Red
+BlueTeam=Blue
+
+[UTUIDataProvider_SearchResult]
+PlayerRatio=Players
+GameModeFriendlyName=Game
+ServerFlags=Flags
+
+[CharacterCustomization]
+Faction=Faction
+Character=Character
+CreateNewChar_Title=Create New Character
+CreateNewChar_Message=You have already customized your character once before.  Would you like to create a new character or edit the existing one?  If you create a new character, it will replace the existing character.
+CreateNewCharacter=<StringAliasMap:Conditional2>CREATE NEW
+EditExistingCharacter=<StringAliasMap:Accept>EDIT EXISTING
+RandomlyGenerate=<StringAliasMap:Conditional2>RANDOM
+CreateCharacter=<StringAliasMap:Accept>CUSTOMIZE
+RotateCharacter=<StringAliasMap:RightTrigger> <StringAliasMap:LeftTrigger> Rotate Character
+
+[VHud_Scorpion]
+BoostMsg=Boost
+EjectMsg=Eject
+
+[OnslaughtMap]
+SelectionText=<StringAliasMap:Accept>TELEPORT
+
+[MidGameMenu]
+TabCaption_Map=MAP
+TabCaption_Settings=SETTINGS
+TabCaption_Game=GAME
+TabCaption_Score=SCORE
+RespawnOptions=Respawn Options:
+SetSpawnLoc=<StringAliasMap:Accept>SPAWN HERE
+ChangePref=<StringAliasMap:Conditional2>CHANGE ORDERS
+ExitMatchWarning=You are about to leave the map.  Are you sure?
+ExitMatchTitle=Exit Match?
+Reconnect=RECONNECT
+LeaveGame=<StringAliasMap:Conditional1>DISCONNECT
+Forfeit=<StringAliasMap:Conditional1>MAIN MENU
+WonMatch=You have won the match!
+LostMatch=You have lost the match!
+IncomingTransmission=INCOMING TRANSMISSION...
+Rules=<StringAliasMap:Defaults>RULES
+MOTD=<StringAliasMap:Defaults>MOTD
+MapVote=Votes
+Players=<StringAliasMap:LeftTrigger>Players
+VoteTimePrefix=Voting ends in
+VoteTimeSuffixA=seconds.
+VoteTimeSuffixB=second!
+ResetToDefaultsWarning=Reset to Defaults will overwrite all of the current settings.  Continue?
+BestVoteNone=Place Your Vote.
+BestVoteA=Leads with
+BestVoteB=Votes.
+PopupOnSpawn=<StringAliasMap:LeftTrigger>Pop up Menu on Death
+TabCaption_Chat=CHAT
+TabCaption_Vote=VOTE
+DetailswithBots=Sorry, but you cannot view details on a bot.
+CantViewDetails=Sorry, but you cannot view the details on that player.
+CantViewSelf=Sorry, you can't message yourself.
+CantViewLan=Sorry, you can only message while in internet matches.
+ObjectivePrefsDisabled=Disabled
+ObjectivePrefsNoPreference=No Preference
+ObjectivePrefsAttack=Attack
+ObjectivePrefsDefend=Defend
+ObjectivePrefsOrbRunner=Orb Runner
+ObjectivePrefsSpecialOps=Special Ops
+QuitGameWarning=You are about to quit the game.  Are you sure?
+VoteTabGameListCaption=Game Type
+VoteTabAvailableMapsCaption=Map List
+VoteTabVotedMapsCaption=Votes:
+VoteTabMutatorListCaption=Mutators
+VoteTabMapColumn=Map
+VoteTabPlayCountColumn=Play Count
+VoteTabLastPlayColumn=Last Play
+VoteTabGameColumn=Game
+VoteTabVoteCountColumn=Vote Count
+VoteTabAddMutHeader=--- Add ---
+VoteTabRemoveMutHeader=--- Remove ---
+VoteTabTransferMessage=Transferring...
+VoteTabGameVoteHint=Vote for a game type.
+VoteTabMapVoteHint=Vote for a map.
+VoteTabMutatorVoteHint=Vote for mutators.
+VoteTabGameAndMapVoteHint=Vote for a game type followed by a map.
+VoteTabForceVote=FORCE VOTE
+VoteTabForceMutOn=FORCE ON
+VoteTabForceMutOff=FORCE OFF
+DownloadText=Downloading: `p%, `c files remaining
+Achievements=Awards
+
+[Campaign]
+CampaignStartNew=New Campaign
+CampaignStartNew_Desc=Begin a new campaign.
+CampaignContinue=Continue Campaign
+CampaignContinue_Desc=Continue an existing campaign from where you left off.
+CampaignChapter=Replay Chapter
+CampaignChapter_Desc=Choose a chapter in the game and start your campaign there.
+CampaignOnline=Join Campaign
+CampaignOnline_Desc=Play campaign mode online with friends.
+CampaignOptionsPrefix=OPTIONS -
+CampaignTitleA=NEW CAMPAIGN
+CampaignTitleB=CONTINUE CAMPAIGN
+NewWarning=Starting a new game will overwrite the existing saved game.  Are you sure?
+ChapterWarning=Loading a chapter will overwrite the existing saved game.  Are you sure?
+Confirmation=Confirmation
+PublicGame=Public Match...
+LiveGame=LAN Game
+SkillLevelCaption=Skill Level...
+MissionSelecitonTitle=[ MISSION SELECTION ]
+MissionWon=Status: SUCCESSFUL!
+MissionLost=Status: FAILURE!
+PreviousMission=Previous Mission :
+MissionNotes_Title=" "
+MissionNotes_Type=Mission Type:
+MissionNotes_Location=Region:
+Objectives=OBJECTIVES
+MissionDetails=<StringAliasMap:Conditional1>DETAILS
+CurrentMission=Selected Mission
+SelectGameCard=Select Card to Play...
+PlayCard=<StringAliasMap:Conditional2>PLAY CARD
+ClearCard=<StringAliasMap:Conditional2>CLEAR CARD
+NoCardsInDeck=At the moment, you do not have any cards to play.  Collect cards by completing various missions.
+NoCardsInDeckTitle=Sorry!
+EndCampaign=<StringAliasMap:Cancel>MAIN MENU
+LeaveCampaign=<StringAliasMap:Cancel>MAIN MENU
+EndCampaignMsg=Are you sure you wish to leave the game?
+ChapterText=CHAPTER
+Chapter0=I:   Ronin
+Chapter1=II:  With Caesar's Coin
+Chapter2=III: The Liandri Conflict
+Chapter3=IV:  Calculated Losses
+Chapter4=V:   Disposable Assets
+ChapterLockedTitle=Chapter is Locked.
+ChapterLockedMsg=The chapter you have selected is locked.  You must complete chapters in the campaign mode to unlock them.
+CampSkill0=Casual
+CampSkill1=Normal
+CampSKill2=Hard
+CampSKill3=Insane
+SelectMission=Select Mission
+Chapter0Unlock=Chapter "Ronin" Unlocked!
+Chapter1Unlock=Chapter "With Caesar's Coin" Unlocked!
+Chapter2Unlock=Chapter "The Liandri Conflict" Unlocked!
+Chapter3Unlock=Chapter "Calculated Losses" Unlocked!
+Chapter4Unlock=Chapter "Disposable Assets" Unlocked!
+PlayerLabel=PLAYERS
+CampaignOnlineLan=Join LAN Campaign
+CampaignOnlineLan_Desc=Play campaign mode on your LAN.
+
+[Scoreboards]
+PlayerName=Player Name
+Kills=Kills
+Deaths=Deaths
+Score=Score
+Frag Limit=Frag Limit:
+Time Remaining=Time Remaining:
+DEATHMATCH=DEATHMATCH
+TeamDeathmatch=TEAM DEATHMATCH
+CaptureTheFlag=CAPTURE THE FLAG
+Onslaught=ONSLAUGHT
+CapsToWin=Captures to Win
+OnsPreGoalScore=Destroy the core
+OnsPostGoalScore=times to Win
+TimeLimit=Time Limit:
+Name=Name
+KickVote=Kick Vote
+RemoveKickVote=Remove Kick Vote
+
+[Hud]
+ConstructingMeshes=Constructing Meshes. Please Wait...
+ObjectivePrefs=Select Your Role:
+
+[DemoPlayback]
+DemoFileName=Demo Filename
+
+[MapVote]
+AddVote=Add Vote
+MapVoteTitle=[Map Vote]
+
+[AnalogStick]
+Normal_LeftStick=Left/Right: Strafe\nUp/Down: Move
+Normal_RightStick=Left/Right: Look\nUp/Down: Look
+SouthPaw_LeftStick=Left/Right: Look\nUp/Down: Look
+SouthPaw_RightStick=Left/Right: Strafe\nUp/Down: Move
+Legacy_LeftStick=Left/Right: Turn\nUp/Down: Move
+Legacy_RightStick=Left/Right: Strafe\nUp/Down: Look
+LegacySouthPaw_LeftStick=Left/Right: Strafe\nUp/Down: Look
+LegacySouthPaw_RightStick=Left/Right: Turn\nUp/Down: Move
+Press=\nPress:
+
+[GameMappedStrings]
+GMS_MouseX=MouseX
+GMS_MouseY=MouseY
+GMS_MouseScrollUp=MScrollUp
+GMS_MouseScrollDown=MScrollDown
+GMS_LeftMouseButton=Mouse1
+GMS_RightMouseButton=Mouse2
+GMS_MiddleMouseButton=Mouse3
+GMS_ThumbMouseButton=Mouse4
+GMS_ThumbMouseButton2=Mouse5
+GMS_BackSpace=Backspace
+GMS_Tab=Tab
+GMS_Enter=Enter
+GMS_Pause=Pause
+GMS_CapsLock=Caps Lock
+GMS_Escape=Escape
+GMS_SpaceBar=Spacebar
+GMS_PageUp=Page Up
+GMS_PageDown=Page Down
+GMS_End=End
+GMS_Home=Home
+GMS_Left=Left
+GMS_Up=Up
+GMS_Right=Right
+GMS_Down=Down
+GMS_Insert=Insert
+GMS_Delete=Delete
+GMS_Zero=0
+GMS_One=1
+GMS_Two=2
+GMS_Three=3
+GMS_Four=4
+GMS_Five=5
+GMS_Six=6
+GMS_Seven=7
+GMS_Eight=8
+GMS_Nine=9
+GMS_A=A
+GMS_B=B
+GMS_C=C
+GMS_D=D
+GMS_E=E
+GMS_F=F
+GMS_G=G
+GMS_H=H
+GMS_I=I
+GMS_J=J
+GMS_K=K
+GMS_L=L
+GMS_M=M
+GMS_N=N
+GMS_O=O
+GMS_P=P
+GMS_Q=Q
+GMS_R=R
+GMS_S=S
+GMS_T=T
+GMS_U=U
+GMS_V=V
+GMS_W=W
+GMS_X=X
+GMS_Y=Y
+GMS_Z=Z
+GMS_NumPadZero=Numpad 0
+GMS_NumPadOne=Numpad 1
+GMS_NumPadTwo=Numpad 2
+GMS_NumPadThree=Numpad 3
+GMS_NumPadFour=Numpad 4
+GMS_NumPadFive=Numpad 5
+GMS_NumPadSix=Numpad 6
+GMS_NumPadSeven=Numpad 7
+GMS_NumPadEight=Numpad 8
+GMS_NumPadNine=Numpad 9
+GMS_Multiply=*
+GMS_Add=+
+GMS_Subtract=-
+GMS_Minus=-
+GMS_Plus=+
+GMS_Decimal=.
+GMS_Divide=/
+GMS_F1=F1
+GMS_F2=F2
+GMS_F3=F3
+GMS_F4=F4
+GMS_F5=F5
+GMS_F6=F6
+GMS_F7=F7
+GMS_F8=F8
+GMS_F9=F9
+GMS_F10=F10
+GMS_F11=F11
+GMS_F12=F12
+GMS_NumLock=NumLock
+GMS_ScrollLock=ScrollLock
+GMS_LeftShift=Left Shift
+GMS_RightShift=Right Shift
+GMS_LeftControl=Left Control
+GMS_RightControl=Right Control
+GMS_LeftAlt=Left Alt
+GMS_RightAlt=Right Alt
+GMS_Semicolon=;
+GMS_Equals==
+GMS_Comma=,
+GMS_Underscore=_
+GMS_Period=.
+GMS_Slash=/
+GMS_Tilde=~
+GMS_LeftBracket=[
+GMS_Backslash=\\
+GMS_RightBracket=]
+GMS_Quote=\"
+GMS_XBoxTypeS_A=Joy Button 1
+GMS_XBoxTypeS_B=Joy Button 2
+GMS_XBoxTypeS_X=Joy Button 3
+GMS_XBoxTypeS_Y=Joy Button 4
+GMS_XBoxTypeS_Start=Joy Start
+GMS_XBoxTypeS_Back=Joy Back
+GMS_XBoxTypeS_LeftShoulder=Joy L. Shoulder
+GMS_XBoxTypeS_RightShoulder=Joy R. Shoulder
+GMS_XBoxTypeS_LeftTrigger=Joy L. Trigger
+GMS_XBoxTypeS_RightTrigger=Joy R. Trigger
+GMS_XBoxTypeS_DPad_Up=Joy DPad Up
+GMS_XBoxTypeS_DPad_Down=Joy DPad Down
+GMS_XBoxTypeS_DPad_Left=Joy DPad Left
+GMS_XBoxTypeS_DPad_Right=Joy DPad Right
+GMS_XBoxTypeS_LeftThumbstick=Joy L. Stick
+GMS_XBoxTypeS_RightThumbstick=Joy R. Stick
+GMS_XboxTypeS_LeftX=Joy L. Stick
+GMS_XboxTypeS_LeftY=Joy L. Stick
+GMS_XboxTypeS_RightX=Joy R. Stick
+GMS_XboxTypeS_RightY=Joy R. Stick
+GMS_Gamepad_LeftStick_Left=Joy L. Stick
+GMS_Gamepad_LeftStick_Up=Joy L. Stick
+GMS_Gamepad_LeftStick_Right=Joy L. Stick
+GMS_Gamepad_LeftStick_Down=Joy L. Stick
+GMS_Gamepad_RightStick_Left=Joy R. Stick
+GMS_Gamepad_RightStick_Up=Joy R. Stick
+GMS_Gamepad_RightStick_Right=Joy R. Stick
+GMS_Gamepad_RightStick_Down=Joy R. Stick
+
+[CampaignBriefing]
+;/////////////////////////////////////
+;//////////MAP DESCRIPTIONS//////////
+;///////////////////////////////////
+
+;//DEATHMATCH MAPS//
+;------------------
+
+;//DM-Arsenal//
+BriefDesc16=The Arsenal is a former Liandri munitions plant whose remote location was intended to reduce collateral damage in case of an accident.  As Hyperion expanded and modern plants came into operation, the Arsenal fell on hard times.  All human colonists were pulled from the plant over a decade ago, and all robotics about a year later.
+
+;//DM-Biohazard//
+BriefDesc45=No one is quite sure how many hidden facilities the Axon actually have buried in the Onyx snow.  This one was discovered when an Izanagi expedition noted trace amounts of Tarydium during a survey operation.  Investigation revealed this storage facility where the Axon had been stockpiling massive amounts of Tarydium reserves.
+
+;//DM-Carbonfire//
+BriefDesc57=Work days on Taryd are notoriously long and difficult, leaving little time for the mundane chores of day-to-day life.  As an incentive to potential colonists, the Liandri Corp. offers a complimentary Mark I domestic robot to each family that moves to Taryd.  The Carbonfire production facility even offers daily tours and incentives to first time customers.
+
+;//DM-Deck//
+BriefDesc139=One unfortunate drawback to Tarydium is the large volume of toxic bio-waste that is created during the processing of raw ore.  On Taryd, the bulk of this waste is sent to the Decks, an Axon-run storage and disposal facility on the outskirts of Oxida Nova.  It is not recommended that you enter the building without a complete set of protective gear.
+
+;//DM-Defiance//
+BriefDesc13=Downtown Oxida Nova is a busy hub for Axon colonists.  The area is surrounded by tall buildings, including the central rail station, employment offices, and shopping centers that are designed to resemble those back home on Earth.
+
+;//DM-Deimos//
+BriefDesc33=Izanagi's Orbital Jumpgate technology forever changed the face of interstellar life.  Now, the constant traffic of trade, transport, and vacationing tourists requires the support of small orbital stations, such as this one, on the leading edge of every Jumpgate throughout the galaxy.
+
+;//DM-Diesel//
+BriefDesc107=Several maintenance facilities just like this one are required in order to keep a city running smoothly, especially a city the size of Oxida Nova.  The Iron Guard have commissioned this particular structure as their own little playground, and use it to test out new Axon tech, like advanced weapons and upgraded respawners.
+
+;//DM-Fearless//
+BriefDesc42=The secretive Phayder corporation has begun researching new applications of their nanoblack technologies.  Some research has made significant progress, particularly in the field of battle armor and personal protection.  Vaults such as this one serve as a testament to the dedicated research of this groundbreaking technology.
+
+;//DM-Gateway//
+BriefDesc24=The Liandri Corporation has been working for years to perfect the portal technology used in the Tournaments.  They're hoping to increase teleporter distances, and make the system useful on a global scale.  This working prototype has portals that can instantly move personnel and equipment to any pre-programmed location on Taryd.
+
+;//DM-Heatray
+BriefDesc17=As Liandri operations on Taryd became more and more automated, the surface sectors of Hyperion were neglected and never received the technological upgrades available to the upper strata of the city.  This maze of ground level buildings is now the slums of Taryd, still inhabited by the humans that maintain the largely automated Liandri workforce.
+
+;//DM-RisingSun//
+BriefDesc1=The legendary Samurai of Earth's Lotus Guard used to train within the walls of the Imperial Palace.  This small section of the Kimpu Market District was built to mirror those courtyards, and now serves as the entrance to the Ghost Legion training grounds.
+
+;//DM-Sanctuary//
+BriefDesc36=The Isle of Babel is a religious sanctuary for the Necris, a place where they can commune with the very essence of their being, and create a personal connection to the nanoblack coursing through their veins.
+
+;//DM-Sentinel//
+BriefDesc41=This riverfront structure commands an impressive view of the Absalom skyline, and the Touched gather nearby to commune with the Prophet.  There is a direct connection to the sublevels of Old Absalom here, and its endless supply of nanoblack.  The architecture is constantly growing and transforming, rebuilding itself to an unknown purpose.
+
+;//DM-ShangriLa//
+BriefDesc2=The springtime blossoms of the Shangri La sector are universally renowned for their beauty and serenity.  But the district sits along the northern shore of Tokaido, and the locals are forced to retreat into the sweltering heat of the underground mines to avoid the fierce cold snaps that leave the grounds largely abandoned during winter months.
+
+;//DM-Morbias//
+BriefDesc163=The Morbias Station is a transport hub that focuses all traffic passing through Taryd's jumpgates.  The Station offers a terrestrial shuttle, storage facilities (with quarantine services for live cargo), and a social center where guests can meet incoming visitors or hold private meetings in a neutral setting.
+
+;//DM-KBarge
+BriefDesc162=Continuing their long tradition of expertly crafted sea vessels, Koos Shipping now offers barge services across all of Taryd's oceans and waterways.  While the prices are exorbitant, they're the only line that guarantees that your shipment will arrive on time and undamaged, even when shipping lanes take them across the frozen polar regions.
+
+;//CAPTURE THE FLAG MAPS//
+;------------------------
+
+;//CTF-Coret//
+BriefDesc20=Prior to the war, the Coret Acquisition Center was a major social hub for all of Taryd's colonists.  Since the fighting started, however, the militia is enforcing a strict curfew, and the facility empties out as the sun goes down.
+
+;//CTF-OmicronDawn//
+BriefDesc34=This Jumpgate was originally set up by the N.E.G. in an attempt to encourage trade relations with the people of the Omicron sector.  Trade negotiations eventually fell apart, and the Necris took control of the orbital station, retrofitting it with nanoblack couplings and architecture.
+
+;//CTF-Hydrosis//
+BriefDesc8=The canals of the Alluvion river are gated by this Axon hydro-facility, which serves as an emergency power backup and Tarydium processing plant.  Destroying the plant would put serious stress on Axon energy production, but capturing it would mean diverting those essential resources for Izanagi use.
+
+;//CTF-Reflection//
+BriefDesc3=Surrounded by tranquil waterfalls and traditional architecture, these grounds are known as the Reflection Gardens.  They're buried deep in the heart of downtown Tokaido, where people can retreat to a place of quiet meditation amidst the bustle of a popular mining colony.
+
+;//CTF-Strident//
+BriefDesc23=The Strident has always been a mystery to the flesh and blood humans that work on the surface of Hyperion.  These subterranean chambers appear to be the central focus of the mainframe that controls all Liandri operations on Taryd.
+
+;//CTF-Vertebrae//
+BriefDesc39=The broken strata and organic growth of these ruins mark the untold history of the Necris rise to power on Omicron.  Just like the Prophet's philosophies during the Great Awakening, the Necris nanotech first spread out to cover existing architecture, and then used it as a foundation upon which to form its own.
+
+;//CTF-Searchlight//
+BriefDesc37=The lighthouse serves as a beacon to this remote island, thought to be the ancient home of the Necris Prophet.  The spiritual components of the Necris conversion are greatly misunderstood, and their power is vastly underestimated.  Those who are willing to face the impact of their conversion often come to religious centers like this one to meditate.
+
+;//CTF-FacingWorlds//
+FaceDesc=The Necris have forced their way into even the most revered of Izanagi landmarks.  Their corruption has spread to the Temple of Facing Worlds, and one of its towers is already showing the effects of infection and decay.
+
+;//VEHICLE CAPTURE THE FLAG MAPS//
+;--------------------------------
+
+;//vCTF-Containment//
+BriefDesc52=Little is known about this remote facility other than it is maintained by the Liandri Corp. Satellite images show some sort of cage in the center and Intel believes it holds a recovered Darkwalker vehicle. The Liandri have always wanted access to Necris technology, and this could be their chance to make some advancements in nanotech research.
+
+;//vCTF-Corruption//
+BriefDesc28=The Mitzushi Gardens were once a quiet retreat for the Tokaido citizenry, a tranquil place designed to help focus the senses and relax the mind.  But this peaceful climate changed when the Necris invaded.  Dark seemingly sentient clouds hover in the air, nanoblack poisons the water, and strange tentacles are actually growing out of the buildings.
+
+;//vCTF-Kargo//
+BriefDesc7=The harbors of the Alluvion River are the primary entry points for colonial supply lines.  These shipping lanes are shared by all factions, and monitored by an N.E.G. peacekeeping force.  This port is a highly contested supply point on the edge of Axon territory, with the Izanagi mainland just across the bay.
+
+;//vCTF-Necropolis//
+BriefDesc38=Absalom is the capital city on Omicron.  It also serves as the center of religious faith for the Necris.  Despite a very shallow pretense to the contrary, the Necris have slowly taken over control of the government, and it is predicted that within the next century every living soul on Omicron will have undergone the Necris conversion.
+
+;//vCTF-Sandstorm//
+BriefDesc35=The nomadic peoples of the Acidus Desert used to consider these lands an oasis.  After the Great Awakening, Necris moved into the region and began to convert the area and its people.  It now sits abandoned, the landscape forever changed.
+
+;//vCTF-Suspense//
+BriefDesc10=Suspense is the only bridge across the Alluvion strong enough to support the weight of heavy combat vehicles.  Without the bridge, it would take Axon forces several days to respond to any battles across of the river. As such, it is always under guard by an Axon mechanized division, with military checkpoints at each end.
+
+;//vCTF-Rails
+BriefDesc161=Even areas of new construction can be exploited as weak points in Oxida Nova's defenses, so the Iron Guard has established a series of mobile turrets to patrol the perimeter of this worksite.  With several city blocks of terrain to cover, including an access point through the city's canal system, protecting this site will be a challenge to even the most experienced of teams.
+
+
+;//WARFARE MAPS//
+;---------------
+
+;//WAR-Avalanche//
+BriefDesc32=Necris troops flood down to Taryd every day through a massive Orbital Jumpgate.  They've begun the process of terraforming the once barren lands of northern Taryd into a Necris stronghold.  Strange structures are literally growing out of the snow, and nanoblack is pouring down from orbit to infect and change the landscape.
+
+;//WAR-Downtown//
+BriefDesc12=With the blockade on the Alluvion River, the warehouse district of Oxida Nova has been plunged into chaos.  The storage facilities located there are the only remaining supply points available to Axon forces, and they've enforced martial law to ensure that their supplies remain unthreatened.
+
+;//WAR-DUSK//
+BriefDesc18=Izanagi satellites only recently discovered this secretive distribution facility.  Analysis of satellite images tells us that the facility is fully automated, and connected to a Liandri mining operation several levels below ground.  Raw ore is transported to the surface where it's packaged and moved off for processing.
+
+;//WAR-Floodgate//
+BriefDesc40=The Necris don't build new cities, they grow them out of, on top of, and often directly through existing architecture.  The deepest sublevels of Old Absalom are dank and corrupted, held together only by the intricate network of infection tubes that pump nanoblack through the walls like a circulatory system.
+
+;//WAR-Islander
+BriefDesc22=Liandri planners wanted an isolated communication station that wouldn't have to filter out background noise and interference from civilian signals.  The islands of the northern archipelago met their communication needs but the limited space didn't allow for extensive defensive capabilities.
+
+;//WAR-MarketDisctrict
+BriefDesc5=Life in Tokaido relies heavily on the infrastructure of the Kimpu Market District.  People purchase food there, shop, gather for social occasions, and even buy their fuel in this one centralized location.  In a surprise move, a terrorist cell has invaded the Market, scared off the locals, and shut down all business in and out of the district.
+
+;//WAR-OnyxCoast//
+BriefDesc30=The biting cold and fierce wind of northern Taryd has transformed the landscape into a freezing wasteland, but the Axon have turned the sharp obsidian talons and sub-zero temperatures of this region to their advantage.  They've established several military installations along the coast that can be used for training and storage purposes.
+
+;//WAR-PowerSurge//
+BriefDesc19=Located a half-mile below the planet's surface, the Dusk mine was established by Liandri scientists in an experiment to test self-sufficient Automaton management of resources.  The overloaded systems often release a huge powersurge that vents up to the surface in order to protect the volatile Tarydium stockpiles below.
+
+;//WAR-Serenity//
+BriefDesc11=There's a small Tarydium mine buried deep in the trees of this old forest.  While it's not large enough to be a major source of income for the Axon, they have been known to use it as a supply depot and refueling center for their shipping convoys.
+
+;//WAR-Sinkhole//
+BriefDesc4=These underground tunnels were discovered when Izanagi assessment teams first started their geological survey of Taryd, and they were used to house munitions and supplies for the first wave of colonists.  As the surface cities expanded, the caverns were forgotten until large sink holes started to form, destroying large portions of the city above.
+
+;//WAR-TankCrossing//
+BriefDesc6=This area serves as the demilitarized buffer zone between the Axon and Izanagi Corporations.  Because the bridges along this narrow strip of land are the only roads that connect the two territories, the isthmus is considered a key military objective that must be controlled.
+
+;//WAR-Torlan//
+BriefDesc9=Thanks to stringent monitoring by the New Earth Government, all three Corporations have used the fields of the Torlan Delta to power their combined mining efforts.  But with the recent threat of full scale war, N.E.G. forces have pulled out, and everyone is scrambling to take control of this valuable territory.
+
+;//WAR-Downtown-Necris//
+BriefDesc160=The Necris are invading territories throughout Taryd, infecting conquered areas with Nanoblack to terraform them to suit their own needs. You must push back the Necris forces and restore order to this sector. 
+
+;//WAR-ColdHarbor//
+BriefDesc31=Axon's Stealth Research Division managed to get some of the early specs for the Necris Nightshade vehicle and have been attempting to retrofit that technology onto their own.  The Necris have moved to stop this research, and despite the blockade that sealed the harbor when the NEG enforced the armistice, they have maintained a foothold here and are fervently working to destroy all remaining Axon research.
+
+;//UT3G MAPS//
+;---------------
+
+;//VCTF-Stranded//
+BriefDesc200=Civilian contractors are often used to reliably transport supplies and equipment over short distances on Taryd, but when this cargo ship full of Axon supplies ran aground in Izanagi territory, a military unit was quickly dispatched to defend the area until a full extraction team could be assembled.
+
+;//DM-DarkMatch//
+BriefDesc201=In preparation for the assault on Oxida Nova, Izanagi bombers targeted supply lines and other sites of important infrastructure.  This power station was one of the first to be hit, and is now left to defend itself while running only on auxiliary reserves.  Attack forces have moved in, and the facility's lights haven't even been restored.
+
+;//DM-EdenInc//
+BriefDesc202=This industrial complex was once a hydroponic research facility focused on saving rare and endangered species.  When their grant ran out, funds dried up and all work was suspended.  Months later, demo crews moved in to pave the path for a new highway and found that many of the research seedlings had taken root and continued to grow.
+
+;//DM-Turbine//
+BriefDesc203=Axon Research Corporation has many geothermal power stations just like this scattered across the northern reaches of Taryd.  They form a tight grid that supplies power to the research facilities and military installations common to the area.
+
+;//DM-OceanRelic//
+BriefDesc204=This ancient structure was discovered in the depths of an ocean rift 53 miles off the southern coast of Absalom.  While the planet's seemingly endless supply of sentient Nanoblack has kept the facility active, its origins and ultimate purpose remain a mystery.
+
+;//WAR-Confrontation//
+BriefDesc205=Confrontation Canyon serves as a training ground for Axon forces, improving unit readiness by providing highly realistic, stressful training across the full spectrum of infantry and mechanized conflict.  It is the premiere facility for heavy armor training, and all forces must complete courses here before assignment to a Leviathan unit.
+
+;//CTF-LostCause//
+BriefDesc206=The Necris have not revealed the original purpose of this crumbling structure, nor have they explained why it was decommissioned.  It stands on the cliffs of Absalom as a monument to history, a living link to the Necris ancestors.
+
+;//CTF-Morbid//
+BriefDesc207=Morbias Station Gamma is a transport hub that services overflow traffic passing through Taryd's jumpgates.  The Station offers a terrestrial shuttle, storage facilities (with quarantine services for live cargo), and a social center where guests can meet incoming visitors or hold private meetings in a neutral setting.
+
+;//CTF-Nanoblack//
+BriefDesc208=Giant vats of Nanoblack are processed and stored in facilities like this one across Omicron.  The structures are largely self-sustaining once operational, and are upheld with much reverence by those who respect the power and significance of the Nanoblack seething within.  Public access is highly restricted.
+
+;//CTF-Shaft//
+BriefDesc209=The substrata mines of Taryd produced over 800 gigatons of Tarydium last year alone.  Production never stops here, not even for war, and mining drones will remain operational even as chaos erupts around them.
+
+;//WAR-Hostile//
+BriefDesc210=Many research vessels were lost in the early days of Na Pali exploration.  When the terrain or local fauna proved to be too dangerous for recovery, equipment was often abandoned and forgotten.  But when it was learned that the Necris had moved in to recover this equipment for their own purposes, the NEG dispatched military salvage units to reclaim their property.
+
+
+
+[CardDesc]
+;/////////////////////////
+;/////Campaign Cards/////
+;///////////////////////
+
+Desc0=Reduce Enemy Count by 2.
+Desc1=Reinforce your squad with two soldiers from the Iron Guard.
+Desc2=Reinforce your squad with two Liandri Battle droids.
+Desc3=You were tipped off about the pending attack and have dug in to prepare.  Respawners are boosted to provide extra health.
+Desc4=Command is happy with your performance and have upgraded all of your vehicles.
+Desc5=Your weapons will be upgraded to instagib rifles for the next mission.
+Desc6=Use the stolen Necris technology to upgrade all Hellbenders to Stealthbenders for the next battle.
+
+CardTitleTacticalDiversion=Tactical Diversion Card Unlocked!
+CardTitleIronGuard=Ironguard Reinforcement Card Unlocked!
+CardTitleLiandri=Liandri Reinforcement Card Unlocked!
+CardTitleRespawnUpgrade=Respawn Upgrade Card Unlocked!
+CardTitleHeavyArmor=Heavy Armor Card Unlocked!
+CardTitleInstaGib=Instagib Card Unlocked!
+
+[CampaignObjectiveDesc]
+ObjDesc0=<<Edit Me.>>
+
+[CampaignObjectives]
+;/////////////////////////////
+;/////Mission Objectives/////
+;///////////////////////////
+
+;//DEATHMATCH MAP OBJECTIVES//
+;----------------------------
+
+;//General objectives displayed before each Deathmatch mission. //
+ObjDesc2_0=Keep enemies in check until their Respawner charges are depleted.
+
+;//DM-Arsenal//
+ObjDesc16_1=Use the Jump Boots to access the Super Health.
+ObjDesc16_2=Jump from a moving lift to gain momentum and access the UDamage.
+
+
+;//DM-Biohazard//
+ObjDesc45_1=Necris assassins are highly trained and very aggressive.
+
+
+;//DM-Carbonfire//
+ObjDesc57_1=Trap enemies within the disposal chute, or retrieve the powerups for your team.
+
+
+;//DM-Deck//
+ObjDesc139_1=There are environmental hazards throughout the facility.
+ObjDesc139_2=Powerful weapons and powerups are located in more dangerous areas.
+
+;//DM-Deimos//
+ObjDesc33_1=Access the laser turret by teleporting to the orbiting shuttlecraft.
+ObjDesc33_2=Erratic shifts in gravity are common in this region of space.
+
+
+;//DM-Defiance//
+ObjDesc13_1=The tight corridors of the lower level are very dangerous.
+ObjDesc13_2=More powerful items can be found in the center's upper levels.
+
+
+;//DM-Diesel//
+ObjDesc107_1=Color-coded lights alert you when the UDamage powerup is available.
+ObjDesc107_2=Enemy forces have the advantage of Axon's improved Respawner technology.
+
+
+;//DM-Fearless//
+ObjDesc42_1=An Invulnerability powerup is located in the direct center of the facility.
+
+
+;//DM-Gateway//
+ObjDesc24_1=Jump Boots give you access to other, more vital powerups.
+
+
+;//DM-Heatray//
+ObjDesc21_1=Necris vehicle reinforcements are already en route to Hyperion.
+ObjDesc21_2=Use the Invisibility powerup and gain a tactical advantage.
+
+
+;//DM-RisingSun//
+ObjDesc1_1=Maintain battlefield control by holding the high ground.
+ObjDesc1_2=Use audio cues to track enemy movement.
+
+
+;//DM-Sanctuary//
+ObjDesc36_1=Glowing spires alert you to the presence of a Redeemer on the distant platform.
+
+
+;//DM-Sentinel//
+ObjDesc41_0=Kill Akasha.
+
+
+;//DM-ShangriLa//
+ObjDesc2_1=A UDamage powerup is located in the central courtyard.
+
+
+;//CAPTURE THE FLAG MAP OBJECTIVES//
+;----------------------------------
+
+;// General Objectives displayed before each CTF / vCTF mission. //
+ObjDesc3_0=Disable the enemy Respawner by removing its Flags.
+
+;//CTF-Coret//
+ObjDesc20_1=A UDamage powerup is located on the bridge spanning the central chamber.
+ObjDesc20_2=Jester is with the informant and will not be fighting along side you.
+
+
+;//CTF-OmicronDawn//
+ObjDesc34_1=Use caution while crossing bridges.  They offer only limited protection.
+
+
+;//CTF-Hydrosis//
+ObjDesc8_1=The central bridge area has several dangerous sniping positions.
+ObjDesc8_2=Protect the Flag carrier to ensure their safe return.
+
+
+;//CTF-Reflection//
+ObjDesc3_1=Link with a teammate to multiply the power of your Link Gun.
+ObjDesc3_2=Translocators can teleport you across short distances.  Flags can not be teleported.
+ObjDesc3_3=The Helmet will give you 20 extra armor and protect you from a single sniper headshot.
+
+
+;//CTF-Strident//
+ObjDesc23_0=<<See ObjDesc3_0>>
+ObjDesc23_1=Be aware of unstable Flag bases.
+ObjDesc23_2=Shifting magnetic forces within the Strident cause platforms to move.
+
+
+;//CTF-Vertebrae//
+ObjDesc39_0=<<See ObjDesc3_0>>
+ObjDesc39_1=More powerful pickups are located deep within the city.
+ObjDesc39_2=Use your translocator to good advantage and avoid the lower levels entirely.
+ObjDesc39_3=Interrupt enemy defenses by firing through the nanoblack shield that separates the Flag chambers.
+
+
+;//CTF-Searchlight//
+ObjDesc37_1=Control the midfield Jump Boots to make Flag runs easier.
+ObjDesc37_2=Exterior searchlights illuminate visible Flag carriers.
+
+;/VEHICLE CAPTURE THE FLAG MAP OBJECTIVES//
+;-----------------------------------------
+
+;//vCTF-Corruption//
+ObjDesc28_1=Powerful pickups are located underneath the lower waterfall.
+ObjDesc28_2=Access caves to escape larger vehicles in the battlefield.
+
+
+;//vCTF-Containment//
+ObjDesc52_1=The Darkwalker in the central chamber cannot be moved, but its powerful weapons are available to either team.
+ObjDesc53_1=The Darkwalker has been released and can now roam the battlefield.
+
+
+;//vCTF-Kargo//
+ObjDesc7_1=Control the boat in the mid-ground to access a Goliath.
+ObjDesc7_2=Line up a Scorpion boost to jump from ramp to ramp across the boat.
+
+
+;//vCTF-Necropolis//
+ObjDesc38_1=The Darkwalker near the central aqueduct is available to both teams.
+ObjDesc38_2=Shoot the lights to call a wave of flames that consumes enemies near power ups.
+
+
+;//vCTF-Sandstorm//
+ObjDesc35_1=Use the cover provided by sandstorms to mask your attempts at Flag recovery.
+
+
+;//vCTF-Suspense//
+ObjDesc10_1=The towers of the bridge are ideal sniping positions.
+ObjDesc10_2=There is a Redeemer on the lower path, under the bridge.
+
+
+
+;//WARFARE MAP OBJECTIVES//
+;-------------------------
+
+;// General objectives displayed before each Warfare mission. //
+ObjDesc11_0=Link together Nodes to access the enemy Core.
+ObjDesc31_0=Link together Nodes and access the infected Core.
+ObjDesc11_1=Control the Mine Node to engage the mining drones.
+ObjDesc11_2=The drones will automatically begin to mine and stockpile Tarydium.
+
+
+;//WAR-ColdHarbor//
+ObjDesc31_1=Control the Hilltop Node to call missile attacks against the enemy Core.
+ObjDesc31_2=Control the Hillside Node to access defensive turrets.
+
+;//WAR-Avalanche//
+ObjDesc32_1=Nodes inside the cavern are crucial to controlling the battlefield.
+ObjDesc32_2=Simultaneously control both Cave Nodes to summon an infection tube that drains the Enemy Prime Node.
+ObjDesc32_3=A shaped charge is available in emergency situations.
+ObjDesc32_4=Use the shaped charge to release an avalanche that buries enemies and unlocks your Prime Node.
+
+
+;//WAR-Downtown//
+ObjDesc12_1=Use the shaped charge or redeemer to destroy barricades.
+ObjDesc12_2=With the barricades destroyed, heavy vehicles gain access to the main battlefield.
+ObjDesc12_3=Axon forces have a strong foothold in this area.  Defend your core at all costs.
+
+
+;/WAR-Dusk//
+ObjDesc18_1=Control Nodes on both sides of the mine entrance to open the security doors and access the Cicada.
+ObjDesc18_2=Use the shaped charge or a redeemer to destroy barricades that block large vehicles.
+ObjDesc18_3=Use the Orb to instantly take control of a Node.
+
+
+;//WAR-Floodgate//
+ObjDesc40_0=Link through the Center Node to access the enemy Core.
+ObjDesc40_1=Control the Floodgate Node to re-route a nanoblack wash and damage the enemy Core.
+
+
+;//WAR-Islander//
+ObjDesc22_0=Control the Prime Node to access the enemy Core.
+ObjDesc22_1=Maintain control of this Node to shield your Core.
+ObjDesc22_2=Use the shaped charge or redeemer to destroy enemy barricades.
+ObjDesc22_3=Watch for enemy turrets.  They have a clear view of the central battlefield.
+ObjDesc22_4=Control the Support Node to gain access to a Raptor.
+
+ObjDesc55_1=Use turrets to control the central battlefield.
+ObjDesc55_2=Turrets have a clear view of the enemy Core when it is exposed.
+
+ObjDesc25_0=You are facing a dangerous and aggressive Necris force.
+ObjDesc25_1=Nanoblack infected Nodes build Necris vehicles.
+
+
+
+;//WAR-MarketDistrict//
+ObjDesc5_0=Control the Prime Node to access your enemy's Core.
+ObjDesc5_1=Control Support Nodes to unlock mobile laser turrets.
+ObjDesc5_2=Use the mobile turrets to protect the Prime Node.
+ObjDesc5_3=Short Circuit the enemy Core's coolant system by controlling both Support Nodes simultaneously.
+ObjDesc5_4=An overheated Core raises into the open air and is vulnerable to turret fire.
+
+
+;//WAR-OnyxCoast//
+ObjDesc30_0=Drive the Leviathan into enemy territory and take control of the battlefield.
+ObjDesc30_1=Control the Bridge Node to provide your Leviathan access to the enemy Core.
+ObjDesc30_2=The enemy Core is reinforced by a modulated nanoblack barrier.
+ObjDesc30_3=Only the Leviathan's main gun has the firepower destroy the barrier.
+ObjDesc30_4=Control the Support Nodes to access flying vehicles and a Hellfire.
+ObjDesc30_5=Use the stealth-modified Hellbender to sneak behind enemy lines and lay traps.
+
+
+;//WAR-Powersurge//
+ObjDesc19_3=The mine overload discharges a high voltage pulse that damages the enemy Core.
+ObjDesc19_4=The East and West Tank Nodes hold important Goliath firepower.
+
+ObjDesc65_0=Necris forces have inflicted serious damage to your core.
+
+
+;//WAR-Serenity//
+ObjDesc11_3=When Tarydium stockpiles are maxed, Leviathan production begins automatically.
+ObjDesc11_4=Proceed with caution, Axon forces already have a Leviathan at their disposal.
+
+
+;//WAR-Sinkhole//
+ObjDesc4_0=Link your Core to the Prime Node in the center of the sinkhole.
+ObjDesc4_1=Destroy the enemy Core.
+
+
+;//WAR-TankCrossing//
+ObjDesc6_0=Activate the Bridge Node to lower the drawbridge.
+ObjDesc6_1=Drive your Goliath tank across the bridge.
+ObjDesc6_2=Park the tank on the pressure pad to open the blast doors.
+ObjDesc6_3=Destroy the enemy Core.
+
+
+;//WAR-Torlan//
+ObjDesc9_1=A Support Node below the central bridge will provide your team with extra fire power.
+
+ObjDesc15_1=Krall forces will attempt to overwhelm enemies by attacking in packs.
+ObjDesc15_2=Some Nodes are already under the control of the Krall forces.
+
+ObjDesc47_3=Necris forces will vastly outnumber Ronin in this battle.
+ObjDesc47_4=Infected Nodes will only spawn Necris vehicles.
+
+[Tutorials]
+TUT_SkipTutorial=Welcome.  You can skip tutorials by pressing <StringAliasBindings:GBA_ShowMenu>.
+TUT_Jump=Press <StringAliasBindings:GBA_Jump> to jump.
+TUT_MoveCon=Use <StringAliasBindings:GBA_MoveForward> to move and <StringAliasBindings:GBA_TurnLeft> to look around.
+TUT_MovePC=Use <StringAliasBindings:GBA_MoveForward><StringAliasBindings:GBA_Backward><StringAliasBindings:GBA_StrafeLeft><StringAliasBindings:GBA_StrafeRight> to move and your mouse to look around.
+TUT_2xJump=Press <StringAliasBindings:GBA_Jump> in quick succession to double jump.
+TUT_Pickup=Pick up the Shock Rifle and ammo ahead of you by touching them.
+TUT_PriFire=Shoot the right security lock with Primary Fire <StringAliasBindings:GBA_Fire>.
+TUT_AltFire=Shoot the left security lock with Secondary Fire <StringAliasBindings:GBA_AltFire>.
+TUT_CrouchPC=Approach the broken door and press <StringAliasBindings:GBA_Duck> to walk under it.
+TUT_CrouchCon=Approach the broken door and you will automatically crouch under it.
+TUT_SwitchPC=Press <StringAliasBindings:GBA_SwitchWeapon1> to switch to the Impact Hammer.
+TUT_SwitchCon=Press <StringAliasBindings:GBA_ToggleMelee> to switch to the Impact Hammer.
+TUT_WepSelectCon=Press and hold <StringAliasBindings:GBA_WeaponPicker> to bring up your Weapon Select Menu.  Push <StringAliasBindings:GBA_TurnLeft> up to highlight the Shock Rifle and release <StringAliasBindings:GBA_WeaponPicker> to switch to the Shock Rifle.
+TUT_WepSelectPC=Press <StringAliasBindings:GBA_SwitchWeapon4> to switch back to your Shock Rifle.
+TUT_Impact=Press and hold <StringAliasBindings:GBA_Fire> to charge the Impact Hammer, then touch the Bot with it.
+TUT_Trans1Con=Press <StringAliasBindings:GBA_Use> to switch to your Translocator.
+TUT_Trans1PC=Press <StringAliasBindings:GBA_ToggleTranslocator> to switch to your Translocator.
+TUT_Trans2=<StringAliasBindings:GBA_Fire> to fire Translocator disc, <StringAliasBindings:GBA_AltFire> to teleport to it.
+TUT_HoverCon=Press <StringAliasBindings:GBA_Use> to use your Hoverboard.
+TUT_HoverPC=Press <StringAliasBindings:GBA_ToggleTranslocator> to use your Hoverboard.
+
+[CharLocData]
+Lauren_Description=A hard woman, forever shaped by the death of her parents, her career as a bodyguard, and years of tournament experience.
+Barktooth_Description=Barktooth truly enjoys the mess created by the close-range combat of a Flak Cannon. He is not your friend.
+Harlin_Description=Harlin joined the original Iron Guard after watching NEG Storm Troopers execute his family during a block raid.
+Slain_Description=Slain is unable to forget the day that his best friend, Jihan Nyhn, was assassinated while under his personal protection.
+Blackjack_Description=Blackjack grew up in the streets.  A local Merc group adopted her at age 8, and she's had a gun in her hand ever since.
+Ariel_Description=The only daughter in a long line of male soldiers, Ariel joined the Guard to continue the family's military tradition.
+Cain_Description=Cain is mercenary to his core. He would even consider turning against the Iron Guard, for the right price.
+Johnson_Description=People say Johnson has the heart of a lion, but the brains of a gnat.  They're right.
+Karag_Description=Prior to joining the Guard, Karag spent an extended off-world deployment as a Marshall for the Terran Colonial Authority.
+Wraith_Description=A lifetime veteran of arena combat, Wraith has taken part in some of the most savage battles in Tournament history.
+Blain_Description=Blain was recruited off the streets of New Trebulon, where he was a policeman infamous for his brutal methods.
+Drake_Description=Inspired by the fame and glory of popular Tournament champions, Drake set out to make a name for himself in the Arenas.
+Kregore_Description=Kregore is a back-alley street brawler with a tough reputation, a fearless demeanor, and the battle scars to match.
+Talan_Description=Before joining the Iron Guard, Talan was a corporate bodyguard working for the Axon Research Corporation.
+Avalon_Description=Avalon is a decorated military veteran who continued her combat career in the arena after an honorable discharge.
+Desiree_Description=Desiree joined the Guard for one simple reason: she believes in their cause to protect for the greater good.
+Reaper_Description=Reaper lost everything on Twin Souls.  He will not rest until he witnesses the total annihilation of those responsible.
+Bishop_Description=Most people think he's unstable, but Bishop's deep inner focus, intense personality, and steady aim make him a valuable asset.
+Othello_Description=Othello is a drifter who challenges himself with deadly jobs and adrenaline-fueled adventures around the galaxy.
+Jester_Description=Once known for her lighthearted nature, Jester's entire world shifted when the Krall slaughtered her parents and friends.
+Kai_Description=Kai walks humbly with her ancestors, seeking enlightenment and following the Way of the Warrior within the Ghost Legion.
+Kana_Description=Kana is a rising star in the Ghost Legion, reputed to have one of the most brilliant minds ever to grace a battlefield.
+Arashi_Description=Arashi is a ghost. There is absolutely no record of him ever existing before he appeared in the Legion's recruitment office.
+Kensai_Description=Kensai still believes in the old ways. He adapts ancient traditions to modern life, applying the Forms in fresh new ways.
+Rook_Description=Rook believes that a true warrior should always be prepared for death - whether his own or someone else's.
+Ushido_Description=The Ushido bloodline prides itself on centuries of faithful service to the Emperor and his court.
+Connor_Description=Connor was a troubled youth who ran out of options and was given the choice of life in the military, or life behind bars.
+Harkin_Description=Harkin doesn't really buy all the spiritual 'mumbo-jumbo' of the Ghost Legion, but he does believe in their purpose.
+Hunter_Description=Hunter is a faithful and dependable soldier, often selected for frontline assignments.  His past is best forgotten.
+Cassidy_Description=Cassidy needed the recruitment bonus to support her daughter, but 'found herself' during training. She enjoys her new life.
+Kira_Description=Nothing stops Kira; no one stands in her way.  She is determined to succeed in all things, and failure is not an option.
+Metridia_Description=Metridia was born into a poor family from a remote fishing village.  She decided to make something more of her life.
+Scythe_Description=Scythe controls his tribe by tooth and claw, and his underlings fear rather than respect him.
+Cerberus_Description=Cerberus is moody and irritable. He will turn on anyone without notice or reason, if he feels the sudden need to hunt.
+Gnasher_Description=Gnasher's rudimentary intelligence only allows him simple phrases with as much roaring and grunting as words.
+Scorn_Description=A vile, crass, filthy, and savage beast - but dependable and fearless in battle.  He embodies the Krall vision of ideal.
+Lockjaw_Description=It was assumed that Lockjaw had died when he failed to return from his Rites, but he re-emerged nearly three years later.
+Scar_Description=Within the tribe, Scar is frequently sought after as a mate.  He has faced many challengers, and always enjoys his prize.
+Sharptooth_Description=Sharptooth sees a better future for his people, away from the honorless mercenary life that blinds recent generations.
+Worg_Description=Worg is a savage hunter, and it is said that his trophy collection is unrivaled among the Krall.
+Claw_Description=Claw has not adapted well to life away from the swamps.  He longs for the day when he can return to the Mire.
+Bargest_Description=Unlike most of his species, Bargest is savvy and highly intelligent.  But he's still happy to skin his opponents alive.
+Blackfang_Description='Slak gublock kliss Blackfang guar'lll... miskat-na fa klee hass.'
+Hellhound_Description=Hellhound refuses to be interviewed.  He does not cooperate with inferior species.
+Akasha_Description=As the Necris high Inquisitor, Akasha speaks with the Voice of the Prophet.  Her demanding and unforgiving word is law.
+Loque_Description=Loque is Phayder Master for the Necris Black Legion, a Dark Chaplain, responsible for maintaining the morale of the group.
+Damian_Description=Although still a new recruit in the ranks of the Phayder Elite, Damian is cool under pressure, and fearless in combat.
+Kragoth_Description=Called 'Star Slayer', Kragoth is a Dread Phayder Assassin without conscience or remorse.  He kills purely for sport.
+Malakai_Description=Suffering and death are irrelevant notions to Malakai.  His life belongs to the Prophet, and exists only for the Cause.
+Alanna_Description=Alanna serves in the Blademaidens, answering only to the High Inquisitor Akasha, loyal to the death and beyond.
+Grail_Description=Grail sees a future for the Necris that spans galaxies and generations, but he does not believe that the path is yet clear.
+Judas_Description=You will always hear some truth when Judas whispers in your ear, but this sycophant is never to be trusted.
+Nocturne_Description=Nocturne lives for the darkness that courses through his veins.  He hears it calling him, and wants only to serve it.
+Samael_Description=Samael was born to the nomadic peoples of the Acidus desert, but he wanted power, raw and unchecked.  The Necris provided.
+Harbinger_Description=The word of the Prophet is absolute law.  Harbinger enforces that law without exception, and by whatever means necessary.
+Pagan_Description=As with many that have undergone transformation, Pagan now hears voices.  But he claims they are the words of a False Prophet.
+Thannis_Description=As a member of the Phayder Elite, Thannis is fearless.  He is a weapon for the Necris, and they wield him as they see fit.
+Arachne_Description=Nanoblack has torn Arachne's soul asunder.  She can feel the tendrils of darkness tearing at the fabric of her mind.
+Freylis_Description=Freylis is a Necris Ambassdor who leverages her position and diplomatic immunity for the benefit of her people.
+Malise_Description=Malise was forced into the Necris transformation against her will.  She refuses to accept what her life has become.
+Raven_Description=All of Raven's memories were wiped during her transformation, and she remembers nothing of her previous life.
+Visse_Description=Visse is a Blademaiden, the Inquisitor's personal guard.  For Akasha, she would even turn upon her own Necris brethren.
+Matrix_Description=Once a flesh and blood human, Matrix began the process of 'upgrading' to automaton status at the request of the Liandri.
+Aspect_Description=Aspect's design spec was originally intended for heavy mining, but this model has been refitted with combat equipment.
+Cathode_Description=The Cathode model security bot was specifically programmed to eliminate opponents in as bloody a manner as possible.
+Enigma_Description=Little is known about this particular model.  The Liandri Corporation has never publicly released its design specs.
+Nova_Description=Quantum reaction times, an alloyed grid support frame, and S-PLG targeting software make the Nova model a fearsome opponent.
+Collossus_Description=Access Denied.  Profile requires Alpha Level clearance and joint authorization from the USLMC Board.
+Entropy_Description=Entropy started life as a prominent Biotech Engineer, but began to experiment on himself when his license was revoked.
+Monarch_Description=Monarch was once human, and even attempted the Necris transformation.  By his account, he is simply trying to 'Become.'
+OSC_Description=01100010011001010110110001101001011001010111011001100101
+Evolution_Description=Evolution has a distaste for any form of human contact.  He sees living creatures as a plague that must be cured.
+Mihr_Description=Mihr was concepted as a deep space maintenance drone. His precision programming was found to be more useful in other areas.
+Raptor_Description=Originally a test pilot, Raptor was rendered unfit for flight when his AI chips showed signs of emotional development.
+Syntax_Description=Serial Number 231KTFRHJV57DKLJ
+Torque_Description=Database Error: Please contact your Administrator if the problem persists.
+
+[FactionData]
+IronGuard_FriendlyName=Iron Guard
+IronGuard_Description=A group of highly skilled and well trained mercenaries, experts in virtually any combat scenario.
+Ronin_FriendlyName=Ronin
+TwinSouls_FriendlyName=Ronin
+Ronin_Description=The only survivors of the infamous Twin Souls massacre, bound together out of a sense of duty, honor, and revenge.
+Krall_FriendlyName=Krall
+Krall_Description=The Necris use these formidable reptilian beasts for the pacification of newly conquered planets.
+Necris_FriendlyName=Necris
+Necris_Description=The secretive Phayder Corporation developed the Necris process to produce this elite group of assassins.
+Liandri_FriendlyName=Liandri
+Liandri_Description=Combat modified versions of the Liandri Mining Corporation's world-class security drones.
+
+[FriendlyMapNames]
+Arsenal=Arsenal
+Avalanche=Avalanche
+Avalanchetwofronts=Avalanche Two Fronts
+AxonTreaty=Axon Treaty
+Betrayal=Betrayal
+Biohazard=Biohazard
+Carbonfire=Carbon Fire
+ColdHarbor=Cold Harbor
+CombatBriefing=Combat Briefing
+Conclusion=Conclusion
+Confrontation=Confrontation
+Containment=Containment
+Coret=Coret
+Corruption=Corruption
+Credits=Credits
+DarkMatch=DarkMatch
+Deck=Deck
+Defiance=Defiance
+Deimos=Deimos
+Diesel=Diesel
+Downtown=Downtown
+Downtowntwofronts=Downtown Two Fronts
+DowntownNecris=Downtown Necris
+Dusk=Dusk
+Duskfreemine=Dusk Free Mine
+FacingWorlds=Facing Worlds
+Fearless=Fearless
+Floodgate=Floodgate
+Gateway=Gateway
+Heatray=Heat Ray
+Hostile=Hostile
+Hydrosis=Hydrosis
+Infection=Infection
+Intercession=Intercession
+Islander=Islander
+Islandernecris=Islander Necris
+Kargo=Kargo
+KBarge=Koos Barge
+LostCause=Lost Cause
+Marketdistrict=Market District
+Morbias=Morbias Arena
+Morbid=Morbid
+Nanoblack=Nanoblack
+Necropolis=Necropolis
+NewGame=Unknown
+OceanRelic=Ocean Relic
+OmicronDawn=Omicron Dawn
+Onyxcoast=Onyx Coast
+Powersurge=Power Surge
+Rails=Rails
+Reflection=Reflection
+Risingsun=Rising Sun
+Sanctuary=Sanctuary
+Sandstorm=Sandstorm
+Searchlight=Searchlight
+Sentinel=Sentinel
+Serenity=Serenity
+Serenitynecris=Serenity Necris
+Shaft=Shaft
+Shangrila=Shangri La
+Sinkhole=Sinkhole
+EdenInc=Eden Inc
+Stranded=Stranded
+Strident=Strident
+Suspense=Suspense
+SuspenseNecris=Suspense Necris
+Tankcrossing=Tank Crossing
+TheDecks=The Decks
+Torlan=Torlan
+TorlanDelta=Torlan Delta
+Torlanclassic=Torlan Classic
+Torlandelta=Torlan Delta
+Torlandoubleprime=Torlan Double Prime
+Torlannecris=Torlan Necris
+Torlanshort=Torlan Short
+Turbine=Turbine
+Tutorial=Tutorial
+Vertebrae=Vertebrae
+
+[MapLocationDescription]
+Arsenal=Hyperion fringe territories
+Avalanche=The Onyx Coast
+Avalanchetwofronts=The Onyx Coast
+AxonTreaty=Izanagi HQ, Tokaido
+Betrayal=Omicron 6, beneath Absalom
+Biohazard=The Onyx Coast
+Carbonfire=Hyperion strata
+CombatBriefing=Izanagi HQ, Tokaido
+Conclusion=Omicron 6, Absalom
+Containment=Hyperion fringe territories
+Coret=Hyperion Strata, Coret Acquisition Center
+Corruption=Tokaido
+Credits=Epic Games
+Deck=Hyperion fringe territories
+Defiance=Downtown Oxida Nova
+Deimos=In orbit above Taryd
+Diesel=Downtown Oxida Nova
+Downtown=Downtown Oxida Nova
+Downtowntwofronts=Downtown Oxida Nova
+Dusk=Hyperion fringe territories
+Duskfreemine=Hyperion fringe territories
+Fearless=Omicron 6, downtown Absalom
+Floodgate=Omicron 6, beneath Absalom
+Gateway=Taryd, various locations.
+Heatray=Hyperion slums
+Hydrosis=Alluvion river valley
+Infection=Taryd
+Intercession=In orbit above Taryd
+Islander=Hyperion archipelago
+Islandernecris=Hyperion archipelago
+Kargo=Alluvion river valley
+Marketdistrict=Downtown Tokaido, Kimpu Market District
+Necropolis=Omicron 6, downtown Absalom
+OmicronDawn=In orbit above Omicron 6
+Onyxcoast=The Onyx Coast
+Powersurge=Hyperion fringe territories, Tarydium mine
+Reflection=Tokaido border territories
+Risingsun=Tokaido, Ghost Legion training grounds.
+Sanctuary=Omicron 6, Isle of Babel
+Sandstorm=Omicron 6, Acidus desert
+Sentinel=Omicron 6, Absalom
+Serenity=Alluvion river valley
+Serenitynecris=Alluvion river valley
+Shangrila=Tokaido, Shangri La sector
+Sinkhole=Downtown Tokaido, beneath Kimpu Market District
+Strident=The Strident, beneath Hyperion
+Suspense=Oxida Nova border territories
+Taryd=Taryd
+Tankcrossing=Tokaido border territories
+TheDecks=Oxida Nova, The Decks
+Torlan=Torlan river delta
+TorlanDelta=Torlan river delta
+Torlanclassic=Torlan river delta
+Torlandelta=Torlan river delta
+Torlandoubleprime=Torlan river delta
+Torlannecris=Torlan river delta
+Torlanshort=Torlan river delta
+Tutorial=Downtown Tokaido, Kimpu Market District
+Vertebrae=Omicron 6, beneath Absalom
+FacingWorlds=Tokaido
+Searchlight=Omicron 6, near Absalom
+Coldharbor=The Onyx Coast
+
+[LoadingHints_UTDeathmatch]
+Hint_0=Every weapon has at least two firing modes.  Some have even more that can be used by combining the primary and alternate fire mode in different ways.
+Hint_1=To get an extra height boost, press jump again at the peak of a jump.
+Hint_2=You can dodge off walls while in the air.
+Hint_3=The Shock Combo is a powerful explosion created by shooting a shock core with a shock beam.
+Hint_4=There are two ways to use the Rocket Launcher's alt-fire: while loading rockets into the launcher, press the Primary Fire button once to fire them in a tight spiral, or twice to launch them as grenades.
+Hint_5=You can toggle the scoreboard display at any time by pressing the Show Scores button.
+Hint_6=You can shoot down enemy Redeemer missiles with a well-placed shot.
+Hint_7=The UDamage powerup will greatly increase the damage done by all your shots for a limited time.
+Hint_8=The Berserk power-up doubles the rate of fire of all your weapons for a limited amount of time.
+Hint_9=The Shield Belt will fully absorb up to 100 points of damage.
+Hint_10=The Helmet will protect you from 20 points of additional damage, or a single headshot, whichever comes first.
+Hint_11=You can use the Impact Hammer's alt-fire EMP to knock a power-up off an enemy player.
+Hint_12=The Stinger's alternate fire is slow but lethal, and can be used to pin enemies to walls.
+Hint_13=You can feign death to confuse your enemies.
+Hint_14=Practice good sportsmanship.  You were a n00b once, too.
+Hint_Count=15
+
+[LoadingHints_UTOnslaughtGame]
+Hint_0=Using an Orb to capture a Node will also shield it from damage for a short period of time.
+Hint_1=Shaped Charges and Redeemer Missiles are the only items that can be used to destroy barricades.
+Hint_2=Incoming enemy orbs are visible on the minimap.
+Hint_3=If you take any damage while riding the Hoverboard, you will fall to the ground and drop the Orb if you were carrying it.
+Hint_4=The Paladin has a large shield, and can discharge the shield to create a very effective area of effect attack against close range targets.
+Hint_5=You can use the Hoverboard's Grapple to tow behind passing friendly vehicles.
+Hint_6=You can heal a friendly vehicle with the Link Gun alt-fire.
+Hint_Count=7
+
+[LoadingHints_UTVehicleCTFGame]
+Hint_0=The Hoverboard is the only vehicle that you can carry a Flag in.
+Hint_1=You can use the Hoverboard's Grapple to tow behind passing friendly vehicles.
+Hint_2=For a boost of speed, look for the glowing arrows that indicate a Hoverboard boost zone.
+Hint_3=You can heal a friendly vehicle with the Link Gun alt-fire.
+Hint_4=If you take any damage while riding the Hoverboard, you will fall to the ground and drop the Flag if you were carrying it.
+Hint_5=The Paladin has a large shield, and can discharge the shield to create a very effective area of effect attack against close range targets.
+Hint_Count=6
+
+[LoadingHints_UTCTFGame]
+Hint_0=Use your Translocator to teleport across the battlefield, and gain ground on enemy Flag carriers.
+Hint_1=Using the Translocator to teleport while carrying the Flag will cause you to drop the Flag.
+Hint_2=Toggle your Translocator key to quickly switch between the Translocator and your previous weapon.
+Hint_Count=3
+
+[LoadingHints_UTTeamGame]
+Hint_0=Use the Link Gun to link with other Link Gun-carrying teammates. The head of a linked chain will receive a significant power boost to their Link Gun.
+Hint_Count=1
+
+
+
+
+
+
+[UT3G]
+InstalledContent=INSTALLED CONTENT
+AvailableForDownload=AVAILABLE FOR DOWNLOAD
+DownloadingMod=Downloading '`URL`', `Progress`% complete.
+DownloadFailed=Failed to download '`URL`'. Mod has not been installed.
+InstalledContentDesc=Shows the list of mods that have been installed.
+AvailableForDownloadDesc=Shows mods available for direct download. You may use the Import path to import mods from a USB memory device.
+DownloadingList=(Downloading list of available mods...)
+
+
+[Community]
+AchievementProgress=AWARD PROGRESS
+
+
+[AchievementNames]
+;///////////////////////////
+;/////Achievement Names/////
+;///////////////////////////
+Name0  =Soldier's Blood
+HowTo0 =Complete Chapter 2.
+Name1  =Does Not Compute
+HowTo1 =Complete Chapter 3.
+Name2  =Not in Kansas Anymore
+HowTo2 =Complete Chapter 4.
+Name3  =Just Business
+HowTo3 =Complete Chapter 2 in Insane.
+Name4  =Bag of Bolts
+HowTo4 =Complete Chapter 3 in Insane.
+Name5  =Open War
+HowTo5 =Complete Chapter 4 in Insane.
+Name6  =I Need Some Backup
+HowTo6 =Complete 1 mission in co-op.
+Name7  =Got Your Back
+HowTo7 =Complete 10 missions in co-op.
+Name8  =Thanks To All the Little People
+HowTo8 =Complete a campaign in co-op.
+Name9  =I See How It Is
+HowTo9 =Complete an Instant Action match in every game mode.
+Name10 =Untouchable
+HowTo10=Reach 20 kills against a god-like bot in instant action without dying.
+Name11 =Like the Back of My Hand
+HowTo11=Collect every power up on every map.
+Name12 =Spice of Life
+HowTo12=Play a match with every mutator, using only 1 per match.
+Name13 =Brain Surgeon
+HowTo13=Get the "Head Hunter" award in 10 matches.
+Name14 =Don't Taze Me Bro!
+HowTo14=Get the "Combo King" award in 10 matches.
+Name15 =Goo God
+HowTo15=Get the "Biohazard" award in 10 matches.
+Name16 =Pistolero
+HowTo16=Get the "Gun Slinger" award in 10 matches.
+Name17 =Hammerhead
+HowTo17=Get the "JackHammer" award in 10 matches.
+Name18 =Strongest Link
+HowTo18=Get the "Shaft Master" award in 10 matches.
+Name19 =Have a Nice Day
+HowTo19=Get the "Rocket Scientist" award in 10 matches and "Flak Master" award in 10 matches.
+Name20 =Big Game Hunter
+HowTo20=Get the "Big Game Hunter" award in 10 matches.
+Name21 =Armadillo
+HowTo21=Get the "Roadkill" award in 10 matches.
+Name22 =Jack of All Trades
+HowTo22=Kill an enemy with every vehicle (except hoverboard).
+Name23 =Ace
+HowTo23=Get the "Top Gun" award in 20 matches.
+Name24 =Deathwish
+HowTo24=Get "Bullseye" (self-destruct to destroy an enemy) award in 20 matches.
+Name25 =Serial Killer
+HowTo25=Get the "Killing Spree" award in 20 matches.
+Name26 =Sir Slays-a-Lot
+HowTo26=Get the "Monster Kill" award in 20 matches.
+Name27 =Killjoy
+HowTo27=End sprees in 20 matches.
+Name28 =Let's Get It On
+HowTo28=Complete a multiplayer match in every game type.
+Name29 =Around the World
+HowTo29=Win a multiplayer match on every map.
+Name30 =Get a Life
+HowTo30=Get 200 kills in multiplayer on 50 different days.
+Name31 =Winning Is the Only Thing
+HowTo31=Finish with the highest points in a Ranked match.
+Name32 =Equal Opportunity Destroyer
+HowTo32=Win a Ranked match in every game type.
+Name33 =Just Warming Up
+HowTo33=Finish playing a "Versus" Ranked match.
+Name34 =Hat Trick
+HowTo34=Achieve a Hat Trick in 10 CTF or VCTF matches.
+Name35 =Online Champion
+HowTo35=Win 500 online matches.
+Name36 =Fear the Reaper
+HowTo36=Defeat Akasha and complete the campaign in Insane.
+Name37 =I'm Not on a Holy War
+HowTo37=Defeat Akasha and complete the campaign.
+Name38 =Off To a Good Start
+HowTo38=Get the "First Blood" award in 40 matches.
+Name39 =Lock and Load
+HowTo39=Complete Chapter 1.
+Name40 =Shard-o-matic
+HowTo40=Get the "Blue Streak" award in 10 matches.
+Name41 =Seeing Red
+HowTo41=Have over 20 minutes of "Berserk Time".
+Name42 =Never Saw It Coming
+HowTo42=Have over 20 minutes of "Invisibility Time".
+Name43 =Survival of the Fittest
+HowTo43=Have over 10 minutes of "Invulnerable Time".
+Name44 =Delivering the Hurt
+HowTo44=Have over 20 minutes of "UDamage Time".
+Name45 =Being a Hero
+HowTo45=Return 100 Orbs in Warfare matches.
+Name46 =Flag Waver
+HowTo46=Completed 100 CTF matches played to at least 3 captures.
+Name47 =Thirty Minutes or Less
+HowTo47=Complete 100 VCTF matches played to at least 3 captures.
+Name48 =Paint the Town Red
+HowTo48=Complete 100 Deathmatch or Duel matches played to at least 20 kills.
+Name49 =Connect the Dots
+HowTo49=Complete 100 Warfare matches played to at least 3 points.
+Name50=Can't Be Trusted
+HowTo50=Grab 200 points worth of betrayal pots.
+Name51=Avenger
+HowTo51=20 successful retributions against a betrayer.
+Name52=Bag of Bones
+HowTo52=Deliver 50 skulls in one score in Greed against adept or higher skilled bots.
+Name53=Skull Collector
+HowTo53=Score 500 skulls in Greed.
+Name54=Titanic
+HowTo54=Become a titan 20 times.
+Name55=Behemoth
+HowTo55=Become a Behemoth 10 times.
+Name56=Unholy
+HowTo56=10 kills with every Titan weapon in one Titan transformation.
+Name57=The Slow Lane
+HowTo57=Use the Slow Field power-up for over 10 minutes total.
+Name58=Eradication
+HowTo58=Get 100 kills with the Eradicator.
+Name59=Arachnophobia
+HowTo59=Kill 10 people with spidermines in deathmatch.
+
+[MidGameMenu]
+Completed=Completed
+Incomplete=Incomplete
+Achievements=Trophies
+
+[Extras]
+Players10to16=10 to 16 players
+Players10to12=10 to 12 players
+Players2to6=2 to 6 players
+HiddenAchievement1=Hidden; requires UT3 Map Pack
+HiddenAchievement1Desc=Visit the Playstation Store and download the "Unreal Tournament 3 Map Pack" to show this part of the trophy.
+HiddenAchievement2=Hidden; requires UT3 Titan Pack
+HiddenAchievement2Desc=Download and install the "Unreal Tournament 3 Titan Pack" to show this part of the award.

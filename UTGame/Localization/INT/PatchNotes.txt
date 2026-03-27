@@ -1,0 +1,857 @@
+This is the fifth patch for Unreal Tournament 3. Please provide all feedback on this patch at http://utforums.epicgames.com/forumdisplay.php?f=21. 
+
+UI:
+- Disabled wrap for options lists on PC.
+- Split out player and bot counts on mixed servers in server browser.
+- No longer require double clicking on main menu.
+- Fixed problem with vote menu, where list positions and scrollbar get reset after the menu updates
+- Fixed issue with 'no password' connection error not asking for a password, when in online play
+- Fixed issue with dialog boxes, where button positions are not updated correctly after resolution or message length changes
+- Made the Instant Action and Host Game menus properly recover the saved mutator list, when the Mutator menu is not opened.
+- Fixed an incorrect call to WorldInfo.TravelFailed, and fixed the 'Incorrect Password' dialog not asking for a password.
+
+Game:
+- No longer disable achievements for mods that don't contain code (maps and custom characters).
+- Fixed issues with weapons respawning with Duel and with WeaponsRespawn mutator.
+- Reduced visibility of DM beacons in darkmatch.
+- Fixed greed exploit with redeemer.
+- Updated russian localization.  Thanks Michael Sokolkov.
+- Removed os helper workaround for Windows 2003 server, now that we have a better fix.
+- Fixed low gore issue with Titans.
+- Fix for wrong team shader in rare cases.
+- Fixed dropflag command not working.  Also fixes a CTF exploit.
+- Fixed excessive link beam decals for listen servers.
+- Fixed warfare orb not showing up on minimap on second and subsequent rounds on map where teams switch sides. 
+- Reduced damage to nodes/cores from dead Titan explosion.
+- Reduced damage Titans do to nodes/core with weapons.
+- Titan melee doesn't knock down spawn protected players.
+
+Server Administration:
+- Fixed problem where maplist entries contain unwanted whitespace, and move invalid maplist entries to a separate 'BadMaps' list, 
+	instead of just deleting them
+- Fixed bug where the advertised game was wrong after switching gametypes, but only for the startup gametype
+- Fixed bug with password being removed from URL, during non-seamless travel on the same server
+- Fixed bug where the current game profiles mutators would be carried over into other gametypes
+- Added 'MapReplayLimit' to UTMapList; this overrides the same value in UTMapListManager, unless set to -1
+- Added code to trim down the size of server details results when they become too large, fixes problem where servers would not be advertised
+- Adjusted vote code to end vote rounds early, when all players have voted, and to switch map immediately instead of respecting the  
+	'EndTimeDelay' and 'RestartWait' settings
+- In endgame votes, forcibly extend the first vote round by 16 seconds (i.e. the time it takes for the vote menu to popup)
+- Added admin-only buttons to the vote menu, which allow admins to force a winning vote
+- Fixed non-seamless travel client timeout disconnects.
+- Now consider server "pure" with same rules as achievements (custom maps, characters, and Epic mutators + webadmin allowed).
+- Adjusted mutator voting to properly account for mutators in the game profile settings (both added and excluded mutators)
+
+Mod support:
+- Fixed problem with cooking with -mod and ModShaderCache
+- Fixed map makers unable to cook when using Titan Pack assets.  
+	May need to delete GlobalPersistentCookerData.upk from My Games\Unreal Tournament 3\UTGame\Published\CookedPC
+- Added mutator hook for blocking team changes
+
+Level specific:
+- Fixed WAR-Confrontation raptor exploit.
+- Possible fix for darkmatch memory leak.
+- Added refshadercache to patch, so titan content will have shaders compiled.
+- Fix for reported rare WAR-Floodgate crash.
+ 
+=============================================================================================================
+Changes from the first 4 patches are also included.  These changes are listed below:
+
+
+SUMMARY OF MAJOR FEATURES:
+- Major enhancements to Server Browser 
+- Visual and menu flow overhaul for improved useability of user interface.
+- Significant AI improvements, especially in vehicle gametypes.
+- Client-side demo recording support 
+- Improved networking performance.
+- Midgame map, game type, and mutator voting support 
+- Award system using Steam Achievements
+- Improved mod support
+
+------------------------------------------------------------------------------------------------------
+TITAN MUTATOR:
+
+The Titan mutator brings a fresh twist to all the classic Unreal Tournament gametypes.
+Fill your Titan meter by killing enemies, capturing flags or nodes, and completing other game objectives.
+You’ll get bonuses for multikills and killing sprees.  When your meter is full, you can transform at any
+time into a giant with a super powerful rocket launcher, massive hit points, and a devastating ground pound attack.  
+
+When you are Titan, your job is to sow mass destruction on your opponents, and protect those puny normal players
+on your team who are trying to accomplish the primary game objectives.  You’ll often see Titans acting as escorts
+for flag or orb carriers, or locking down an entire area while killing massive numbers of enemy players.
+
+It’s important to pick the right time to transform as Titans also have several limitations.  Titans can’t drive
+vehicles, or carry flags, orbs, or Greed skulls.  They also can’t capture Warfare nodes, or pick up any weapons
+or power-ups.  Killing a Titan initiates its self destruct sequence, which ends with a low yield nuclear explosion,
+so clear the area when an enemy Titan goes down!
+
+Once you’ve become a Titan, fill your meter again to transform into a Behemoth.  Behemoths are huge - almost 30
+feet tall, in fact. These walking mountains of devastation are unstable, though, and will self-destruct after 30
+seconds.  
+
+------------------------------------------------------------------------------------------------------
+BETRAYAL:
+
+Betrayal is a new instagib game type that pits players against each other while they cooperate in temporary
+alliances.  Only one player is the final winner, and the difference between victory and defeat often lies in
+knowing when to betray your teammates.
+
+A score above opponents’ heads reflect their value if you gib them using the primary fire of your instagib rifle.
+Current teammates are blue, and every kill by a teammate adds one point to the team pot, which is shown at the top
+of your HUD.  Teammates can betray each other using the alternate fire of the rifle, which shoots a blue beam.
+Assassinating a teammate gives the assassin both the score over that player’s head, plus all the points accrued in
+the team pot.  
+
+However, the assassin becomes a Rogue for 30 seconds, during which he is not on any team, and his former teammates
+can garner a score bonus for achieving retribution by killing him.   The score above a Rogue’s head is red for his
+former teammates.  Once the rogue timer has counted down, the rogue will automatically join a new team when teammates
+are available.
+  
+Daggers beside each player’s name shows the number of times that player has betrayed his teammates.  Watch your back
+around teammates; you’ll often see players pause and check each other out as they enter a room together.  
+
+Sometimes, players may try to goad a teammate into killing them by shooting blue beams by their ear when the team pot
+is small, hoping to later cash in on the retribution bonus.  As the players near victory, they’ll often try to time a
+final betrayal to send them over the top.
+
+------------------------------------------------------------------------------------------------------
+GREED:
+
+Greed is a fast-paced team gametype played on CTF and VCTF maps.  When a player dies, he drops a skull representing his
+life force, along with any other skulls he is carrying.
+  
+Silver skulls are worth 1 point, Gold skulls are worth 5 points, and Red skulls are worth 20 points.
+  
+You have to deliver skulls to the enemy base to score them.
+  
+As the clock winds down, you can expect to see players fighting over huge hoards of skulls. Each side will desperately
+try to stop the other team from scoring skulls while at the same time fighting to survive all the way to the enemy base
+with their own stockpile.  Because of that, no lead is insurmountable, and there is always hope for a last second comeback.
+
+------------------------------------------------------------------------------------------------------
+FULL CHANGE LIST:
+
+Improved Steam integration
+- Steam Achievement support for Steam installations of UT3.
+- Integrated Steam Authentication support.
+- 57 achievements mark your progress and mastery of UT.
+- Progress screen shows which awards you have earned, and completion progress on all awards.
+- You can activate a non-Steam purchased version with Steam (making it a full Steam version) by:
+   - Open Steam main window
+   - In Games menu, select Activate a Product on Steam...
+   - Type in your CD Key
+   - Install UT3 via Steam
+- Note this make an entire new UT3 installation, so uninstall the previous version (your settings/profile should not be affected)   
+
+Server Browser: 
+- Server Browser updates, expanded query filtering, clientside filters and a new UI option list. 
+- Added mutator filtering to the server browser (filter by installed mutators, mutator classes and mutator names)
+- Now displays each servers IP in the server details box
+- Added 'Join IP' and 'Spectate IP' buttons to the join game menu
+- Added an 'Add IP' button to the favourites menu
+- Modified the main menu to return to the server browser after disconnecting
+- Added a new button to the midgame menu 'Add Favorite', and a new console command: AddServerToFavorites
+- Updated server browser code, so that custom gametypes are properly filtered. 
+- Added a 'List All Game Modes' selection to the server filter menu. 
+- Added more information to the server browser player list.
+- Fixed servers not being added to history, when following a friend to a server
+- You can now attempt to directly connect to offline servers in History and Favorites (even during master server downtimes).
+- Show "+" for player counts that are populated by bots.
+
+UI:
+- Major visual and menu flow overhaul for improved useability.
+- Made the instant-action and host-game menus keep their settings. 
+- Scoreboard double click functionality for kicking, messages to specific players.
+- Enabled gamepad stick sensitivity setting in UI. 
+- Improved gamepad support on PC.
+- Added support for a whole mess of options on Advanced video settings page. 
+- Easier to click buttons by fixing cases where mouse went just past them. 
+- Max player counts always fit on all scoreboards.
+- Modifier cards should take display priority in toasts over character unlocks.
+- Improved voice command menu positioning and offsets.
+- Fixed showing as teleport destinations on map nodes which could not be teleported to.
+- Added tooltip while deployed in stealth vehicles to show drop deployable button.
+- Bot count UI changed from "Number of opponents" to "Number of combatants" to be less confusing.
+- Added support for showing top weapon user in end of match scoreboard.  This shows which player got the most kills 
+  with a particular weapon.  If a player was the leader with more than one weapon, it picks the weapon he or she got the
+  most kills with.
+- Show beacon with name of enemies in DM if they are close enough.
+- Fixed ammo number on HUD pulsing on armor pick up instead of ammo pick up.
+- Third position for powernode beacon, when just looking at base.
+- Added speaking icon to player beacons.
+- Portraits shown for player speaking with VOIP.
+- Fixed onslaught teleporter tooltip not always displayed correctly.
+- fixed toasts that don't shut down properly popping up later unexpectedly
+- More delay before going back to ambient music from action.
+- Fixed text being obscured after removing a friend from the friends list
+- Fixed showing proper weapon icon on weapon bar for selected weapon when two weapons are in same slot.
+- Fixed issue where playercard and friend message screens were disappearing.
+- Reduced chat log spam.
+- Fixed rules for showing "change team" button.
+- Added John Barrett (programming contractor), Michiel Hendriks (programming contractor), and Pancho Eekels (level design contractor) to credits.
+- Fixed duel match rules in scoreboard.
+- Fixed player information on server browser history page not refreshing correctly.
+- Fix a crash caused by some mod UI scenes during the gamne
+
+Vehicles:
+- Increased radius/volume of Manta, Raptor, and Viper engines.
+- Fixed scavenger legs disappearing in kill volumes.
+- Force occupied manta to rise if underwater.
+- Added sound effect and recharge bar to SPMA to indicate when the weapon is ready to fire
+- Increased water damage taken by vehicles.
+- Increased Goliath health.
+- Fixed nightshade beam weapon accuracy.
+- Fixed spidermines confused about nightshade that switches teams.
+- Tank shell is always relevant, so you'll see it if it kills you from a hidden tank.
+- Leviathan shield doesn't stay around after death.
+- Fixed leviathan passenger beacon positioning.
+- Fixed hoverboard rooster tail positioning when traveling over shallow water.
+- Fixed flag positioning on tracked turrets.
+- Fixed flying Manta exploit.
+- Fixed boost exploit with Fury vehicle
+- Fixed exploit to damage own core/nodes with rocket turret.
+
+Weapons:
+- Added burn trail for link gun beam.
+- Weapon pickups now disappear for the player who picked it up, until it can be picked up again (now works like weapon lockers).
+- Weapon throwing always enabled.
+- Improved force feedback for various weapon and pickup actions.
+- Simpler crosshair for instagib rifle.
+- Third person translocate sound.
+- Stinger now higher priority than flak cannon by default.
+- Back splatter decals for hits with sniper rifle, stinger, and enforcer.
+- Improved spidermine aiming help on console with hitscan weapons (enforcer, stinger, sniper).
+- Fixed enforcer anim problems when become dual during initial loading.
+- No ammo display for instagib rifle.
+- Improved spidermine herding with Avrils.
+- Improved redeemer blast screen shake.
+- Spidermines work properly in deathmatch.
+- Fixed translocator discs being able to get embedded in geometry with zero extent collision on but box collision off.
+- Fixed deployable exploit (run over deployable while firing weapon, get in vehicle while still firing, and never switch to deployable).
+- Fixed trans discs getting stuck on instigator's head.
+- Fixed redeemer bug where redeemers impacting ceiling sometimes had explosion center imbedded in ceiling, affecting damage dealt.
+- Fixed stinger alt-fire stops with 1 ammo.
+- Fix for rare stinger shard crash when shard tries to impale two overlapping dead bodies at the same time.
+- Fixed fast avril firing exploit.
+
+AI:
+- Added Drop Flag/Orb command (accessible through voice menu) to get bot teammates to drop the flag they are carrying.
+- Improved bot handling of navigation failures, don't stay stuck.
+- Bots understand ducking under obstacles with the Darkwalker.
+- Bots understand getting off hoverboard to use a lift.
+- Adjusted bot new enemy acquistion speed.
+- Low skill bots don't slow down if carrying flag.
+- Bots understand how to effectively use Orbs in Warfare much better.
+- Bots use the hoverboard more effectively.
+- Improved bot AI for using Translocator.
+- Improved AI for picking best weapon to use.
+- Improved AI for Leviathan, including aiming with the leviathan, and navigating the Leviathan.
+- Improved AI for using the Hellfire SPMA.
+- Improved Scorpion AI for trying to run over enemy foot soldiers and self destruct into big vehicles. 
+- Improved Manta/Viper AI for trying to run over enemy foot soldiers.
+- Improved stealth vehicle deployment AI.
+- Improved bots yelling "same team" when player is actually trying to hit nearby enemy.
+- Fixed bots not able to get in Darkwalker secondary turret in some cases.
+- Fixed bot AI issues in secondary turrets.
+- Bots go after countdown nodes if core can't be attacked.
+- Fixed bots grabbing orb without getting all the way to orb spawner.
+- Improved AI for bots deciding whether to get out of vehicles and continue on foot.
+- Automatic fix for not letting bots in vehicles try to go into areas that are blocked for vehicles by turnaroundvolumes.
+- Bots are move aggressive about driving vehicles without slowing down too much for slight turns.
+- Bots fully understand kismet disabled nodes.
+- Improved bot AI for fighting enemies in Slow Fields.
+- Improved bot understanding of targeting occluded powernodes.
+
+Demo Recording: 
+- Added support for clientside demo recording. 
+- Demo playback is now delayed until precaching completes.
+- Fixed SPMA camera crash during demo playback.
+- Fixed demo playback log spam.
+- Added DemoFF and DemoSlomo console commands.  Can be bound to a key in UTInput.ini.  
+	DemoFF toggles between 1x, 3.3x, and 10x fast forward.  
+	DemoSlomo takes a float between 0.1 and 10 which adjusts playback speed by that factor.
+
+Networking:
+- Fixed localization of certain networking messages received from different language server.
+- Improved dynamic netspeed system based on player counts.
+- Improved hoverboard smoothness in net games.
+- Friend following now attempts to place friends on the same team.
+- Added team balancing between matches.
+- Fixed reachspecs occasionally keeping level references across seamless travel, causing levels not to be properly unloaded.
+- Increased net priority of movers with viewer based on them.  Reduces mover popping in large playercount games.
+- Networking bandwidth use optimizations.
+- Improved prioritization of actor replication.
+- Improved network pawn position update smoothing using mesh translation.
+- Tweaked finding floors for simulated falling pawns.
+- Yaw and pitch change smoothing for other players on clients.
+- Fixed character mesh not getting onto hoverboard right away in high player count games.
+- Improved turret replication in high player count games.
+- Fixed remaining cases where team color skins weren't being properly set.
+- Fixed clients auto-switching to better weapon when they stop firing.
+- Don't dynamically adjust listen server client netspeed above max client has requested (for modem clients). 
+- Make sure all audio components get cleaned up on seamless travel. 
+- Fixed various exploits. 
+- Try multiple STUN servers if first one fails.  Fixes users incorrectly getting the "Your network configuration may not be compatible..." warning.
+- Fixed spectator choppiness when camera is following a player.
+- No spectating bar when spectating in first person.
+
+Server Administration: 
+- Removed download speed limitations, when hosting LAN servers. 
+- Implemented auto-reconnect code for Gamespy uplink and advertising.  Servers now continuously try to advertise to the master server upon failure.
+- Fixed buggy URL parsing function, which was breaking mutator advertising
+- Added code to recreate serveractors after seamless travel
+- Fixed case insensitivity issue with admin and game passwords
+- Added session banning, with the command: AdminSessionBan
+- Security fixes.
+- Added config variable 'SpawnProtectionTime' to UTGame.ini. 
+- Optimized stats sending bandwidth.
+- Support `n as \n in MOTD.
+
+Engine:
+- Collision Octree optimizations
+- Particle system optimizations
+- Safe handling of inversing nil matrices.  Addresses rare ragdoll physics crashes.
+- Removed unnecessary profile saves, improved saving progress when player expects it.
+- Improved Garbage collection performance.
+- Optimized decals.
+- Warfare Teleporter portal rendering updates are now disabled by default, even for high end systems (for performance reasons).  
+To enable, add the following to your UTGame.ini file
+
+[UTOnslaughtNodeTeleporter]
+bRealtimeCapture=true
+
+- Reduced non-warfare teleporter update range if bRealTimeCapture is false.
+- Added a dialog warning users of nvidia driver version that are known to crash UT3, and to upgrade.
+- Fixed Engine.* localization files being in the wrong location
+
+Game:
+- Option to allow for custom characters to load at all times (no default characters, but may get hitches when new players join). 
+- CTF flag is hidden for player carrying it.
+- Can no longer teleport to node that is under attack.
+- Improved victim death messages (precise cause of death).
+- In game types using weaponlockers, players spawn with weapons from nearest weapon locker.
+- Fixed scoreboard issues during seamless travel.
+- Fixed lifts returning if you jump or get shot while on them.
+- Play taunts on upper body only for moving players.
+- Fixed black boxes on Leviathan shock balls.
+- Fixed lighting on first person spidermine death effect
+- Improved code for leaning players which are going around turns.
+- Reduced foot jittering on stairs.
+- No team change penalty for automatic swaps.
+- Improved lighting for characters.
+- Reduced mesh offsetting on slopes, removing exploit allowing players to hide.
+- Fixed winner pawn rotating after round ends.
+- Fixed sender not hearing autotaunts.
+- Fixed krall missing footstep sound notifies.
+- Fixed bots leaving game affecting TDM team score.
+- Fixed bad low LOD meshes (spiky when feigning or dead).
+- Fixed gamespy rank query results.  Now always properly centers the querying player in the returned list.
+- Added GameInfo.bForceNoSeamlessTravel config var to completely disable seamless travel
+
+Mod support: 
+- UTHUD now responsible for drawing player and vehicle beacons, making it easier to support custom beacons for custom game types.
+- Added support for stretching IK limbs (see SkelControlLimb.uc).
+- Merged PC version script functionality to PS3 to improve mod compatibility for mods on PS3.
+- Added spectator notification hooks to Mutator.uc:
+	- AllowBecomeActivePlayer: Allows mutators to prevent spectators from joining the game
+	- AllowBecomeSpectator: Allows mutators to block players from spectating (not fully implemented).
+	- NotifyBecomeActivePlayer: Notifies mutators when a spectator successfully becomes an active player
+	- NotifyBecomeSpectator: Notifies mutators when a player becomes a spectator (not fully implemented)
+- Added two new functions to Object.uc, 'IsNetScript' which returns true if the current code was remotely executed, and 'GetNetFuncName'
+  which returns the name of the replicated function where script execution began
+- Added a new function flag, 'DemoRecording', which replicates the function into the demo file when recording demos
+  NOTE: Implicitly flags the function as simulated
+- Added the ability for mods to specify custom settings scenes, through new values in UTUIDataProvider_GameModeInfo.uc:
+	- 'ModGameSettingsScene', allows mods to specify a custom settings scene which is accessible through a 'Mod Settings' button
+	  in the Instant Action and Host Game menus
+	- 'ModClientSettingsScene', allows mods to specify a custom settings scene which is accessible through the main menu settings
+  	  page, and the mid game menu settings
+- Added ClearConfig and StaticClearConfig functions to Object.uc
+- Added team change notification hooks to Mutator.uc
+	- AllowChangeTeam: Allows mutators to prevent players from changing team
+	- NotifySetTeam: Notifies mutators when a player successfully changes team
+- Added bCanRagdoll flag to UTPawn for mod authors.
+- Added slight player glow support for darkmatch (maps with DARKMATCH at start of worldinfo name
+- Made UIObject 'ResolveStyles' function accessible to script.
+- Added support for loading a Splash.bmp in a mod directory.
+- Fixed server browser not being able to filter custom gametypes; in the gametype data provider, set 'GameSearchClass' to: UTGameSearchCustom
+- Added code to reinitialize ServerActors after seamless travel
+- Added editable 'MouseBounds' property to UIScene, which allows you to configure mouse boundaries for the current scene
+	- 'MouseBounds.BoundaryObject' is set through the 'Set Mouse Boundary' submenu in the UIEditor context menu
+	- Also added a selection to the UIEditor View menu, 'Mouse Boundaries Outline', for viewing the current mouse boundaries
+	- Mouse boundaries can be changed during runtime using 'UIScene::SetMouseBounds' and 'UIScene::ResetMouseBounds'
+- Now writes mod config files to mod directory, and auto-find config files in moddir\config or moddir.
+- Now autofinds localization files in moddir\localization.
+- Now finds splash image in moddir\splash.
+- Supports compiling script code with -mod
+- Supports publishing with -mod
+- Fixed not being able to publish default (startup) map
+- No longer copies RefShaderCache files when publishing
+- Supports Bink movies in -mod dir (ModDir\Movies)
+- Fixed problem with completely overriding UTCustomChar.ini in the mod config directory
+- Added -solomod option to restrict game looking in non-loaded .ini files for maps/gametypes/etc
+- When using -mod, LocalShaderCache is ignored, instead it uses ModShaderCache*, which can be pre-generated with PrecompileShaders commandlet
+- Fixed bug when cooking for PS3 that manta shots are black
+
+Level specific:
+- Fixed redeemers nopt able to damage power cores in Islander.
+- Don't allow disabling of fog volumes.  Fixes VCTF-Sandstorm exploit. 
+- Fixed collision issues in VCTF-Suspense and Suspense_Necris. 
+- Fixed real-time teleporter portal updates in WAR-Avalanche. 
+
+	
+Maplists 
+- The old maplist system has been replaced with an entirely new one, which is configured through UTMapLists.ini, this allows mods using
+	custom .ini files to have map cycles setup from the ingame menus
+	- To recover the old server maplist settings, you need to open UTGame.ini and go to the [UTGame.UTGame] section, then for each
+		'GameSpecificMapCycles' entry you need to find (or create) an entry in 'GameProfiles' under [UTGame.UTMapListManager]
+		in UTMapLists.ini, which has a 'GameClass' value that matches the 'GameClassName' value in 'GameSpecificMapCycles'.
+
+		Then you need to find the maplist in UTMapLists.ini which is specified by 'MapListName' value in the 'GameProfiles' entry,
+		(e.g: [DMMapList UTMapList]), and then you must manually transfer each map name in 'GameSpecificMapCycles' to the maplist
+		in UTMapLists.ini.
+
+		For example, Maps=("DM-Arsenal","DM-Biohazard") in 'GameSpecificMapCycles' would become:
+		[DMMapList UTMapList]
+		Maps=(Map="DM-Arsenal")
+		Maps=(Map="DM-Biohazard") 
+
+- Configuration options for [UTGame.UTMapListManager]:
+	- GameProfiles: This is a list which is used to define custom game type settings (mainly for game voting), options include:
+		- GameClass: The FULL class name of the gametype, including package name as well as class name (e.g. "UTGame.UTDeathMatch")
+		- GameName: The name that is displayed on the vote menu when selecting a gametype (e.g. "Deathmatch", "Warfare - No Orbs")
+		- MapListName: The name of the maplist that this game profile will use (e.g. "WARMapList")
+		- Options: Additional URL options which are used when switching to this gametype (e.g. "?WarmupTime=60")
+		- Mutators: Mutators to be loaded for this gametype (e.g. "UTGame.UTMutator_LowGrav,UTGame.UTMutator_Instagib")
+		- ExcludedMuts: Mutators which are disallowed for this gametype (e.g. "UTMutator_Instagib,UTMutator_Slomo")
+		- bIsTeamGame: Specifies whether or not the current gametype is a team game (used internally for game voting)
+
+	- MapReplayLimit: The number of matches which must pass before any one map can be played again
+	- ActiveGameProfileName: The 'GameProfiles' entry which is currently active; mainly used by the game during runtime
+	- PlayIndex: A value used for keeping track of when maps were last played, represents the total number of games played
+	- AutoStripOptions: A list of URL options which are automatically removed upon map change (e.g. "LinkSetup")
+	- AutoEmptyOptions: The same as 'AutoStripOptions', except these options are given an empty value on the URL (e.g. "GoalScore,TimeLimit")
+
+- Configuration options for [UTGame.UTMapList]:
+	- Maps: The list of maps used by the maplist, options:
+		- Map: The filename of the map (minus the file extension)
+		- ExtraData: An array of arbitrary data which can be associated with each maplist entry; mainly used by the game at runtime
+	- AutoLoadPrefixes: Maps with the prefixes defined here will be automatically added to the maplist (e.g. AutoLoadPrefixes=CTF,VCTF)
+	- LastActiveMapIndex: The index into the 'Maps' list which was last active; mainly used by the game during runtime
+	
+Voting 
+- Added support for midgame voting for maps, game types, and mutators.
+
+- All vote related variables have been moved to UTVote.ini
+	- To recover the old vote configuration values, you need to open UTGame.ini and go to the [UTGame.UTGame] section, then manually
+		transfer the vote configuration values to the [UTGame.VoteCollector] section in UTVote.ini; the affected values are:
+		'bAllowMapVoting', 'VoteDuration' (now 'MapVoteDuration' and 'GameVoteDuration'), 'bMidGameMapVoting' (now 'bMidGameVoting'),
+		'MapVotePercentage' (now 'MidGameVotePercentage'), 'MinMapVotes' (now 'MinMidGameVotes'), and 'InitialVoteDelay'.
+
+- Added new configuration options 'InitialVoteTransferTime' and 'RushVoteTransferTime'; the first slows down the speed at which vote related
+	data (e.g. maps, game info) is transferred, to spread out bandwidth usage and prevent lag; the second speeds up the remaining
+	transfers, for when the client opens the vote menu
+
+- Added gametype voting, allowing players to vote in a different game type before voting for a map (if map voting is enabled). Gametype
+	configuration is setup in UTMapLists.ini, through 'GameProfiles' under [UTGame.UTMapListManager]; configuration options in UTVote.ini:
+	- bAllowGameVoting: Enable/Disable gametype voting
+
+- Added mutator voting, allowing players to decide which mutators get enabled/disabled in the next match; configuration options:
+	- bAllowMutatorVoting: Enable/Disable mutator voting
+	- VotableMutators: The list used to determine which mutators should be votable, options include:
+		- MutClass: The FULL class name of the mutator, include package name as well as class name (e.g. "UTGame.UTMutator_Slomo")
+		- MutName: The name that is displayed on the vote menu for this mutator (e.g. "Instagib", "Low Gravity")
+			N.B. When left blank, the game will attempt to set this automatically
+	- MutatorVotePercentage: The percentage of votes required to enable or disable a mutator; percentages are only checked at endgame
+
+
+- Added kick voting; configuration options:
+	- bAllowKickVoting: Enable/Disable kick voting
+	- bAnonymousKickVoting: If true, then the voters name is not shown when performing a kick vote (except to admins)
+	- MinKickVotes: The minimum number of votes required in order to kick a player
+	- KickVotePercentage: The percentage of votes required in order to kick a player
+
+=================================================================================================================
+
+Changes from the first 3 patches are also included.  These changes are listed below:
+
+Gameplay:
+
+-          Fixed overlay mesh showing up on hidden sniper rifle when un-zoomed.
+-          UTGame.bNoCustomCharacters is now globalconfig.
+-          Now hear own auto-taunts.
+-          Fix for Liandri bots riding high in vehicles.
+-          Fixed mutators disappearing between matches.
+-          Fixed up PC DLC screenshots and player counts.
+-          Vipers can no longer be driven around underwater if entered while underwater - they pop up out of the water, even if deep in it.
+-          Fixed announcements not playing properly in WAR-MarketDistrict during the campaign.
+-          Fixed manta crouch exploit.
+-          Fixed loaded RL switching away before releasing load on net clients.
+-          Fixed occasionally getting stuck when getting up from ragdoll.
+-          Fixed ending zoom when go into feign death.
+-          Fixed giving proper stats credit for translocator telefrags.
+-          Fixed giving proper suicide stat credit for certain environmental suicides.
+-          Fixed Hoverboard foot placement when watching other client get on.
+-          Improved the turret controls on the rail turret with analog controller.
+-          Fixed friendly fire mutator showing up as option for Duel.
+-          Fixed bug where second enforcer wouldn't show up if picked up while switching to enforcer.
+-          Fixed shock/instagib beams which were grabbed from emitter pool sometimes incorrectly having DPG_Foreground set.
+-          Fixed "missing required file for demo playback" error message.
+-          Fixed redeemer explosion on client when shot down.
+-          Fixed big head mutator head scaling popping out at distance.
+-          End the match right away in duel if a player leaves.
+-          Fixed not getting kismet node destroyed event when node captured by orb.
+-          Fixed effect showing up for disabled weapon lockers.
+-          Don't modify power core damage caused by kismet.
+-          Fixed scavenger legs disappearing in kill volumes.
+-          Deployables can no longer be deployed onto hover/flying vehicles.
+-          Fixed Hoverboard script warnings and possible crash if hoverboard fails to spawn.
+-          Fixed impact hammer impact camera shake for low gore clients.
+ 
+Engine/Rendering:
+-          Added motion blur menu option for PC (defaults to off).
+-          Fixed zero extent collision bug in octree code (finding nodes in Z axis).
+-          LOD Hysteresis / LOD Decision making bug fix.
+-          Fixed default mesh not having proper LOD settings.
+-          Fixed rare darkwalker physics crash.
+ 
+User Interface:
+-          Added player name list to server browser.
+-          Added midgame map voting, with serverside config options in UTGame.ini:
+-          bMidGameMapVoting: Enables/Disables midgame map voting
+-          MapVotePercentage: The percentage of votes required to initiate a map switch, counts down based upon VoteDuration;
+		- NOTE: When VoteDuration=0, votes for a single map must exceed this percentage, but when VoteDuration is not 0, the number of players voting must exceed this percentage
+-          MinMapVotes: The minimum number of players that must vote in order to initiate a map switch.
+-          InitialVoteDelay: Delays the enabling of map voting for this many seconds
+-          Fixed History being saved for servers joined via cmdline and console.
+-          Fixed leading vote count indicator when map voting underway.
+-          Don’t show muted talking player portraits on HUD.
+-          Simple crosshair tweaks.
+-          Added the number of files left to download to the package downloading message.
+-          Fixed Krall portrait.
+-          Fixed clipping vehicle HUD beacon when not visible.
+-          Fixed endgame timer so that it isn't affected by changes in game speed (also fixes vote timer)
+-          Fixed SPMA deploy icon offset.
+
+Networking:
+-          Always sort relevant actors by priority.  Should fix the weird actors/properties never getting replicated issues.
+-          Fixed gibs not showing for clients of listen server if the gibbed player wasn't visible to the server player.
+-          Fixed gibs not showing for clients of low-gore listen server.
+-          New dynamic netspeed adjustment system for listen servers.  Improves network performance for listen servers which typically have limited upstream bandwidth by dividing available bandwidth between clients.  Configurable through new properties in UTGame.ini:
+-                      TotalNetBandwidth=32000 (total upstream bandwidth to be apportioned)
+-                      MaxDynamicBandwidth=7000
+-                      MinDynamicBandwidth=4000
+-          Fixed "you have lost the match" messages to spectators at end of duel match.
+-          Fixed cases where GameSettings cache in the GameInfo wasn't properly getting NULL'd out on DestroyOnlineGame().
+-          HTTP redirect with compression now falls back to the uncompressed case if the compressed file could not be found.
+-          Fixed erroneous "connection failed" error when performing non-seamless travelling.
+-          Fixed hoverboard link failure sound playing in the world and being replicated.
+-          Fixed low gore clients seeing gibbed players as headless if playing on full gore server.
+-          Increased tracked turret net priority.
+-          Fixed Hoverboard networking replication issues (hoverboard now smoother in net games).
+-          Fixed network vulnerability. 
+
+Server administration:
+-          UWeb fixes for WebAdmin.
+-          Fixed downloaded cooked maps not being loaded correctly in some cases when requested by the server at initial connect time.
+-          Fixed net object count problem when using the conformed/cooked audio packages in PS3ModTools.  Fixes some networking issues for custom maps.
+-          Final fix for packagemap problem with going from DLC -> RTM maps.
+-          Fixed properly showing number of players needed for match to start when minplayers is set and bots are enabled on the server.
+-          Fixed bug with PlayerID being reused for bots after a seamless travel.
+
+Mod support:
+-          Added support for Interactions to have a PostRender call (to render to canvas).
+-          Added support for Interactions to have exec functions be called on them.
+-          Added cut/copy/paste support to the console.
+-          Added Deproject() to canvas.
+-          Fixed base InventoryManager implementation of GetWeaponRatingFor().
+-          Fixed crash when placing a new UINumericEditBox in UI editor.
+-          Fix for custom factions in the UI.
+-          Added optional flag for ScriptedTextures to skip next clear so that a ScriptedTexture client doesn't need to draw every texel of the ST every update.
+-          Added support for -mod commandline option so that a TC mod can have a .ini file "sandbox" - where they can have new content paths, new startup maps, etc..
+-          Improved system for getting camera death effect.
+-          Implemented fix from Aegia for an NxFluid crash.
+-          Fixed beams not rendering in Cascade.
+-          Fixed crash when updating a UIPrefab.
+
+Map specific:
+-          Fixed CTF-Searchlight black boxes before match starts.
+-          Fixed CTF-Searchlight search lights.
+-          Fixed CTF-Hydrosis collision issues.
+-          Fixed DM-Morbias collision issues.
+-          Fixed collision issue in DM-Deck.
+
+AI improvements:
+-          Fixed bots not using link gun beam on enemies.
+-          Better bot celebration management.
+-          Fixed bots doing multiple end of match celebration taunts.
+-          Improved impact hammer AI.
+-          Improved darkwalker AI support for crouching under obstacles.
+-          Improved bot hoverboard AI.
+-          Fixed bots sometimes not picking up flags/orbs they dropped.
+-          Fixed bots never spawning in if initially not enough playerstarts.
+ 
+
+--------------------------------------------------------------------------------------------------
+Changes from the first and second patches are also included.  These changes are listed below:
+
+
+Gameplay:
+-          Increased UTGame MaxPlayersAllowed to 64.
+-          Fixed leviathan turret instant refire exploit.
+-          Fixed errant lock on warnings when no longer in vehicle.
+-          Fixed first person weapons in demo playback.
+-          Fixed translocator telefrag victim message.
+-          Fixed encouragement sounds not being randomly picked by bots.
+-          Implemented viewobjective spectating system for Warfare.
+-          Fixed berserk held by driver applying to all vehicle turrets.
+-          Only force low gore on German versions that were low gore only before being patched.
+-          Fix for unnecessary content staying in memory on seamless travel.
+-          Fixed shaped charge node exploit.
+-          Fixed Scavenger exploit. 
+
+User Interface:
+-          Clicking on the settings tab goes to directly to the full settings menu.
+-          Added VOIP speaker portraits to HUD.
+-          Fixed character portraits sometimes not showing up on HUD or not staying up long enough.
+-          The Host server menus will no longer disable internet options if CheckNatTypeDisplayError returns true.  It's just a warning now.
+-          Fixed the CD key always prompting when the user has no network card
+-          Added support for commandline log in -login=xxx -password=xxx.  This also allows Gamespy comrade and other external applications to be used to launch network clients.
+-          Added UI option to hide objective paths (the white arrows).
+-          Added UI option to enable joystick support.
+-          Added JOIN to midgame menu when spectating.
+-          Added cancel button to "logging in" message box.
+-          Added support for auto-updating UI with new options.
+-          Improved language support for French, Spanish, Italian, and German.
+-          Joystick key bindings in UI display properly.
+-          Added game and UI support for customizing crosshair scaling.
+-          Added "Add Favorite" button to Server Browser server list tab.
+-          Fixed favorites Tab Page server details not updating.
+-          Improvements to voice menu.  Added "status" section.
+-          Leave "Disconnect" and "Exit Game" on the mid game menu when seamlessly travelling so that players have a way to abort lengthy downloads
+-          Show "Change Team" button before the match has started.
+-          Added support for localized "single score needed" string.
+-          Tweaked some HUD message font sizes.
+-          Favorites/History lists list servers that are currently offline.
+-          Favorites/History lists don't stop working as the number of servers in them crosses max threshold for GS query.
+-          Fix for end of round scoreboard displaying extra "Player" bots.
+-          Fixed leviathan deploy icon positioning.
+
+Networking:
+-          Added support for autodownloading packages while in gameplay or while travelling.
+-          Auto team re-balancing before map transition if bPlayersBalanceTeams is set.
+-          Fixed dedicated server memory leaks.
+-          Force client state synchronization when in spectating state.  Fixes sporadic issues with players not being able to join games.
+-          Fixed sounds not being heard correctly by clients if the sound location is the Actor's location and the Actor is not relevant to that client.
+-          Fixed spectators being unable to move after a level transition.
+-          Fixed track turrets being in the wrong position on clients in some cases after being destroyed.
+-          ConnectionTimeout and InitialConnectTimeOut now both 60.0.  Addresses both clients failing connection because they take too long to load a level, and initial connections staying open too long.
+-          Fixed HTTP download compression.
+-          Fixed a bug where download during seamless travel would break because the downloader was keeping a pointer into the package map's list, which is unsafe while the game is in progress because that list could have more items added to it (and thus the memory rearranged) at any time
+-          Fixed a bug where in rare cases packages would get downloaded twice.
+-          Fixed spectators able to enter as extra players in Duel.
+-          Fixed issue where CTF, vCTF, and WAR maps are listed in the server browers when searching for a DM game when server changed gametypes.
+-          Fixed bots not replicating their view pitch, so their animation looks better in net games.
+-          Strip OwningPlayerName= from the URL, as this is determined elsewhere and was breaking dedicated internet servers launched from the UI.
+-          Fixed package downloading not moving on to the next download method if it successfully downloads the file, but that file is not the version that the server is requesting.
+-          Fixed client crash if the user disconnects while downloading a file during a seamless travel.
+
+Server administration:
+-          TCPLink and Webadmin functionality implemented.
+-          Banning is now based on CD key hash, so players can’t circumvent bans by creating a new profile.
+-          Fixed being unable to kickban players with | in their names.
+-          Added versioning information to the game settings
+-          Dedicated servers don't require DirectX shader model 2.0
+-          Fixed AdminForceTextMute and AdminForceTextUnmute.
+-          Restored the compress and decompress commandlets.
+-          Fixed AdminCmdOk() function not working properly if you were the listen server.
+-          Banned IDs readability improved.
+-          Added MaxClientTravelTime config option to GameInfo. If set, clients are kicked if they take longer than this many seconds to travel between maps.
+
+Mod support:
+-          Added ScriptedTexture, a type of render to texture that gives Canvas access to script/C++ for rendering custom overlays.
+-          Added a version of DrawTile() to Canvas that takes a Texture instead of Texture2D so render to texture stuff like ScriptedTextures can more easily be used.
+-          Added Timestamp function to UObject, returns a string in the format YYYY/MM/DD - HH:MM:SS
+-          Weapons now take roll from player viewrotation.
+-          Fixed custom character DLC not applying until the next time the game is run because the default object was not updated after combining the .ini files.
+-          Added a ModFamilies array to UTCustomChar_Data to allow mod authors to add families to the list.
+-          Fixed Change Node Status Kismet action not working on fully constructed powernodes.
+-          Merged ageia particle fixes.
+
+Map specific:
+-          Fixed DM-Deck get out of world exploit
+-          Fixed DM-Gateway portals sometimes sending you back to your starting point.
+-          Fixed CTF-Coret collision exploit.
+-          Fixed kismet spawned key vehicles not showing on host minimap.  Fixes tank showing on host minimap in VCTF-Kargo.
+
+AI improvements:
+-          New orb carrier strategy AI.
+-          Improved bot hoverboard use.
+-          Reduced bot orb spawner camping.
+-          Fixed bots stuck on orb spawner unable to grab flag.
+-          Low skill bots use artillery properly.
+-          Tweaked shooting at nodes vs shooting at enemies.
+-          No human bonus to threat value.
+-          Improved threat picking AI, taking into account effectiveness of bot's weapon.
+-          Tweaked bot AI for link gun, flak cannon, redeemer, and AVRiL.
+-          Bots tend to stay on same enemy more, and focus on key vehicles more.
+-          Tweaked campaign auto skill adjust.
+-          Possible safe fix for bot navigation issues with staticmeshcollections on console. Also a performance improvement on PC and console.
+-          Tweaked rules for whether to attack node or enemy first.
+-          Improved bot AI for defending nodes with an orb.
+-          Fixed pathing issues that were causing bots to get stuck in some places.  When a move fails, force a route refresh.  Add cost to reachspecs when bot fails repeatedly.
+-          Improved AI code for adjusting around obstacles.  If adjust left and right fail, try moving to center of reachspec.
+-          If previous move failed, don't allow "advanced tactics" (serpentine, etc.) for next move.
+-          Added FailedMoveTarget and MoveFailureCount to controller to track movement failures.
+-          Added bForceNoDetours to UTBot.  Don't allow detours when bot is approaching a neutral node (more important to touch node first).
+-          Fixed bots thinking they've reach the orb spawner without quite getting there and touching the orb.
+-          Fixed cases where bots could get stuck failing to translocate over and over - bots know to give up now.
+-          Adjusted bot reaction time to seeing new enemies.
+-          Improved bot AI for dealing with lifts and hoverboards.
+-          Bots taunt after winning a match.
+-          Bots now can be fooled by feign death.
+-          Sandstorm has more impact on bots being able to acquire/aim at enemies.
+
+--------------------------------------------------------------------------------------------------
+
+Gameplay:
+-          Fixed scaling of certain player meshes (increased in size some human and robot meshes).  Addresses meshes being smaller than collision box, as well as eyeheight issues.
+-          Fixed feigning death into/through ForcedDirVolumes.
+-          Fixed grenade effects in water.
+-          Increased hellbender rear turret damage.
+-          Reduced Goliath machine gun spread, plus slight damage increase.
+-          Fixed warfare scoring for locking down a prime node not called "prime node".
+-          Slightly increased momentum taken from damage by mantas and vipers.
+-          Flak, Rocket, and Shock do slightly more damage to manta and viper.
+-          Made sure Hellfire SPMA cannon can't fire through walls.
+-          Increased incoming SPMA fire sound radius.
+-          Fixed impact jumping with hoverboard.
+-          Fixed bot Pawns losing their PRI at the end of the match, causing them to, among other things, be invisible
+-          Fixed being able to switch away from the rocket launcher in the delay between the third rocket being loaded and the weapon autofiring.
+-          Players now stop moving when they fire the Redeemer guided warhead
+-          Fixed weapon crosshair incorrectly turning red when hit enemy on the client, but not on the server.
+-          Disabled attenuation/spatialization on mission briefing sounds.
+-          Fixed stats being recorded for spectators
+
+AI:
+-          Improved bot AI with darkwalker.
+-          Tweaked bot voice message frequencies.
+-          Bot aiming tweaks.
+-          Fixed bots attacking friendly player in rare cases when that player recently stole an enemy vehicle.
+-          Fixed bots not handling the "Hold This Position" order correctly when the player giving the order is in a multi-person vehicle.
+
+Demo playback:
+-          Fixed demo playback not ending/looping correctly when the demo ends due to the DemoRecSpectator being destroyed before the end of the file is reached.
+-          Demos can now be paused.
+-          By default, demo playback now runs at full speed and interpolates in between demo frames using the normal client simulation code. The old frame-locked method is still available by passing ?disallowinterp. Timedemos are unaffected by this change.
+-          Fixed demoplay URL parsing counting the options as part of the filename unless an extension was specified in the demo name
+-          Added a "Delete Demo" button to the demo playback menu.
+-          Demo playback now properly handles rotation when viewing a Pawn in first person.
+-          Fixed looking around while spectating a vehicle.
+
+Server Browser:
+-          Implemented "Server History" tab page in server browser, with ability to "lock" favorites on that page.
+-          Added 'Join as spectator' feature.
+-          Server browser uses smaller font to display more servers.
+-          Fixed custom mutators not appearing in server browser.
+-          Fixed custom gametypes not displayed in server browser's window.
+-          Fixed server browser's listed MaxPlayers being incorrect.
+-          Added filter option for dedicated servers.
+-          Fixed server browser showing an incorrect goal score and time limit when the .ini values were used.
+-          Fixed incorrect mutators appearing in server browser details if client & server are not using the same language
+
+User Interface:
+-          Can now save settings/progress even if have never created a profile.
+-          Added ping and connect time to scoreboard.
+-          Removed annoying confirmation menu when starting a game.
+-          Removed unnecessary top settings page (can use tabs at the top of the settings to navigate).
+-          Added a Messages tab to the mid game menu.
+-          Friends messages now saved until explicitly deleted.
+-          Finer control over mouse sensitivity, using an edit box instead of a slider.
+-          Added framerate smoothing and FOV options to the advanced video menu.
+-          Increased max players/bots in menus to 32.
+-          Fixed auto switching to vote menu at end of match.
+-          Improved mid game menu performance (don't render world behind it).
+-          Added version number to main menu.
+-          Fixed binding gamepad/joystick keys (you must set AllowJoystickInput=1 in the [WinDrv.WindowsClient] of your UTEngine.ini to enable gamepads/joysticks).
+-          Filter settings are now saved to the .ini file
+-          Pure and Locked filter options now default to "Any"
+-          Fixed flickering when downloading files
+-          Fixed up the GDF project for Vista
+
+HUD:
+-          Added the killer weapon to victim messages.
+-          Fixed flag and orb scaling in minimap at high resolutions.
+-          Fixed node teleporter not showing "You can't teleport with orb" message on clients.
+-          Fixed situations where "get in vehicle" pictograph wouldn't work correctly.
+-          Still draw the clock on the scoreboard after the game is over.
+-          Fixed Duel HUD issues.
+-          Added the ability to specify custom simple crosshair coordinates for weapons, with new config properties bUseCustomCoordinates and CustomCrosshairCoordinates.
+     To change the crosshair used for all weapons, add the following lines to the [utweapon] section of the UTWeapon.ini file:
+
+     bUseCustomCoordinates=true
+     CustomCrosshairCoordinates=(U=276,V=84,UL=22,VL=25)
+
+     where the CustomCrosshairCoordinates have U and V as the offsets into the crosshair texture (UI_HUD.HUD.UTCrosshairs), and UL and VL specify the size of the texture area to use.
+     To use a different crosshair for a specific weapon, simply add those two lines to the appropriate weapon specific section in UTWeapon.ini.
+
+Networking:
+-          Implemented STUN support (Simple Traversal of UDP Through Network Address Translators) to enable clients and servers to connect from behind a NAT. 
+-          Fixed team scores very rarely not updating for a client.
+-          Fixed bot faction option when running a listen server.
+-          Fixed link setup not reset correctly when going from a map with a custom link setup to one using the default.
+-          Fixed a case where Duel would place an incoming player on the wrong team when some players were still travelling.
+-          Bullseye stats are now properly recorded.
+-          Fixed clients not travelling to downloaded maps correctly.
+-          Fixed the client and server getting into a loop sending each other close messages in some situations.
+-          Quick match incorporates player rating into search decision.
+-          Fixed issue where Vista clients would not receive all servers from a server browser search.
+-          Applied proper fix to suppressing voice on dedicated servers.
+-          Fixed issues with players not getting on right team in Duel and Duel+Survival if a player leaves in certain timing windows during map transitions.
+-          Fixed previous level PRIs showing up on the scoreboard/leaderboard after the client travels (making it look like players have already scored lots of points when those clients are in fact still loading)
+-          Fixed losing your custom character mesh after changing teams during a match.
+-          Fixed HTTP redirection for mod autodownloading
+-          Fixed autodownloaded mods not being loaded correctly in some cases
+-          Fixed orb rebuilding not being played correctly on clients if the orb was destroyed by an enemy player 
+-          Implemented DUEL match stat reporting for gamespy ladder
+-          Fixed "open" console command not working when an Internet server address is specified
+-          Added "BecomeActive" exec to switch from spectator to player
+
+Server Administration:
+-          Reduced tick rate for dedicated servers with no clients (saves CPU on idle servers).
+-          Dedicated servers do not require CD keys.
+-          Added -configsubdir= command line option to cause .ini files to be loaded/saved from the specified subdirectory of Game\Config\
+-          Added QueryPort configuration and command line option.
+-          Added an "AdminChangeOption [option] [value]" console command for server admins. This allows changing most simple .ini values (e.g. GoalScore) from the client. This command will not override URL options. The change will take effect after the next map change.
+-          Added an "AdminPublishMapList" console command for server admins. This overrides the server's map list for the current game type with the one on the client that used the command.
+-          Uses GameReplicationInfo.ServerName if set for the name of the server on the server browser.
+-          Added "AdminForceVoiceMute" and "AdminForceVoiceUnMute": Stops/Starts a player from sending voip to others 
+-          Added "AdminForceTextMut" and "AdminForceTextUnMute": Stops/Starts a player from send text messages to others
+-          Updated AdminPlayerList to show the PlayerID of the players on the server.
+-          Updated Kick/Ban to allow for using either the player name or the id
+-          Fixed servers advertising as the wrong gametype if the gametype is changed without restarting the server
+-          Added new IdleServerTickRate property to IpDrv.TcpNetDriver. If not set, IdleServerTickRate defaults to MaxTickRate. Can be set to lower values to reduce server CPU utilization when 0 players. Reported ping will increase if set lower.
+
+Map Specific
+-          Fixed WAR-Avalanche terrain LOD popping issue on high end PCs.
+-          Fixed bots rarely getting stuck in mid air in DM-Gateway in the city section.
+-          Fixed some VCTF-Suspense pathing issues.
+-          Fixed issues with circular lift on DM-Deimos.
+-          Fixed translucent mesh sorting issues in DM-Gateway.
+-          Fixed various map collision bugs
+-          Improved bot AI with Leviathan in Torlan
+
+Campaign/Co-op:
+-          Fixed a bug that could cause too many bots to be added to co-op matches in some cases.
+-          Added support for seamless travel interrupting a travel to start another travel. This fixes single player breaking if the host selects the next mission before the clients have finished travelling to the mission selection level
+-          Fixed extra copy of a character when a human player leaves a co-op game at the right time.
+-          Changed network loss during single player to result in player signed in locally.
+
+Modding:
+-          Added a SupportedGameTypes field to UTUIDataProvider_Mutator. If some entries are in this array, the mutator will only be visible in the menus if the selected gametype is found in the array.
+-          Fixed custom gametype midgame menus not being used correctly.
+-          Shipping script compiler now allows localized/config defaultproperties because otherwise autodownloaded mods have no way for their localized/config variables to work.
+-          Added Get/SetSpecialValue() stubs to Object to allow mods to expose values that can be modified without creating a dependancy.
+-          Added support for custom gametypes showing up on their own in the server browser. The game class needs to implement UpdateGameSettings() and call GameSettings.SetStringSettingValue() to set CONTEXT_GAME_MODE to CONTEXT_GAME_MODE_CUSTOM. Then, in the gametype's menu .ini data, set GameSearchClass to "UTGameSearchCustom".
+-          Fixed cooking a map sometimes deleting all other mod files in the Published directory
+-          Fixed bPostRenderIfNotVisible flag

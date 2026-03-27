@@ -1,0 +1,31 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentacle Retracted"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentacle Deployed"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="West"
+AttackAnnouncement.AnnouncementText="Attack the West Node!"
+DefendAnnouncement.AnnouncementText="Defend the West Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="East"
+AttackAnnouncement.AnnouncementText="Attack the East Node!"
+DefendAnnouncement.AnnouncementText="Defend the East Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Center"
+AttackAnnouncement.AnnouncementText="Attack the Center Node!"
+DefendAnnouncement.AnnouncementText="Defend the Center Node!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

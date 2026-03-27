@@ -1,0 +1,24 @@
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+HalfTimeAnnouncements[0]=(AnnouncementText="Missile Strike Inbound.")
+TenSecondsLeftAnnouncements[0]=(AnnouncementText="Missile Strike Imminent.")
+SuccessAnnouncements[0]=(AnnouncementText="Missiles Striking Blue Core.")
+SuccessAnnouncements[1]=(AnnouncementText="Missiles Striking Red Core.")
+ObjectiveName="Hilltop"
+AttackAnnouncement.AnnouncementText="Attack the Hilltop Node!"
+DefendAnnouncement.AnnouncementText="Defend the Hilltop Node!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="East Air"
+AttackAnnouncement.AnnouncementText="Attack the East Air Node!"
+DefendAnnouncement.AnnouncementText="Defend the East Air Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="West Air"
+AttackAnnouncement.AnnouncementText="Attack the West Air Node!"
+DefendAnnouncement.AnnouncementText="Defend the West Air Node!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Hillside"
+AttackAnnouncement.AnnouncementText="Attack the Hillside Node!"
+DefendAnnouncement.AnnouncementText="Defend the Hillside Node!"
+

@@ -1,0 +1,25 @@
+/*=============================================================================
+	FogVolumeApplyVertexShader.usf
+	Copyright 1998-2007 Epic Games, Inc. All Rights Reserved.
+=============================================================================*/
+
+#include "Common.usf"
+#include "HeightFogCommon.usf"
+#include "Material.usf"
+#include "VertexFactory.usf"
+
+void Main(
+	FVertexFactoryInput Input,
+	out FVertexFactoryInterpolants FactoryInterpolants,
+	out float4	ScreenPosition	: TEXCOORD5,
+	out float3	CameraVector	: TEXCOORD6,
+	out half4	HeightFog		: TEXCOORD7,
+	out float4	Position		: POSITION
+	)
+{
+	float4	WorldPosition = VertexFactoryGetWorldPosition(Input,FactoryInterpolants);
+	HeightFog = CalculateVertexHeightFog(WorldPosition.xyz, CameraPosition);
+	ScreenPosition = Position = MulMatrix(ViewProjectionMatrix,WorldPosition);
+	float3x3 TangentBasis = VertexFactoryGetTangentBasis(Input);
+	CameraVector = VertexFactoryWorldToTangentSpace(Input,TangentBasis,CameraPosition.xyz - WorldPosition.xyz * CameraPosition.w);
+}

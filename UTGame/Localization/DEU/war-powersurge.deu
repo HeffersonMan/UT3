@@ -1,0 +1,25 @@
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Bergwerksknoten"
+AttackAnnouncement.AnnouncementText="Greife den Bergwerksknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Bergwerksknoten!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlichen Panzerknoten."
+AttackAnnouncement.AnnouncementText="Greife den westlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Panzerknoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="östlichen Panzerknoten"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Panzerknoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

@@ -1,0 +1,31 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentakel abgebaut"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentakel aufgebaut"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlichen"
+AttackAnnouncement.AnnouncementText="Greife den westlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Knoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="östlichen"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Knoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Zentralknoten"
+AttackAnnouncement.AnnouncementText="Greife den Zentralknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Zentralknoten!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Primärknoten"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primärknoten"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

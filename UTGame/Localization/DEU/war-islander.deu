@@ -1,0 +1,10 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Luft"
+AttackAnnouncement.AnnouncementText="Greife den Luftknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Luftknoten.!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Primärknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige deinen Primärknoten!"
+

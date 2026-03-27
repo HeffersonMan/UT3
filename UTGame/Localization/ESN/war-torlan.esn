@@ -1,0 +1,35 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Tanque del Sur"
+AttackAnnouncement.AnnouncementText="Ataca el nodo del tanque del sur"
+DefendAnnouncement.AnnouncementText="Defiende el nodo del tanque del sur"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo principal"
+DefendAnnouncement.AnnouncementText="Defiende tu nodo principal"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Carretera Central"
+AttackAnnouncement.AnnouncementText="Ataca el nodo en la carretera central"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la carretera central"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Tanque del Norte"
+AttackAnnouncement.AnnouncementText="Ataca el nodo del tanque del norte"
+DefendAnnouncement.AnnouncementText="Defiende el nodo del tanque del norte"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo principal"
+DefendAnnouncement.AnnouncementText="Defiende tu nodo principal"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Carretera oeste"
+AttackAnnouncement.AnnouncementText="Ataca el nodo en la carretera oeste"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la carretera oeste"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Carretera Este"
+AttackAnnouncement.AnnouncementText="Ataca el nodo de la carretera este"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la carretera este"
+

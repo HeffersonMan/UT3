@@ -1,0 +1,21 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Ponte disattivato"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Ponte attivato"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Controllo del Ponte"
+AttackAnnouncement.AnnouncementText="Attack Bridge Control Node!"
+DefendAnnouncement.AnnouncementText="Defend Bridge Control Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario Nord"
+AttackAnnouncement.AnnouncementText="Attacca il nodo"
+DefendAnnouncement.AnnouncementText="Difendi il nodo"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario Sud"
+AttackAnnouncement.AnnouncementText="Attacca il nodo"
+DefendAnnouncement.AnnouncementText="Difendi il nodo"
+

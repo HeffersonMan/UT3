@@ -1,0 +1,37 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviatán enemigo"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="En la base roja"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Leviatán enemigo"
+
+[UTSeqAct_PlayAnnouncement_3 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="En la base azul"
+
+[UTSeqAct_PlayAnnouncement_4 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="¡Leviatán azul bajo construcción!"
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+ObjectiveName="Nodo de cuenta atrás"
+AttackAnnouncement.AnnouncementText="¡Ataca el Nodo Recuento!"
+DefendAnnouncement.AnnouncementText="¡Defiende el Nodo Recuento!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+AttackAnnouncement.AnnouncementText="Ataca el nodo del norte!"
+DefendAnnouncement.AnnouncementText="Defiende el nodo del norte!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="¡Ataca el nodo principal!"
+DefendAnnouncement.AnnouncementText="¡Defiende tu nodo principal!"
+
+[UTOnslaughtSpecialObjective_0 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="¡El enemigo Leviatán ha penetrado tu base!"
+ObjectiveName="Se cruzó el Leviatán azul"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="¡El enemigo Leviatán ha penetrado tu base!"
+ObjectiveName="Se cruzó el Leviatán rojo"
+

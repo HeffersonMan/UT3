@@ -1,0 +1,26 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Inondation du Core Bleu"
+
+[UTSeqAct_PlayAnnouncement_10 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Inondation du Core Rouge"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="La Vanne"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de la Vanne!"
+DefendAnnouncement.AnnouncementText="Défendez le Node de la Vanne!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node!"
+DefendAnnouncement.AnnouncementText="Défendez le Node!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Central"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Central"
+DefendAnnouncement.AnnouncementText="Défendez le Node Central"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node"
+DefendAnnouncement.AnnouncementText="Défendez le Node"
+

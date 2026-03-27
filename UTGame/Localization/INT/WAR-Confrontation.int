@@ -1,0 +1,37 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Enemy Leviathan"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="In The Red Base"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Enemy Leviathan"
+
+[UTSeqAct_PlayAnnouncement_3 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="In The Blue Base"
+
+[UTSeqAct_PlayAnnouncement_4 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Blue Leviathan Under Construction!"
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+ObjectiveName="Air Node"
+AttackAnnouncement.AnnouncementText="Attack the Air Node!"
+DefendAnnouncement.AnnouncementText="Defend the Air Node!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+AttackAnnouncement.AnnouncementText="Attack the North Node!"
+DefendAnnouncement.AnnouncementText="Defend the North Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Bridge Node"
+AttackAnnouncement.AnnouncementText="Attack the Bridge Node!"
+DefendAnnouncement.AnnouncementText="Defend the Bridge Node!"
+
+[UTOnslaughtSpecialObjective_0 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="The enemy Leviathan has entered your base!"
+ObjectiveName="Blue Leviathan Crossed"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="The enemy Leviathan has entered your base!"
+ObjectiveName="Red Leviathan Crossed"
+

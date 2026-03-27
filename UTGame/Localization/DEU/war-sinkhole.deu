@@ -1,0 +1,5 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

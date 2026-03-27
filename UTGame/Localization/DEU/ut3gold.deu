@@ -1,0 +1,27 @@
+;///////////////
+; UT3 Deployables
+;///////////////
+[UTDeployableXRayVolume]
+ItemName="Röntgenfeld-Generator"
+PickupMessage="Röntgenfeld-Generator"
+NeedToPickupAnnouncement.AnnouncementText="Schnappen Sie sich den Röntgenfeld-Generator!"
+
+[UTDeployableLinkGenerator]
+ItemName="Link-Generator"
+PickupMessage="Link-Generator"
+NeedToPickupAnnouncement.AnnouncementText="Schnappen Sie sich den Link-Generator!"
+
+;///////////////
+; UT3 Pickups
+;///////////////
+[UTSlowField_Content]
+PickupMessage="LANGSAMFELD!"
+
+;///////////////
+; UT3 Weapons
+;///////////////
+[UTVWeap_EradicatorCannon_Content]
+ItemName="Ausrotter"
+
+[UTVWeap_StealthBenderGold_Content]
+ItemName="StealthBender"

@@ -1,0 +1,37 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Léviathan ennemi"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Dans la base rouge"
+
+[UTSeqAct_PlayAnnouncement_2 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Léviathan ennemi"
+
+[UTSeqAct_PlayAnnouncement_3 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Dans la base bleue"
+
+[UTSeqAct_PlayAnnouncement_4 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Léviathan bleu sous construction !"
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+ObjectiveName="Node de compte à rebours"
+AttackAnnouncement.AnnouncementText="Attaque le Nœud Vérification !"
+DefendAnnouncement.AnnouncementText="Défend le Nœud Vérification !"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+AttackAnnouncement.AnnouncementText="Attaquez le node nord!"
+DefendAnnouncement.AnnouncementText="Défendez le node Nord!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le Node principal!"
+
+[UTOnslaughtSpecialObjective_0 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="Le Léviathan ennemi s'est introduit dans ta base!"
+ObjectiveName="Le Léviathan bleu a été traversé"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+DisabledAnnouncement.AnnouncementText="Le Léviathan ennemi s'est introduit dans ta base!"
+ObjectiveName="Le Léviathan rouge a été traversé"
+

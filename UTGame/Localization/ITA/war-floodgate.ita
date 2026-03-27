@@ -1,0 +1,26 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Inondazione del nucleo Blu"
+
+[UTSeqAct_PlayAnnouncement_10 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Inondazione del nucleo Rosso"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Diga"
+AttackAnnouncement.AnnouncementText="Attacca il nodo della diga!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo della diga"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo"
+DefendAnnouncement.AnnouncementText="Difendi il nodo"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Nodo Centrale"
+AttackAnnouncement.AnnouncementText="Attacca il nodo centrale"
+DefendAnnouncement.AnnouncementText="Difendi il nodo centrale"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo"
+DefendAnnouncement.AnnouncementText="Difendi il nodo"
+

@@ -1,0 +1,21 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Bridge Deactivated"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Bridge Activated"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Bridge Control"
+AttackAnnouncement.AnnouncementText="Attack Bridge Control Node!"
+DefendAnnouncement.AnnouncementText="Defend Bridge Control Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="North Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="South Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

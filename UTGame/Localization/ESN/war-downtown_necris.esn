@@ -1,0 +1,20 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Nightshade"
+AttackAnnouncement.AnnouncementText="¡Ataca el nodo del Nightshade!"
+DefendAnnouncement.AnnouncementText="¡Defiende el nodo del Nightshade!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Centro"
+AttackAnnouncement.AnnouncementText="¡Ataca el nodo central!"
+DefendAnnouncement.AnnouncementText="¡Defiende el nodo central!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="¡Ataca el nodo principal!"
+DefendAnnouncement.AnnouncementText="¡Defiende tu nodo principal!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="¡Ataca el nodo principal!"
+DefendAnnouncement.AnnouncementText="¡Defiende tu nodo principal!"
+

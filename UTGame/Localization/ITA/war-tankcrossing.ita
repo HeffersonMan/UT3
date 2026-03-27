@@ -1,0 +1,31 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Controllo del Ponte"
+AttackAnnouncement.AnnouncementText="Attacca il nodo di controllo del ponte!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo di controllo del ponte!"
+
+[UTOnslaughtSpecialObjective_1 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Goliath nemico vicino al tuo nucleo!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Guida il Goliath verso la piattaforma"
+DefendAnnouncement.AnnouncementText="Il Goliath nemico ha attraversato il ponte!"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Goliath nemico vicino al tuo nucleo!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Guida il Goliath verso la piattaforma"
+DefendAnnouncement.AnnouncementText="Il Goliath nemico ha attraversato il ponte!"
+
+[UTOnslaughtSpecialObjective_4 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Il Goliath nemico ha attraversato il ponte!"
+ObjectiveName="RedTankCross"
+AttackAnnouncement.AnnouncementText="Guida il Goliath oltre il ponte"
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtSpecialObjective_7 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Il Goliath nemico ha attraversato il ponte!"
+ObjectiveName="BlueTankCross"
+AttackAnnouncement.AnnouncementText="Guida il Goliath oltre il ponte"
+DefendAnnouncement.AnnouncementText=""
+

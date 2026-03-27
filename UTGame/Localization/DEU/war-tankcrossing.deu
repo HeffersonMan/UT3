@@ -1,0 +1,31 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Brückenkontroll"
+AttackAnnouncement.AnnouncementText="Greife den Brückenkontrollknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Brückenkontrollknoten!"
+
+[UTOnslaughtSpecialObjective_1 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Feindlicher Goliath bei deinem Kern!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Fahre den Goliath zu dem Druckfeld"
+DefendAnnouncement.AnnouncementText="Feindlicher Goliath hat die Brücke überquert!"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="Feindlicher Goliath bei deinem Kern!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Fahre den Goliath zu dem Druckfeld"
+DefendAnnouncement.AnnouncementText="Feindlicher Goliath hat die Brücke überquert!"
+
+[UTOnslaughtSpecialObjective_4 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Feindlicher Goliath hat die Brücke überquert!"
+ObjectiveName="RoterPanzerKreuz"
+AttackAnnouncement.AnnouncementText="Fahre den Goliath über die Brücke"
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtSpecialObjective_7 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="Feindlicher Goliath hat die Brücke überquert!"
+ObjectiveName="BlauerPanzerKreuz"
+AttackAnnouncement.AnnouncementText="Fahre den Goliath über die Brücke"
+DefendAnnouncement.AnnouncementText=""
+

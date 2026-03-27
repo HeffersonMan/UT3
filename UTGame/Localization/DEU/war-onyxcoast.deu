@@ -1,0 +1,21 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Brücke deaktiviert"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Brücke aktiviert"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Brückenkontroll"
+AttackAnnouncement.AnnouncementText="Greife den Brückenkontrollknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Brückenkontrollknoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Nördlichen Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Südlichen Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

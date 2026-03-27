@@ -1,0 +1,30 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Mine Nord"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de la Mine Nord!"
+DefendAnnouncement.AnnouncementText="Défendez le Node de la Mine Nord!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Mine Sud"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de la Mine Sud!"
+DefendAnnouncement.AnnouncementText="Défendez le node de la mine sud!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Manta Ouest"
+AttackAnnouncement.AnnouncementText=""
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Est"
+AttackAnnouncement.AnnouncementText="Attaquez le Node du Réservoir Est!"
+DefendAnnouncement.AnnouncementText="Défendez le Node du Réservoir Est!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Ouest"
+AttackAnnouncement.AnnouncementText="Attaquez le node du réservoir Ouest!"
+DefendAnnouncement.AnnouncementText="Défendez le node du réservoir Ouest!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Manta Est"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Est!"
+DefendAnnouncement.AnnouncementText="Défendez le Node Est!"
+

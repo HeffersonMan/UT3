@@ -1,0 +1,26 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Blue Core Flooding"
+
+[UTSeqAct_PlayAnnouncement_10 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Red Core Flooding"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Floodgate"
+AttackAnnouncement.AnnouncementText="Attack the Floodgate Node!"
+DefendAnnouncement.AnnouncementText="Defend the Floodgate Node!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Center Node"
+AttackAnnouncement.AnnouncementText="Attack the Center Node!"
+DefendAnnouncement.AnnouncementText="Defend the Center Node!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

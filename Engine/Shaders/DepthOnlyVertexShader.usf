@@ -1,0 +1,26 @@
+/*=============================================================================
+	DepthOnlyVertexShader.hlsl: Depth-only vertex shader.
+	Copyright 1998-2007 Epic Games, Inc. All Rights Reserved.
+=============================================================================*/
+
+#include "Common.usf"
+#include "Material.usf"
+#include "VertexFactory.usf"
+
+void Main(
+	FVertexFactoryInput Input,
+#if !MATERIALBLENDING_SOLID
+	out FVertexFactoryInterpolants OutFactoryInterpolants,
+#endif
+	out float4 OutPosition : POSITION
+	)
+{
+#if MATERIALBLENDING_SOLID
+	//opaque materials only need position
+	float4 WorldPos = VertexFactoryGetWorldPositionOnly(Input);
+#else 
+	//masked and transparent materials need texture coords to clip
+	float4 WorldPos = VertexFactoryGetWorldPosition(Input,OutFactoryInterpolants);
+#endif
+	OutPosition = MulMatrix(ViewProjectionMatrix,WorldPos);
+}

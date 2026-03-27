@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="östlichen"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Knoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlichen"
+AttackAnnouncement.AnnouncementText="Greife den westlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Knoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

@@ -1,0 +1,504 @@
+[HudText]
+1stPlace=1er.
+2ndPlace=2ème.
+3rdPlace=3ème.
+YouAreLeader=Valeur Par Défaut : Entrer Nouvelle Valeur Cible
+
+[UTOnslaughtCountdownNode]
+ObjectiveName="Node de compte à rebours"
+BuiltAnnouncements[0]=(AnnouncementText="Rouge contrôle le Node de compte à rebours!")
+BuiltAnnouncements[1]=(AnnouncementText="Bleu contrôle le Node de compte à rebours!")
+DestroyedAnnouncements[0]=(AnnouncementText="Node de compte à rebours détruit")
+SuccessAnnouncements[0]=(AnnouncementText="Node de compte à rebours rouge achevé!")
+SuccessAnnouncements[1]=(AnnouncementText="Node de compte à rebours bleu achevé!")
+
+[UTDeathmatch_Content]
+GameName=Deathmatch
+
+[UTCTFGame_Content]
+GameName=Capture du Drapeau
+
+[UTVehicleCTFGame_Content]
+GameName=Véhicules CDD
+
+[UTOnslaughtGame_Content]
+GameName=Guerre
+
+[UTOnslaughtFlag_Content]
+NeedToPickUpAnnouncements[0]=(AnnouncementText="Attrapez la Sphère Rouge !")
+NeedToPickUpAnnouncements[1]=(AnnouncementText="Attrapez la Sphère Bleue !")
+
+[UTOnslaughtPowerNode_Content]
+PrimeAttackAnnouncement.AnnouncementText="Attaquez le Node Principal !"
+PrimeDefendAnnouncement.AnnouncementText=Défendez le Node Primaire !
+EnemyPrimeAttackAnnouncement.AnnouncementText="Attaquez le Node principal !"
+EnemyPrimeDefendAnnouncement.AnnouncementText=Défendez le Node Primaire !
+
+[UTPickupFactory_SuperHealth]
+PickupMessage=Gros pack santé
+
+[UTVWeap_RaptorGun]
+ItemName="Raptor"
+
+[UTVWeap_GoliathTurret]
+ItemName="Goliath"
+
+[UTDmgType_NemesisBeam]
+DeathString="`o a été anéanti par le Nemesis de `k."
+FemaleSuicide="`o s'est grillée avec son propre rayon Nemesis."
+MaleSuicide="`o s'est grillé avec son propre rayon Nemesis."
+
+[UTVWeap_GoliathMachineGun]
+ItemName="Canonnier Goliath"
+
+[UTVWeap_MantaGun]
+ItemName="Manta"
+
+[UTVWeap_ViperGun]
+ItemName="Viper"
+
+[UTVWeap_ScavengerGun]
+ItemName="Scavenger"
+
+[UTVWeap_TurretStinger]
+ItemName="Tourelle Stinger"
+
+[UTVWeap_TurretShock]
+ItemName="Tourelle Shock"
+
+[UTUDamage]
+PickupMessage=AMPLIFICATEUR DE DÉGÂTS !
+
+[UTBerserk]
+PickupMessage=BERSERK !
+
+[UTDmgType_Redeemer]
+DeathString="`o a été PULVÉRISÉ par `k !"
+FemaleSuicide=`o a été PULVÉRISÉE !
+MaleSuicide="`o a été PULVÉRISÉ !"
+
+[UTDmgType_RaptorBolt]
+DeathString=Le Raptor de `k a aspergé `o de plasma.
+FemaleSuicide="`o s'est grillée avec sa propre explosion plasma."
+MaleSuicide="`o s'est grillé avec sa propre explosion de plasma."
+
+[UTDmgType_RaptorRocket]
+DeathString="`o n'a pu éviter le missile aérien de `k."
+FemaleSuicide="`o s'est explosée dans le ciel."
+MaleSuicide="`o s'est explosé dans le ciel."
+
+[UTDmgType_FuryBolt]
+DeathString=Le Fury de `k a aspergé `o de plasma.
+FemaleSuicide="`o s'est grillée avec sa propre explosion plasma."
+MaleSuicide="`o s'est grillé avec sa propre explosion de plasma."
+
+[UTDmgType_TankShell]
+DeathString="L'obus du char de `k a réduit `o en cendres."
+FemaleSuicide="`o a tiré sa roquette prématurément."
+MaleSuicide="`o a tiré sa roquette prématurément."
+
+[UTDmgType_GoliathMachineGun]
+DeathString="`o a été fauché par la tourelle minigun de `k."
+FemaleSuicide="`o s'est suicidée avec son minigun."
+MaleSuicide="`o s'est suicidé avec son minigun."
+
+[UTDmgType_CicadaRocket]
+DeathString="`k a fait sauter `o."
+FemaleSuicide="`o s'est bien explosée."
+MaleSuicide="`o s'est bien explosé."
+
+[UTDmgType_CicadaLaser]
+DeathString="`k a dégommé `o avec son blaster."
+FemaleSuicide="`o s'est explosée avec son propre blaster."
+MaleSuicide="`o s'est explosé avec son propre blaster."
+
+[UTDmgType_HellBenderPrimary]
+DeathString="`o a été désintégré par le rayon de `k."
+MaleSuicide="`o s'est auto-désintégré."
+FemaleSuicide="`o s'est auto-désintégrée."
+
+[UTDmgType_ScorpionBlade]
+DeathString="`o a été taillé en pièces par la lame de `k."
+FemaleSuicide="`o a été taillée en pièces."
+MaleSuicide="`o a été taillé en pièces."
+
+[UTDmgType_AvrilRocket]
+DeathString="`k a explosé `o avec un AVRiL."
+FemaleSuicide="`o a visé dans la mauvaise direction."
+MaleSuicide="`o a visé dans la mauvaise direction."
+
+[UTDmgType_TurretPrimary]
+DeathString="`o a été déchiqueté par le rayon de `k."
+MaleSuicide="`o s'est explosé."
+FemaleSuicide="`o s'est explosée."
+
+[UTDmgType_MantaBolt]
+DeathString="Le Manta de `k a éviscéré `o au plasma brûlant."
+FemaleSuicide=`o a tiré trop tôt.
+MaleSuicide=`o a tiré trop tôt.
+
+[UTDmgType_ViperBolt]
+DeathString="Le Manta de `k a éviscéré `o avec du plasma brûlant."
+FemaleSuicide=`o a tiré trop tôt.
+MaleSuicide=`o a tiré trop tôt..
+
+[UTDmgType_PaladinProximityExplosion]
+DeathString="`o s'est trop approché du Paladin de `k."
+
+[UTDmgType_PaladinEnergyBolt]
+DeathString="`o n'a pu éviter le coup du Paladin de `k."
+
+[UTDmgType_SPMACameraCrush]
+DeathString="`o a été écrasé quand la caméra de `k est tombée du ciel !"
+MaleSuicide=Le ciel vous tombe... DESSUS !
+FemaleSuicide=Le ciel vous tombe... DESSUS !
+
+[UTDmgType_SPMAShell]
+DeathString="`o a été écrasé par un coup du Hellfire de `k !"
+MaleSuicide="`o a été tué par une frappe d'artillerie."
+FemaleSuicide="`o a été tuée par une frappe d'artillerie."
+
+[UTDmgType_SPMASmallShell]
+DeathString="`k a gâché la fête de `o."
+MaleSuicide="`o a été tué par une frappe d'artillerie."
+FemaleSuicide="`o a été tuée par une frappe d'artillerie."
+
+[UTDmgType_SPMAShockBeam]
+DeathString="`o a été désintégré par le rayon de `k."
+MaleSuicide="`o s'est auto-désintégré."
+FemaleSuicide="`o s'est auto-désintégrée."
+
+[UTDmgType_SPMAShockkBall]
+DeathString="`o a percuté le skymine de `k."
+MaleSuicide="`o a percuté son propre skymine."
+FemaleSuicide="`o a percuté son propre skymine."
+
+[UTDmgType_SPMAShockChain]
+DeathString=`o n'a pu échapper à l'incroyable Combo Skymine de `k.
+MaleSuicide="`o était trop pressé pour détonner ses skymines."
+FemaleSuicide="`o était trop pressée pour détonner ses skymines."
+
+[UTDmgType_LeviathanCollision]
+DeathString="Le Leviathan de `k a ratatiné `o."
+MaleSuicide="`o a eu un accident."
+FemaleSuicide="`o a eu un accident."
+
+[UTDmgType_LeviathanBeam]
+DeathString="`k a explosé `o."
+MaleSuicide="`o s'est explosé en morceaux."
+FemaleSuicide="`o s'est explosée en morceaux."
+
+[UTDmgType_LeviathanShockBall]
+DeathString="`k a électrifié `o."
+MaleSuicide="`o a reçu un choc trop important."
+FemaleSuicide="`o a reçu un choc trop important."
+
+[UTDmgType_LeviathanShard]
+DeathString="`k a transpercé `o."
+MaleSuicide="`o est mort."
+FemaleSuicide=`o est morte.
+
+[UTDmgType_LeviathanRocket]
+DeathString=`k a envoyé une pluie de feu sur `o.
+MaleSuicide="`o a explosé."
+FemaleSuicide=`o a explosé.
+
+[UTDmgType_DarkWalkerTurretBeam]
+DeathString="`o a été désintégré par le rayon de `k."
+MaleSuicide="`o s'est auto-désintégré."
+FemaleSuicide="`o s'est auto-désintégrée."
+
+[UTDmgType_FuryBeam]
+DeathString="`o a été désintégré par le rayon de `k."
+MaleSuicide="`o s'est auto-désintégré."
+FemaleSuicide="`o s'est auto-désintégrée."
+
+[UTDmgType_DarkWalkerTurretBeamFinal]
+DeathString="`o a été désintégré par le rayon de `k."
+MaleSuicide="`o s'est auto-désintégré."
+FemaleSuicide="`o s'est auto-désintégrée."
+
+[UTDmgType_DarkWalkerBolt]
+DeathString="Le Dark Walker de `k a éviscéré `o au plasma brûlant."
+FemaleSuicide=`o a tiré trop tôt.
+MaleSuicide=`o a tiré trop tôt.
+
+[UTDmgType_LeviathanBolt]
+DeathString=Le Leviathan de `k a aspergé `o de plasma.
+FemaleSuicide="`o s'est grillée avec sa propre explosion plasma."
+MaleSuicide="`o s'est grillé avec sa propre explosion de plasma."
+
+[UTDmgType_VehicleShockBall]
+DeathString="`o a percuté le skymine de `k."
+MaleSuicide="`o a percuté son propre skymine."
+FemaleSuicide="`o a percuté son propre skymine."
+
+[UTDmgType_VehicleShockChain]
+DeathString=`o n'a pu échapper à l'incroyable Combo Skymine de `k.
+MaleSuicide="`o était trop pressé pour détonner ses skymines."
+FemaleSuicide="`o était trop pressée pour détonner ses skymines."
+
+[UTDmgType_VehicleShockBeam]
+DeathString="Le laser de `k a anéanti `o."
+MaleSuicide="`o s'est découpé avec son propre laser."
+FemaleSuicide="`o s'est découpée avec son propre laser."
+
+[UTVWeap_CicadaTurret]
+ItemName="Canonnier Cicada"
+
+[UTVWeap_DarkWalkerPassGun]
+ItemName="Canonnier DarkWalker"
+
+[UTVWeap_DarkWalkerTurret]
+ItemName="DarkWalker"
+
+[UTVWeap_FuryGun]
+ItemName="Fury"
+
+[UTVWeap_HellBenderPrimary]
+ItemName="Canonnier Hellbender"
+
+[UTVWeap_ShockTurret]
+ItemName="Hellbender"
+
+[UTVWeap_LeviathanPrimary]
+ItemName="Leviathan"
+
+[UTVWeap_LeviathanTurretBeam]
+ItemName="Tourelle Laser"
+
+[UTVWeap_LeviathanTurretRocket]
+ItemName="Tourelle Roquettes"
+
+[UTVWeap_RocketTurret]
+ItemName="Tourelle Roquettes"
+
+[UTVWeap_LeviathanTurretStinger]
+ItemName="Tourelle Stinger"
+
+[UTVWeap_LeviathanTurretShock]
+ItemName="Tourelle Shock"
+
+[UTVWeap_NemesisTurret]
+ItemName="Nemesis"
+
+[UTVWeap_NightshadeGun_Content]
+ItemName="Nightshade"
+
+[UTVWeap_StealthBenderGun]
+ItemName="StealthBender"
+
+[UTVWeap_PaladinGun]
+ItemName="Paladin"
+
+[UTVWeap_TurretPrimary]
+ItemName=Tourelle
+
+[UTVWeap_SPMACannon_Content]
+ItemName="Hellfire SPMA"
+
+[UTVWeap_SPMAPassengerGun]
+ItemName="Hellfire SPMA"
+
+[UTVWeap_CicadaMissileLauncher]
+ItemName="Cicada"
+
+[UTVWeap_ScorpionTurret]
+ItemName="Scorpion"
+
+[UTDeployableEMPMine]
+ItemName="Mine EMP"
+PickupMessage=Mine EMP
+NeedToPickupAnnouncement.AnnouncementText="Prenez la mine EMP !"
+
+[UTDeployableSlowVolume]
+ItemName="Générateur de Champ Lent"
+PickupMessage="Générateur de Champ Lent"
+NeedToPickupAnnouncement.AnnouncementText=Prenez le générateur de champ lent !
+
+[UTDeployableSpiderMineTrap]
+ItemName=Piège de Mine Araignée
+PickupMessage="Piège Mine Araignée"
+NeedToPickupAnnouncement.AnnouncementText=Prenez le piège de mine araignée !
+
+[UTDeployableShapedCharge]
+ItemName=Pack de charge creuse
+PickupMessage=Pack de charge creuse
+NeedToPickupAnnouncement.AnnouncementText="Prenez la charge creuse !"
+
+[UTDeployableEnergyShield]
+ItemName="Bouclier d'Énergie Déployable"
+PickupMessage="Bouclier d'Énergie Déployable"
+NeedToPickupAnnouncement.AnnouncementText="Prenez le bouclier énergétique !"
+
+[UTAmmo_Avril]
+PickupMessage="Munitions pour Lance missiles AVRiL"
+
+[UTJumpBoots]
+RanOutText=Il n'y a plus de Bottes de Saut
+PickupMessage="Bottes de Saut"
+
+[UTArmorPickup_ShieldBelt]
+PickupMessage="Ceinture-Bouclier"
+
+[UTOnslaughtBlueCoreMessage]
+PowerCoreAttackedString=Core Bleu attaqué !
+PowerCoreDestroyedString="Core Bleu Détruit"
+PowerCoreCriticalString=Core Bleu critique !
+PowerCoreVulnerableString=Core Bleu vulnérable !
+PowerCoreDamagedString=Core Bleu Fortement endommagé !
+PowerCoreNoHealString="Vous ne pouvez pas guérir votre Core!"
+PowerCoreSecureString="Le Core bleu est sécurisé."
+
+[UTOnslaughtRedCoreMessage]
+PowerCoreAttackedString=Core Rouge attaqué !
+PowerCoreDestroyedString=Core Rouge détruit
+PowerCoreCriticalString=Core Rouge critique !
+PowerCoreVulnerableString=Core Rouge vulnérable !
+PowerCoreDamagedString=Core Rouge Fortement endommagé !
+PowerCoreSecureString="Le Core rouge est sécurisé."
+
+[UTOnslaughtMessage]
+RedTeamDominatesString="L'équipe rouge gagne la manche !"
+BlueTeamDominatesString="L'équipe bleue gagne la manche !"
+RedTeamNodeConstructedString=Node Rouge construit !
+BlueTeamNodeConstructedString=Node Bleu construit !
+InvincibleCoreString="Vous ne pouvez pas endommager les nodes dissociés !"
+UnattainableNodeString="Vous ne pouvez pas capturer les nodes dissociés !"
+RedPowerNodeAttackedString="Node rouge sous attaque !"
+RedPrimeNodeAttackedString=Node Principal attaqué !
+BluePrimeNodeAttackedString=Node Principal attaqué !
+BluePowerNodeAttackedString="Node bleu sous attaque !"
+UnpoweredString=Tourelle déchargée !
+RedPowerNodeDestroyedString="Node rouge détruit"
+BluePowerNodeDestroyedString="Node bleu détruit"
+RedPowerNodeUnderConstructionString=Node Rouge en construction !
+BluePowerNodeUnderConstructionString=Node Bleu en construction !
+RedPowerNodeSeveredString="Node rouge isolé !"
+BluePowerNodeSeveredString="Node bleu isolé !"
+PowerCoresAreDrainingString="Les Cores se vident !"
+UnhealablePowerCoreString="Vous ne pouvez pas guérir votre Core !"
+PowerNodeShieldedByOrbString=Le Node est protégé par une Sphère voisine !
+PowerNodeTemporarilyShieldedString="Le Node a un Bouclier Temporaire !"
+NoTeleportWithOrb="La sphère sera lâchée si vous vous téléportez !"
+DrawString="RETIREZ-VOUS - Les deux cores sont épuisés !"
+NodebusterString="Chasseur de Nodes !"
+RegulationWin="2 points pour victoire réglementaire"
+OvertimeWin=1 point pour victoire après prolongation
+
+[UTCTFMessage]
+ReturnBlue="a ramené le drapeau bleu !"
+ReturnRed="a ramené le drapeau rouge !"
+ReturnedBlue="Le drapeau bleu a été ramené !"
+ReturnedRed="Le drapeau a été rouge ramené !"
+CaptureBlue="drapeau bleu capturé !"
+CaptureRed="drapeau rouge capturé !"
+DroppedBlue="a lâché le drapeau bleu !"
+DroppedRed="a lâché le drapeau rouge !"
+HasBlue="a pris le drapeau bleu !"
+HasRed="a pris le drapeau rouge !"
+KilledBlue="a tué le porteur du drapeau bleu !"
+KilledRed="a tué le porteur du drapeau rouge !"
+
+[UTTeamScoreMessage]
+PreScoreNone=""
+ScoreNone="marque !"
+PreScoreRed=""
+ScoreRed="marque pour les Rouges !"
+PreScoreBlue=""
+ScoreBlue="marque pour les Bleus !"
+
+[UTOnslaughtOrbMessage]
+ReturnBlue="a détruit la sphère bleue !"
+ReturnRed="a détruit la sphère rouge !"
+ReturnedBlue="La sphère bleue a été détruite !"
+ReturnedRed="La sphère rouge a été détruite !"
+CaptureBlue="a délivré la sphère bleue !"
+CaptureRed="a délivré la sphère rouge !"
+DroppedBlue="a lâché la sphère bleue !"
+DroppedRed="a lâché la sphère rouge !"
+HasBlue="a pris la sphère bleue !"
+HasRed="a pris la sphère rouge !"
+EnemyIncomingString="Transporteur de sphère ennemie en approche !"
+EnemyDroppedString="Sphère ennemie lâchée"
+EnemyDestroyedString="Sphère ennemie détruite"
+OrbAutoReturnedString="Sphère retournée automatiquement."
+OrbNoPickupString="Sphère temporairement indisponible."
+KilledBlue="a tué le porteur de la sphère bleue !"
+KilledRed="a tué le porteur de la sphère rouge !"
+
+[UTPowerupRewardMessage]
+JuggernautString="JUGGERNAUT"
+
+[UTDmgType_ViperSelfDestruct]
+DeathString="`o a était incinéré par l'autodestruction du Viper de `k."
+FemaleSuicide="`o s'est grillée avec l'autodestruction de son propre Viper."
+MaleSuicide="`o s'est grillé avec l'autodestruction de son propre Viper."
+
+[UTInvisibility]
+PickupMessage="INVISIBILITÉ !"
+
+[UTInvulnerability]
+PickupMessage="INVULNÉRABILITÉ !"
+
+[UTWeap_BioRifle_Content]
+ItemName="Fusil Bio"
+PickupMessage="Fusil Bio"
+
+[UTAmmo_BioRifle_Content]
+PickupMessage="Munitions Fusil Bio"
+
+[UTDmgType_BioGoo]
+DeathString="`o a été liquéfié par le Bio Goo de `k."
+FemaleSuicide="`o s'est étouffée dans son propre Goo."
+MaleSuicide="`o s'est étouffé dans son propre Goo."
+
+[UTDmgType_ScavengerBallCollision]
+DeathString="`o a été mis en pièces par le Scavenger de `k."
+FemaleSuicide="`o s'est mise en pièces toute seule."
+MaleSuicide="`o s'est mis en pièces tout seul."
+
+[UTDmgType_NightshadeBeam]
+DeathString="`o a été découpé par le rayon Nightshade de `k."
+FemaleSuicide=`o s'est butée toute seule.
+MaleSuicide=`o s'est buté tout seul.
+
+[UTDmgType_StealthBenderBeam]
+DeathString="`o a été découpé par le rayon StealthBender de `k."
+FemaleSuicide=`o s'est butée toute seule.
+MaleSuicide=`o s'est buté tout seul.
+
+[UTDmgType_TurretShard]
+DeathString="`o a été descendu par `k."
+FemaleSuicide="`o s'est descendue toute seule."
+MaleSuicide="`o s'est descendu tout seul."
+
+[UTDmgType_ScavengerBolt]
+DeathString=`o n'a pas pu échapper à la boule lumineuse de `k.
+FemaleSuicide="`o a vu la lumière."
+MaleSuicide="`o a vu la lumière."
+
+[UTDmgType_SpiderMine]
+DeathString="Les mines araignée de `k ont atteint `o."
+FemaleSuicide="`o a perdu le contrôle de ses propres mines."
+MaleSuicide="`o a perdu le contrôle de ses propres mines."
+
+[UTDmgType_TurretShockBall]
+DeathString="`o a été déchiqueté par la tourelle combo de `k."
+FemaleSuicide=`o a fait un combo contre elle-même.
+MaleSuicide=`o a fait un combo contre lui-même.
+
+[UTDmgType_ScorpionGlob]
+DeathString="Le Scorpion de `k a explosé `o."
+FemaleSuicide="`o s'est explosée toute seule."
+MaleSuicide="`o s'est explosé tout seul."
+
+[UTDmgType_TurretRocket]
+DeathString="La tourelle de `k a propulsé `o jusqu'aux cieux."
+FemaleSuicide="`o s'est anéantie toute seule."
+MaleSuicide="`o s'est anéanti tout seul."
+
+[UTDmgType_LeviathanExplosion]
+DeathString="Le Leviathan de `k a eu le dernier mot avec `o."
+FemaleSuicide="`o a été éliminée par son propre Leviathan."
+MaleSuicide="`o a été éliminé par son propre Leviathan."

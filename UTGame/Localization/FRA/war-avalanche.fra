@@ -1,0 +1,31 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentacule non Déployée"
+
+[UTSeqAct_PlayAnnouncement_1 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Tentacule Déployée"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Ouest"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Ouest!"
+DefendAnnouncement.AnnouncementText="Défendez le Node Ouest!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Est"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Est!"
+DefendAnnouncement.AnnouncementText="Défendez le Node Est!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Central"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Central"
+DefendAnnouncement.AnnouncementText="Défendez le Node Central"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node"
+DefendAnnouncement.AnnouncementText="Défendez le Node"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node!"
+DefendAnnouncement.AnnouncementText="Défendez le Node!"
+

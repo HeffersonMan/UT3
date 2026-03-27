@@ -1,0 +1,2501 @@
+[UTPlayerReplicationInfo]
+StringUnknown="Milieu de champ"
+
+[UTGameObjective]
+LocationPrefix="Proche "
+ObjectiveName=Objectif
+
+[UTPlayerReplicationInfo]
+OrdersString(0)="Indépendant"
+OrdersString(1)="Indépendant"
+OrdersString(2)="attaque en cours"
+OrdersString(3)="Défense en cours"
+OrdersString(4)="Courreur de Sphères"
+OrdersString(5)="Opérations Spéciales"
+OrdersString(6)="Soutien"
+OrdersString(7)="Conservé"
+
+[UTFamilyInfo]
+FamilyEmotes[0]=(EmoteName="Baston")
+FamilyEmotes[1]=(EmoteName="des p'tits tours")
+FamilyEmotes[2]=(EmoteName="Déhanchement") 
+FamilyEmotes[3]=(EmoteName="Balle à la tête")
+FamilyEmotes[4]=(EmoteName="Viens là") 
+FamilyEmotes[5]=(EmoteName="Gorge tranchée") 
+FamilyEmotes[6]=(EmoteName="Attaquer") 
+FamilyEmotes[7]=(EmoteName="Défendre") 
+FamilyEmotes[8]=(EmoteName="Tiens cette position") 
+FamilyEmotes[9]=(EmoteName="Couvre-moi")
+FamilyEmotes[10]=(EmoteName="Indépendant")
+FamilyEmotes[11]=(EmoteName="Lâche le drapeau")
+FamilyEmotes[12]=(EmoteName="Lâche l'orbe")
+FamilyEmotes[14]=(EmoteName="Encouragement")
+FamilyEmotes[15]=(EmoteName="Reconnu")
+FamilyEmotes[16]=(EmoteName="En position")
+FamilyEmotes[17]=(EmoteName="Attaqué")
+FamilyEmotes[18]=(EmoteName="Zone sécurisée")
+
+[UTFamilyInfo_Krall_Male]
+FamilyEmotes[4]=(EmoteName="Viens là")
+
+[UTDrawCommandPanel]
+CategoryNames[0]=(FriendlyName="Ordres")
+CategoryNames[1]=(FriendlyName="Provocations")
+CategoryNames[2]=(FriendlyName="Etat")
+AllCaption=Tous
+
+[UTOnslaughtNodeObjective]
+OutsideLocationPrefix="Extérieur "
+BetweenLocationPrefix="Entre "
+BetweenLocationJoin=" et "
+
+[UTOnslaughtPowernode]
+ObjectiveName="Node"
+PrimeNodeName="Node Principal"
+EnemyPrimeNodeName="Ennemi Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node!"
+DefendAnnouncement.AnnouncementText=Défendez le Node!
+
+[UTOnslaughtPowerCore]
+DefendAnnouncement.AnnouncementText="Défendez Votre Core Énergétique!"
+AttackAnnouncement.AnnouncementText="Attaquez le Core ennemi!"
+ObjectiveName="Core"
+NamePrefix=""
+
+[UTOnslaughtFlag]
+OrbString="SPHERE"
+
+[UTPlayerController]
+MsgPlayerNotFound=Joueur introuvable !
+AddedToFavourites="Added server to favourites"
+
+[UTHUD]
+WarmupString=Manche d'échauffement
+WaitingForMatch=En attente du début de partie...
+PressFireToBegin=Appuyez sur [FEU] pour commencer...
+SpectatorMessage=Spectateur
+DeadMessage=Vous êtes Mort !
+FireToRespawnMessage=Appuyez sur [FEU] pour régénérer...
+YouHaveWon=VOUS AVEZ GAGNÉ LA PARTIE!
+YouHaveLost=VOUS AVEZ PERDU LA PARTIE!
+PlaceMarks[0]=er
+PlaceMarks[1]=ème
+PlaceMarks[2]=ème
+PlaceMarks[3]=ème
+
+[UTSquadAI]
+SupportString=soutien en cours
+DefendString=défense en cours
+AttackString=attaque en cours
+HoldString=conservé
+FreelanceString=Balayeur
+
+[UTWeapon]
+NeedToPickupAnnouncement.AnnouncementText="Attrapez la Super Arme !"
+PrimaryFireHintString="déclenche le feu principal de cette arme."
+SecondaryFireHintString="déclenche le feu secondaire de cette arme."
+JumpHintString=""
+CrouchHintString=""
+UseHintString=""
+AdditionalHintString=""
+
+[UTVehicle]
+VehiclePositionString="dans un véhicule"
+VehicleNameString=Véhicule
+NeedToPickupAnnouncement.AnnouncementText="Prendre le Véhicule Clé !"
+
+[UTVehicle_Cicada]
+VehiclePositionString="Dans un Cicada"
+VehicleNameString=Cicada
+
+[UTVehicle_Darkwalker]
+VehiclePositionString="Dans un Darkwalker"
+VehicleNameString=Darkwalker
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le DarkWalker"
+
+[UTVehicle_Goliath]
+VehiclePositionString="Dans un Goliath"
+VehicleNameString=Goliath
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le Goliath"
+
+[UTVehicle_Fury]
+VehiclePositionString="Dans un Fury"
+VehicleNameString="Fury"
+
+[UTVehicle_HellBender]
+VehiclePositionString="Dans un Hell Bender"
+VehicleNameString="Hell Bender"
+
+[UTVehicle_Hoverboard]
+VehiclePositionString=sur un Hoverboard
+VehicleNameString="Hoverboard"
+
+[UTVehicle_Leviathan]
+VehiclePositionString="Dans un Leviathan"
+VehicleNameString=Leviathan
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le Leviathan"
+
+[UTVehicle_Manta]
+VehiclePositionString="Dans un Manta"
+VehicleNameString="Manta"
+
+[UTVehicle_Nemesis]
+VehiclePositionString="Dans un Nemesis"
+VehicleNameString="Nemesis"
+
+[UTVehicle_Nightshade]
+VehiclePositionString="Dans un Nightshade"
+VehicleNameString="Nightshade"
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le Nightshade"
+
+[UTVehicle_Paladin]
+VehiclePositionString="Dans un Paladin"
+VehicleNameString="Paladin"
+
+[UTVehicle_Raptor]
+VehiclePositionString="Dans un Raptor"
+VehicleNameString=Raptor
+
+[UTVehicle_Scavenger]
+VehiclePositionString="Dans un Scavenger"
+VehicleNameString="Scavenger"
+
+[UTVehicle_Scorpion]
+VehiclePositionString="Dans un Scorpion"
+VehicleNameString="Scorpion"
+
+[UTVehicle_ShieldedTurret]
+VehiclePositionString="dans une Tourelle Blindée"
+VehicleNameString="Tourelle Blindée"
+
+[UTVehicle_SPMA]
+VehiclePositionString="Dans un SPMA"
+VehicleNameString="SPMA"
+NeedToPickupAnnouncement.AnnouncementText="Utiliser le Hellfire SPMA!"
+
+[UTVehicle_StealthBender]
+VehiclePositionString="dans un Stealth Bender"
+VehicleNameString="Stealth Bender"
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le Stealthbender"
+
+[UTVehicle_Turret]
+VehiclePositionString="dans une Tourelle"
+VehicleNameString=Tourelle
+
+[UTVehicle_Viper]
+VehiclePositionString="Dans un Viper"
+VehicleNameString="Viper"
+
+[UTStealthVehicle]
+NeedToPickUpAnnouncement.AnnouncementText="Utiliser le véhicule Stealth"
+
+[UTWarfareBarricadeMessage]
+CantAttackMessage=La barricade ne peut pas être détruite par les armes conventionnelles.
+
+[UTBetrayalMessage]
+BetrayalPrefix=""
+BetrayalMidString=" TRAHI "
+BetrayalPostfix="!"
+BetrayalJoinTeam="JOINDRE UNE NOUVELLE ÉQUIPE"
+RetributionString="REVANCHE!"
+PaybackString="REVANCHE!"
+RogueTimerExpiredString="Revanche évitée"
+
+[UTHeroMessage]
+TooManyHeroesString="TROP DE TITANS"
+HeroNoFitString="TITAN TROP GRAND"
+HeroKillString="ASSASSIN!"
+
+[UTDuelGame]
+GameName="Duel"
+Description=1 contre 1
+
+[UTGreedGame]
+GameName="Avarice"
+Description="Rends les crânes de l'ennemi à leur base."
+EndOfMatchRulesTemplateStr_Scoring=La première équipe à marquer `g  crânes gagne.
+EndOfMatchRulesTemplateStr_Time=L'équipe gagnante a le plus de crânes capturés en `t mins. 
+EndOfMatchRulesTemplateStr_ScoringSingle=La première équipe à capturer un crâne gagne.
+
+[UTBetrayalGame]
+GameName="Trahison"
+Description="Entraidez-vous pour gagner des points bonus. Trahissez votre équipe pour les garder."
+EndOfMatchRulesTemplateStr_Scoring=Le premier à marquer `g points gagne
+EndOfMatchRulesTemplateStr_Time=Le score gagnant est le plus haut en `t mins.
+EndOfMatchRulesTemplateStr_ScoringSingle=Le premier à marquer gagne
+
+[UTTeamGame]
+Description="Action deathmatch en équipe !"
+GameName=Deathmatch Équipe
+EndOfMatchRulesTemplateStr_Scoring=L'équipe qui tue `g fois gagne
+EndOfMatchRulesTemplateStr_Time=Le plus haut score après `t min gagne
+EndOfMatchRulesTemplateStr_ScoringSingle=La première équipe qui marque gagne 
+
+[UTDeathmatch]
+Description="Concours 'Tuez ou Soyez Tué'.  Le joueur qui fait le plus de victimes gagne."
+GameName=DeathMatch
+EndOfMatchRulesTemplateStr_Scoring=Le premier qui tue `g fois gagne
+EndOfMatchRulesTemplateStr_Time=Le plus haut score après `t min gagne 
+EndOfMatchRulesTemplateStr_ScoringSingle=Le premier à marquer gagne  
+
+[UTWeap_Translocator]
+ItemName=Téléporteur
+PickupMessage="Téléporteur"
+
+[UTTeamInfo]
+TeamColorNames[0]=Rouge
+TeamColorNames[1]=Bleu
+TeamColorNames[2]=Vert
+TeamColorNames[3]=Or
+
+[UTWeap_SniperRifle]
+ItemName="Fusil Sniper"
+PickupMessage="Fusil Sniper"
+
+[UTVWeap_NightshadeGun]
+ItemName="Nightshade"
+
+[UTOnslaughtGame]
+Description="Créez une chaîne de puissance jusqu'au Core ennemi en capturant les Nodes de manière à les connecter.  Les Nodes situés en bout de chaîne peuvent être contrôlés par l'une ou l'autre des équipes.  Assurez le contrôle des Nodes par votre équipe en les touchant pour commencer le processus de construction (utilisez le feu secondaire du Link Gun pour accélérer le processus).  Une fois que votre équipe a établi un lien sur le Core ennemi, attaquez-le et détruisez-le."
+GameName=Guerre
+EndOfMatchRulesTemplateStr_Scoring=L'équipe qui marque `g points gagne
+EndOfMatchRulesTemplateStr_Time=Le plus haut score après `t min gagne
+EndOfMatchRulesTemplateStr_ScoringSingle=La première équipe qui marque gagne 
+
+[UTSpecialObjective]
+DestructionMessage="Objectif Désactivé !"
+
+[UTSimpleConsole]
+LevelActionMessages="("","Chargement en cours...","Enregistrement en cours...","Connexion à...","Mise en précache...")"
+
+[UTCTFGame]
+Description="Votre équipe doit capturer le drapeau ennemi en le prenant sur la base ennemie et en le ramenant sur la vôtre.  Si celui qui transporte le drapeau est tué, le drapeau tombe à terre et n'importe qui peut le ramasser.  Si le drapeau de votre équipe est pris, il doit être ramené (en le touchant après qu'il soit tombé) avant que votre équipe puisse marquer une capture de drapeau."
+GameName="Capture du Drapeau"
+EndOfMatchRulesTemplateStr_Scoring=L'équipe qui marque `g fois gagne
+EndOfMatchRulesTemplateStr_Time=Le plus haut score après `t min gagne
+EndOfMatchRulesTemplateStr_ScoringSingle=La première équipe qui marque gagne 
+
+[UTLockWarningMessage]
+MissileLockOnString="Verrouillage Missile !"
+AvrilLockOnString="AVRiL en approche !"
+SPMAAcquiredString="Hellfire SPMA Acquis"
+RadarLockString="Verrouillage Radar Ennemi !"
+
+[UTDeathMessage]
+KilledString="a été tué par"
+SomeoneString=quelqu'un
+
+[UTWeap_LinkGun]
+ItemName="Link Gun"
+PickupMessage="Link Gun"
+
+[UTWeaponLocker]
+LockerString="Casier Arme"
+
+[UTVehicleCantCarryFlagMessage]
+FlagMessage="Vous ne pouvez pas transporter le drapeau dans ce véhicule"
+OrbMessage="Vous ne pouvez pas transporter la sphère dans ce véhicule"
+
+[UTWeap_RocketLauncher]
+ItemName="Lance-Roquettes"
+PickupMessage="Lance-Roquettes"
+GrenadeString="[Grenades]"
+SpiralString="[Spirale]"
+
+[UTAmmoPickupFactory]
+PickupMessage="Munitions"
+
+[UTWeap_ShockRifle]
+ItemName="Fusil Shock"
+PickupMessage="Fusil Shock"
+
+[UTWeap_InstagibRifle]
+ItemName="Fusil Instagib"
+PickupMessage=Fusil Shock Instagib
+
+[UTWeap_Avril]
+ItemName=Lance missiles AVRiL
+PickupMessage="Lance missiles AVRiL"
+
+[UTWeap_BioRifle_Content]
+ItemName=<Strings:UTGameContent.UTWeap_BioRifle_Content.ItemName>
+
+[UTWeap_Environment]
+ItemName="Environnement"
+
+[UTWeap_Instagib]
+ItemName="Instagib"
+
+[UTWeap_ShapedCharge]
+ItemName="Charge creuse"
+
+[UTWeap_ShockCombo]
+ItemName="Combo Fusil Shock"
+
+[UTWeap_Spidermine]
+ItemName="Mines araignée"
+
+[UTWeap_Headshot]
+ItemName="Tir à la tête"
+
+[UTSurvivalGame]
+Description="Battez-vous jusqu'au bout.  Voyez à combien de vagues vous pouvez survivre !"
+GameName=Survie
+
+[UTWeap_ImpactHammer]
+ItemName="Marteau Impact"
+PickupMessage="Marteau Impact"
+
+[UTWeap_Physicsgun]
+ItemName="Canon Physique"
+PickupMessage="Canon Physique"
+
+[UTWeap_FlakCannon]
+ItemName="Canon Flak"
+PickupMessage="Canon Flak"
+
+[UTStartupMessage]
+Stage[0]="En attente d'autres joueurs."
+Stage[1]=En attente de signaux.
+Stage[2]="La partie va commencer...3"
+Stage[3]="La partie va commencer...2"
+Stage[4]="La partie va commencer...1"
+Stage[5]="La partie a commencé !"
+Stage[6]="La partie a commencé !"
+NotReady="Vous n'êtes PAS PRÊT. Appuyez sur Feu !"
+SinglePlayer="Appuyez sur [FEU] pour démarrer !"
+
+[UTArmorPickup_Helmet]
+PickupMessage="Casque blindé"
+
+[UTArmorPickup_Vest]
+PickupMessage="Gilet d'armure"
+
+[UTArmorPickup_thighpads]
+PickupMessage=Protections
+
+[UTArmorPickupFactory]
+PickupMessage="Armure"
+
+[UTHealthPickupFactory]
+PickupMessage="Pack Santé"
+
+[UTDmgType_RanOver]
+DeathString="`k a écrasé `o"
+FemaleSuicide="`o s'est auto-écrasée."
+MaleSuicide="`o s'est auto-écrasé."
+
+[UTDmgType_Pancake]
+DeathString="`o a été écrasé par `k"
+FemaleSuicide="`o a été écrasée."
+MaleSuicide="`o a été écrasé."
+
+[UTDmgType_OrbReturn]
+DeathString="`o a décidé d'être un héros."
+FemaleSuicide="`o a décidé d'être une héroïne."
+MaleSuicide="`o a décidé d'être un héros."
+
+[UTDmgType_SpaceDeath]
+DeathString=`o a rejoint les étoiles.
+FemaleSuicide=`o a rejoint les étoiles.
+MaleSuicide=`o a rejoint les étoiles.
+
+[UTKillingSpreeMessage]
+EndSpreeNote=" tuerie terminée par"
+EndSelfSpree="a mis fin à sa propre série."
+EndFemaleSpree="a mis fin à sa propre série."
+SpreeNote[0]="fait une tuerie !"
+SpreeNote[1]="se déchaîne !"
+SpreeNote[2]="domine !"
+SpreeNote[3]="est impossible à arrêter !"
+SpreeNote[4]="est Divin !"
+SpreeNote[5]="fait un MASSACRE !"
+SelfSpreeNote[0]="Folie Meurtrière !"
+SelfSpreeNote[1]=Furie !
+SelfSpreeNote[2]=Position Dominante !
+SelfSpreeNote[3]=Impossible à arrêter !
+SelfSpreeNote[4]=DIVIN !
+SelfSpreeNote[5]=MASSACRE !
+
+[UTDmgType_Drowned]
+DeathString="`o a oublié de remonter pour respirer."
+FemaleSuicide="`o a oublié de remonter pour respirer."
+MaleSuicide="`o a oublié de remonter pour respirer."
+
+[UTDmgType_Encroached]
+DeathString="Les atomes de `o ont été réarrangés par `k."
+FemaleSuicide=`o s'est téléportée dans du solide..
+MaleSuicide=`o s'est téléporté dans du solide.
+
+[UTKillerMessage]
+YouKilled="Vous avez tué"
+YouKilledTrailer=""
+YouTeamKilledTrailer=""
+YouTeamKilled="Vous avez tué en équipe"
+OtherKilled=tué
+OtherKilledPrefix=""
+OtherKilledTrailer=""
+
+[UTFirstBloodMessage]
+FirstBloodString="a versé le premier sang !"
+
+[UTWeap_Enforcer]
+ItemName=Enforcer
+PickupMessage="Enforcer"
+
+[UTVehicleKillMessage]
+KillString[0]="Ecrasé !"
+KillString[1]="Attaque éclair!"
+KillString[2]="Furie routière!"
+KillString[3]="Massacre véhiculaire !"
+KillString[4]=Crêpe!
+KillString[5]="Oeil d'Aigle!"
+KillString[6]=Meilleur Tireur!
+KillString[7]=Ravage routier !
+
+[UTLastSecondMessage]
+LastSecondRed="Sauvegarde de dernière seconde par les Rouges !"
+LastSecondBlue="Sauvegarde de dernière seconde par les Bleus !"
+
+[UTDmgType_FlakShard]
+DeathString="`o a été déchiqueté par le Canon Flak de `k."
+MaleSuicide="`o a été perforé par son propre Flak."
+FemaleSuicide="`o a été perforée par son propre Flak."
+
+[UTDmgType_ShockCombo]
+DeathString="`o n'a pu éviter le coup du Shock Combo de `k."
+FemaleSuicide="`o a fait une erreur avec son combo Shock."
+MaleSuicide=`o a fait une erreur tactique avec son combo Shock.
+
+[UTWeaponRewardMessage]
+RewardString[1]="Maître Flak!"
+RewardString[2]="Chasseur de têtes!"
+RewardString[3]="Roi des Combo!"
+RewardString[4]="Risque Biologique!"
+RewardString[5]=Tortionnaire !
+RewardString[6]=Maître Shaft !
+RewardString[7]=Tireur d'élite !
+RewardString[8]="Chasseur Incroyable!"
+RewardString[9]="Série Bleue!"
+RewardString[10]=Expert en roquettes !
+
+[UTWeaponKillRewardMessage]
+RewardString[0]="Tir à la tête!"
+RewardString[1]="Dans le mille!"
+
+[UTDmgType_Rocket]
+DeathString="`o s'est envolé sur la roquette de `k."
+FemaleSuicide="`o a tiré sa roquette prématurément."
+MaleSuicide="`o a tiré sa roquette prématurément."
+
+[UTDmgType_Grenade]
+DeathString="`o s'est pris la grenade de `k."
+FemaleSuicide="`o a atterri sur sa propre grenade."
+MaleSuicide="`o a atterri sur sa propre grenade."
+
+[UTMultiKillMessage]
+KillString[0]="Double Tuerie!"
+KillString[1]="Multituerie!"
+KillString[2]="Mégatuerie!!"
+KillString[3]="ULTRATUERIE!!"
+KillString[4]="TUERIE MONSTRUEUSE!!!"
+
+[UTVictimMessage]
+YouWereKilledBy="Vous avez été tué par"
+KilledByTrailer=!
+OrbSuicideString="Vous avez décidé d'être un héros."
+RunOverString="(Attaque éclair)"
+SpiderMineString="(Mines araignée)"
+ScorpionKamikazeString="(Auto-destruction Scorpion)"
+ViperKamikazeString="(Auto-destruction Viper)"
+TelefragString="(Télébuté)"
+
+[UTPickupFactory_HealthVial]
+PickupMessage="Fiole Santé"
+
+[UTAmmo_Stinger]
+PickupMessage="Éclats de Stinger"
+
+[UTAmmo_LinkGun]
+PickupMessage="Munitions Link Gun"
+
+[UTAmmo_SniperRifle]
+PickupMessage="Balles Sniper"
+
+[UTAmmo_ShockRifle]
+PickupMessage="Core Shock"
+
+[UTAmmo_RocketLauncher]
+PickupMessage="Pack Roquettes"
+
+[UTWeap_Redeemer]
+ItemName=Redeemer
+PickupMessage="Redeemer"
+NeedToPickupAnnouncement.AnnouncementText=Prenez le Redeemer !
+
+[UTAmmo_FlakCannon]
+PickupMessage="Obus Flak"
+
+[UTDmgType_Instagib]
+DeathString="`o a été agrafé par le Super Shock Beam de `k."
+FemaleSuicide="`o a réussi à se tirer dessus avec le fusil instagib."
+MaleSuicide="`o a réussi à se tirer dessus avec le fusil instagib."
+
+[UTAmmo_Enforcer]
+PickupMessage=Chargeur Enforcer
+
+[UTCTFBlueFlagBase]
+ObjectiveName="Base Bleue"
+
+[UTCTFRedFlagBase]
+ObjectiveName="Base Rouge"
+
+[UTDmgType_ImpactHammer]
+DeathString="`o a été démoli par `k."
+FemaleSuicide="`o s'est pilonnée elle-même."
+MaleSuicide="`o s'est pilonné lui-même."
+
+[UTDmgType_Enforcer]
+DeathString="`k a criblé `o de trous avec son Enforcer."
+FemaleSuicide="`o a réalisé l'impossible."
+MaleSuicide="`o a réalisé l'impossible."
+
+[UTDmgType_DualEnforcer]
+DeathString="`k a criblé `o de trous avec deux Enforcer."
+
+[UTCTFHUDMessage]
+YouHaveFlagString="Vous avez le drapeau, retournez à votre base !"
+EnemyHasFlagString="L'ennemi a votre drapeau, récupérez-le !"
+BothFlagsString="Conservez le drapeau ennemi jusqu'au retour du vôtre !"
+
+[UTOnslaughtHUDMessage]
+OnslaughtHUDString[0]="Amenez la sphère jusqu'à un node !"
+OnslaughtHUDString[1]="Transporteur de sphère ennemie proche de la Node !"
+OnslaughtHUDString[2]="Votre sphère verrouille le node !"
+
+[UTDmgType_ShockPrimary]
+DeathString="`o a été fatalement illuminé par le Shock Beam de `k."
+FemaleSuicide="`o a réussi à se tirer dessus avec le fusil Shock."
+MaleSuicide="`o a réussi à se tirer dessus avec le fusil Shock."
+
+[UTDmgType_Telefrag]
+DeathString="Les atomes de `o ont été réarrangés par `k."
+FemaleSuicide="`o a détruit son propre téléporteur."
+MaleSuicide="`o a détruit son propre téléporteur."
+
+[UTDmgType_FailedTranslocation]
+DeathString="La téléportation de `o a été interrompue par `k."
+FemaleSuicide="`o a détruit son propre téléporteur."
+MaleSuicide="`o a détruit son propre téléporteur."
+
+[UTDmgType_SpiderMine]
+DeathString=`o s'est introduit illégalement sur la propriété de `k
+FemaleSuicide=`o a essayé sa propre mine... Elle marche bien !
+MaleSuicide=`o a essayé sa propre mine... Elle marche bien !
+
+[UTDmgType_ShockBall]
+DeathString="`o a été détruit par le Shock Core de `k."
+FemaleSuicide="`o s'est auto-détruite avec le Shock Core."
+MaleSuicide="`o s'est auto-détruit avec le Shock Core."
+
+[UTDmgType_FlakShell]
+DeathString="`o a été déchiqueté par le shrapnel de `k."
+FemaleSuicide="`o s'est explosée avec un obus Flak."
+MaleSuicide="`o s'est explosé avec un obus Flak."
+
+[UTVehicleCTFGame]
+Description=Capture de drapeau traditionnelle avec véhicules et hoverboards au lieu de téléporteurs. L'hoverboard est le seul et unique véhicule à pouvoir transporter le drapeau.
+GameName="CDD Véhicules"
+
+[UTWeap_Stinger]
+ItemName=Minigun Stinger
+PickupMessage=Minigun Stinger
+
+[UTGameViewportClient]
+LevelActionMessages[0]=""
+LevelActionMessages[1]="En Pause..."
+LevelActionMessages[2]="Chargement en cours..."
+LevelActionMessages[3]="Enregistrement en cours..."
+LevelActionMessages[4]="Connexion à..."
+LevelActionMessages[5]=Mise en précache...
+UTFrontEndString="Menu Principal"
+UTMMissionSelectionString="Sélection de mission"
+
+[UTSPMAMessage]
+MessageText[0]="Déploiement impossible en mouvement."
+MessageText[1]="Appuyez sur [FEU] pour saisir."
+MessageText[2]="Doit être déployé."
+MessageText[3]="Déploiement impossible tant que les roues sont instables."
+MessageText[4]="Appuyez sur [FEU] pour déployer la caméra."
+
+[UTStealthVehicleMessage]
+MessageText[0]="Obstacle empêchant le déploiement."
+MessageText[1]="Aucune munition déployable disponible."
+MessageText[2]="Autres déployables à proximité, déploiement impossible."
+
+[UTScavengerMessage]
+MessageText[0]="Boost en recharge !"
+
+[UTVehicleMessage]
+MessageText[0]="Système d'autodestruction Viper pas encore activé."
+MessageText[1]=Le Véhicule est verrouillé.
+MessageText[2]=Vous gênez une régénération de véhicule !
+MessageText[3]="Le Leviathan est en ligne."
+MessageText[4]="Détourné !"
+MessageText[5]="Véhicule capturé !"
+
+[UTWarfareBarricade]
+ObjectiveName="Barricade"
+AttackAnnouncement.AnnouncementText="Détruisez la barricade."
+DefendAnnouncement.AnnouncementText="Défendez la barricade."
+DisabledAnnouncement.AnnouncementText="Barricade détruite !"
+
+[UTAirVehicle]
+RadarLock="Verrouillage Radar !"
+
+[UTDmgType_VehicleCollision]
+DeathString="`k a pilonné `o."
+MaleSuicide="`o a eu un accident."
+FemaleSuicide="`o a eu un accident."
+
+[UTDmgType_VehicleExplosion]
+DeathString="`k a éliminé `o avec une explosion de véhicule."
+MaleSuicide=`o était trop proche du véhicule qu'il a fait sauter.
+FemaleSuicide=`o était trop proche du véhicule qu'elle a fait sauter.
+
+[UTTeamGameMessage]
+RequestTeamSwapPrefix=""
+RequestTeamSwapPostfix="demande une rotation d'équipe."
+YouAreOnRedMessage="Vous êtes dans l'Équipe ROUGE"
+YouAreOnBlueMessage="Vous êtes dans l'Équipe BLEUE"
+
+[UTDeployable]
+NeedToPickUpAnnouncement.AnnouncementText=Attrapez le déployable.
+
+[UTDeployableMessage]
+MessageText[0]="Vous ne pouvez pas placer ce déployable ici."
+
+[UTReplaceActorCommandlet]
+HelpDescription="Remplace toutes les références à une classe d'acteur dans la(les) carte(s) spécifiée(s) par une autre classe. Copie les nouvelles propriétés de la superclasse la plus dérivée."
+HelpUsage=gamename.exe UTReplaceActor <fichier/caractère de remplacement> <Classe.Pack à supprimer> <Classe.Pack de remplacement>
+HelpParamNames[0]=fichier/wildcard
+HelpParamDescriptions[0]="Cartes dans lesquelles remplacer les Acteurs"
+HelpParamNames[1]=Classe.Pack à supprimer
+HelpParamDescriptions[1]=Classe d'acteur à remplacer
+HelpParamNames[2]=Classe.Pack de remplacement
+HelpParamDescriptions[2]="Classe d'Acteur de remplacement"
+
+[UTVWeap_TowCable]
+ItemName="Hoverboard"
+
+[UTDmgType_ScorpionSelfDestruct]
+DeathString="`o a était incinéré par l'autodestruction du Scorpion de `k."
+FemaleSuicide=`o s'est faite griller par l'autodestruction de son propre Scorpion.
+MaleSuicide=`o s'est fait griller l'autodestruction de son propre Scorpion.
+
+[UTDmgType_ScavengerStabbed]
+DeathString="`o a été empalé par le Scavenger de `k."
+FemaleSuicide="`o s'est auto-empalée."
+MaleSuicide="`o s'est auto-empalé."
+
+[UTDmgType_Lava]
+DeathString="`o a été incinéré par `k"
+FemaleSuicide="`o a été incinérée."
+MaleSuicide="`o a été incinéré."
+
+[UTDmgType_Slime]
+DeathString="`o a été liquéfié par `k."
+FemaleSuicide=`o a été liquéfiée.
+MaleSuicide="`o a été liquéfié."
+
+[UTDmgType_SniperHeadShot]
+DeathString="La matière grise de `o a été éjectée par `k."
+FemaleSuicide=`o est tombée sur son arme et s'est tirée en pleine tête
+MaleSuicide=`o est tombé sur son arme et s'est tiré en pleine tête
+
+[UTDmgType_SniperPrimary]
+DeathString="`o a été abattu par `k."
+FemaleSuicide="`o est tombée sur son arme et s'est tirée dans la poitrine"
+MaleSuicide="`o est tombé sur son arme et s'est tiré dans la poitrine"
+
+[UTDmgType_StingerBullet]
+DeathString="`o a été fauché par le Stinger de `k."
+FemaleSuicide="`o s'est tuée avec le Stinger."
+MaleSuicide="`o s'est tué avec le Stinger."
+
+[UTDmgType_StingerShard]
+DeathString="`o a été éviscéré par le Stinger de `k."
+FemaleSuicide="`o s'est tuée avec le Stinger."
+MaleSuicide="`o s'est tué avec le Stinger."
+
+[UTDmgType_LinkBeam]
+DeathString="`o a été découpé par le rayon vert de `k."
+FemaleSuicide=`o s'est butée.
+MaleSuicide=`o s'est buté.
+
+[UTDmgType_LinkPlasma]
+DeathString="`o a reçu une dose supplémentaire du plasma de `k."
+FemaleSuicide="`o s'est grillée avec sa propre explosion plasma."
+MaleSuicide="`o s'est grillé avec sa propre explosion de plasma."
+
+
+[UTProfileSettings]
+; Online System
+ProfileMappings[0]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[1]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[2]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[4]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+; Audio
+ProfileMappings[10]=(ValueMappings=((Name="Aucune"),(Name="Minimes"),(Name="Toutes")))
+ProfileMappings[11]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[12]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[13]=(ValueMappings=((Name="Non"),(Name="Équipe uniquement"),(Name="Tout")))
+
+; Video
+ProfileMappings[16]=(ValueMappings=((Name="Discret"),(Name="Par Défaut"),(Name="Vif"),(Name="Intense")))
+
+; Game
+ProfileMappings[20]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[21]=(ValueMappings=((Name="Normal"),(Name="Bas")))
+ProfileMappings[22]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[23]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[24]=(ValueMappings=((Name="Inconnu"),(Name="Modem"),(Name="RNIS"),(Name="Câble modem"),(Name="LAN")))
+ProfileMappings[25]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[26]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+; Input
+ProfileMappings[27]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[28]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[29]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+ProfileMappings[45]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[46]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[47]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[48]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[49]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[50]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[51]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[52]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[53]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[54]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[55]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[56]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[57]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[58]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[59]=(ValueMappings=((Name="Vide"),(Name="Feu"),(Name="Tir Secondaire"),(Name="Sauter"),(Name="Utiliser / Hoverboard"),(Name="Bascule Mêlée"),(Name="Afficher Scores"),(Name="Afficher Carte"),(Name="Feindre la Mort"),(Name="Bascule Parole"),(Name="Menu voix"),(Name="Afficher ou Cacher Minicarte"),(Name="Choisir Arme"),(Name="Arme Suivante"),(Name="Meilleure Arme"),(Name="Arme Précédente")))
+ProfileMappings[60]=(ValueMappings=((Name="Par Défaut"),(Name="Inversé"),(Name="Héritage"),(Name="Héritage Inversé")))
+ProfileMappings[61]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[62]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[63]=(ValueMappings=((Name="Désactivé"),(Name="Activé")))
+
+; Weapons
+ProfileMappings[64]=(ValueMappings=((Name="Droite"),(Name="Gauche"),(Name="Cachée")))
+ProfileMappings[65]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[66]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[67]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+; HUD
+ProfileMappings[78]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[79]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[80]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[81]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[82]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[83]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[84]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[85]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[86]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+; Physics
+ProfileMappings[87]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[88]=(ValueMappings=((Name="Relatif"),(Name="Mixte"),(Name="Direct")))
+
+; Other
+ProfileMappings[89]=(ValueMappings=((Name="Non"),(Name="Oui")))
+ProfileMappings[90]=(ValueMappings=((Name="Normal"),(Name="Simple"),(Name="Aucun")))
+ProfileMappings[91]=(ValueMappings=((Name="Désactivé"),(Name="Activé")))
+
+; Single Player
+ProfileMappings[92]=(ValueMappings=((Name="Facile"),(Name="Normal"),(Name="Difficile"),(Name="Dément")))
+
+; Warfare/Ons
+ProfileMappings[93]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+; Other AlwaysLoadCustomCharacters
+ProfileMappings[94]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+[UTGameSearchCommon]
+LocalizedSettingsMappings[1]=(ValueMappings=((Name="Non"),(Name="Oui"),(Name="Tous")))
+LocalizedSettingsMappings[2]=(ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[3]=(ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[4]=(ValueMappings=((Name="Non"),(Name="Oui"),(Name="Tous")))
+LocalizedSettingsMappings[5]=(ValueMappings=((Name="Cacher"),(Name="Montrer")))
+LocalizedSettingsMappings[6]=(ValueMappings=((Name="Cacher"),(Name="Montrer")))
+LocalizedSettingsMappings[7]=(ValueMappings=((Name="Non"),(Name="Oui")))
+
+[UTGameSettingsCommon]
+LocalizedSettingsMappings[0]=(ColumnHeaderText="Jeu",ValueMappings=((Name="Deathmatch"),(Name="Deathmatch en Équipe"),(Name="Capture du Drapeau"),(Name="Véhicule CTF"),(Name="Guerre"),(Name="Duel"),(Name="Campagne"),(Name="Avarice"),(Name="Trahison"),(Name="Personnalisée")))
+LocalizedSettingsMappings[1]=(ColumnHeaderText="Compétence Bot",ValueMappings=((Name="Novice"),(Name="Moyen"),(Name="Expérimenté"),(Name="Compétent"),(Name="Adepte"),(Name="Autoritaire"),(Name="Inhumain"),(Name="Divin")))
+LocalizedSettingsMappings[2]=(ColumnHeaderText="Carte",ValueMappings=((Name="Personnalisée")))
+LocalizedSettingsMappings[3]=(ColumnHeaderText="Pur",ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[4]=(ColumnHeaderText="Verrouillé",ValueMappings=((Name="0"),(Name="1")))
+LocalizedSettingsMappings[5]=(ColumnHeaderText="Contre Bots",ValueMappings=((Name="Désactivé"),(Name="1:1"),(Name="3:2"),(Name="2:1")))
+LocalizedSettingsMappings[6]=(ColumnHeaderText="Campagne",ValueMappings=((Name="No"),(Name="Yes")))
+LocalizedSettingsMappings[7]=(ColumnHeaderText="Régén. forcée",ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[8]=(ColumnHeaderText="M/KB",ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[9]=(ColumnHeaderText="Plein",ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[10]=(ColumnHeaderText="Vide",ValueMappings=((Name="Non"),(Name="Oui")))
+LocalizedSettingsMappings[11]=(ColumnHeaderText="Dédié",ValueMappings=((Name="No"),(Name="Yes")))
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Score")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+MaxPlayers.FriendlyName="Max. joueurs"
+MinNetPlayers.FriendlyName="Min. joueurs"
+
+[UTGameSettingsCampaign]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite de Victimes")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsCTF]
+PropertyMappings[2]=(ColumnHeaderText="Limite capsules")
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite capsules")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsDM]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite de Victimes")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsDUEL]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite de Victimes")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsTDM]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite de Victimes")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsVCTF]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Limite capsules")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsWAR]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Score limite")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+
+[UTGameSettingsGreed]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Score Limite")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTGameSettingsBetrayal]
+PropertyMappings[0]=(ColumnHeaderText="Carte")
+PropertyMappings[1]=(ColumnHeaderText="Jeu")
+PropertyMappings[2]=(ColumnHeaderText="Score Limite")
+PropertyMappings[3]=(ColumnHeaderText="Durée")
+PropertyMappings[4]=(ColumnHeaderText="Bots")
+PropertyMappings[5]=(ColumnHeaderText="Description serveur")
+PropertyMappings[6]=(ColumnHeaderText="Mutateurs")
+PropertyMappings[9]=(ColumnHeaderText="Bots")
+
+[UTTimerMessage]
+Announcements[1]=(AnnouncementText="1...")
+Announcements[2]=(AnnouncementText="2...")
+Announcements[3]=(AnnouncementText="3...")
+Announcements[4]=(AnnouncementText="4...")
+Announcements[5]=(AnnouncementText="5...")
+Announcements[6]=(AnnouncementText="6...")
+Announcements[7]=(AnnouncementText="7...")
+Announcements[8]=(AnnouncementText="8...")
+Announcements[9]=(AnnouncementText="9...")
+Announcements[10]=(AnnouncementText="10...")
+Announcements[11]=(AnnouncementText="Il reste 20 secondes !")
+Announcements[12]=(AnnouncementText="Il reste 30 secondes !")
+Announcements[13]=(AnnouncementText="Il reste 1 minute !")
+Announcements[14]=(AnnouncementText="Il reste deux minutes!")
+Announcements[15]=(AnnouncementText="Il reste trois minutes!")
+Announcements[16]=(AnnouncementText="Plus que cinq minutes !")
+Announcements[17]=(AnnouncementText="PROLONGATION !")
+
+[OnlineSubsystemGameSpy.OnlineSubsystemGameSpy]
+DefaultStatus=Jouer à UT3
+
+[UTUIScene_COptions]
+SkillDescriptions[0]=Ne vous sentez pas mal parce que vous jouez au niveau facile.
+SkillDescriptions[1]=Alors comme ça, tu te sens moyen aujourd'hui. Entraîne-toi avant d'élever ton niveau de difficulté.  
+SkillDescriptions[2]=Voilà qui est mieux.  Vas-y, explose-les !
+SkillDescriptions[3]=TU ES FOU?  ABANDONNE!
+
+
+[UTLeaderboardSettings]
+LocalizedSettingsMappings[0]=(ColumnHeaderText="Modes de jeu",ValueMappings=((Name="Deathmatch"),(Name="Deathmatch en Équipe"),(Name="Duel"),(Name="Capture du Drapeau"),(Name="CDD Véhicules"),(Name="Guerre"),(Name="Greed"),(Name="Betrayal")))
+LocalizedSettingsMappings[1]=(ColumnHeaderText="MatchTypes",ValueMappings=((Name="Serveur Pur"),(Name="Serveurs Personnalisés")))
+LocalizedSettingsMappings[2]=(ColumnHeaderText="Filtres joueurs",ValueMappings=((Name="Joueur"),(Name="Centré sur joueur"),(Name="Amis seulement"),(Name="Records")))
+
+[UTLeaderboardReadDM]
+ColumnMappings[0]=(ColumnName="Tués")
+ColumnMappings[1]=(ColumnName="Morts")
+ColumnMappings[2]=(ColumnName="Dans le mille")
+ColumnMappings[3]=(ColumnName="Redeemer refusé")
+ColumnMappings[4]=(ColumnName="Oeil d'Aigle")
+ColumnMappings[5]=(ColumnName="Séries Terminées")
+ColumnMappings[6]=(ColumnName="Premiers Sangs")
+ColumnMappings[7]=(ColumnName="Détournements de véhicules")
+ColumnMappings[8]=(ColumnName="Tués sur la route")
+ColumnMappings[9]=(ColumnName="Mort sur la route")
+ColumnMappings[10]=(ColumnName="Meilleurs Tireurs")
+ColumnMappings[11]=(ColumnName="Double Tuerie")
+ColumnMappings[12]=(ColumnName="Mégatuerie")
+ColumnMappings[13]=(ColumnName="Tuerie Monstrueuse")
+ColumnMappings[14]=(ColumnName="Multituerie")
+ColumnMappings[15]=(ColumnName="Ultratuerie")
+ColumnMappings[16]=(ColumnName="Berserks"))
+ColumnMappings[17]=(ColumnName="Invisibilité"))
+ColumnMappings[18]=(ColumnName="Invulnérabilité"))
+ColumnMappings[19]=(ColumnName="Bottes de Saut"))
+ColumnMappings[20]=(ColumnName="Ceinture-Bouclier"))
+ColumnMappings[21]=(ColumnName="UDamage"))
+ColumnMappings[22]=(ColumnName="Bonus Armure"))
+ColumnMappings[23]=(ColumnName="Bonus Santé"))
+ColumnMappings[24]=(ColumnName="Temps berserk"))
+ColumnMappings[25]=(ColumnName="Temps invisible"))
+ColumnMappings[26]=(ColumnName="Temps invulnérable"))
+ColumnMappings[27]=(ColumnName="Temps Udamage"))
+ColumnMappings[28]=(ColumnName="Chasseur Incroyable")
+ColumnMappings[29]=(ColumnName="Risque Biologique")
+ColumnMappings[30]=(ColumnName="Série bleue")
+ColumnMappings[31]=(ColumnName="Roi du Combo")
+ColumnMappings[32]=(ColumnName="Maître Flak")
+ColumnMappings[33]=(ColumnName="Tireur d'élite")
+ColumnMappings[34]=(ColumnName="Chasseur de têtes")
+ColumnMappings[35]=(ColumnName="Tortionnaire")
+ColumnMappings[36]=(ColumnName="Furie routière")
+ColumnMappings[37]=(ColumnName="Expert en Roquettes")
+ColumnMappings[38]=(ColumnName="Maître Shaft")
+ColumnMappings[39]=(ColumnName="Position Dominante")
+ColumnMappings[40]=(ColumnName="Divin")
+ColumnMappings[41]=(ColumnName="Folie Meurtrière")
+ColumnMappings[42]=(ColumnName="Furies")
+ColumnMappings[43]=(ColumnName="Massacre")
+ColumnMappings[44]=(ColumnName="Impossible à arrêter")
+ColumnMappings[45]=(ColumnName="Hat Tricks")
+ColumnMappings[46]=(ColumnName="Porteur de drapeau tué")
+ColumnMappings[47]=(ColumnName="Drapeaux ramenés")
+ColumnMappings[48]=(ColumnName="Drapeaux remportés")
+ColumnMappings[49]=(ColumnName="Sauvetages de dernière seconde")
+ColumnMappings[50]=(ColumnName="Sphères ramenées")
+ColumnMappings[51]=(ColumnName="Dégâts du Core")
+ColumnMappings[52]=(ColumnName="Cores détruits")
+ColumnMappings[53]=(ColumnName="Nodes détruits")
+ColumnMappings[54]=(ColumnName="Nodes réparés")
+ColumnMappings[55]=(ColumnName="Nodes construits")
+ColumnMappings[56]=(ColumnName="Destructeur de nodes")
+ColumnMappings[57]=(ColumnName="Crânes ramassés")
+ColumnMappings[58]=(ColumnName="Crânes marqués")
+ColumnMappings[59]=(ColumnName="Maximum de crânes transportés")
+ColumnMappings[60]=(ColumnName="Points traîtres")
+ColumnMappings[61]=(ColumnName="Revanches ")
+
+[UTLeaderboardReadPureDM]
+ColumnMappings[0]=(ColumnName="Tués")
+ColumnMappings[1]=(ColumnName="Morts")
+ColumnMappings[2]=(ColumnName="Dans le mille")
+ColumnMappings[3]=(ColumnName="Redeemer refusé")
+ColumnMappings[4]=(ColumnName="Oeil d'Aigle")
+ColumnMappings[5]=(ColumnName="Séries Terminées")
+ColumnMappings[6]=(ColumnName="Premiers Sangs")
+ColumnMappings[7]=(ColumnName="Détournements de véhicules")
+ColumnMappings[8]=(ColumnName="Tués sur la route")
+ColumnMappings[9]=(ColumnName="Mort sur la route")
+ColumnMappings[10]=(ColumnName="Meilleurs Tireurs")
+ColumnMappings[11]=(ColumnName="Double Tuerie")
+ColumnMappings[12]=(ColumnName="Mégatuerie")
+ColumnMappings[13]=(ColumnName="Tuerie Monstrueuse")
+ColumnMappings[14]=(ColumnName="Multituerie")
+ColumnMappings[15]=(ColumnName="Ultratuerie")
+ColumnMappings[16]=(ColumnName="Berserks"))
+ColumnMappings[17]=(ColumnName="Invisibilité"))
+ColumnMappings[18]=(ColumnName="Invulnérabilité"))
+ColumnMappings[19]=(ColumnName="Bottes de Saut"))
+ColumnMappings[20]=(ColumnName="Ceinture-Bouclier"))
+ColumnMappings[21]=(ColumnName="UDamage"))
+ColumnMappings[22]=(ColumnName="Bonus Armure"))
+ColumnMappings[23]=(ColumnName="Bonus Santé"))
+ColumnMappings[24]=(ColumnName="Temps berserk"))
+ColumnMappings[25]=(ColumnName="Temps invisible"))
+ColumnMappings[26]=(ColumnName="Temps invulnérable"))
+ColumnMappings[27]=(ColumnName="Temps Udamage"))
+ColumnMappings[28]=(ColumnName="Chasseur Incroyable")
+ColumnMappings[29]=(ColumnName="Risque Biologique")
+ColumnMappings[30]=(ColumnName="Série bleue")
+ColumnMappings[31]=(ColumnName="Roi du Combo")
+ColumnMappings[32]=(ColumnName="Maître Flak")
+ColumnMappings[33]=(ColumnName="Tireur d'élite")
+ColumnMappings[34]=(ColumnName="Chasseur de têtes")
+ColumnMappings[35]=(ColumnName="Tortionnaire")
+ColumnMappings[36]=(ColumnName="Furie routière")
+ColumnMappings[37]=(ColumnName="Expert en Roquettes")
+ColumnMappings[38]=(ColumnName="Maître Shaft")
+ColumnMappings[39]=(ColumnName="Position Dominante")
+ColumnMappings[40]=(ColumnName="Divin")
+ColumnMappings[41]=(ColumnName="Folie Meurtrière")
+ColumnMappings[42]=(ColumnName="Furies")
+ColumnMappings[43]=(ColumnName="Massacre")
+ColumnMappings[44]=(ColumnName="Impossible à arrêter")
+ColumnMappings[45]=(ColumnName="Hat Tricks")
+ColumnMappings[46]=(ColumnName="Porteur de drapeau tué")
+ColumnMappings[47]=(ColumnName="Drapeaux ramenés")
+ColumnMappings[48]=(ColumnName="Drapeaux remportés")
+ColumnMappings[49]=(ColumnName="Sauvetages de dernière seconde")
+ColumnMappings[50]=(ColumnName="Sphères ramenées")
+ColumnMappings[51]=(ColumnName="Dégâts du Core")
+ColumnMappings[52]=(ColumnName="Cores détruits")
+ColumnMappings[53]=(ColumnName="Nodes détruits")
+ColumnMappings[54]=(ColumnName="Nodes réparés")
+ColumnMappings[55]=(ColumnName="Nodes construits")
+ColumnMappings[56]=(ColumnName="Destructeur de nodes")
+ColumnMappings[57]=(ColumnName="Crânes ramassés")
+ColumnMappings[58]=(ColumnName="Crânes marqués")
+ColumnMappings[59]=(ColumnName="Maximum de crânes transportés")
+ColumnMappings[60]=(ColumnName="Points traîtres")
+ColumnMappings[61]=(ColumnName="Revanches ")
+
+[UTMissionInfo]
+MissionTypeDesc[0]=Duel
+MissionTypeDesc[1]=Deathmatch
+MissionTypeDesc[2]=Deathmatch
+MissionTypeDesc[3]=Capture du Drapeau
+MissionTypeDesc[4]=Guerre
+
+[UTKillsRemainingMessage]
+KillsRemainStrings(0)="Il reste 10 éxécutions !"
+KillsRemainStrings(1)="Il reste 5 éxécutions !"
+KillsRemainStrings(2)="Il reste 1 éxécution !"
+
+[UTDuelMessage]
+NextInLineString="Vous êtes le prochain !"
+
+;///////////////
+; Weapons
+;///////////////
+[UTWeap_RocketLauncher UTUIDataProvider_Weapon]
+FriendlyName=Lance-Roquettes
+Description=Chaque année, plus de morts accidentelles sont provoquées par le lance-roquettes Trident à trois barrils que par les accidents de véhicule et de sports extrêmes réunis.  Le rayon mortel de sa roquette standard est étonnamment large -- ainsi, tirer accidentellement sur un mur voisin ou sur un soldat ennemi voisin peut être mortel pour l'opérateur.  Le feu secondaire ajoute à cette mortalité en chargeant et tirant jusqu'à trois roquettes à la fois, en une spirale large ou serrée, ou en hauteur comme des grenades.  Sans tenir compte de ces sinistres statistiques, les vétérans considèrent encore cette arme comme le moyen le plus expéditif de faire exploser la cible.
+
+[UTWeap_BioRifle_Content UTUIDataProvider_Weapon]
+FriendlyName=Fusil Bio
+Description=Le Fusil Bio GES transforme la forme cristalline stable du tarydium en une boue réactive mutagène. Il peut rapidement disperser ces toxines sur une large zone, ou tirer une virulente charge utile variable, mais habituellement mortelle. Selon des termes profanes, cela signifie que le Fusil Bio peut saupoudrer une zone de petits grumeaux de boue biologique, ou lancer un grumeau nocif sur la cible. La capacité du Fusil Bio à recouvrir une zone d'un champ de mines toxiques en fait une arme défensive notoirement efficace. 
+
+[UTWeap_FlakCannon UTUIDataProvider_Weapon]
+FriendlyName=Canon Flak
+Description=Trident Defensive Technologies continue à régler et ajuster son canon Flak avec le Mk4 "Peacekeeper" dernièrement produit.  Malgré son nouveau nom, le canon Flak reste banni de la plupart des conflits militaires en raison des nombreuses mutilations et dommages collatéraux infligés.  Le canon Flak reste néanmoins l'arme de choix pour la guerre non conventionnelle en territoire urbain.  Le canon lance en l'air une cartouche Flak qui explose au contact, envoyant ses shrapnels sur un rayon dangereusement large et imprévisible.  Le mode secondaire fait exploser la cartouche dans le canon, projetant un faisceau mortel de shrapnels tel un fusil de chasse et rendant souvent l'opérateur sourd.
+
+[UTWeap_SniperRifle UTUIDataProvider_Weapon]
+FriendlyName=Fusil Sniper
+Description=Le vénérable fusil longue portée d'Axon Research est l'arme de choix du sniper. L'acquisition de cible à distance nécessite une main ferme mais la récompense mérite l'effort. Le projectile de gros calibre est mortel à n'importe quelle distance. D'un tir précis à la tête, la cible sera neutralisée par la balle supersonique bien avant d'avoir pu entendre le coup. Comme on dit chez les Marines N.E.G. - "il ne faut pas s'inquiéter du coup qu'on entend". 
+
+[UTWeap_LinkGun UTUIDataProvider_Weapon]
+FriendlyName=Link Gun
+Description=Riordan Dynamic Weapon Systems est connu pour son système d'armement de combat universel, le fusil plasma avancé v24. Son mode principal est un tir plasma rapide.  Mais le rayon du mode secondaire sert aussi à une multitude de besoins d'ingénierie sur le champ de bataille, de la réparation de véhicules amis à la construction de nodes énergétiques.  La lentille du rayon comprend la détection IFF, et sa matrice énergétique bascule automatiquement sur un flux mortel de plasma à la rencontre d'un véhicule ou soldat ennemi.  Le contact avec une cible amie bascule sur un rayon porteur inoffensif, transférant l'énergie des cellules embarquées à la cible.  Cela a pour effet d'augmenter la capacité de tout membre de l'équipe relié au fusil -- d'où son surnom de "Link Gun".
+
+[UTWeap_ImpactHammer UTUIDataProvider_Weapon]
+FriendlyName=Marteau Impact
+Description=Le Marteau, conçu à l'origine pour les travaux miniers, peut concentrer plusieurs centaines de tonnes métriques de pression sur quelques centimètres carrés.  L'impact et l'onde de choc résultante déstabilisent facilement la pierre solide pour accélérer l'extraction du minerai.  Après que plusieurs accidents aient mis en évidence l'effet dévastateur du Marteau sur le corps humain, l'armée du N.E.G. s'y est intéressée.  Pour améliorer l'efficacité du Marteau contre les à véhicules dotés d'un blindage antichoc, un mode alternatif de pulsation électromagnétique (EMP) a été ajouté.  L'EMP brouille violemment les systèmes informatiques embarqués, menant rapidement à des pannes moteur.  Les tests sur le terrain ont montré que l'EMP a un effet similaire sur les troupes d'infanterie, abattant les soldats et permettant la récupération du champ de bataille.
+
+[UTWeap_Enforcer UTUIDataProvider_Weapon]
+FriendlyName=Enforcer
+Description=Pendant des décennies, le pistolet Enforcer a été l'arme de ceinture de choix.  Les vétérans appréciaient la puissance, la précision et l'équilibre de ce pistolet léger.  Ces dernières années, le désir toujours vif d'une plus grande puissance de feu a mené à généraliser le fusil d'assaut AR770.  Les officiers d'intendance furent attirés par la plus grande cadence du AR770 et son lance-grenades M355 surbaissé, mais les vétérans chevronnés regrettèrent la fiabilité de l'Enforcer.  Axon Research écouta les soldats et leur nouvel Enforcer MP ("Machine Pistol") propose le meilleur des deux mondes.  Des chargeurs latéraux apportent une plus grande capacité tout en équilibrant la visée du tireur en utilisant deux pistolets.   Doté d'un mode semi-automatique mortel et d'un mode de tir sélectionnable, l'Enforcer est de retour et le champ de bataille ne sera jamais le même.
+
+[UTWeap_InstagibRifle UTUIDataProvider_Weapon]
+FriendlyName=Fusil Instagib
+Description=Le fusil Shock ASMD a peu changé depuis sa première incorporation dans le tournoi de la Liandri. L'ASMD dispose de deux modes de tir : un fin rayon photonique et une sphère d'énergie plasmique instable. Ces modes sont aussi mortels l'un que l'autre, mais utilisés ensemble, ils peuvent neutraliser l'adversaire par une onde choc dévastatrice. Les sphères d'énergie peuvent être détonnées par un rayon photonique, libérant l'énergie explosive des antiphotons dans le champ d'endiguement de l'EM plasma.
+
+[UTWeap_ShockRifle UTUIDataProvider_Weapon]
+FriendlyName=Fusil Shock
+Description=Le fusil Shock ASMD a peu changé depuis sa première incorporation dans le tournoi de la Liandri. L'ASMD dispose de deux modes de tir : un fin rayon photonique et une sphère d'énergie plasmique instable. Ces modes sont aussi mortels l'un que l'autre, mais utilisés ensemble, ils peuvent neutraliser l'adversaire par une onde choc dévastatrice. Les sphères d'énergie peuvent être détonnées par un rayon photonique, libérant l'énergie explosive des antiphotons dans le champ d'endiguement de l'EM plasma.
+
+[UTWeap_Stinger UTUIDataProvider_Weapon]
+FriendlyName=Stinger Minigun
+Description=Remplaçant le Minigun dans le tournoi de cette année, le "Stinger" est en fait un outil minier de la Liandri militarisé. Le Stinger tire des éclats de cristal de tarydium non traité à une cadence alarmante, truffant les adversaires d'une tempêtes d'aiguilles mortelles. Le feu secondaire tire de plus gros éclats de cristal qui peuvent sonner un adversaire ou même parfois le clouer au mur.
+
+[UTWeap_Avril_Content UTUIDataProvider_Weapon]
+FriendlyName=Longbow AVRiL
+Description=Le lance-roquettes antivéhicule Longbow, appelé "AVRiL", donne une chance à l'infanterie non mécanisée dans un conflit de véhicules blindés.  Son missile à carburant solide peut être tiré "à l'aveuglette" comme une roquette non guidée, mais les pourcentages de morts réputés de l'AVRiL proviennent de son système d'acquisition optique.  Le feu secondaire zoome et se verrouille sur un véhicule, guidant le missile vers sa cible à une vitesse inéluctable.  Les plans de contrôle microtachetés du missile utilisent une surface augmentée pour un rayon de braquage sans précédent, garantissant la livraison de sa charge profilée de PolyDiChlorite même contre les véhicules les plus agiles.  L'AVRiL est notoirement lent à recharger et il doit être employé avec précaution dans une bataille rangée.  Remarquez que le laser de visée du Longbow est standardisé pour la plupart des équipements militaires Axon, et il peut être utilisé différemment sur un champ de bataille, telle que la direction des mines araignées.
+
+[UTWeap_Redeemer_Content UTUIDataProvider_Weapon]
+FriendlyName=Redeemer
+Description=""Même vos soldats les moins efficaces auront des scores respectables avec ce dispositif nucléaire tactique." Ainsi disait la brochure originale du Redeemer, encore inégalé dans son rôle d'arme portable la plus puissante connue dans toute la galaxie.  Le missile lent mais totalement dévastateur, affectueusement appelé "Lola" par les vétérans, utilise maintenant une charge utile à radiation améliorée.  Cela assure un maximum de dégâts aux tissus sans dommage matériel inconsidéré, parfait pour les tactiques modernes "attaque et capture".  Le mode secondaire du Redeemer tire le missile au moyen du système de guidage électronique, bien que le manuel recommande d'utiliser ce mode seulement dans des zones de relative sécurité."
+
+[UTWeap_Translocator_Content UTUIDataProvider_Weapon]
+FriendlyName=Téléporteur
+Description=Le téléporteur fut à l'origine conçu par le département Recherche et Développement de la Liandri pour le sauvetage rapide de matériel minier onéreux au cours de l'effondrement de tunnels et des urgences similaires.  Cette technologie sauva également un nombre incalculable de vies, mais non sans coût ; une désintégration et une reconstitution rapides mènent à des perturbations synaptiques et à des symptômes de débilité comme la Démence Post-Téléportation (DPT).  Aujourd'hui, après des années de contrats de développement militaire lucratifs, la technologie de téléportation portable a été déclarée "suffisamment sûre" pour un usage régulier par l'infanterie du front.
+
+
+
+[UTUIDataStore_StringList]
+StringData[0]=(ColumnHeaderText="Type de Match",Strings=("LAN","Internet"))
+StringData[1]=(ColumnHeaderText="Type de Match",Strings=("Lien Système","Joueur","Avec classement"))
+StringData[2]=(ColumnHeaderText="Type de Match",Strings=("LAN","Internet"))
+StringData[3]=(ColumnHeaderText="Type de Match",Strings=("Lien Système","Joueur","Avec classement"))
+StringData[4]=(ColumnHeaderText="Équipe Bot",Strings=("Aléatoire","Iron Guard","Ronin","Krall","Liandri","Necris"))
+StringData[5]=(ColumnHeaderText="Enregistrement Démo",Strings=("Non","Oui"))
+StringData[6]=(ColumnHeaderText="Plein écran",Strings=("Plein écran","En fenêtre"))
+StringData[7]=(ColumnHeaderText="Résolution",Strings=("800x600","960x720","1024x768","1280x720","1600x1200"))
+StringData[8]=(ColumnHeaderText="Préréglage touche",Strings=("Préréglage 1", "Préréglage 2", "Préréglage 3"))
+StringData[9]=(ColumnHeaderText="Écran séparé",Strings=("Non", "Oui"))
+StringData[10]=(ColumnHeaderText="Uniforme",Strings=("Masque", "Casque", "Lunettes", "Torse", "Épaulières", "Bras", "Cuisses", "Bottes"))
+StringData[11]=(ColumnHeaderText="Type de Serveur",Strings=("Écouter","Dédié"))
+
+[UTUIDataProvider_OnlineFriendMessages]
+SendingPlayerNameCol=Expéditeur
+bIsFriendInviteCol=Invitation
+bWasAcceptedCol=Invitation acceptée
+bWasDeniedCol=Invitation rejetée
+MessageCol=Message
+
+[UTUIDataProvider_OnlineFriends]
+NickNameCol=Nom
+PresenceInfoCol=État
+bIsOnlineCol=En ligne
+bIsPlayingCol=Joue
+bIsPlayingThisGameCol=Joue à UT3
+bIsJoinableCol=Joignable
+bHasVoiceSupportCol=Voix
+
+;////////////////////////////
+; Possible Key Bindings/////
+;//////////////////////////
+[MoveForward UTUIDataProvider_KeyBinding]
+FriendlyName="Déplacement Avant"
+
+[MoveBackward UTUIDataProvider_KeyBinding]
+FriendlyName="Déplacement Arrière"
+
+[StrafeLeft UTUIDataProvider_KeyBinding]
+FriendlyName="Déplacement à gauche"
+
+[StrafeRight UTUIDataProvider_KeyBinding]
+FriendlyName="Déplacement à droite"
+
+[TurnLeft UTUIDataProvider_KeyBinding]
+FriendlyName="Tourner à gauche"
+
+[TurnRight UTUIDataProvider_KeyBinding]
+FriendlyName="Tourner à droite"
+
+[Jump UTUIDataProvider_KeyBinding]
+FriendlyName="Sauter"
+
+[Duck UTUIDataProvider_KeyBinding]
+FriendlyName="Se baisser"
+
+[Fire UTUIDataProvider_KeyBinding]
+FriendlyName="Feu"
+
+[AltFire UTUIDataProvider_KeyBinding]
+FriendlyName="Tir Alternatif"
+
+[Use UTUIDataProvider_KeyBinding]
+FriendlyName="Utiliser"
+
+[FeignDeath UTUIDataProvider_KeyBinding]
+FriendlyName="Feindre la Mort"
+
+[SwitchToBestWeapon UTUIDataProvider_KeyBinding]
+FriendlyName="Changer pour la Meilleure Arme"
+
+[PreviousWeapon UTUIDataProvider_KeyBinding]
+FriendlyName="Arme Précédente"
+
+[NextWeapon UTUIDataProvider_KeyBinding]
+FriendlyName="Arme Suivante"
+
+[SwitchWeapon1 UTUIDataProvider_KeyBinding]
+FriendlyName="Marteau Impact"
+
+[SwitchWeapon2 UTUIDataProvider_KeyBinding]
+FriendlyName="Enforcer"
+
+[SwitchWeapon3 UTUIDataProvider_KeyBinding]
+FriendlyName="Fusil Bio"
+
+[SwitchWeapon4 UTUIDataProvider_KeyBinding]
+FriendlyName="Fusil Shock"
+
+[SwitchWeapon5 UTUIDataProvider_KeyBinding]
+FriendlyName="Link Gun"
+
+[SwitchWeapon6 UTUIDataProvider_KeyBinding]
+FriendlyName="Minigun Stinger"
+
+[SwitchWeapon7 UTUIDataProvider_KeyBinding]
+FriendlyName="Canon Flak"
+
+[SwitchWeapon8 UTUIDataProvider_KeyBinding]
+FriendlyName="Lance-Roquettes"
+
+[SwitchWeapon9 UTUIDataProvider_KeyBinding]
+FriendlyName="Fusil Sniper"
+
+[SwitchWeapon10 UTUIDataProvider_KeyBinding]
+FriendlyName="Longbow / Redeemer"
+
+[ToggleTranslocator UTUIDataProvider_KeyBinding]
+FriendlyName="Téléporteur / Hoverboard"
+
+[TransmitVoice UTUIDataProvider_KeyBinding]
+FriendlyName="Transmettre la Voix"
+
+[Talk UTUIDataProvider_KeyBinding]
+FriendlyName="Parler"
+
+[TeamTalk UTUIDataProvider_KeyBinding]
+FriendlyName="Parler à l'équipe"
+
+[Taunt1 UTUIDataProvider_KeyBinding]
+FriendlyName="Provocation 1"
+
+[Taunt2 UTUIDataProvider_KeyBinding]
+FriendlyName="Provocation 2"
+
+[Horn UTUIDataProvider_KeyBinding]
+FriendlyName="Klaxon"
+
+[ShowMenu UTUIDataProvider_KeyBinding]
+FriendlyName="Afficher menu"
+
+[ShowCommandMenu UTUIDataProvider_KeyBinding]
+FriendlyName="Afficher menu de commandes"
+
+[ShowScores UTUIDataProvider_KeyBinding]
+FriendlyName="Afficher Classement"
+
+[ShowMap UTUIDataProvider_KeyBinding]
+FriendlyName="Affichage Carte"
+
+[ToggleMinimap UTUIDataProvider_KeyBinding]
+FriendlyName="Afficher ou Cacher Minicarte"
+
+[TriggerHero UTUIDataProvider_KeyBinding]
+FriendlyName="Transformation Titan"
+
+[GrowHud UTUIDataProvider_KeyBinding]
+FriendlyName="Accroître HUD"
+
+[ShrinkHud UTUIDataProvider_KeyBinding]
+FriendlyName="Réduire HUD"
+
+
+;///////////////
+; Main Menu
+;///////////////
+[Campaign UTUIDataProvider_MainMenuItems]
+FriendlyName=Campagne
+Description=Démarrer ou continuer une partie campagne.
+
+[InstantAction UTUIDataProvider_MainMenuItems]
+FriendlyName=Action Instantanée
+Description=Passer directement à l'action avec quelques bots.
+
+[Multiplayer UTUIDataProvider_MainMenuItems]
+FriendlyName=Multijoueur
+Description=Héberger ou se connecter à une partie multijoueur.
+
+[Community UTUIDataProvider_MainMenuItems]
+FriendlyName=Communauté
+Description=Voir les trophées, les amis, les classements, les statistiques, les démos et les dernières News!
+
+[Settings UTUIDataProvider_MainMenuItems]
+FriendlyName=Paramètres
+Description=Configurer les paramètres de jeu.
+
+[Exit UTUIDataProvider_MainMenuItems]
+FriendlyName=Sortir
+Description=Sortir vers le bureau.
+
+;///////////////
+; Multiplayer Menu
+;///////////////
+
+[QuickMatch UTUIDataProvider_MultiplayerMenuItem]
+FriendlyName=Partie Rapide
+Description="Rejoindre la première partie multijoueur correspondant à vos critères."
+
+[HostGame UTUIDataProvider_MultiplayerMenuItem]
+FriendlyName=Héberger Partie
+Description=Héberger une partie multijoueur que d'autres peuvent rejoindre.
+
+[JoinGame UTUIDataProvider_MultiplayerMenuItem]
+FriendlyName=Rejoindre Partie
+Description=Rejoindre une partie multijoueur existante.
+
+[JoinGameLan UTUIDataProvider_MultiplayerMenuItem]
+FriendlyName=Rejoindre réseau LAN
+Description=Rejoindre une partie multijoueur sur un réseau local (LAN).
+
+;[CreateParty UTUIDataProvider_MultiplayerMenuItem]
+;FriendlyName=Créer Groupe
+;Description=Créez un groupe pour pouvoir jouer des parties en multijoueur avec vos amis.
+
+;///////////////
+; Community Menu
+;///////////////
+[News UTUIDataProvider_CommunityMenuItem]
+FriendlyName="News"
+Description=Voir les dernières news de la communauté Unreal Tournament 3.
+
+[DLC UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Contenu Téléchargeable
+Description=Voir et télécharger des contenus supplémentaires pour Unreal Tournament 3.
+
+[EpicContent UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Contenu Epic
+Description=Voir et télécharger des contenus supplémentaires pour Unreal Tournament 3.
+
+[MyContent UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Mon Contenu
+Description=Voir et supprimer votre contenu supplémentaire installé.
+
+[Friends UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Amis
+Description=Voir et gérer votre liste d'amis.
+
+[Messages UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Messages
+Description=Voir les messages reçus des autres joueurs.
+
+[Leaderboards UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Classements
+Description=Voir les classements en ligne pour savoir quel est votre position.
+
+[DemoPlayback UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Lecture Démo
+Description=Voir vos parties précédemment enregistrées.
+
+[Credits UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Crédits
+Description=Voir les crédits du jeu.
+
+[Achievements UTUIDataProvider_CommunityMenuItem]
+FriendlyName=Primes
+Description=Afficher le progrès des primes.
+
+;///////////////
+; Settings Menu
+;///////////////
+;[PlayerSettings UTUIDataProvider_SettingsMenuItem]
+;FriendlyName=Joueur
+;Description=Modifier l'apparence et les sons de votre personnage de jeu.
+
+[VideoSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Vidéo
+Description=Modifier les paramètres vidéo.
+
+[AudioSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Audio
+Description=Modifier les paramètres audio.
+
+[InputSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Entrée
+Description=Modifier les paramètres d'entrée.
+
+[NetworkSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Joueur
+Description=Modifier vos paramètres personnels et l'apparence de votre personnage.
+
+[WeaponSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Armes
+Description=Modifier les paramètres de l'arme.
+
+[HUDSettings UTUIDataProvider_SettingsMenuItem]
+FriendlyName=HUD
+Description=Modifier les paramètres HUD.
+
+[Credits UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Crédits
+Description=Voir les crédits du jeu.
+
+[InstallPS3 UTUIDataProvider_SettingsMenuItem]
+FriendlyName=Installer le Jeu
+Description=Installez le jeu entier sur votre disque dur pour réduire les temps de chargement.
+
+
+;///////////////
+; UT3 Game Modes
+;///////////////
+[UTDeathmatch UTUIDataProvider_GameModeInfo]
+FriendlyName=Deathmatch
+Description="Concours "Tuez ou Soyez Tué".  Le joueur qui fait le plus de victimes gagne."
+
+[UTTeamGame UTUIDataProvider_GameModeInfo]
+FriendlyName=Deathmatch Équipe
+Description=Action deathmatch en équipe !
+
+[UTCTFGame_Content UTUIDataProvider_GameModeInfo]
+FriendlyName=Capture du Drapeau
+Description=Capture du drapeau en équipe.  Envahissez la base de l'équipe adverse, prenez leur drapeau et ramenez-le sur votre propre base pour avoir la gloire !
+
+[UTVehicleCTFGame_Content UTUIDataProvider_GameModeInfo]
+FriendlyName=CDD Véhicules
+Description="Capture du drapeau en équipe avec véhicules.  Envahissez la base de l'équipe adverse, prenez leur drapeau et ramenez-le sur votre propre base pour avoir la gloire !"
+
+[UTOnslaughtGame_Content UTUIDataProvider_GameModeInfo]
+FriendlyName=Guerre
+Description=Reliez les Nodes et détruisez le Core ennemi dans ce mode en équipe !
+
+[UTDuelGame UTUIDataProvider_GameModeInfo]
+FriendlyName=Duel
+Description="1 contre 1"
+
+[UTGreedGame_Content UTUIDataProvider_GameModeInfo]
+FriendlyName=Avarice
+Description=Récupérez des crânes en battant vos adversaires et ramenez-les à la base de l'équipe adversaire.
+
+[UTBetrayalGame UTUIDataProvider_GameModeInfo]
+FriendlyName=Trahison
+Description=Entraidez-vous pour gagner des points bonus. Trahissez votre équipe pour les garder.
+
+[UTCampaignGame UTUIDataProvider_GameModeInfo]
+FriendlyName=Campagne
+Description=Mode de jeu Campagne
+
+;///////////////
+; Instant Action Options
+;///////////////
+
+; Disabled
+;[SplitScreen_Common UTUIDataProvider_MenuOption]
+;FriendlyName=Fractionnement écran
+;Description=Joueur ou non sur un écran fractionné 2 joueurs.
+
+[BotSkill_Common UTUIDataProvider_MenuOption]
+FriendlyName=Niveau de Compétence du Bot
+Description=Le niveau de compétence des bots contrôlés par IA.
+
+[BotCombatants_Common UTUIDataProvider_MenuOption]
+FriendlyName=Nombre de Bots
+Description=Le nombre de bots dans la partie.
+
+[BotCombatantsRatio_Common UTUIDataProvider_MenuOption]
+FriendlyName=Nombre de Bots
+Description=Le nombre de bots dans la partie.
+
+[NumBots_Common UTUIDataProvider_MenuOption]
+FriendlyName=Nombre de Bots
+Description=Le nombre de bots dans la partie.
+
+[GoalScore_Common UTUIDataProvider_MenuOption]
+FriendlyName=Score
+Description=Le score limite pour un seul round de la partie. 0 signifie aucune limite.
+
+[TimeLimit_Common UTUIDataProvider_MenuOption]
+FriendlyName="Durée"
+Description="La durée de jeu par manche de la partie.  0 signifie un round sans fin."
+
+[BotTeam_Common UTUIDataProvider_MenuOption]
+FriendlyName=Faction Bot Adverse
+Description=La faction bot contre laquelle jouer.
+
+; Disabled
+;[RecordDemo_Common UTUIDataProvider_MenuOption]
+;FriendlyName=Enregistrer Démo
+;Description=Bascule activation / désactivation de l'enregistrement d'une démo de la partie.
+
+;///////////////
+; Deathmatch Options
+;///////////////
+
+; Disabled
+;[SplitScreen_DM UTUIDataProvider_MenuOption]
+;FriendlyName=Fractionnement écran
+;Description=Whether or not to enable 2-player splitscreen.
+
+[BotSkill_DM UTUIDataProvider_MenuOption]
+FriendlyName=Niveau de Compétence du Bot
+Description=Le niveau de compétence des bots contrôlés par IA.
+
+[BotSkill_DUEL UTUIDataProvider_MenuOption]
+FriendlyName=Niveau de Compétence du Bot
+Description=Le niveau de compétence des bots contrôlés par IA.
+
+[BotCombatants_DM UTUIDataProvider_MenuOption]
+FriendlyName=Robots combattants
+Description=Le nombre de bots dans la partie.
+
+[BotCombatantsRatio_TDM UTUIDataProvider_MenuOption]
+FriendlyName=Robots combattants
+Description=Le nombre de bots dans la partie.
+
+[NumBots_DM UTUIDataProvider_MenuOption]
+FriendlyName=Nombre d'Adversaires
+Description=Le nombre d'adversaires à toujours avoir dans la partie.  Des bots seront ajoutés s'il n'y a pas suffisamment de joueurs humains.
+
+[VsBots_DM UTUIDataProvider_MenuOption]
+FriendlyName=Rapport Contre Bots
+Description=Le nombre de bots à générer pour chaque joueur humain.  Cette option outrepasse le paramètre Nombre d'adversaires
+
+[GoalScore_DM UTUIDataProvider_MenuOption]
+FriendlyName=Score
+Description="Le score limite par manche de la partie. 0 signifie aucune limite."
+
+[TimeLimit_DM UTUIDataProvider_MenuOption]
+FriendlyName="Durée"
+Description="La durée de jeu par manche de la partie.  0 signifie un round sans fin."
+
+[BotTeam_DM UTUIDataProvider_MenuOption]
+FriendlyName=Faction Bot Adverse
+Description=La faction bot contre laquelle jouer.
+
+[ForceRespawn_DM UTUIDataProvider_MenuOption]
+FriendlyName=Forcer régénération
+Description="Active ou désactive la régénération des joueurs."
+
+[RecordDemo_DM UTUIDataProvider_MenuOption]
+FriendlyName=Enregistrer Démo
+Description="Active ou désactive l'enregistrement d'une démo de la partie."
+
+;///////////////
+; Audio Options
+;///////////////
+
+; Disabled
+;[AudioDevice UTUIDataProvider_MenuOption]
+;FriendlyName=Périphérique Audio
+;Description=Sélectionnez le périphérique audio à utiliser pour la lecture audio.
+
+[HardwareOpenAL UTUIDataProvider_MenuOption]
+FriendlyName=Utilisation OpenAL
+Description="Active ou désactive l'accélération audio (si disponible). Changer cette option requiert un redémarrage du jeu pour que les modifications prennent effet."
+
+[SFXVolume UTUIDataProvider_MenuOption]
+FriendlyName=Volume effets sonores
+Description=Contrôle le volume des effets sonores du jeu.
+
+[MusicVolume UTUIDataProvider_MenuOption]
+FriendlyName=Volume musique
+Description=Contrôle le volume de la musique du jeu.
+
+[VoiceVolume UTUIDataProvider_MenuOption]
+FriendlyName=Volume voix
+Description=Contrôle le volume des voix du jeu.
+
+[AmbianceVolume UTUIDataProvider_MenuOption]
+FriendlyName=Volume ambiance
+Description=Contrôle le volume des sons ambiants du jeu.
+
+[AnnouncerVolume UTUIDataProvider_MenuOption]
+FriendlyName=Volume présentateur
+Description=Contrôle le volume du présentateur du jeu.
+
+[AnnounceSetting UTUIDataProvider_MenuOption]
+FriendlyName=Annonces
+Description=Contrôle le type d'annonces du jeu.
+
+[AutoTaunt UTUIDataProvider_MenuOption]
+FriendlyName=Provocations automatiques
+Description=Active ou désactive les provocations automatiques.
+
+; Disabled
+;[MessageBeep UTUIDataProvider_MenuOption]
+;FriendlyName=Bip Message
+;Description=Bascule activation / désactivation des bips pour les messages entrants.
+
+[MuteVoice UTUIDataProvider_MenuOption]
+FriendlyName="Dialogues"
+Description=Active ou désactive la possibilité de dialogues pour les parties multijoueur.
+
+; Disabled
+;[SpeechRecognition UTUIDataProvider_MenuOption]
+;FriendlyName=Reconnaissance Vocale
+;Description=Bascule activation / désactivation reconnaissance vocale.
+
+[TextToSpeechMode UTUIDataProvider_MenuOption]
+FriendlyName="Mode texte-parole"
+Description=Contrôle quels textes seront convertis en voix.
+
+;///////////////
+; Input Options
+;///////////////
+[ControllerVibration UTUIDataProvider_MenuOption]
+FriendlyName=<StringAliasMap:Term_Controller> Vibration
+Description="Enable or disable the <StringAliasMap:Term_Controller> fonction vibration"
+
+[InvertY UTUIDataProvider_MenuOption]
+FriendlyName=Inverser Y
+Description="Active ou désactive l'inversion de l'axe Y pour viser."
+
+; Disabled
+;[DodgingEnabled UTUIDataProvider_MenuOption]
+;FriendlyName=Esquive Activée
+;Description=Bascule activation / désactivation esquive.
+
+[AutoAim UTUIDataProvider_MenuOption]
+FriendlyName="Visée automatique"
+Description="Active ou désactive la visée assistée."
+
+[ControllerSensitivityMultiplier UTUIDataProvider_MenuOption]
+FriendlyName=Sensibilité <StringAliasMap:Term_Controller>
+Description=Régler la sensibilité de la <StringAliasMap:Term_Controller>.
+
+[MouseSmoothing UTUIDataProvider_MenuOption]
+FriendlyName=Lissage Souris
+Description="Active ou désactive le lissage du mouvement de la souris."
+
+[MouseSensitivityGame UTUIDataProvider_MenuOption]
+FriendlyName=Sensibilité Souris
+Description=Règle la sensibilité de la souris.
+
+[MouseSmoothingStrength UTUIDataProvider_MenuOption]
+FriendlyName=Taille de la mire
+Description=Règle la taille de la mire avec une valeur de 1 à 10. La valeur par défaut étant 10.
+
+[DodgeDoubleClickTime UTUIDataProvider_MenuOption]
+FriendlyName=Esquiver Temps Double Clic
+Description=Régler la vitesse à laquelle un bouton de direction doit être doublement actionné pour esquiver.
+
+[EnableJoystick UTUIDataProvider_MenuOption]
+FriendlyName=Activation du Joystick
+Description=Active ou désactive la connexion du joystick. S'il est activé, vous devrez configurer les entrées dans le menu Touches (en bas).
+
+[TurningAccelerationFactor UTUIDataProvider_MenuOption]
+FriendlyName=Accélération Rotation
+Description=Régler la sensibilité du joystick pour l'accélération de la rotation du personnage.
+
+[AutoCenterPitch UTUIDataProvider_MenuOption]
+FriendlyName="Vision Centrée (Marche)"
+Description=Centrer automatiquement ou non la vision pendant la marche.
+
+[AutoCenterVehiclePitch UTUIDataProvider_MenuOption]
+FriendlyName="Vision Centrée (Véhicule)"
+Description=Centrer automatiquement ou non la vision dans les véhicules.
+
+[TiltSensing UTUIDataProvider_MenuOption]
+FriendlyName="Détecteur de Mouvements"
+Description=Activer ou non la détection des mouvements de la manette pour contrôler le hoverboard.
+
+[VehicleControls UTUIDataProvider_MenuOption]
+FriendlyName=Commandes véhicules
+Description=Relatif: tous les véhicules se déplacent là où vous regardez. Mixte: seulement les véhicules à roues. Direct: vision et conduite indépendantes.
+
+;///////////////
+; Video Options
+;///////////////
+[ScreenResolution UTUIDataProvider_MenuOption]
+FriendlyName=Résolution de l'écran
+Description=Change la résolution de l'écran.
+
+[FullScreen UTUIDataProvider_MenuOption]
+FriendlyName=Mode écran
+Description=Contrôle l'affichage plein écran ou en mode fenêtre.
+
+[Brightness UTUIDataProvider_MenuOption]
+FriendlyName=Luminosité
+Description=Modifie la luminosité de l'écran.
+
+[PostProcess UTUIDataProvider_MenuOption]
+FriendlyName=Post-Traitement
+Description="Change le type de post-traitement utilisé."
+
+[GoreLevel UTUIDataProvider_MenuOption]
+FriendlyName=Réduire la violence
+Description=Contrôle le niveau de sang dans le jeu.
+
+[Subtitles UTUIDataProvider_MenuOption]
+FriendlyName=Sous-titres
+Description="Active ou désactive les sous-titres."
+
+
+; Disabled
+;[DefaultFOV UTUIDataProvider_MenuOption]
+;FriendlyName=Champ de Vision Par Défaut
+;Description=Changer la valeur par défaut du champ de vision du jeu.
+
+; Disabled
+;[ViewBob UTUIDataProvider_MenuOption]
+;FriendlyName=Voyez le Tressautement
+;Description=Bascule activation / désactivation du tressautement de la vision pendant le déplacement.
+
+[EnableHardwarePhysics UTUIDataProvider_MenuOption]
+FriendlyName="Accélération Physique"
+Description="Active ou désactive l'accélération physique."
+
+;///////////////
+; Advanced Video Options
+;///////////////
+[ScreenPercentage UTUIDataProvider_MenuOption]
+FriendlyName=Qualité du rendement
+Description=Contrôle la qualité de rendement du jeu.
+
+[TextureDetail UTUIDataProvider_MenuOption]
+FriendlyName=Détail des textures
+Description=Contrôle le détail des textures.
+
+[WorldDetail UTUIDataProvider_MenuOption]
+FriendlyName=Détail des environnements
+Description=Contrôle le détail des environnements.
+
+;[FXDetail UTUIDataProvider_MenuOption]
+;FriendlyName=Détail Effets Spéciaux
+;Description=Changer le détail des effets spéciaux.
+
+;[DecalQuality UTUIDataProvider_MenuOption]
+;FriendlyName=Qualité Décalcomanie
+;Description=Changer le détail des décalcomanies.
+
+;[LightingQuality UTUIDataProvider_MenuOption]
+;FriendlyName=Qualité Éclairage
+;Description=Changer la qualité de l'éclairage.
+
+;[ShadowQuality UTUIDataProvider_MenuOption]
+;FriendlyName=Qualité des Ombres
+;Description=Changer la qualité des ombres.
+
+;[PostProcessQuality UTUIDataProvider_MenuOption]
+;FriendlyName=Qualité Post-Traitement
+;Description=Changer la qualité du post-traitement.
+
+[VSyncValue UTUIDataProvider_MenuOption]
+FriendlyName=Synchro verticale
+Description="Active ou désactive la synchro verticale du jeu."
+
+[SmoothFramerate UTUIDataProvider_MenuOption]
+FriendlyName=Fluidité des animations
+Description=Active ou désactive le lissage de la vitesse d'animation.
+
+[PlayerFOV UTUIDataProvider_MenuOption]
+FriendlyName=FOV
+Description=Utiliser cette option pour définir le champ de vision (FOV) du joueur.
+
+[EnableMotionBlur UTUIDataProvider_MenuOption]
+FriendlyName=Flou cinétique
+Description=Active ou désactive le léger flou visuel lors des déplacements rapides.
+
+;///////////////
+; Network Options
+;///////////////
+[Alias UTUIDataProvider_MenuOption]
+FriendlyName=Alias
+Description=Définit votre alias lors des parties multijoueur.
+
+[ClanTag UTUIDataProvider_MenuOption]
+FriendlyName="Symbole de Clan"
+Description="Définit le symbole de votre clan et sera visible aux autres joueurs."
+
+[NetworkConnection UTUIDataProvider_MenuOption]
+FriendlyName=Connexion Réseau
+Description=Sélectionne votre type de connexion réseau pour optimiser vos parties en ligne.
+
+[DynamicNetspeed UTUIDataProvider_MenuOption]
+FriendlyName=Vitesse Réseau Dynamique
+Description="Active ou désactive la vitesse réseau dynamique."
+
+[AllowCustomCharacters UTUIDataProvider_MenuOption]
+FriendlyName=Personnages Modifiés autorisés
+Description="Active ou désactive l'utilisation des personnages modifiés."
+
+[AlwaysLoadCustomCharacters UTUIDataProvider_MenuOption]
+FriendlyName=Charge toujours les caractères personnalisés
+Description=Charge les caractères personnalisés le long du jeu (peut créer des difficultés techniques aux systèmes de bas niveau).
+
+;///////////////
+; Weapon Options
+;///////////////
+[CrosshairType UTUIDataProvider_MenuOption]
+FriendlyName=Type de mire
+Description=Sélectionne le type de mire affiché. Les mires normales sont spécifiques à chaque arme, alors que l'option mire simple utilise la même mire pour toutes les armes.
+
+[WeaponSwitchOnPickup UTUIDataProvider_MenuOption]
+FriendlyName=Changement d'arme au ramassage
+Description="Active ou désactive le changement d'arme au ramassage."
+
+[WeaponHand UTUIDataProvider_MenuOption]
+FriendlyName=Arme principale
+Description=Sélectionne la main avec laquelle vous tenez l'arme.
+
+[SmallWeapons UTUIDataProvider_MenuOption]
+FriendlyName="Petites armes"
+Description="Active ou désactive la  réduction du calibre des armes."
+
+[DisplayWeaponBar UTUIDataProvider_MenuOption]
+FriendlyName=Affichage des armes
+Description="Active ou désactive l'affichage des armes."
+
+[ShowOnlyAvailableWeapons UTUIDataProvider_MenuOption]
+FriendlyName=Affichage des armes disponibles seulement
+Description="Active ou désactive l'affichage des armes que vous ne pouvez pas utiliser."
+
+;///////////////
+; HUD Options
+;///////////////
+[RotateMap UTUIDataProvider_MenuOption]
+FriendlyName=Minicarte Pivotante
+Description="Active ou désactive la minicarte pivotante."
+
+[ShowMap UTUIDataProvider_MenuOption]
+FriendlyName="Affichage Carte"
+Description=Active ou désactive la carte sur le HUD.
+
+[ShowClock UTUIDataProvider_MenuOption]
+FriendlyName="Affichage Temps"
+Description="Active ou désactive la durée de la partie sur le HUD."
+
+[ShowDoll UTUIDataProvider_MenuOption]
+FriendlyName=Trajectoires vers objectifs
+Description=Active ou désactive l'affichage des trajectoires vers les objectifs (CDD et Guerre)
+
+; Disabled
+;[ShowAmmo UTUIDataProvider_MenuOption]
+;FriendlyName=Afficher Munitions
+;Description=Bascule activation / désactivation de l'indicateur de munitions sur le HUD.
+
+; Disabled
+;[ShowPowerups UTUIDataProvider_MenuOption]
+;FriendlyName=Afficher Bonus
+;Description=Bascule activation / désactivation de l'affichage des powerups sur le HUD.
+
+[ShowScoring UTUIDataProvider_MenuOption]
+FriendlyName="Affichage des Scores"
+Description="Active ou désactive l'affichage des scores sur le HUD."
+
+[ShowLeaderboard UTUIDataProvider_MenuOption]
+FriendlyName="Affichage Classement"
+Description="Active ou désactive l'affichage du classement sur le HUD."
+
+[ShowVehicleArmorCount UTUIDataProvider_MenuOption]
+FriendlyName="Affichage Armure Véhicule"
+Description="Active ou désactive les points d'armure des véhicules sur le HUD."
+
+;///////////////
+; Server Options
+;///////////////
+[DedicatedServer UTUIDataProvider_MenuOption]
+FriendlyName=Serveur Dédié
+Description=Démarrer ou non un serveur dédié pour ce match.
+
+[ServerType UTUIDataProvider_MenuOption]
+FriendlyName=Type de Serveur
+Description=Le type de serveur avec lequel commencer la partie.
+
+[ServerType360 UTUIDataProvider_MenuOption]
+FriendlyName=Type de Serveur
+Description=Le type de serveur avec lequel commencer la partie.
+
+[MaxPlayers_PC UTUIDataProvider_MenuOption]
+FriendlyName="Joueurs Max."
+Description="Nombre de joueurs maximum autorisés sur le serveur."
+
+[MaxPlayers_Console UTUIDataProvider_MenuOption]
+FriendlyName="Joueurs Max."
+Description="Nombre de joueurs maximum autorisés sur le serveur."
+
+[MinNumPlayers_PC UTUIDataProvider_MenuOption]
+FriendlyName="Joueurs Min."
+Description="Nombre de joueurs minimum requis pour commencer le match."
+
+[MinNumPlayers_Console UTUIDataProvider_MenuOption]
+FriendlyName="Joueurs Min."
+Description="Nombre de joueurs minimum requis pour commencer le match."
+
+[PrivateSlots UTUIDataProvider_MenuOption]
+FriendlyName=Emplacements Privés
+Description=Nombre d'emplacements privés à réserver sur le serveur pour les joueurs invités.
+
+[AllowKeyboard UTUIDataProvider_MenuOption]
+FriendlyName=Clavier & Souris
+Description="Permet aux joueurs d'utiliser le clavier et la souris."
+
+[ServerDescription UTUIDataProvider_MenuOption]
+FriendlyName=Description
+Description=Courte description à afficher avec le nom d'hôte pour ce serveur dans la liste des serveurs.
+
+[ServerMOTD UTUIDataProvider_MenuOption]
+FriendlyName=MOTD
+Description=Message du jour à afficher quand un joueur rejoint le serveur.
+
+[ServerPassword UTUIDataProvider_MenuOption]
+FriendlyName=Mot de passe serveur
+Description=Mot de passe nécessaire pour se connecter à ce serveur. Laisser vide pour un serveur non protégé.
+
+
+;///////////////
+; Client Options
+;///////////////
+
+; Disabled
+;[SplitScreen_Client UTUIDataProvider_MenuOption]
+;FriendlyName=Fractionnement écran
+;Description=Whether or not to enable 2-player splitscreen.
+
+[MatchType UTUIDataProvider_MenuOption]
+FriendlyName=Type de Serveur
+Description=Le type de partie à rechercher.
+
+[MatchType360 UTUIDataProvider_MenuOption]
+FriendlyName=Type de Serveur
+Description=Le type de partie à rechercher.
+
+[GameMode_Client UTUIDataProvider_MenuOption]
+FriendlyName=Mode de Jeu
+Description=Le type de mode de jeu à rechercher.
+
+[AllGameModes_Client UTUIDataProvider_MenuOption]
+FriendlyName=Énumère tous les modes de jeu
+Description=Permute entre chercher ou non tous les modes de jeu.
+
+[PureServer_Client UTUIDataProvider_MenuOption]
+FriendlyName=Serveur Pur
+Description="Afficher ou non les serveurs purs uniquement."
+
+[LockedServer_Client UTUIDataProvider_MenuOption]
+FriendlyName=Serveur Verrouillé
+Description=Afficher ou non les serveurs verrouillés nécessitant un accès par mot de passe.
+
+[FullServer_Client UTUIDataProvider_MenuOption]
+FriendlyName=Montrer les serveurs pleins
+Description=Activer pour montrer les serveurs pleins.
+
+[EmptyServer_Client UTUIDataProvider_MenuOption]
+FriendlyName=Montrer les serveurs vides
+Description=Activer pour montrer les serveurs vides.
+
+[AllowKeyboard_Client UTUIDataProvider_MenuOption]
+FriendlyName=Clavier & Souris
+Description=Permet d'inclure ou non les serveurs qui permettent l'utilisation du clavier et de la souris.
+
+[ShowOnlyDedicatedServers UTUIDataProvider_MenuOption]
+FriendlyName=Dédiés uniquement
+Description=Afficher ou non uniquement les serveurs dédiés dans les résultats de recherche.
+
+;///////////////
+; PS3 Keybinding Presets
+;///////////////
+[StickConfiguration_PresetsPS3 UTUIDataProvider_MenuOption]
+FriendlyName=Joysticks
+Description="Changer la configuration des joysticks analogiques."
+
+[ButtonPreset_PresetsPS3 UTUIDataProvider_MenuOption]
+FriendlyName="Préréglage des touches"
+Description=Prérégler la configuration des touches de la manette.
+
+;///////////////
+; PS3 Keybinding
+;///////////////
+[StickConfiguration_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=Joysticks
+Description="Changer la configuration des joysticks analogiques."
+
+[X_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_X>
+Description=X Description
+
+[Circle_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_Circle>
+Description=Circle Description
+
+[Square_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_Square>
+Description=Square Description
+
+[Triangle_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_Triangle>
+Description=Triangle Description
+
+[R1_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_R1>
+Description=R1 Description
+
+[R2_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_R2>
+Description=R2 Description
+
+[R3_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_R3>
+Description=R3 Description
+
+[L1_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_L1>
+Description=L1 Description
+
+[L2_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_L2>
+Description=L2 Description
+
+[L3_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_L3>
+Description=L3 Description
+
+[DPadUp_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_DPadUp>
+Description=D-Pad Up Description
+
+[DPadDown_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_DPadDown>
+Description=D-Pad Down Description
+
+[DPadLeft_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_DPadLeft>
+Description=D-Pad Left Description
+
+[DPadRight_KeysPS3 UTUIDataProvider_MenuOption]
+FriendlyName=<Strings:UTGameUI.ButtonFont.PS3_DPadRight>
+Description=D-Pad Right Description
+
+
+;///////////////
+; Mutator Names
+;///////////////
+;[UTMutator_Arena UTUIDataProvider_Mutator]
+;FriendlyName="Arène"
+;Description="Les armes ramassées par défaut sur un niveau peuvent être remplacées par une arme unique."
+
+[UTMutator_BigHead UTUIDataProvider_Mutator]
+FriendlyName="Grosse Tête"
+Description="La taille de la tête des joueurs dépend de leur rapport tués / morts."
+
+[UTMutator_NoOrbs UTUIDataProvider_Mutator]
+FriendlyName="Aucune Sphère"
+Description="Aucune sphère dans le mode Guerre."
+
+[UTMutator_FriendlyFire UTUIDataProvider_Mutator]
+FriendlyName="Tirs fratricides"
+Description="Le Tir Fratricide permet de blesser vos équipiers."
+
+[UTMutator_Handicap UTUIDataProvider_Mutator]
+FriendlyName="Handicap"
+Description="Fournit des bonus armure et arme aux joueurs en train de perdre."
+
+[UTMutator_Instagib UTUIDataProvider_Mutator]
+FriendlyName="Instagib"
+Description="Les joueurs sont équipés d'un fusil instagib à mort instantanée et toutes les recharges sont retirées de la partie."
+
+[UTMutator_LowGrav UTUIDataProvider_Mutator]
+FriendlyName="Gravité Faible"
+Description="La gravité est réduite."
+
+[UTMutator_NoHoverboard UTUIDataProvider_Mutator]
+FriendlyName="Sans Hoverboard"
+Description="Hoverboard éliminé."
+
+[UTMutator_NoPowerups UTUIDataProvider_Mutator]
+FriendlyName="Aucun Super Bonus"
+Description="Supprime tous les super bonus (ceinture-bouclier, recharges d'énergie, mégasanté, Redeemer) de la partie."
+
+[UTMutator_NoTranslocator UTUIDataProvider_Mutator]
+FriendlyName="Aucun Téléporteur"
+Description="Le téléporteur est supprimé de l'inventaire des joueurs."
+
+[UTMutator_Slomo UTUIDataProvider_Mutator]
+FriendlyName="Ralenti"
+Description="Ralentit le jeu."
+
+[UTMutator_SlowTimeKills UTUIDataProvider_Mutator]
+FriendlyName="Tuerie Ralentie"
+Description="Le temps ralentit pour un instant chaque fois que vous tuez un ennemi (action instantanée seulement)."
+
+[UTMutator_SpeedFreak UTUIDataProvider_Mutator]
+FriendlyName="Maniaque de Vitesse"
+Description="Accélère le jeu."
+
+[UTMutator_SuperBerserk UTUIDataProvider_Mutator]
+FriendlyName="Super Berserk"
+Description="Les joueurs tirent à tout va pendant l'intégralité du match."
+
+[UTMutator_Survival UTUIDataProvider_Mutator]
+FriendlyName="Survie"
+Description="Des joueurs spectateurs sont intégrés à la partie dès que les participants précédents ont été tués (uniquement en mode de jeu Duel)."
+
+[UTMutator_WeaponReplacement UTUIDataProvider_Mutator]
+FriendlyName="Remplacement Arme"
+Description="Les armes ramassées par défaut sur un niveau peuvent être remplacées par d'autres armes."
+
+[UTMutator_WeaponsRespawn UTUIDataProvider_Mutator]
+FriendlyName="Régénération Armes"
+Description="Armes régénérées au lieu d'être toujours disponibles."
+
+[UTMutator_Hero UTUIDataProvider_Mutator]
+FriendlyName="Titan"
+Description="Permet au joueur de devenir un Titan."
+
+
+;///////////////
+; UT3 Maps
+; For all of the FriendlyNames they are in the UTGameUI.int under FriendlyMapNames so we can reference them from anywhere via via
+;///////////////
+
+[CTF-Coret UTUIDataProvider_MapInfo]
+NumPlayers=8 à 10 joueurs
+
+[CTF-Hydrosis UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[CTF-LostCause UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[CTF-Morbid UTUIDataProvider_MapInfo]
+NumPlayers=6 à 10 joueurs (Mutateur titan recommandé)
+
+[CTF-Nanoblack UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[CTF-OmicronDawn UTUIDataProvider_MapInfo]
+NumPlayers=8 à 10 joueurs
+
+[CTF-Reflection UTUIDataProvider_MapInfo]
+NumPlayers=6 à 8 joueurs
+
+[CTF-Strident UTUIDataProvider_MapInfo]
+NumPlayers=6 à 8 joueurs
+
+[CTF-Vertebrae UTUIDataProvider_MapInfo]
+NumPlayers=10 à 12 joueurs
+
+[CTF-Shaft UTUIDataProvider_MapInfo]
+NumPlayers=10 à 12 joueurs
+
+[vCTF-Containment UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Corruption UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Kargo UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Necropolis UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Rails UTUIDataProvider_MapInfo]
+NumPlayers=10 à 14 joueurs
+
+[vCTF-Sandstorm UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Stranded UTUIDataProvider_MapInfo]
+NumPlayers=6 à 12 joueurs
+
+[vCTF-Suspense UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Suspense_Necris UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[vCTF-Stranded UTUIDataProvider_MapInfo]
+NumPlayers=8 à 14 joueurs
+
+[DM-Arsenal UTUIDataProvider_MapInfo]
+NumPlayers=6 à 10 joueurs
+
+[DM-Biohazard UTUIDataProvider_MapInfo]
+NumPlayers=2 à 4 joueurs
+
+[DM-CarbonFire UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-DarkMatch UTUIDataProvider_MapInfo]
+NumPlayers=5 à 10 joueurs
+
+[DM-Deck UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-Defiance UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-Deimos UTUIDataProvider_MapInfo]
+NumPlayers=6 à 10 joueurs
+
+[DM-Diesel UTUIDataProvider_MapInfo]
+NumPlayers=2 à 6 joueurs
+
+[DM-Fearless UTUIDataProvider_MapInfo]
+NumPlayers=2 à 6 joueurs
+
+[DM-Gateway UTUIDataProvider_MapInfo]
+NumPlayers=6 à 10 joueurs
+
+[DM-KBarge UTUIDataProvider_MapInfo]
+NumPlayers=2 à 8 joueurs
+
+[DM-HeatRay UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-OceanRelic UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-RisingSun UTUIDataProvider_MapInfo]
+NumPlayers=2 à 4 joueurs
+
+[DM-Sanctuary UTUIDataProvider_MapInfo]
+NumPlayers=4 à 8 joueurs
+
+[DM-Sentinel UTUIDataProvider_MapInfo]
+NumPlayers=2 à 4 joueurs
+
+[DM-ShangriLa UTUIDataProvider_MapInfo]
+NumPlayers=6 à 10 joueurs
+
+[DM-EdenInc UTUIDataProvider_MapInfo]
+NumPlayers=3 à 9 joueurs
+
+[DM-Turbine UTUIDataProvider_MapInfo]
+NumPlayers=2 à 7 joueurs
+
+[WAR-Avalanche UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-AvalancheTwoFronts UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-ColdHarbor UTUIDataProvider_MapInfo]
+NumPlayers=10 à 14 joueurs
+
+[WAR-Confrontation UTUIDataProvider_MapInfo]
+NumPlayers=10 à 16 joueurs
+
+[WAR-Downtown UTUIDataProvider_MapInfo]
+NumPlayers=8 à 14 joueurs
+
+[WAR-Downtown_Necris UTUIDataProvider_MapInfo]
+NumPlayers=8 à 14 joueurs
+
+[WAR-DowntownTwoFronts UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-Dusk UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-DuskFreeMine UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-Floodgate UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-Hostile UTUIDataProvider_MapInfo]
+NumPlayers=10 à 16 joueurs
+
+[WAR-Islander UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-IslanderNecris UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-MarketDistrict UTUIDataProvider_MapInfo]
+NumPlayers=6 à 8 joueurs
+
+[WAR-OnyxCoast UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-PowerSurge UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-Serenity UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-SerenityNecris UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-Sinkhole UTUIDataProvider_MapInfo]
+NumPlayers=6 à 8 joueurs
+
+[WAR-TankCrossing UTUIDataProvider_MapInfo]
+NumPlayers=8 à 10 joueurs
+
+[WAR-Torlan UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-TorlanClassic UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-TorlanDoublePrime UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-TorlanNecris UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+[WAR-TorlanShort UTUIDataProvider_MapInfo]
+NumPlayers=8 à 12 joueurs
+
+;///////////////
+; UT3 SinglePlayer Chapter
+;///////////////
+
+[UTChapterPrologue]
+FriendlyName=Il y a onze jours...
+
+[UTChapterOne]
+FriendlyName=Chapitre I
+Title=Ronin
+
+[UTChapterTwo]
+FriendlyName=Chapitre II
+Title=Les pièces de César
+
+[UTChapterThree]
+FriendlyName=Chapitre III
+Title=Le conflit Liandri
+
+[UTChapterFour]
+FriendlyName=Chapitre IV
+Title=Pertes calculées
+
+[UTChapterFive]
+FriendlyName=Chapitre V
+Title=Atouts jetables
+
+[UTDrawPlayerListPanel]
+TeamCaptions[0]=Équipe Rouge
+TeamCaptions[1]=Équipe Bleue
+Opponents=Joueurs :
+
+[UTScoreboardPanel]
+PingString=Ping
+
+
+[WorldDetail UTUIDataProvider_MenuOption]
+Description=Modifie le niveau de détail du monde dans le jeu sur des valeurs prédéfinies, ou bien utilise les paramètres personnalisés ci-dessous (décalcomanies statiques et inférieur).
+
+[StaticDecals UTUIDataProvider_MenuOption]
+FriendlyName=Active les décalcomanies statiques
+Description=Permute entre afficher ou non les décalcomanies statiques.
+
+[DynamicDecals UTUIDataProvider_MenuOption]
+FriendlyName=Active les décalcomanies dynamiques
+Description=Permute entre afficher ou non les décalcomanies dynamiques (feu d'arme, sang, etc.).
+
+[DynamicLights UTUIDataProvider_MenuOption]
+FriendlyName=Active les lumières dynamiques
+Description=Permute entre utiliser ou non les lumières dynamiques.
+
+[DynamicShadows UTUIDataProvider_MenuOption]
+FriendlyName=Active les ombres dynamiques
+Description=Permute entre afficher ou non les ombres dynamiques.
+
+[LightEnvironmentShadows UTUIDataProvider_MenuOption]
+FriendlyName=Active les ombres de l'environnement lumineux
+Description=Permute entre afficher ou non certaines ombres.
+
+[CompositeDynamicLights UTUIDataProvider_MenuOption]
+FriendlyName=Désactive les lumières dynamiques composées
+Description=Permute entre joindre ou non plusieurs lumière dynamiques.
+
+[DirectionalLightmaps UTUIDataProvider_MenuOption]
+FriendlyName=Active les cartes lumineuses directionnelles
+Description=Permute entre permettre ou non les cartes lumineuses directionnelles (son activation exige de relancer le jeu).
+
+[Bloom UTUIDataProvider_MenuOption]
+FriendlyName=Active la floraison et profondeur de champ
+Description=Permute entre utiliser ou non la floraison et profondeur de champ.
+
+[QualityBloom UTUIDataProvider_MenuOption]
+FriendlyName=Active la floraison de grande qualité
+Description=Permute entre utiliser ou non une floraison de qualité supérieure (si la floraison est activée).
+
+[Distortion UTUIDataProvider_MenuOption]
+FriendlyName=Active la distorsion 
+Description=Permute entre utiliser ou non les effets de distorsion.
+
+[DropParticleDistortion UTUIDataProvider_MenuOption]
+FriendlyName=Désactive l'absence de distorsion des particules
+Description=Permute entre permettre ou non que les particules avec distorsion soient cachées.
+
+[SpeedTreeLeaves UTUIDataProvider_MenuOption]
+FriendlyName=Active les feuilles Speed Tree
+Description=Permute entre reproduire ou non les feuilles de certains arbres.
+
+[SpeedTreeFronds UTUIDataProvider_MenuOption]
+FriendlyName=Active les frondes Speed Tree
+Description=Permute entre montrer ou non les frondes et feuilles de certains arbres.
+
+[DetailMode UTUIDataProvider_MenuOption]
+FriendlyName=Mode Détail
+Description=Établit le niveau de détail de divers aspects le long du jeu.
+
+[LensFlares UTUIDataProvider_MenuOption]
+FriendlyName=Active les reflets des lentilles
+Description=Permute entre activer ou non les reflets des lentilles.
+
+[FogVolumes UTUIDataProvider_MenuOption]
+FriendlyName=Active le volume de brouillard
+Description=Permute entre activer ou non le brouillard.
+
+[OneFrameThreadLag UTUIDataProvider_MenuOption]
+FriendlyName=Désactive le décalage du fil d'une image
+Description=Permute entre une temporisation du fil détendue ou stricte. La temporisation détendue peut affiner le taux d'images, tandis qu'une temporisation stricte peut rendre plus sensibles les contrôles du jeu.
+
+[SkeletalMeshLODBias UTUIDataProvider_MenuOption]
+FriendlyName=Niveau de détail du modèle de personnage 
+Description=Établit la qualité du modèle du personnage (si inférieure elle force des mailles de qualité inférieure)
+
+[ParticleLODBias UTUIDataProvider_MenuOption]
+FriendlyName=Niveau de détail des effets
+Description=Établit la qualité des effets (si inférieure elle force des effets de qualité inférieure)
+
+[ShadowFilterQualityBias UTUIDataProvider_MenuOption]
+FriendlyName=Qualité de l'ombre 
+Description=Établit la qualité de l'ombre (si inférieure elle force des ombres de qualité inférieure)
+
+[SliderValues]
+ExtraLow=X-inférieur
+Low=Bas
+Mid=Moyen
+High=Haut
+
+[UTUIDataStore_StringList]
+StringData[15]=(ColumnHeaderText="Type de partie",Strings=("Solo", "Écran séparé", "LAN", "Internet Publique", "Internet Privée"))
+StringData[16]=(ColumnHeaderText="Difficulté",Strings=("Décontractée", "Normale", "Difficile", "Démente"))
+StringData[17]=(ColumnHeaderText="Adversaires Bots",Strings=("Désactivé", "Activé"))
+StringData[18]=(ColumnHeaderText="Adversaires Bots",Strings=("Désactivé", "Activé", "Joueurs contre Bots 1:1", "Joueurs contre Bots 2:3", "Joueurs contre Bots 1:2"))
+
+[UTBetrayalHUD]
+PotString=Cagnotte
+RogueString=Forban
+FreelanceString=Freelance
+

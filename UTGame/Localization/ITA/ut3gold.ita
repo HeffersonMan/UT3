@@ -1,0 +1,27 @@
+;///////////////
+; UT3 Deployables
+;///////////////
+[UTDeployableXRayVolume]
+ItemName="Generatore di campo a raggi X"
+PickupMessage="Generatore di campo a raggi X"
+NeedToPickupAnnouncement.AnnouncementText="Prendi il generatore di campo a Raggi-X !"
+
+[UTDeployableLinkGenerator]
+ItemName="Generatore Link"
+PickupMessage="Generatore Link"
+NeedToPickupAnnouncement.AnnouncementText="Prendi il Generatore Link !"
+
+;///////////////
+; UT3 Pickups
+;///////////////
+[UTSlowField_Content]
+PickupMessage="CAMPO LENTO!"
+
+;///////////////
+; UT3 Weapons
+;///////////////
+[UTVWeap_EradicatorCannon_Content]
+ItemName="Sradicatore"
+
+[UTVWeap_StealthBenderGold_Content]
+ItemName="StealthBender"

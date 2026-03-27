@@ -1,0 +1,20 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir"
+AttackAnnouncement.AnnouncementText="Attaquez le Node du Réservoir!"
+DefendAnnouncement.AnnouncementText="Défendez le Node du Réservoir!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Central"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Central!"
+DefendAnnouncement.AnnouncementText="Défendez le Node Central!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+

@@ -1,0 +1,35 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Südlichen Panzer"
+AttackAnnouncement.AnnouncementText="Greife den südlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den südlichen Panzerknoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Primärknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige deinen Primärknoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Hauptstraße"
+AttackAnnouncement.AnnouncementText="Greife den Hauptstraßenknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Hauptstraßenknoten!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Nördlichen Panzer"
+AttackAnnouncement.AnnouncementText="Greife den nördlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den nördlichen Panzerknoten!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Primärknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige deinen Primärknoten!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlichen Straßen"
+AttackAnnouncement.AnnouncementText="Greife den westlichen Straßenknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Straßenknoten!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Östlichen Straßen"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Straßenknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Straßenknoten!"
+

@@ -1,0 +1,31 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Bridge Control"
+AttackAnnouncement.AnnouncementText="Attack the Bridge Control Node!"
+DefendAnnouncement.AnnouncementText="Defend the Bridge Control Node!"
+
+[UTOnslaughtSpecialObjective_1 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="The enemy Goliath is at your core!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Drive the Goliath to the pressure pad"
+DefendAnnouncement.AnnouncementText="The enemy Goliath has crossed the bridge!"
+
+[UTOnslaughtSpecialObjective_2 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText="The enemy Goliath is at your core!"
+DisabledAnnouncement.AnnouncementText=""
+AttackAnnouncement.AnnouncementText="Drive the Goliath to the pressure pad"
+DefendAnnouncement.AnnouncementText="The enemy Goliath has crossed the bridge!"
+
+[UTOnslaughtSpecialObjective_4 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="The enemy Goliath has crossed the bridge!"
+ObjectiveName="RedTankCross"
+AttackAnnouncement.AnnouncementText="Drive the Goliath across the bridge"
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtSpecialObjective_7 UTOnslaughtSpecialObjective]
+UnderAttackAnnouncement.AnnouncementText=""
+DisabledAnnouncement.AnnouncementText="The enemy Goliath has crossed the bridge!"
+ObjectiveName="BlueTankCross"
+AttackAnnouncement.AnnouncementText="Drive the Goliath across the bridge"
+DefendAnnouncement.AnnouncementText=""
+

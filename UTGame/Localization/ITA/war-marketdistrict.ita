@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Est"
+AttackAnnouncement.AnnouncementText="Attacca il nodo est!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo est!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Ovest"
+AttackAnnouncement.AnnouncementText="Attacca il nodo ovest!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo ovest!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo"
+DefendAnnouncement.AnnouncementText="Difendi il nodo"
+

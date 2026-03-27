@@ -1,0 +1,6 @@
+[OnlineSubsystemGameSpy]
+LocalProfileName=Jugador
+DefaultStatus=Jugando
+GameInviteMessage=Would you like to play a game?
+NewsUrl="http://gamecontent.unrealtournament3.com/motd/motd.esn"
+ContentAnnouncementsUrl="http://gamecontent.unrealtournament3.com/dlc/ContentAnnouncement.esn"

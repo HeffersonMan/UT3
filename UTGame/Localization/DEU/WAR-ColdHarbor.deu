@@ -1,0 +1,24 @@
+
+[UTOnslaughtCountdownNode_1 UTOnslaughtCountdownNode]
+HalfTimeAnnouncements[0]="(AnnouncementText="Herannahender Raketenangriff.")"
+TenSecondsLeftAnnouncements[0]="(AnnouncementText="Raketenangriff steht unmittelbar bevor.")"
+SuccessAnnouncements[0]="(AnnouncementText="Raketen schlagen im Blauer Kern ein.")"
+SuccessAnnouncements[1]="(AnnouncementText="Raketen schlagen im Roten Kern ein.")"
+ObjectiveName="Hügel"
+DefendAnnouncement.AnnouncementText="Verteidige den Hügelknoten!"
+AttackAnnouncement.AnnouncementText=Greife den Hügelknoten an!
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Luft Ost"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Luftknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Luftknoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Luft West"
+AttackAnnouncement.AnnouncementText="Greife den westlichen Luftknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Luftknoten!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Hang"
+AttackAnnouncement.AnnouncementText="Greife den Hangknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Hangknoten!"

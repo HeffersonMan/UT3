@@ -1,0 +1,10 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Aereo"
+AttackAnnouncement.AnnouncementText="Attacca il nodo aereo!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo aereo!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+

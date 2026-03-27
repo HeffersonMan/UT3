@@ -1,0 +1,35 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="South Tank"
+AttackAnnouncement.AnnouncementText="Attack the South Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend the South Tank Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Prime Node!"
+DefendAnnouncement.AnnouncementText="Defend the Prime Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Center Road"
+AttackAnnouncement.AnnouncementText="Attack the Center Road Node!"
+DefendAnnouncement.AnnouncementText="Defend the Center Road Node!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="North Tank"
+AttackAnnouncement.AnnouncementText="Attack the North Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend the North Tank Node!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Prime Node!"
+DefendAnnouncement.AnnouncementText="Defend the Prime Node!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="West Road"
+AttackAnnouncement.AnnouncementText="Attack the West Road Node!"
+DefendAnnouncement.AnnouncementText="Defend the West Road Node!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="East Road"
+AttackAnnouncement.AnnouncementText="Attack the East Road Node!"
+DefendAnnouncement.AnnouncementText="Defend the East Road Node!"
+

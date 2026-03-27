@@ -1,0 +1,5 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+

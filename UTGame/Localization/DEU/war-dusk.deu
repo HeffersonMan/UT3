@@ -1,0 +1,30 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Nördlichen Bergwerksknoten"
+AttackAnnouncement.AnnouncementText="Greife den nördlichen Bergwerksknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den nördlichen Bergwerksknoten!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Südlichen Bergwerksknoten"
+AttackAnnouncement.AnnouncementText="Greife den südlichen Bergwerksknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den südlichen Bergwerksknoten.!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlicher Manta"
+AttackAnnouncement.AnnouncementText=""
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="östlichen Panzerknoten"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Panzerknoten!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Westlichen Panzerknoten."
+AttackAnnouncement.AnnouncementText="Greife den westlichen Panzerknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den westlichen Panzerknoten.!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="östlicher Manta"
+AttackAnnouncement.AnnouncementText="Greife den östlichen Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den östlichen Knoten!"
+

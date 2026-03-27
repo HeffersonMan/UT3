@@ -1,0 +1,30 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="North Mine"
+AttackAnnouncement.AnnouncementText="Attack the North Mine Node!"
+DefendAnnouncement.AnnouncementText="Defend the North Mine Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="South Mine"
+AttackAnnouncement.AnnouncementText="Attack the South Mine Node!"
+DefendAnnouncement.AnnouncementText="Defend the South Mine Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="West Manta"
+AttackAnnouncement.AnnouncementText=""
+DefendAnnouncement.AnnouncementText=""
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="East Tank"
+AttackAnnouncement.AnnouncementText="Attack the East Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend the EastTank Node!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="West Tank"
+AttackAnnouncement.AnnouncementText="Attack the West Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend the West Tank Node!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="East Manta"
+AttackAnnouncement.AnnouncementText="Attack the East Node!"
+DefendAnnouncement.AnnouncementText="Defend the East Node!"
+

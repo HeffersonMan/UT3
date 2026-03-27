@@ -1,0 +1,25 @@
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Mine Node"
+AttackAnnouncement.AnnouncementText="Attack the Mine Node!"
+DefendAnnouncement.AnnouncementText="Defend the Mine Node!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="West Tank"
+AttackAnnouncement.AnnouncementText="Attack the West Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend theWest Tank Node!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="East Tank"
+AttackAnnouncement.AnnouncementText="Attack the East Tank Node!"
+DefendAnnouncement.AnnouncementText="Defend the East Tank Node!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Prime"
+AttackAnnouncement.AnnouncementText="Attack the Node!"
+DefendAnnouncement.AnnouncementText="Defend the Node!"
+

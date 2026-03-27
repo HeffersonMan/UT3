@@ -1,0 +1,25 @@
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Nodo de la Mina"
+AttackAnnouncement.AnnouncementText="Ataca el nodo de la mina"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la mina"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Tanque del oeste"
+AttackAnnouncement.AnnouncementText="Ataca el nodo del tanque del oeste"
+DefendAnnouncement.AnnouncementText="Defiende el nodo del tanque del oeste"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Tanque del este"
+AttackAnnouncement.AnnouncementText="Ataca el nodo del tanque del este"
+DefendAnnouncement.AnnouncementText="Defiende el nodo del tanque del este"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+

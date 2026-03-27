@@ -1,0 +1,26 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Blauer Kern wird überflutet"
+
+[UTSeqAct_PlayAnnouncement_10 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Roter Kern wird überflutet"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Das Fluttor"
+AttackAnnouncement.AnnouncementText="Greife den Fluttorknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Fluttorknoten!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Zentralknoten"
+AttackAnnouncement.AnnouncementText="Greife den Zentralknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Zentralknoten!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Primär"
+AttackAnnouncement.AnnouncementText="Greife den Knoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Knoten!"
+

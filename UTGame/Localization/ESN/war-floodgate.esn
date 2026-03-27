@@ -1,0 +1,25 @@
+[UTSeqAct_PlayAnnouncement_0 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Núcleo azul inundándose"
+
+[UTSeqAct_PlayAnnouncement_10 UTSeqAct_PlayAnnouncement]
+Announcement.AnnouncementText="Núcleo rojo inundándose"
+
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Compuerta"
+AttackAnnouncement.AnnouncementText="Ataca el nodo de la compuerta"
+DefendAnnouncement.AnnouncementText="Defiende el nodo de la compuerta"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Central"
+AttackAnnouncement.AnnouncementText="Ataca el nodo central"
+DefendAnnouncement.AnnouncementText="Defiende el nodo central"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Ataca el nodo"
+DefendAnnouncement.AnnouncementText="Defiende el nodo"

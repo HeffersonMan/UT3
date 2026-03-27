@@ -1,0 +1,25 @@
+[UTOnslaughtCountdownNode_0 UTOnslaughtCountdownNode]
+ObjectiveName="Node de la Mine"
+AttackAnnouncement.AnnouncementText="Attaquez le Node de la Mine!"
+DefendAnnouncement.AnnouncementText="Défendez le node de la mine!"
+
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Ouest"
+AttackAnnouncement.AnnouncementText="Attaquez le node du réservoir Ouest!"
+DefendAnnouncement.AnnouncementText="Défendez le node du réservoir Ouest!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Est"
+AttackAnnouncement.AnnouncementText="Attaquez le Node du Réservoir Est!"
+DefendAnnouncement.AnnouncementText="Défendez le Node du Réservoir Est!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node"
+DefendAnnouncement.AnnouncementText="Défendez le Node"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le node"
+DefendAnnouncement.AnnouncementText="Défendez le Node!"
+

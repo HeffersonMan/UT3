@@ -1,0 +1,35 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Carro armato Sud"
+AttackAnnouncement.AnnouncementText="Attacca il nodo carro armato sud !"
+DefendAnnouncement.AnnouncementText="Difendi il nodo carro armato sud!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Strada Centrale"
+AttackAnnouncement.AnnouncementText="Attacca il nodo stradale centrale!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo stradale centrale!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Armato Nord"
+AttackAnnouncement.AnnouncementText="Attacca il nodo carro armato nord !"
+DefendAnnouncement.AnnouncementText="Difendi il nodo carro armato nord!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Stradale Ovest"
+AttackAnnouncement.AnnouncementText="Attacca il nodo stradale ovest!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo stradale ovest!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Stradale Est"
+AttackAnnouncement.AnnouncementText="Attacca il nodo stradale est!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo stradale est!"
+

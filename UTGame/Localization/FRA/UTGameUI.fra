@@ -1,0 +1,1885 @@
+[MessageBox]
+ExitGame_Title=Quitter
+ExitGame_Message=Voulez-vous vraiment quitter la partie ?
+LogOut_Title=Déconnexion
+LogOut_Message=Voulez-vous vraiment vous déconnecter ?
+StartGame_Title=Démarrer partie ?
+StartGame_Message=Démarrer la partie en utilisant les paramètres en cours ?
+StartDedicated_Title=Démarrer le serveur dédié ?
+StartDedicated_Message=Démarrer un serveur dédié en utilisant les paramètres en cours ?
+FirstTimeCharacter_Title=Créer Personnage
+FirstTimeCharacter_Message=On dirait que vous n'avez pas encore personnalisé votre personnage en ligne.  Voulez-vous le faire maintenant ?  Sinon, un personnage sera généré au hasard pour vous.
+MustLogoutToLogin_Title=Déconnexion Obligatoire
+MustLogoutToLogin_Message=Pour vous connecter avec un nouveau profil, vous devez vous déconnecter du profil en cours.  Voulez-vous vous déconnecter maintenant ?
+ProfileCreated_Title=Profil Créé
+ProfileCreated_Message=Votre profil a été créé.  Vous pouvez maintenant vous connecter avec le nom d'utilisateur spécifié.
+BindKey_Title=Clé de Liaison
+BindKey_Message=Appuyez sur la touche que vous souhaitez relier.\nLa touche sera liée à '`Binding`'\n(Maj-Esc Annule)
+ResetToPreset_Title=Préréglage par Défaut
+ResetToPreset_Message=En retournant en mode prédéterminé, vos paramètres personnalisés seront perdus.  Voulez-vous vraiment faire ça ?
+ResetToDefaults_Title=Remettre par défaut
+ResetToDefaults_Message=En retournant en mode prédéterminé, vos paramètres personnalisés seront perdus.  Voulez-vous vraiment faire ça ?
+FriendRequestSent_Title=Requête d'amitié envoyée
+FriendRequestSent_Message=Votre requête d'amitié a été envoyée à '`PlayerName`'.
+FriendRequestFailed_Title=Erreur
+FriendRequestFailed_Message=Échec de l'envoi d'une requête d'amitié à `PlayerName`. Veuillez réessayer ultérieurement.
+RemoveFriend_Title=Supprimer Ami
+RemoveFriend_Message=Voulez-vous vraiment supprimer '`PlayerName`' de votre liste d'amis ?
+SentGameInvite_Title=Invitation à la Partie envoyée
+SentGameInvite_Message=Une invitation pour jouer à Unreal Tournament 3 a été envoyée à '`PlayerName`' !
+JoinFriend_Message=Inscription en cours...
+ViewMessage_Title=Voir Message
+ViewMessage_Message=Message de '`PlayerName`':\n\n`Message`
+ViewFriendRequest_Title=Accepter la requête d'amitié
+ViewFriendRequest_Message=Requête d'amitié de '`PlayerName`' :\n\n`Message`
+ViewGameInvite_Title=Accepter l'invitation de jeu
+ViewGameInvite_Message=Invitation de jeu de '`PlayerName`':\n\n`Message`
+DeleteMessage_Title=Supprimer Message
+DeleteMessage_Message=Supprimer le message de `PlayerName` ?
+DeleteContent_Title=Supprimer Contenu
+DeleteContent_Message=Supprimer le pack contenu `ContentName` ?  Cette action est irréversible !
+DeleteAllContent_Title=Supprimer tout
+DeleteAllContent_Message=Supprimer le contenu de tous les packs ?  Cette action est irréversible !
+ImportingMod_Message=Importation Mod en cours...
+UnpackingMod_Message=Ouverture Mod en cours...
+InstallPS3Start_Message=Installation en cours...
+InstallPS3Cancelling_Message=Installation annulée...
+InstallPS3Progress_Message=Installation en cours... (`CurrentFile` sur `TotalFiles`)
+InstallPS3Finished_Title=Installation Terminée
+InstallPS3Finished_Message=Unreal Tournament 3 a été complètement installé.
+KeepResolution_Title=Conserver les Paramètres ?
+KeepResolution_Message=Votre résolution a été changée.  Voulez-vous conserver ces nouveaux paramètres ?\n(Les valeurs précédentes seront restaurées dans `Seconds` seconde(s))
+DownloadContent_Title=Télécharger Contenu
+DownloadContent_Message=Le jeu sera réduit à l'écran et un navigateur web sera ouvert pour achever le téléchargement de votre contenu.  Voulez-vous continuer ?
+SavingProfile=Enregistrement du profil en cours. Veuillez ne pas éteindre le système PLAYSTATION®3 .
+EnterUnlockCode_Title=Déverrouiller personnage
+EnterUnlockCode_Message=Entrer le code de déverrouillage du personnage :
+EnterServerPassword_Title=Mot de passe requis
+EnterServerPassword_Message=Ce serveur nécessite un mot de passe. Entrez le bon mot de passe pour continuer.
+FirstTimeMultiplayer_Title=Paramètres de configuration
+FirstTimeMultiplayer_Message=Vous devez d'abord définir vos paramètres de connexion et votre nom d'utilisateur.
+StompBindKey_Title=Double affectation
+StompBindKey_Message=Cette action assigne une commande à une touche déja attribuée. Souhaitez-vous annuler la fonction antérieure de cette touche ?
+CrucialBindErrorMsg=Une action obligatoire n'est pas assignée à une touche. Veuillez assigner cette action pour continuer.
+LoseChangesWarning_Title=Perdre les changements non sauvegardés
+LoseChangesWarning_Message=Vous allez perdre vos changements non sauvegardés. Souhaitez-vous continuer?
+QueryPending_Message=Veuillez attendre que la recherche en cours soit terminée.
+EnterServerIP_Title=Inscription IP
+EnterServerIP_Message=Indique l'adresse IP et du port (format IP:Port) du serveur auquel tu souhaites t'inscrire.
+AddServerIP_Title=Ajout IP
+AddServerIP_Message=Indique l'adresse IP et du port (format IP:Port) du serveur que tu souhaites ajouter.
+FindServerIPFail_Title=Erreur
+FindServerIPFail_Message=Impossible de trouver un serveur qui corresponde à l'IP et au Port spécifiés.
+FindServerIPFailConnect_Message=Voulez-vous vous connecter directement à la place?
+FindServerIPUninitialized_Message=Échec lors de l'initialisation du gestionnaire de requête.
+FindServerIPInProgress_Message=Écher lors de l’initialisation du gestionnaire de requête, une requête est déjà en cours.
+FindServerIPNotLoggedIn_Message=Échec de démarrage de la requête, tu n‘es pas connecté(e).
+FindServerIPInvalid_Message=Adresse IP invalide.
+FindServerIPInvalidResult_Message=Résultat de requête invalide.
+FindServerIPJoinFailed_Message=N'a pas réussi à joindre le serveur qui correspond à l'IP et au Port spécifiés.
+AddIPAlreadyPresent_Message=Le serveur fait déjà partie des favoris.
+SteamFail_License=Désolé, mais tu ne sembles pas avoir l'autorisation de jouer ce jeu avec Steam en ce moment. 
+SteamFail_Connection=Impossible d'authentifier avec Steam. Vérifie ta connexion Steam.
+SteamFail_Cheat=Steam te marque comme joueur qui triche.
+SteamFail_Generic=Impossible d'authentifier avec Steam ; raison inconnue. 
+
+[Errors]
+Error_Title=Erreur
+JoinGameFailed_Title=Erreur
+JoinGameFailed_Message=Impossible de rejoindre la partie sélectionnée.  Veuillez sélectionner une autre partie.
+QuickMatchFailed_Title=Erreur
+QuickMatchFailed_Message=Impossible de trouver un adversaire pour une partie rapide. Veuillez revoir les paramètres des filtres et réessayer.
+IncompatibleVersion_Title=Erreur
+IncompatibleVersion_Message=La partie que vous essayez de rejoindre s'exécute dans une version non compatible du jeu.  Veuillez mettre votre jeu à jour.
+UnableToFindMatch_Title=Erreur
+UnableToFindMatch_Message=Aucune correspondance avec les filtres que vous avez indiqués.  Veuillez modifier vos filtres et effectuer une nouvelle recherche.
+LoginRequired_Title=Erreur
+LoginRequired_Message=Cette fonctionnalité requiert un profil connecté.
+GoldRequired_Title=Erreur
+GoldRequired_Message=Cette fonctionnalité requiert la qualité de membre Xbox Live Gold.
+OnlineRequired_Title=Erreur
+OnlineRequired_Message=Cette fonctionnalité requiert des privilèges en ligne activés pour votre profil.
+OnlineRequiredForInternet_Message=Certaines sections de ce jeu nécéssitent un profil en ligne. Sans cela, l'accès aux sections en ligne ne fonctionnera pas.
+LinkDisconnected_Message=Aucune connexion réseau détectée.  Veuillez vérifier votre connexion au réseau pour continuer.
+NetworkLinkLost_Message=Votre connexion au réseau n'est plus valide. Veuillez vérifier vos câbles et votre configuration du réseau.
+CommunicationRequired_Message=Votre profil ne vous permet pas d'accéder à la communication en ligne. L'accès aux fonctions en ligne sera hors service.
+OnlineRequiredForInternet_Message=Certaines sections nécessitent un profil en ligne. L'accès aux sections en ligne sera hors service.
+LinkDisconnected_Message=Aucune connexion réseau détectée.  Veuillez vérifier votre connexion au réseau pour continuer.
+NetworkLinkLost_Message=Votre connexion réseau a été perdue. Veuillez vérifier vos câbles réseau et votre configuration.
+ConnectionLost_Title=Erreur
+ConnectionLost_Message=Votre connexion au serveur a été interrompue.
+InvalidMessage_Title=Erreur
+InvalidMessage_Message=Vous n'avez pas entré de message.  Veuillez entrer un message.
+InvalidUserName_Title=Erreur
+InvalidUserName_Message=Le nom d'utilisateur que vous avez indiqué n'est pas valide.  Un nom d'utilisateur correct doit être entré pour se connecter.
+InvalidUserName_LocalLogin=Vous devez entrer un nom pour votre profil.  Un mot de passe n'est pas nécessaire.
+InvalidUserNameCreateProfile_Message=Le nom d'utilisateur que vous avez saisi n'est pas valide. Les noms d'utilisateurs doivent comprendre entre 3 et 15 caractères.
+InvalidUserNameFirstChar_Message=Le nom d'utilisateur que vous avez saisi n'est pas valide. Un nom d'utilisateur ne peut pas commencer par un chiffre, un espace ou un des caractères suivants : #, @, + 
+InvalidCDKey_Title=Erreur
+InvalidCDKey_Message=La clé que vous avez entrée n'est pas valide. Une clé valide est nécessaire pour continuer. Veuillez vérifier que votre clé est correcte et réessayer.
+InvalidFriendName_Title=Erreur
+InvalidFriendName_Message=Le nom d'ami que vous avez indiqué n'est pas valide. Veuillez revérifier le nom de votre ami.
+InvalidPassword_Title=Erreur
+InvalidPassword_Message=Le mot de passe que vous avez entré n'est pas d'une longueur valide. Un nom d'utilisateur et un mot de passe corrects doivent être entrés pour se connecter.
+InvalidPasswordConfirm_Title=Erreur
+InvalidPasswordConfirm_Message=Le mot de passe et la confirmation de mot de passe que vous avez entrés ne correspondent pas.
+InvalidPasswordForEmail_Title=Erreur
+InvalidPasswordForEmail_Message=Le mot de passe fourni n'est pas valide pour le compte relatif à l'adresse éléctronique indiquée. 
+InvalidEMail_Title=Erreur
+InvalidEMail_Message=L'adresse électronique que vous avez indiquée n'est pas valide.
+NameInUse_Title=Erreur
+NameInUse_Message=Le nom d'utilisateur que vous avez indiqué est déjà utilisé.  Veuillez choisir un autre nom d'utilisateur.
+ServiceUnavailable_Title=Erreur
+ServiceUnavailable_Message=Le service en ligne n'est pas disponible actuellement.  Veuillez essayer de vous reconnecter plus tard.
+UpdateRequired_Title=Erreur
+UpdateRequired_Message=Vous devez mettre votre logiciel à jour pour continuer à jouer en ligne.
+ServersTooBusy_Title=Erreur
+ServersTooBusy_Message=Les serveurs en ligne sont actuellement trop occupés.  Veuillez essayer de vous reconnecter plus tard.
+DuplicateLogin_Title=Erreur
+DuplicateLogin_Message=Une autre personne s'est connectée sur votre compte.  Votre connexion au serveur a été interrompue.
+InvalidUserLogin_Title=Erreur
+InvalidUserLogin_Message=Le nom d'utilisateur et le mot de passe fournis ne sont pas valides.  Veuillez vérifier l'orthographe de votre nom d'utilisateur et mot de passe.  Les mots de passe sont sensibles à la casse. Si vous avez oublié votre nom d'utilisateur ou votre mot de passe, veuillez vous rendre à l'adresse : http://www.gamespyid.com.
+LogoutFailed_Title=Erreur
+LogoutFailed_Message=La déconnexion a échoué
+ProfileCreationFailed_Title=Erreur
+ProfileCreationFailed_Message=Échec de Création de Profil. Le nom d'utilisateur ne peut pas contenir des espaces vides ou commencer par un caractère autre qu'alphanumérique. Veuillez réessayer de créer votre profil.
+FailedToSendMessage_Title=Erreur
+FailedToSendMessage_Message=Échec de l'envoi du message à `PlayerName`. Veuillez réessayer ultérieurement.
+JoinFriendFailed_Title=Erreur
+JoinFriendFailed_Message=Impossible de joindre la partie de votre ami.  La partie est peut-être déjà complète.
+SendInviteFailed_Title=Échec d'Invitation à la Partie
+SendInviteFailed_Message=Échec de l'invitation de '`PlayerName`' à votre partie.
+CampaignOnlineFailure_Title=Alerte
+CampaignOnlineFailure=Les parties en réseau sont désactivées. Veuillez activer votre profil si vous souhaitez jouer en ligne avec d'autres joueurs.
+FailedToReadNews=Une erreur s'est produite lors de la lecture des dernières news sur le serveur de news en ligne.  Veuillez réessayer plus tard.
+FailedToReadContent=Une erreur s'est produite lors de la lecture du dernier contenu sur le serveur de contenu en ligne.  Veuillez réessayer plus tard.
+EmptyMapCycle_Title=Erreur
+EmptyMapCycle_Message=Vous devez ajouter au moins une carte à votre cycle carte pour commencer la partie.
+SomeChangesMayNotBeApplied_Title=Avertissement
+SomeChangesMayNotBeApplied_Message=Certains changements ne seront pas appliqués avant le redémarrage du jeu.
+NeedSecondController_Title=Erreur
+NeedSecondController_Message=2 manettes connectées sont requises avant de pouvoir commencer une partie en écran partagé. 
+CannotSendFriendRequestToYourself_Title=Erreur
+CannotSendFriendRequestToYourself_Message=Vous ne pouvez pas vous ajouter vous-même en tant qu'ami. Veuillez entrer un autre nom d'utilisateur à qui envoyer la requête.
+CannotSendMessageToYourself_Title=Erreur
+CannotSendMessageToYourself_Message=Vous ne pouvez vous envoyer des messages à vous-même. Veuillez entrer un autre nom d'utilisateur à qui envoyer le message.
+CannotUseKeyboardMouse_Title=Erreur
+CannotUseKeyboardMouse_Message=L'utilisation du clavier et/ou de la souris est interdite sur ce serveur.
+CanOnlyConfigureEnabledMutators_Title=Erreur
+CanOnlyConfigureEnabledMutators_Message=Seuls les mutateurs activés peuvent être configurés.
+CurrentMutatorCannotBeConfigured_Title=Erreur
+CurrentMutatorCannotBeConfigured_Message=Le mutateur actuellement sélectionné n'est pas configurable.
+InvalidUnlockCode_Title=Erreur
+InvalidUnlockCode_Message=Le code de déverrouillage personnage est incorrect. Vérifier l'orthographe et réessayer.
+NotAllPlayersCanJoin_Title=Erreur
+NotAllPlayersCanJoin_Message=Certains des joueurs locaux ne sont pas autorisés à rejoindre l'invitation au jeu.
+NotEnoughInviteSpace_Title=Erreur
+NotEnoughInviteSpace_Message=Pas assez d'espace pour tous les joueurs locaux dans l'invitation au jeu.
+UnableToJoinInvite_Title=Erreur
+UnableToJoinInvite_Message=Impossible de rejoindre l'invitation au jeu. Cette partie est peut-être pleine.
+StrictNAT_Message=Votre configuration réseau ne permet pas d'héberger des parties. Veuillez consulter la notice d'emploi de votre routeur pour savoir configurer une redirection de Port ou un Serveur DMZ.
+MinSpecMessage=La configuration de votre ordinateur a été détecté comme étant inférieure à la configuration minimale pour Unreal Tournament 3. Veuillez consulter les mises à jour pour des suggestions afin d'améliorer la qualité visuelle.
+
+[ToastMessages]
+ReconnectController=Veuillez reconnecter votre manette pour continuer.
+ReceivedMessage=Requête d'amitié reçue de la part d'un autre joueur.
+ReceivedMessageSpecific=Message de '`PlayerName`' reçu !
+ReceivedFriendInvite=Requête d'amitié reçue de la part d'un autre joueur !
+ReceivedFriendInviteSpecific=Requête d'amitié reçue de '`PlayerName`' !
+ReceivedGameInviteSpecific='`PlayerName`' vous a invité à jouer un match UT3.
+CharacterUnlocked=Un nouveau personnage a été déverrouillé !
+AllPickupsOneMap=Tous les pouvoirs amplifiés sont trouvés!
+
+[Profiles]
+UserName=Nom d'Utilisateur:
+UserName_Description=Veuillez entrer un nom unique entre 4 et 20 caractères.
+LoginUserName_Description=Veuillez entrer votre nom de profil.  Si vous n'avez pas encore de profil, utilisez le bouton Créer Profil ci-dessous pour en créer un.
+Password=Mot de Passe :
+Password_Description=Veuillez entrer un mot de passe entre 4 et 30 caractères.
+LoginPassword_Description=Veuillez entrer le mot de passe de votre profil.  Les mots de passe respectent les majuscules-minuscules.
+ConfirmPassword=Confirmez votre Mot de Passe :
+ConfirmPassword_Description=Veuillez entrer votre mot de passe à nouveau.
+EMailAddress=Adresse électronique :
+EMailAddress_Description=Veuillez entrer votre adresse électronique.  Cette adresse sera utilisée s'il y a un problème avec votre compte.
+EMailAddress_ShortDescription=Veuillez entrer votre adresse éléctronique.
+CDKey=Clé CD :
+CDKey_Description=Entrez la clé CD du jeu.  La clé CD se trouve à l'intérieur du boîtier du jeu.
+Message=Message :
+MessageRecipient=Destinataire du Message
+SavePassword=Enregistrer mot de passe
+SavePassword_Description=Active ou désactive la sauvegarde de votre mot de passe.
+AutoLogin=Connexion automatique
+AutoLogin_Description=Active ou désactive la connexion automatique en début de partie.
+LoginLocallyOnly=Mode hors ligne
+LoginLocallyOnly_Description=Connectez votre profil en mode hors ligne.
+
+[TitleScreen]
+PressStart=Appuyez sur [DÉMARRER]
+PressAnyKey=Appuyez sur n'importe quelle touche
+Copyright=Copyright © 1998-2008 Epic Games, Inc. Tous Droits Réservés.
+
+[Generic]
+None=Aucun
+Disabled=Désactivé
+OK=<StringAliasMap:Accept>OK
+Cancel=<StringAliasMap:Cancel>ANNULER
+Refreshing=Actualisation en cours...
+Loading=Chargement en cours...
+Searching=Recherche en cours...
+LoggingIn=Connexion en cours...
+LoggingOut=Déconnexion en cours...
+CreatingProfile=Création de Profil en cours...
+NotLoggedIn=(Non Connecté)
+OfflineProfile=(Hors ligne)
+Profile1=Profil 1 :
+Profile2=Profil 2 :
+Profile=Profil :
+Fire=FEU
+On=Marche
+Buy=Acheter!
+Exit=Quitter
+
+[ButtonFont]
+Xenon_A=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_B=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>B<Fonts:/><Color:/>
+Xenon_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>X<Fonts:/><Color:/>
+Xenon_Y=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>Y<Fonts:/><Color:/>
+Xenon_LeftTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>w<Fonts:/><Color:/>
+Xenon_RightTrigger=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>x<Fonts:/><Color:/>
+Xenon_LeftBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>y<Fonts:/><Color:/>
+Xenon_RightBumper=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>z<Fonts:/><Color:/>
+Xenon_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>><Fonts:/><Color:/>
+Xenon_Back=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18><<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>C<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>L<Fonts:/><Color:/>
+Xenon_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>A<Fonts:/><Color:/>
+Xenon_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>m<Fonts:/><Color:/>
+Xenon_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>o<Fonts:/><Color:/>
+Xenon_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>q<Fonts:/><Color:/>
+Xenon_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>s<Fonts:/><Color:/>
+Xenon_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>k<Fonts:/><Color:/>
+Xenon_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts.Fonts.UI_Fonts_Xbox18>i<Fonts:/><Color:/>
+PS3_X=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>X<Fonts:/><Color:/>
+PS3_Circle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>Y<Fonts:/><Color:/>
+PS3_Square=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>B<Fonts:/><Color:/>
+PS3_Triangle=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>A<Fonts:/><Color:/>
+PS3_L1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>y<Fonts:/><Color:/>
+PS3_R1=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>z<Fonts:/><Color:/>
+PS3_L2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>w<Fonts:/><Color:/>
+PS3_R2=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>x<Fonts:/><Color:/>
+PS3_L3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_R3=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_Start=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>;<Fonts:/><Color:/>
+PS3_Select=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>:<Fonts:/><Color:/>
+PS3_LeftStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>j<Fonts:/><Color:/>
+PS3_RightStickButton=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>h<Fonts:/><Color:/>
+PS3_DPadUp=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>m<Fonts:/><Color:/>
+PS3_DPadRight=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>o<Fonts:/><Color:/>
+PS3_DPadDown=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>q<Fonts:/><Color:/>
+PS3_DPadLeft=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>s<Fonts:/><Color:/>
+PS3_LeftStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>k<Fonts:/><Color:/>
+PS3_RightStick=<Color:R=1,G=1,B=1,A=1><Fonts:UI_Fonts_Final.Menus.UI_Fonts_PS3>i<Fonts:/><Color:/>
+
+[Icons]
+Unreal=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>0<Fonts:/>
+Skull=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>1<Fonts:/>
+People=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>2<Fonts:/>
+True=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>3<Fonts:/>
+False=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>4<Fonts:/>
+Locked=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>5<Fonts:/>
+Keyboard=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>6<Fonts:/>
+
+[Terms]
+Controller_PC=Manette de jeu
+Controller_PS3=Manette
+Controller_360=Manette Xbox 360
+GamerCard_360=CARTE DU JOUEUR
+GamerCard_PS3=Carte du Joueur
+GamerCard_PC=Carte du Joueur
+
+[ButtonCallouts]
+PlayOffline=<StringAliasMap:Cancel>JOUER HORS LIGNE
+Advanced=<StringAliasMap:Conditional2>AVANCÉ
+StartPrivateGame=<StringAliasMap:Conditional1>PARTIE PRIVÉE
+StartPublicGame=<StringAliasMap:Conditional2>PARTIE PUBLIQUE
+StartGame=<StringAliasMap:Accept>COMMENCER
+ExitGame=<StringAliasMap:Accept>SORTIR
+StartDedicated=DÉMARRER DÉDIÉ
+JoinServer=<StringAliasMap:Accept>REJOINDRE
+FindMatch=<StringAliasMap:Accept>TROUVER PARTIE
+Refresh=<StringAliasMap:Conditional2>ACTUALISER
+SpectateServer=<StringAliasMap:RightTrigger>SPECTATEUR
+QuickStartGame=<StringAliasMap:Start>DÉMARRER
+Accept=<StringAliasMap:Accept>ACCEPTER
+CreateProfile=<StringAliasMap:Accept>CRÉER PROFIL
+CreateProfileLoginScreen=<StringAliasMap:Conditional1>CRÉER PROFIL
+Login=<StringAliasMap:Accept>CONNEXION
+LoginMainMenu=<StringAliasMap:Conditional1>CONNEXION
+LogOut=<StringAliasMap:Accept>DÉCONNEXION
+LogOutMainMenu=<StringAliasMap:Conditional2>DÉCONNEXION
+Profiles=<StringAliasMap:Conditional2>PROFILS JOUEURS
+Details=<StringAliasMap:Accept>DÉTAILS
+Apply=<StringAliasMap:Accept>APPLIQUER
+Next=<StringAliasMap:Accept>SUIVANT
+Select=<StringAliasMap:Accept>SÉLECTIONNER
+Search=<StringAliasMap:Accept>RECHERCHE
+Back=<StringAliasMap:Cancel>RETOUR
+Cancel=<StringAliasMap:Cancel>ANNULER
+CancelSearch=<StringAliasMap:Cancel>ANNULER
+GamerCard=<StringAliasMap:Conditional1><StringAliasMap:Term_GamerCard>
+AcceptMission=<StringAliasMap:Accept>ACCEPTER
+ReplayMission=<StringAliasMap:Accept>REJOUER MISSION
+MissionBrief=<StringAliasMap:Accept>BRIEFING MISSION
+Ready=<StringAliasMap:Accept>PRÊT
+AddMutator=<StringAliasMap:Conditional1>AJOUTER
+RemoveMutator=<StringAliasMap:Conditional1>SUPPRIMER
+ClearMutators=<StringAliasMap:Conditional2>EFFACER
+PlayerAdmin=<StringAliasMap:Accept>ADMIN
+ToggleGameMode=<StringAliasMap:Conditional2>TYPE DE JEU
+ToggleView=<StringAliasMap:Conditional2>VOIR FILTRE
+ToggleMatchType=<StringAliasMap:Conditional1>TYPE DE SERVEUR
+ToggleShoulderType=<StringAliasMap:Conditional1>NOMBRE D'ÉPAULIÈRES
+ConfigureControls=<StringAliasMap:Conditional1>CONFIGURATION COMMANDES
+ConfigureController=<StringAliasMap:Conditional1>MANETTE
+ConfigureKeys=<StringAliasMap:Conditional2>TOUCHES
+ConfigureMutator=<StringAliasMap:Conditional2>CONFIGURER
+WeaponPreference=<StringAliasMap:Conditional1>PRIORITÉ DES ARMES
+ResetToDefaults=<StringAliasMap:Defaults>PAR DÉFAUT
+ResetToDefaultAccept=<StringAliasMap:Accept>Remettre par défaut
+ShiftUp=<StringAliasMap:ShiftUp>DÉPL. HAUT
+ShiftDown=<StringAliasMap:ShiftDown>DÉPL. BAS
+ShiftUpTrigger=<StringAliasMap:ShiftUpTrigger>DÉPL. HAUT
+ShiftDownTrigger=<StringAliasMap:ShiftDownTrigger>DÉPL. BAS
+ShiftMap=<StringAliasMap:ShiftBothTrigger>MAJ
+PlayDemo=<StringAliasMap:Accept>JOUER LA DÉMO
+DeleteDemo=SUPPRIMER DÉMO
+MapCycle=<StringAliasMap:Conditional2>CYCLE CARTE
+SingleMap=<StringAliasMap:Conditional2>UNIQUE
+AddMap=<StringAliasMap:Conditional1>AJOUTER
+RemoveMap=<StringAliasMap:Conditional1>SUPPRIMER
+AddBot=<StringAliasMap:Conditional1>AJOUTER BOT
+RemoveBot=<StringAliasMap:Conditional1>SUPPRIMER BOT
+BotSelection=<StringAliasMap:Conditional1>BOTS
+SelectMutators=<StringAliasMap:Conditional2>MUTATEURS
+AddFriend=<StringAliasMap:Conditional1>AJOUTER AMI
+SendFriendRequest=<StringAliasMap:Accept>Envoyer Requête d'amitié
+SendMessage=<StringAliasMap:Accept>ENVOYER MESSAGE
+PlayerDetails=<StringAliasMap:Accept>DÉTAILS
+ServerDetails=<StringAliasMap:Conditional1>DÉTAILS
+Presets=<StringAliasMap:Conditional1>PRÉRÉGLAGES
+Customize=<StringAliasMap:Conditional1>PERSONNALISER
+ChangeTeam=<StringAliasMap:Conditional2>CHANGER D'ÉQUIPE
+Keyboard=<StringAliasMap:Conditional2>CLAVIER
+RemoveFriend=<StringAliasMap:Conditional2>SUPPRIMER AMI
+RemoveFriendConfirm=<StringAliasMap:Accept>SUPPRIMER AMI
+AcceptFriendRequest=<StringAliasMap:Accept>ACCEPTER
+DeclineFriendRequest=<StringAliasMap:Conditional2>REFUSER
+AcceptGameInvite=<StringAliasMap:Accept>ACCEPTER
+DeclineGameInvite=<StringAliasMap:Conditional2>REFUSER
+ViewMessage=<StringAliasMap:Accept>VOIR MESSAGE
+DeleteMessage=<StringAliasMap:Conditional1>SUPPRIMER MESSAGE
+MarkAsUnread=<StringAliasMap:Conditional2>MARQUER COMME NON LU
+DeleteContent=<StringAliasMap:Conditional1>SUPPRIMER CONTENU
+DeleteAllContent=<StringAliasMap:Select>SUPPRIMER TOUT
+DeleteContentAccept=<StringAliasMap:Accept>SUPPRIMER CONTENU
+DeleteAllContentAccept=<StringAliasMap:Accept>SUPPRIMER TOUT
+ImportContent=<StringAliasMap:Conditional2>IMPORTER CONTENU
+DownloadContent=<StringAliasMap:Conditional2>TÉLÉCHARGER CONTENU
+DownloadContentAccept=<StringAliasMap:Accept>TÉLÉCHARGER CONTENU
+Admin=<StringAliasMap:Conditional2>ADMIN
+CustomizePlayerButtonBar=<StringAliasMap:Conditional1>MODIFIER PERSONNAGE
+ChooseReplacementWeapon=<StringAliasMap:Accept>CHOISIR REMPLACEMENT
+AnyKey=<StringAliasBindings:GBA_Fire> pour continuer...
+EnterUnlockCode=<StringAliasMap:Conditional1>Entrer code de déverrouillage
+Close=<StringAliasMap:Cancel>FERMER
+CycleTab=<StringAliasMap:ShiftUp><StringAliasMap:ShiftDown> <StringAliasMap:CycleTabs>
+ReenableMods=RÉACTIVEZ LES MODS EN APPUYANT SUR <Strings:UTGameUI.ButtonFont.PS3_Start>RÉACTIVER.
+AddToFavorite=<StringAliasMap:Conditional1>AJOUTER FAVORI
+RemoveFromFavorite=<StringAliasMap:Conditional1>SUPPRIMER FAVORI
+AddIP=<StringAliasMap:Conditional2>AJOUT IP
+JoinIP=<StringAliasMap:Conditional2>INSCRIPTION IP
+SpectateIP=<StringAliasMap:Conditional2>IP SPECTATEUR
+ModSettings=PARAMÈTRES DES MODS
+ExpandCollapse=<StringAliasMap:Accept>ÉTENDRE/RÉDUIRE
+ClearAll=ANNULER
+
+[MapCycleMenu]
+ClearAll=Annuler
+
+[KeyboardPrompts]
+LoginScreen_Name_Title=Entrez votre nom d'utilisateur
+LoginScreen_Name_Message=Veuillez entrer un nom d'utilisateur avec lequel vous connecter.
+LoginScreen_Password_Title=Entrez votre mot de passe
+LoginScreen_Password_Message=Veuillez entrer le mot de passe associé à votre profil.
+FriendRequestMessage_Title=Entrer un message
+FriendRequestMessage_Message=Entrez un message à envoyer avec la requête d'ami.
+FriendRequestName_Title=Entrez le nom de joueur
+FriendRequestName_Message=Entrez le nom du joueur auquel vous souhaitez envoyer la requête d'amitié.
+SendMessage_Title=Entrer un message
+SendMessage_Message=Entrez un message à envoyer à votre ami.
+
+[PlayerCard]
+SendFriendRequest=Envoyer Requête d'amitié
+SendFriendRequest_Desc=Envoyer une requête d'amitié à ce joueur.
+SendMessage=Envoyer Message
+SendMessage_Desc=Envoyer un message à ce joueur.
+InviteToGame=Inviter à la partie
+InviteToGame_Desc=Inviter ce joueur à la partie en cours.
+Follow=Suivre Joueur
+Follow_Desc=Suivre ce joueur de match en match.
+DefaultFriendRequestMessage=Hé toi !  Tu voudrais qu'on soit amis ?
+Caption=Détails sur...
+Kick=Éjecter
+Kick_Desc=Ejecter ce joueur de la partie
+KickWarning=Vous êtes sur le point d'éjecter ce joueur de la partie. Continuer ?
+Ban=Éjecter/Bannir
+Ban_Desc=Ejecter ce joueur de la partie et l'empêcher de revenir.
+BanWarning=Vous êtes sur le point d'éjecter ce joueur de la partie et de restreindre son accès à votre serveur. Continuer ?
+AIBot=(Contôlé par IA)
+
+[Titles]
+TitleScreen=
+MainMenu=[Menu Principal]
+Community=[Communauté]
+Multiplayer=[Multijoueur]
+Settings=[Paramètres]
+Credits=[Crédits]
+DemoPlayback=[Lire la Démo]
+LoginScreen=[Connexion]
+CreateProfile=[Créer Profil]
+Friends=[Amis]
+Leaderboards=[Statistiques]
+PlayerStats=[Statistiques joueur]
+BindKeysPC=[Configuration Commandes]
+BindKeys360=[Configuration Commandes]
+BindKeysPS3=[Configuration Commandes]
+Mutators=[Mutateurs]
+MapCycle=[Cycle Carte]
+BotSelection=[Sélection Bot]
+CharacterFaction=[Factions]
+CharacterSelection=[Personnages]
+News=[Nouveautés]
+WeaponPreference=[Priorité Arme]
+QuickMatch=[Partie Rapide]
+PlayerCard=[Carte du Joueur]
+SendFriendRequest=[Envoyer Requête d'amitié]
+SendOnlineMessage=[Envoyer Message]
+CharacterCustomization=[Personnalisation Personnage]
+CampOptions=OPTIONS
+SettingsVideoAdvanced=[Paramètres Vidéo Avancés]
+CampNewOrContinue=[Campagne]
+CDKey=[Clé CD ]
+WeaponReplacement=[Remplacement de l'arme]
+BrowserMutatorFilters=[Filtres Mutateurs]
+ModSettingsScene=[Parametres Des Mods]
+
+[FrontEnd]
+TabCaption_GameMode=MODE DE JEU
+TabCaption_Map=CARTE
+TabCaption_GameSettings=PARAMÈTRES
+TabCaption_ServerSettings=SERVEUR
+TabCaption_Mutators=MUTATEURS
+TabCaption_Lobby=LOBBY
+TabCaption_CharPart[0]=TÊTE
+TabCaption_CharPart[1]=CASQUE
+TabCaption_CharPart[2]=MASQUE FACIAL
+TabCaption_CharPart[3]=LUNETTES
+TabCaption_CharPart[4]=TORSE
+TabCaption_CharPart[5]=ÉPAULES
+TabCaption_CharPart[6]=ARMES
+TabCaption_CharPart[7]=CUISSES
+TabCaption_CharPart[8]=BOTTES
+
+[JoinGame]
+Filter=FILTRES
+Servers=SERVEURS
+History=HISTORIQUE
+Favorites=FAVORIS
+ServerCount=SERVEURS TROUVÉS: <SceneData:NumServersReceived>
+Rules=RÈGLES
+Players=Joueurs
+Ping=Ping
+IconLegend=<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>0<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Pure Server<Fonts:/>\n<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>7<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Private Server<Fonts:/>\n<Fonts:UI_Fonts_Final.Menus.UI_Fonts_Icons>6<Fonts:/> <Fonts:UI_Fonts_Final.Menus.Fonts_Positec>Allows Keyboard & Mouse<Fonts:/>
+
+[MutatorFilterMenu]
+MutatorCombo=Mutateurs
+MutatorComboList=Sans mutateurs,N'importe quel mutateur,Personnalisée
+MutatorComboDesc=Détermine comment les mutateurs de serveur sont filtrés
+MutatorClassAddEdit=Ajout d'une classe de mutateur
+MutatorClassAddEditDesc=Te permet d'ajouter des classes de mutateur manuellement à la liste des filtres (indique uniquement le nom de classe et non le nom du lot)
+MutatorNameAddEdit=Ajout d'un nom de mutateur
+MutatorNameAddEditDesc=Te permet d'ajouter des noms de mutateur à la liste des filtres, qui te laisse filtrer des mutateurs selon leur nom partiel ou complet
+MutatorInstalledComboList=Marche,Arrêt,Sans importance
+MutatorAdditionalComboList=Marche,Arrêt,Sans importance,Supprimer l'entrée
+MutatorFilterDesc=Filtre les serveurs selon s'ils exécutent ou non ce mutateur.
+
+[ModSettingsMenu]
+MenuDescription=Sélectionne un mod à configurer
+ModListLabel=Mods configurables
+
+[MapCycleMenu]
+ClearAll=Supprime tout
+
+
+[Community]
+News=NOUVEAUTÉS
+Friends=AMIS
+Messages=MESSAGES
+MyContent=MON CONTENU
+EpicContent=CONTENU EPIC
+DemoDelWarning=Confirmer la suppression de la démo sélectionnée.
+AchievementProgress=PROGRÈS DES PRIMES
+
+[Achievements]
+AchievementName=Nom
+AchievementProgress=Progrès
+AchievementUnlocked=Prix débloqué
+
+
+[Settings]
+Player=JOUEUR
+Video=VIDÉO
+Audio=AUDIO
+Input=ENTRÉE
+Advanced=AVANCÉ
+Weapons=ARMES
+HUD=HUD
+Game=JEU
+Network=RÉSEAU
+Credits=CRÉDITS
+NotBound=(Non Lié)
+PressKeyToBind=(Appuyez sur la touche pour lier)
+AvailableMutators=Mutateurs Disponibles
+EnabledMutators=Activer Mutateurs
+AvailableBots=Bots Disponibles
+ActiveBots=Bots actifs
+AvailableMaps=Cartes Disponibles
+MapCycle=Cycle Carte
+WeaponPriority=Priorité Arme
+
+[Content]
+Description=Description
+Filename=Nom de fichier
+Name=Nom
+
+[Stats]
+General=Général
+Weapons=Armes
+Vehicles=Véhicules
+VehicleWeapons=Tourelles
+Rewards=Récompenses
+WeaponName=Nom Arme
+Kills=Tués
+Deaths=Morts
+Suicides=Suicides
+PlayerName=Nom du Joueur
+VehicleKills=Détruits
+DrivingTime=Temps
+VehicleName=Véhicule
+Statistic=Statistiques
+Value=Valeur
+
+[VehicleWeapons]
+CicadaRocket=Roquette Cicada
+CicadaTurret=Tourelle Cicada
+DarkWalkerPassGun=Chargeur DarkWalker
+DarkWalkerTurret=Tourelle DarkWalker
+FuryGun=Canon Fury
+GoliathMachineGun=Mitrailleuse Goliath
+GoliathTurret=Tourelle Goliath
+HellbenderPrimary=Canon principal Hellbender
+LeviathanExplosion=Canon principal Leviathan
+LeviathanPrimary=Tourelle Leviathan
+LeviathanTurretBeam=Rayon Tourelle Leviathan
+LeviathanTurretRocket=Roquette Tourelle Leviat.
+LeviathanTurretStinger=Tourelle Stinger Leviathan
+LeviathanTurretShock=Tourelle Shock Leviathan
+MantaGun=Canon Manta
+NemesisTurret=Tourelle Nemesis
+NightshadeGun=Canon Nightshade
+PaladinExplosion=Explosion Paladin
+PaladinGun=Canon Paladin
+RaptorGun=Canon Raptor
+RaptorRocket=Roquettes Raptor
+Redeemer=Redeemer
+ScavengerGun=Canon Scavenger
+ScavengerStabbed=Lames Scavenger
+ScorpionBlade=Lames Scorpion
+ScorpionGlob=Tourelle Scorpion
+ScorpionSelfDestruct=Auto-destruction Scorpion
+SPMACameraCrush=SPMA Camera Crush
+SPMACannon=Canon SPMA
+SPMATurret=Tourelle principale SPMA
+StealthBenderGun=Canon Stealthbender
+TurretPrimary=Tourelle principale
+TurretRocket=Tourelle Roquettes
+TurretShock=Tourelle Shock
+TurretStinger=Tourelle Stinger
+ViperGun=Canon Viper
+ViperSelfDestruct=Auto-destruction Viper
+
+[ServerBrowser]
+ServerName=Serveur
+Ping=Ping
+MapName=Carte
+GameMode=Mode de Jeu
+Key=Clé
+Value=Valeur
+CurrentServerMutators=Mutateurs
+PlayerName=Jouer
+Team=Équipe
+RedTeam=Rouge
+BlueTeam=Bleu
+
+[UTUIDataProvider_SearchResult]
+PlayerRatio=Joueurs
+GameModeFriendlyName=Jeu
+ServerFlags=" "
+
+[CharacterCustomization]
+Faction=Faction
+Character=Personnage
+CreateNewChar_Title=Créer Nouveau Personnage
+CreateNewChar_Message=Vous avez déjà personnalisé votre personnage une fois auparavant.  Voulez-vous créer un nouveau personnage ou modifier un personnage existant ?  Si vous créez un nouveau personnage, il remplacera le personnage existant.
+CreateNewCharacter=<StringAliasMap:Conditional2>CRÉER NOUVEAU
+EditExistingCharacter=<StringAliasMap:Accept>ÉDITER EXISTANT
+RandomlyGenerate=<StringAliasMap:Conditional2>ALÉATOIRE
+CreateCharacter=<StringAliasMap:Accept>PERSONNALISER
+RotateCharacter=<StringAliasMap:RightTrigger> <StringAliasMap:LeftTrigger> Pivoter personnage
+
+[VHud_Scorpion]
+BoostMsg=Boost
+EjectMsg=Éjecter
+
+[OnslaughtMap]
+SelectionText=<StringAliasMap:Accept>TÉLÉPORTATION
+
+[MidGameMenu]
+TabCaption_Map=ORDRES
+TabCaption_Settings=PARAMÈTRES
+TabCaption_Game=JEU
+TabCaption_Score=SCORE
+RespawnOptions=Options de Régénération :
+SetSpawnLoc=<StringAliasMap:Accept>RÉGÉNÉRER ICI
+ChangePref=<StringAliasMap:Conditional2>ORDRES
+ExitMatchWarning=Vous êtes sur le point de quitter la carte.  Voulez-vous vraiment continuer?
+ExitMatchTitle=Quitter la partie ?
+Reconnect=RECONNECTER
+LeaveGame=<StringAliasMap:Conditional1>SE DÉCONNECTER
+Forfeit=<StringAliasMap:Conditional1>MENU PRINCIPAL
+WonMatch=Vous avez gagné le match !
+LostMatch=Vous avez perdu la partie !
+IncomingTransmission=TRANSMISSION REÇUE...
+Rules=<StringAliasMap:Defaults>RÈGLES
+MOTD=<StringAliasMap:Defaults>MOTD
+MapVote=Vote terminé dans
+Players=<StringAliasMap:LeftTrigger>Joueurs
+VoteTimePrefix=Vote terminé dans
+VoteTimeSuffixA=secondes.
+VoteTimeSuffixB=seconde!
+ResetToDefaultsWarning=Remettre les valeurs par défaut écrasera tous les paramètres actuels.  Continuer?
+BestVoteNone=Placez votre vote.
+BestVoteA=Mène avec
+BestVoteB=Vote terminé dans.
+PopupOnSpawn=<StringAliasMap:LeftTrigger>Menu contextuel sur Régénération
+TabCaption_Chat=CHAT
+TabCaption_Vote=VOTES
+DetailswithBots=Désolé, vous ne pouvez pas voir les détails d'un bot.
+CantViewDetails=Désolé, vous ne pouvez pas voir les détails de ce joueur.
+CantViewSelf=Désolé, mais tu ne peux pas t'envoyer un message à toi-même.
+CantViewLan=Désolé, mais tu ne peux envoyer des messages que depuis une partie Internet.
+ObjectivePrefsDisabled=Désactivé
+ObjectivePrefsNoPreference=Aucune Préférence
+ObjectivePrefsAttack=Attaquer
+ObjectivePrefsDefend=Défendre
+ObjectivePrefsOrbRunner=Coureur de Sphères
+ObjectivePrefsSpecialOps=Opérations Spéciales
+QuitGameWarning=Êtes-vous certain de vouloir quitter le jeu ?
+VoteTabGameListCaption=Type de jeu
+VoteTabAvailableMapsCaption=Liste des cartes
+VoteTabVotedMapsCaption=Vote terminé dans:
+VoteTabMutatorListCaption=Mutateurs
+VoteTabMapColumn=Carte
+VoteTabPlayCountColumn=Compte des rencontres
+VoteTabLastPlayColumn=Dernière rencontre
+VoteTabGameColumn=Jeu
+VoteTabVoteCountColumn=Compte des votes
+VoteTabAddMutHeader=--- Ajout ---
+VoteTabRemoveMutHeader=--- Supprimer ---
+VoteTabTransferMessage=Transfert...
+VoteTabGameVoteHint=Vote pour un type de jeu.
+VoteTabMapVoteHint=Vote pour une carte.
+VoteTabMutatorVoteHint=Vote pour des mutateurs.
+VoteTabGameAndMapVoteHint=Vote pour un type de jeu suivi d'une carte.
+VoteTabForceVote=FORCE VOTE
+VoteTabForceMutOn=FORCE ON
+VoteTabForceMutOff=FORCE OFF
+DownloadText=Téléchargement : Fichiers restants `p%, `c 
+Achievements=Primes
+
+[Campaign]
+CampaignStartNew=Nouvelle Campagne
+CampaignStartNew_Desc=Commencer une nouvelle campagne.
+CampaignContinue=Continuer Campagne
+CampaignContinue_Desc=Continuer une campagne existante où vous l'aviez laissée.
+CampaignChapter=Rejouer le chapitre
+CampaignChapter_Desc=Choisir un chapitre du jeu et y commencer votre campagne.
+CampaignOnline=Rejoindre campagne
+CampaignOnline_Desc=Jouer au mode campagne en ligne avec des amis.
+CampaignOptionsPrefix=OPTIONS -
+CampaignTitleA=CAMPAGNE
+CampaignTitleB=CAMPAGNE
+NewWarning=Démarrer une nouvelle partie écrasera la partie enregistrée.  Voulez-vous vraiment continuer?
+ChapterWarning=Charger un chapitre écrasera la partie sauvegardée existante. Continuer?
+Confirmation=Confirmation
+PublicGame=Partie Public...
+LiveGame=Jeu LAN 
+SkillLevelCaption=Compétence...
+MissionSelecitonTitle=[ APERÇU DE LA MISSION ]
+MissionWon=Statut : RÉUSSI !
+MissionLost=Statut : ÉCHEC !
+PreviousMission=Mission Précédente :
+MissionNotes_Title=" "
+MissionNotes_Type=Type de Mission :
+MissionNotes_Location=Région :
+Objectives=OBJECTIFS
+MissionDetails=<StringAliasMap:Conditional1>DÉTAILS
+CurrentMission=Mission Actuelle
+SelectGameCard=Sélectionner une Carte à Jouer...
+PlayCard=<StringAliasMap:Conditional2>JOUER CARTE
+ClearCard=<StringAliasMap:Conditional2>EFFACER CARTE
+NoCardsInDeck=Vous n'avez actuellement aucune carte à jouer.  Ramassez des cartes en atteignant divers objectifs secondaires pendant votre mission.
+NoCardsInDeckTitle=Pardon !
+EndCampaign=<StringAliasMap:Cancel>MENU PRINCIPAL
+LeaveCampaign=<StringAliasMap:Cancel>MENU PRINCIPAL
+EndCampaignMsg=Voulez-vous vraiment quitter la partie?
+ChapterText=CHAPITRE
+Chapter0=I:   Ronin
+Chapter1=II:  Les Pièces de César
+Chapter2=III: Le Conflit Liandri
+Chapter3=IV:  Pertes Calculées
+Chapter4=V:   Atouts Jetables
+ChapterLockedTitle=Chapitre verrouillé!
+ChapterLockedMsg=Le chapitre que vous avez sélectionné est verrouillé.  Vous devez achever les chapitres du mode campagne pour les déverrouiller.
+CampSkill0=Facile
+CampSkill1=Normale
+CampSKill2=Difficile
+CampSKill3=Démente
+SelectMission=Sélectionner une mission
+Chapter0Unlock=Chapitre "Ronin" disponible!
+Chapter1Unlock=Chapitre "Les Pièces de César" disponible!
+Chapter2Unlock=Chapitre "le Conflit Liandri" disponible!
+Chapter3Unlock=Chapitre "Pertes Calculées" disponible!
+Chapter4Unlock=Chapitre "Atouts Jetables" disponible!
+PlayerLabel=JOUEURS
+CampaignOnlineLan=Rejoindre réseau LAN
+CampaignOnlineLan_Desc=Jouer en mode campagne sur un réseau local LAN.
+
+[Scoreboards]
+PlayerName=Nom du Joueur
+Kills=Tués
+Deaths=Morts
+Score=Score
+Frag Limit=Limite de Victimes :
+Time Remaining=Temps Restant :
+DEATHMATCH=DEATHMATCH
+TeamDeathmatch=DEATHMATCH EN ÉQUIPE
+CaptureTheFlag=CAPTURE DU DRAPEAU
+Onslaught=ASSAUT
+CapsToWin=Captures pour Gagner
+OnsPreGoalScore=Détruisez le Core
+OnsPostGoalScore=fois pour Gagner
+TimeLimit=Durée :
+Name=Nom
+KickVote=Vote d'éjection
+RemoveKickVote=Remove Vote d'éjection
+
+[Hud]
+ConstructingMeshes=Mailles en Construction. Veuillez Patienter...
+ObjectivePrefs=Sélectionnez Votre Rôle :
+
+[DemoPlayback]
+DemoFileName=Nom de Fichier Démo
+
+[MapVote]
+AddVote=Ajouter Vote
+MapVoteTitle=[Vote Carte]
+
+[AnalogStick]
+Normal_LeftStick=Gauche/Droite : Déplacement\nHaut/Bas : Déplacer
+Normal_RightStick=Gauche/Droite : Regarder\nHaut/Bas : Regarder
+SouthPaw_LeftStick=Gauche/Droite : Regarder\nHaut/Bas : Regarder
+SouthPaw_RightStick=Gauche/Droite : Déplacement\nHaut/Bas : Déplacer
+Legacy_LeftStick=Gauche/Droite : Tourner\nHaut/Bas : Déplacer
+Legacy_RightStick=Gauche/Droite : Déplacement\nHaut/Bas : Regarder
+LegacySouthPaw_LeftStick=Gauche/Droite : Déplacement\nHaut/Bas : Regarder
+LegacySouthPaw_RightStick=Gauche/Droite : Tourner\nHaut/Bas : Déplacer
+Press=\nAppuyer:
+
+[GameMappedStrings]
+GMS_MouseX=SourisX
+GMS_MouseY=SourisY
+GMS_MouseScrollUp=MDHaut
+GMS_MouseScrollDown=MDBas
+GMS_LeftMouseButton=Souris1
+GMS_RightMouseButton=Souris2
+GMS_MiddleMouseButton=Souris3
+GMS_ThumbMouseButton=Souris4
+GMS_ThumbMouseButton2=Souris5
+GMS_BackSpace=Retour arrière
+GMS_Tab=Onglet
+GMS_Enter=Entrer
+GMS_Pause=Pause
+GMS_CapsLock=Ver. Maj.
+GMS_Escape=Échapper
+GMS_SpaceBar=Espace
+GMS_PageUp=Page Précédente
+GMS_PageDown=Page Suivante
+GMS_End=Fin
+GMS_Home=Accueil
+GMS_Left=Gauche
+GMS_Up=Haut
+GMS_Right=Droite
+GMS_Down=Bas
+GMS_Insert=Insérer
+GMS_Delete=Supprimer
+GMS_Zero=0
+GMS_One=1
+GMS_Two=2
+GMS_Three=3
+GMS_Four=4
+GMS_Five=5
+GMS_Six=6
+GMS_Seven=7
+GMS_Eight=8
+GMS_Nine=9
+GMS_A=A
+GMS_B=B
+GMS_C=C
+GMS_D=D
+GMS_E=E
+GMS_F=F
+GMS_G=G
+GMS_H=H
+GMS_I=I
+GMS_J=J
+GMS_K=K
+GMS_L=L
+GMS_M=M
+GMS_N=N
+GMS_O=O
+GMS_P=P
+GMS_Q=Q
+GMS_R=R
+GMS_S=S
+GMS_T=T
+GMS_U=U
+GMS_V=V
+GMS_W=W
+GMS_X=X
+GMS_Y=Y
+GMS_Z=Z
+GMS_NumPadZero=0 (pavé numérique)
+GMS_NumPadOne=1 (pavé numérique)
+GMS_NumPadTwo=2 (pavé numérique)
+GMS_NumPadThree=3 (pavé numérique)
+GMS_NumPadFour=4 (pavé numérique)
+GMS_NumPadFive=5 (pavé numérique)
+GMS_NumPadSix=6 (pavé numérique)
+GMS_NumPadSeven=7 (pavé numérique)
+GMS_NumPadEight=8 (pavé numérique)
+GMS_NumPadNine=9 (pavé numérique)
+GMS_Multiply=*
+GMS_Add=+
+GMS_Subtract=-
+GMS_Minus=-
+GMS_Plus=+
+GMS_Decimal=.
+GMS_Divide=/
+GMS_F1=F1
+GMS_F2=F2
+GMS_F3=F3
+GMS_F4=F4
+GMS_F5=F5
+GMS_F6=F6
+GMS_F7=F7
+GMS_F8=F8
+GMS_F9=F9
+GMS_F10=F10
+GMS_F11=F11
+GMS_F12=F12
+GMS_NumLock=VerrNum
+GMS_ScrollLock=ArrêtDéfil
+GMS_LeftShift=Maj Gauche
+GMS_RightShift=Maj Droite
+GMS_LeftControl=C. Gauche
+GMS_RightControl=Contrôle Droite
+GMS_LeftAlt=Alt Gauche
+GMS_RightAlt=Alt Droite
+GMS_Semicolon=;
+GMS_Equals==
+GMS_Comma=,
+GMS_Underscore=_
+GMS_Period=.
+GMS_Slash=/
+GMS_Tilde=~
+GMS_LeftBracket=[
+GMS_Backslash=\\
+GMS_RightBracket=]
+GMS_Quote=\"
+GMS_XBoxTypeS_A=Joy Bouton 1
+GMS_XBoxTypeS_B=Joy Bouton 2
+GMS_XBoxTypeS_X=Joy Bouton 3
+GMS_XBoxTypeS_Y=Joy Bouton 4
+GMS_XBoxTypeS_Start=Joy Démarrer
+GMS_XBoxTypeS_Back=Joy Arrière
+GMS_XBoxTypeS_LeftShoulder=Joy Épaule Gauche
+GMS_XBoxTypeS_RightShoulder=Joy Épaule Droite
+GMS_XBoxTypeS_LeftTrigger=Joy Déclencheur Gauche
+GMS_XBoxTypeS_RightTrigger=Joy Déclencheur Droite
+GMS_XBoxTypeS_DPad_Up=Joy DPad Haut
+GMS_XBoxTypeS_DPad_Down=Joy DPad Bas
+GMS_XBoxTypeS_DPad_Left=Joy DPad Gauche
+GMS_XBoxTypeS_DPad_Right=Joy DPad Droite
+GMS_XBoxTypeS_LeftThumbstick=Joy Stick Gauche
+GMS_XBoxTypeS_RightThumbstick=Joy Stick Droite
+GMS_XboxTypeS_LeftX=Joy Stick Gauche
+GMS_XboxTypeS_LeftY=Joy Stick Gauche
+GMS_XboxTypeS_RightX=Joy Stick Droite
+GMS_XboxTypeS_RightY=Joy Stick Droite
+GMS_Gamepad_LeftStick_Left=Stick gauche
+GMS_Gamepad_LeftStick_Up=Stick gauche
+GMS_Gamepad_LeftStick_Right=Stick gauche
+GMS_Gamepad_LeftStick_Down=Stick gauche
+GMS_Gamepad_RightStick_Left=Stick droit
+GMS_Gamepad_RightStick_Up=Stick droit
+GMS_Gamepad_RightStick_Right=Stick droit
+GMS_Gamepad_RightStick_Down=Stick droit
+
+[CampaignBriefing]
+;/////////////////////////////////////
+;//////////MAP DESCRIPTIONS//////////
+;///////////////////////////////////
+
+;//DEATHMATCH MAPS//
+;------------------
+
+;//DM-Arsenal//
+BriefDesc16=Cette structure très fortifiée fut autrefois une usine de munitions Liandri dont l'emplacement retiré devait permettre la réduction de dommages collatéraux en cas d'accident.  Les premiers colons appelaient l'installation "l'Arsenal", mais à cause de la croissance d'Hyperion et de la mise en service d'usines plus modernes, l'Arsenal connut des temps difficiles.  
+
+;//DM-Biohazard//
+BriefDesc45=Personne ne sait exactement combien d'installations les Axon ont caché dans la neige de l'Onyx.   Celle-ci a été découverte quand une expédition Izanagi a remarqué la présence de Tarydium au cours d'une opération d'arpentage.  L'enquête a révélé cette installation de stockage où les Axon ont empilé des quantités massives de Tarydium.
+
+;//DM-Carbonfire//
+BriefDesc57=Les journées de travail sur Taryd sont notoirement longues et difficiles, et il y a peu de temps pour les corvées banales de la vie quotidienne.  Pour inciter des colons potentiels, la corporation Liandri offre un robot domestique Mark I à chaque famille qui emménage.  L'installation de production Carbonfire Mark I offre même des visites quotidiennes et des primes aux nouveaux clients.
+
+;//DM-Deck//
+BriefDesc139=Un malheureux inconvénient du Tarydium est l'important volume de déchets biologiques créés au cours de la purification et du traitement du minerai brut.  Sur Taryd, le gros des déchets est envoyé sur les Decks, une installation de stockage et d'élimination dirigée par les Axon dans les faubourgs d'Oxida Nova.  Il n'est pas recommandé d'entrer dans l'immeuble sans un équipement de protection complet.
+
+;//DM-Defiance//
+BriefDesc13=La ville d'Oxida Nova est un centre d'activités fréquenté des colons Axon.  Cette zone est entourée par de grands immeubles, y compris la station ferroviaire centrale, les bureaux d'embauche, et des centres commerciaux qui rendent l'endroit semblable à une ville moyenne de la Terre.
+
+;//DM-Deimos//
+BriefDesc33=La technologie Izanagi de porte de saut orbitale a changé à jamais la vie interstellaire.  Maintenant, le constant trafic de marchandises et de touristes en vacances nécessite le soutien de petites stations orbitales telles que celle-ci à l'avant de chaque porte de saut, à travers la galaxie entière.
+
+;//DM-Diesel//
+BriefDesc107=Plusieurs installations de maintenance comme celle-ci sont nécessaires pour que la ville puisse fonctionner sans à-coups, en particulier une ville de la taille d'Oxida Nova.  L'Iron Guard a commandé cette structure particulière pour en faire son petit terrain de jeu et l'utilise pour tester les nouvelles technologies Axon, comme les armes avancées et les régénérateurs non calibrés.
+
+;//DM-Fearless//
+BriefDesc42=La corporation secrète Phayder a commencé à effectuer des recherches sur de nouvelles applications de ses technologies nanoblack.  Certaines de ces recherches ont fait des progrès marquants, en particulier dans le domaine des blindages de combat et de protection individuelle.  Des chambres fortes telles que celle-ci servent de témoignage des recherches de cette technologie innovante.  
+
+;//DM-Gateway//
+BriefDesc24=La corporation Liandri a travaillé pendant des années pour parfaire la technologie des portails utilisés dans les Tournois.  Ils espèrent accroître les distances de téléportation et rendre le système utile à l'échelle globale.  Cette série de portes est leur prototype de travail, avec des portails qui peuvent instantanément déplacer personnel et équipements sur tout emplacement préprogrammé de Taryd.
+
+;//DM-Heatray
+BriefDesc17=Les exploitations Liandri sur Taryd devenant de plus en plus automatisées, les secteurs de surface d'Hyperion furent négligés et ne reçurent jamais les mises à niveau technologiques disponibles dans la strate supérieure de la ville.  Ce dédale d'immeubles au niveau du sol constitue maintenant les bidonvilles de Taryd, encore habités par des humains qui assurent l'entretien de la main d'oeuvre automatisée Liandri.
+
+;//DM-RisingSun//
+BriefDesc1=Les samouraïs légendaires de la Garde Lotus avaient l'habitude de s'entraîner dans l'enceinte du Palais Impérial.  Cette petite section du district du marché Kimpu a été construite pour reproduire ces cours intérieures et sert maintenant d'entrée aux terrains d'entraînement de la Ghost Legion. 
+
+;//DM-Sanctuary//
+BriefDesc36=L'île de Babel est un sanctuaire religieux Necris, un endroit où ils peuvent communier avec l'essence même de leur être et créer un lien personnel avec le nanoblack qui coule dans leurs veines.
+
+;//DM-Sentinel//
+BriefDesc41=Cette structure solitaire donne une vue impressionnante de l'horizon d'Absalom.  Certains disent que les Touchés se rencontrent aux alentours, attendant l'arrivée du Prophète.  Il y a ici une connexion directe aux sous-niveaux de la Vieille Absalom et sa réserve inépuisable de nanoblack.  En tant que telle, l'architecture est en perpétuelle croissance et transformation, se reconstruisant à des fins inconnues.
+
+;//DM-ShangriLa//
+BriefDesc2=Les fleurs printanières du secteur Shangri La sont universellement renommées pour leur beauté et leur sérénité.  Mais le district se trouve le long de la rive nord de Tokaido, et les habitants sont obligés de se replier dans la chaleur étouffante des mines souterraines pour éviter les féroces morsures du froid qui laissent les terres abandonnées pendant les mois d'hiver.
+
+;//DM-Morbias//
+BriefDesc163=La station Morbias est un centre de transport  qui concentre tout le trafic passant par les portes de saut de Taryd. La station propose une navette terrestre, des espaces de stockage (avec un service de mise en quarantaine pour les cargaisons vivantes)  et un centre social où les invités peuvent rencontrer les visiteurs ou tenir des réunions privées dans un espace neutre.
+
+;//DM-KBarge
+BriefDesc162=Perpétuant leur excellence dans la fabrication de vaisseaux marins , " Koos Shipping " propose désormais un service de péniche à travers les océans de Taryd et les voies d'eau. Les tarifs sont exorbitants mais c'est la seule ligne qui garantisse ponctualité et  livraison intacte de la cargaison, peu importe le trajet et les conditions.
+
+;//CAPTURE THE FLAG MAPS//
+;------------------------
+
+;//CTF-Coret//
+BriefDesc20=Avant la guerre, le centre Coret Acquisition était un centre social important pour tous les colons de Taryd.  Toutefois, depuis le début des combats, la milice impose un couvre-feu strict et les installations sont vides au coucher du soleil.
+
+;//CTF-OmicronDawn//
+BriefDesc34=Cette porte de saut fut à l'origine mise en place par le N.E.G. pour encourager les relations commerciales avec les peuples du secteur Omicron.  Les négociations commerciales ont finalement échoué et les Necris ont pris le contrôle de la station orbitale, la réajustant au moyen de couplages et d'architecture nanoblack. 
+
+;//CTF-Hydrosis//
+BriefDesc8=Les canaux de l'Alluvion sont fermés par cette installation hydraulique qui sert de source d'énergie de secours et d'usine de traitement du tarydium.  La destruction de l'usine perturberait sérieusement la production d'énergie Axon, mais la prendre permettrait l'utilisation de ces ressources essentielles par les Izanagi.
+
+;//CTF-Reflection//
+BriefDesc3=Entourées par des chutes d'eau tranquilles et une architecture traditionnelle, ces terres sont connues sous le nom de Reflection Gardens.  Elles sont profondément dissimulées au coeur de Tokaido, là où les gens peuvent se retirer pour méditer tranquillement au milieu de l'affairement d'une colonie minière populaire.
+
+;//CTF-Strident//
+BriefDesc23=Le Strident a toujours été un mystère pour les humains faits de chair et de sang qui travaillent à la surface d'Hyperion.  Ces chambres souterraines semblent être le foyer central de l'ordinateur central qui contrôle toutes les exploitations Liandri sur Taryd.
+
+;//CTF-Vertebrae//
+BriefDesc39=Les strates brisées et la croissance organique de ces ruines relatent l'histoire jamais racontée de l'ascension des Necris vers le pouvoir sur Omicron.  Tout comme la philosophie du Prophète pendant le Grand Réveil, les nanotech Necris se répandent d'abord sur l'architecture existante puis l'utilisent comme fondation sur laquelle former la leur.
+
+;//CTF-Searchlight//
+BriefDesc37=Le phare sert de balise pour cette île isolée, qui serait l'ancienne demeure du Prophète Necris. Les éléments spirituels de la conversion Necris sont incompris et leur pouvoir sous-estimé. Ceux qui sont prêts à faire face aux conséquences de leur conversion viennent souvent méditer dans les centres religieux comme celui-ci.
+
+;//CTF-FacingWorlds//
+FaceDesc=Les Necris ont réussi à s'introduire dans les terres Izanagi les plus vénérées. Leur subversion s'est étendue jusqu'au Temple des Facing Worlds et une de ses tours indique déjà les effets de l'infection et de la décrépitude.
+
+;//VEHICLE CAPTURE THE FLAG MAPS//
+;--------------------------------
+
+;//vCTF-Containment//
+BriefDesc52=On en sait peu à propos de cette installation de recherche reculée, si ce n'est qu'elle est entretenue par la Liandri.  Les images satellites montrent un genre de cage au centre, et les services de renseignement croient qu'ils ont récupéré un véhicule Darkwalker.  La Liandri a toujours voulu avoir accès à la technologie Necris, et cela pourrait être leur chance de faire quelques avancées dans le domaine de la recherche nanotech.
+
+;//vCTF-Corruption//
+BriefDesc28=Les Mitzushi Gardens furent autrefois une paisible retraite pour les citoyens de Tokaido, un endroit tranquille conçu pour aider à concentrer les sens et détendre l'esprit.  Toutefois, il ne s'est écoulé que quelques heures depuis la contre-offensive Necris et le climat a déjà changé de façon dramatique.  Des nuages noirs qui semblent conscients planent dans l'air, le nanoblack empoisonne l'eau, et d'étranges tentacules poussent depuis l'intérieur des bâtiments.
+
+;//vCTF-Kargo//
+BriefDesc7=Les ports situés sur la rivière Alluvion sont les principaux points d'entrée des lignes d'approvisionnement coloniales.  Ces couloirs d'expédition sont partagés par toutes les factions et surveillés par une force de paix N.E.G.  Ce port est un point d'approvisionnement hautement contesté situé à la limite du territoire Axon, avec le continent Izanagi de l'autre côté de la baie.
+
+;//vCTF-Necropolis//
+BriefDesc38=Absalom est la capitale d'Omicron.  Elle sert aussi de centre religieux aux Necris.  Malgré une futile affirmation du contraire, les Necris ont lentement pris contrôle du gouvernement et on prévoit qu'au cours du prochain siècle, toute âme vivant sur Omicron aura subi la conversion Necris.
+
+;//vCTF-Sandstorm//
+BriefDesc35=Les peuples nomades du désert d'Acidus considéraient ces terres comme une oasis.  Après le Grand Réveil, les Necris sont arrivés dans la région et ont commencé à convertir la zone et ses habitants.  Elle est maintenant abandonnée, le paysage à jamais modifié.
+
+;//vCTF-Suspense//
+BriefDesc10=Suspense est le seul pont sur l'Alluvion qui soit assez solide pour supporter le poids de véhicules de combats lourds.  Sans le pont, les forces Axon mettraient plusieurs jours avant de pouvoir réagir à une bataille de l'autre côté de la rivière. Ainsi, il est sous la garde permanente d'une division mécanisée Axon, avec des points de contrôle à chaque extrémité.
+
+;//vCTF-Rails
+BriefDesc161=Mêmes les nouvelles zones de construction peuvent devenir des points faibles dans la défense Oxida Nova. Afin de surveiller ce site, l'Iron Guard a donc installé une série de tourelles mobiles. Et avec une telle surface à couvrir, incluant un point d'accès dans le système de canalisation de la ville, protéger ce site est un vrai défi même pour les équipes les plus expérimentées.
+
+
+;//WARFARE MAPS//
+;---------------
+
+;//WAR-Avalanche//
+BriefDesc32=Les troupes Necris inondent Taryd chaque jour depuis une énorme porte de saut orbitale.  Ils ont commencé à terraformer les terres naguère stériles du nord de Taryd en forteresse Necris.  D'étranges structures poussent littéralement hors de la neige et le nanoblack se répand depuis l'orbite pour infecter et modifier le paysage.
+
+;//WAR-Downtown//
+BriefDesc12=Suite au blocage de la rivière Alluvion, le district d'entrepôts d'Oxida Nova est plongé dans le chaos.  Les installations de stockage qui s'y trouvent sont les seuls points d'approvisionnement restants aux forces Axon, et ils ont mis la loi martiale en vigueur pour s'assurer que leurs approvisionnements ne soient pas menacés.
+
+;//WAR-DUSK//
+BriefDesc18=Les satellites Izanagi n'ont découvert cette installation de distribution secrète que récemment.  L'analyse d'images satellites nous a appris que l'installation est entièrement automatisée et reliée à une exploitation minière Liandri située sur plusieurs niveaux souterrains.  Le minerai brut est transporté à la surface où il est conditionné et expédié pour traitement.
+
+;//WAR-Floodgate//
+BriefDesc40=Les Necris ne construisent pas de nouvelles villes, ils les font souvent et directement pousser sur des architectures existantes.  Les niveaux les plus profonds d'Old Absalom sont humides et pollués, seulement maintenus par le réseau complexe de tubes d'infection qui pompent le nanoblack à travers les murs comme un système circulatoire.
+
+;//WAR-Islander
+BriefDesc22=Les planificateurs Liandri voulaient une station de communication isolée ne devant pas filtrer le bruit de fond et les interférences des signaux civils.  Les îles de l'archipel nord ont satisfait leurs besoins en matière de communication, mais l'espace limité n'a pas permis un système de défense développé.
+
+;//WAR-MarketDisctrict
+BriefDesc5=À Tokaido, la vie dépend fortement de l'infrastructure du district du marché Kimpu.  Les gens y achètent leur nourriture, font leurs courses, se rassemblent lors d'événements sociaux et achètent même leur essence dans ce lieu hautement centralisé.  Dans un acte surprenant, une cellule terroriste a envahi le marché, effrayé les locaux, et a fermé tous les commerces à l'intérieur et à l'extérieur du district.
+
+;//WAR-OnyxCoast//
+BriefDesc30=Le vent froid et féroce du nord de Taryd a transformé le paysage en terre gelée et à l'abandon.  Mais les Axon ont utilisé les griffes d'obsidienne et les températures en dessous de zéro de la région à leur avantage, et ont établi plusieurs installations militaires le long de la côte qui peuvent être utilisées pour l'entraînement et le stockage.
+
+;//WAR-PowerSurge//
+BriefDesc19=Située à 800 m sous la surface de la planète, la mine de Dusk a été créée par des scientifiques Liandri dans le cadre d'une expérience visant l'autosuffisance Automaton quant à la gestion des ressources.  Le projet a connu une telle réussite que parfois les robots miniers produisent en excès, et que les stocks d'énergie doivent être libérés sous la forme d'une énorme vague d'énergie qui perce jusqu'à la surface, afin de protéger les stocks volatiles de Tarydium en dessous.
+
+;//WAR-Serenity//
+BriefDesc11=Il y a une petite mine de Tarydium cachée au coeur de cette ancienne forêt.  Bien qu'elle ne soit pas assez grande pour être une source importante de revenus pour les Axon, on sait qu'ils l'utilisent comme dépôt de provisions et centre de ravitaillement pour leurs convois maritimes.
+
+;//WAR-Sinkhole//
+BriefDesc4=Ces tunnels souterrains ont été découverts quand les équipes de prospection Izanagi ont commencé à explorer la géologie de Taryd, et ont été utilisés pour entreposer munitions et provisions pour la première vague de colons.  Les villes s'étendant en surface, ces cavernes furent oubliées jusqu'à ce que de grands affaissements commencent à se former, détruisant de vastes pans de la ville au-dessus.
+
+;//WAR-TankCrossing//
+BriefDesc6=Cette région sert de zone tampon démilitarisée entre les corporations Axon et Izanagi.  Comme les ponts se trouvant le long de cette étroite bande de terre sont les seules routes qui connectent les deux territoires, l'isthme est considéré comme un objectif militaire clé à contrôler.
+
+;//WAR-Torlan//
+BriefDesc9=Grâce à la surveillance rigoureuse du Gouvernement de la Nouvelle Terre, l'ensemble des trois corporations ont utilisé les champs du delta de Torlan pour alimenter leurs efforts miniers communs.  Mais avec la récente menace de guerre à grande échelle, les forces N.E.G. se sont retirées et chacun se rue pour prendre le contrôle de ce précieux territoire.
+
+;//WAR-Downtown-Necris//
+BriefDesc160=Les Necris ont envahi les territoires d'un bout à l'autre de Taryd, infectant les zones conquises avec du Nanoblack et les terraformant pour convenir à leurs besoins. Vous devez repousser les forces Necris et restaurer l'ordre dans ce secteur.
+
+;//WAR-ColdHarbor//
+BriefDesc31=La Division de Recherche Furtive Axon a réussi à obtenir les premières spécifications du véhicule Necris Nightshade et a tenté de maîtriser cette technologie. Les Necris se sont alors efforcés d'anéantir tout développement de recherche Axon. Malgré le blocage du port quand le NEG a déclaré l'armistice, quelques Necris sont restés pour réduire les recherches Axon à néant.
+
+;//UT3G MAPS//
+;---------------
+
+;//VCTF-Stranded//
+BriefDesc200=Pour la traversée du Taryd, les sociétés emploient des prestataires civils chargés du transport des approvisionnements et de l'équipement ; quand ce cargo de ravitaillement Axon a échoué dans le territoire Izanagi, un régiment a été vite expédié pour défendre la zone jusqu'à pouvoir assembler une équipe de récupération.
+
+;//DM-DarkMatch//
+BriefDesc201=Pour aménager l'attaque d'Oxida Nova, les bombardiers Izanagi ont visé le réseau d'approvisionnement ainsi que d'autres positions importantes dans l'infrastructure.  Cette centrale électrique fut une des premières à être bombardée ; elle se défend toute seule à présent et n'est ravitaillée que par des réserves auxiliaires.  Les forces d'attaque ont obtenu  l'accès et la lumière des installations n'est pas encore rétablie.
+
+;//DM-EdenInc//
+BriefDesc202=Ce complexe industriel fut auparavant un centre de recherche hydroponique axé sur la protection des espèces rares et en voie d'extinction.  Mais une fois la subvention suspendue, les fonds s'épuisèrent et tout le travail cessa.  Des mois plus tard, des équipes de démolition s'y rendirent pour paver le chemin et créer une nouvelle autoroute ; ils y trouvèrent grand nombre de plants qui s'étaient enracinés et grandissaient..
+
+;//DM-Turbine//
+BriefDesc203=La Société de Recherche Axon dispose d'un grand nombre de centrales géothermiques similaires dispersées parmi les contrées du nord du Taryd.  Elles forment un étroit réseau qui ravitaille les installations de recherche ou militaires répandues dans cette zone.
+
+;//DM-OceanRelic//
+BriefDesc204=Cet ancien édifice fut découvert dans les profondeurs d'un fossé océanique à 85 kilomètres de la côte sud d'Absalom.  Tandis que la réserve sans fin apparente de Nanoblack sensible permet au centre de demeurer actif, ses origines et son but final sont enrobés de mystère.
+
+;//WAR-Confrontation//
+BriefDesc205=Le Canyon du Conflit sert de champ d'entraînement pour les forces d'Axon, améliorant l'état de préparation de l'unité et offrant un entraînement très réaliste et ardu couvrant la gamme entière de combats d'infanterie et mécanisés.  C'est le centre premier pour l'entraînement des blindés lourds et toutes les forces doivent y parfaire leur formation avant d'être affectées à un régiment Léviathan. 
+
+;//CTF-LostCause//
+BriefDesc206=Les Necris n'ont pas révélé le dessein initial de cette structure effondrée ni expliqué pourquoi elle fut mise hors service.  Elle se dresse sur les falaises d'Absalom, un monument à l'histoire, un lien vivant avec ses ancêtres.
+
+;//CTF-Morbid//
+BriefDesc207=La Station Gamma Morbias est un carrefour de transport qui prend en charge l'excédent de trafic qui passe par les portes de saut de Taryd.  La station offre une navette planétaire, des centres de stockage (avec des services de quarantaine pour les frets vivants) et un centre social ou les hôtes peuvent retrouver des visiteurs ou tenir des réunions privées dans un cadre neutre.
+
+;//CTF-Nanoblack//
+BriefDesc208=D'énormes cuves de Nanoblack sont traitées et entreposées dans des installations semblables à travers Omicron.  Les structures sont en grande partie autonomes une fois activées et sont fort révérées par ceux qui respectent le pouvoir et l'import des Nanoblack qui frémissent à l'intérieur.  L'accès est très limité
+
+;//CTF-Shaft//
+BriefDesc209=Les mines de substrat de Taryd ont produit 800 gigatonnes de Tarydium l'année dernière.  La production ne s'arrête jamais ici, même en guerre, et les robots miniers arrivent à poursuivre leur tâche dans le chaos le plus grand.
+
+;//WAR-Hostile//
+BriefDesc210=Plusieurs vaisseaux de recherche s'égarèrent au début de l'exploration de Na Pali.  Quand il fut d'évidence que le terrain et la faune locale rendaient trop dangereuse la récupération, l'équipement était souvent abandonné et oublié.  Mais quand on a su que les Necris s'étaient déplacés pour s'emparer de cet équipement à leurs propres fins, le groupe NEG envoya des régiments militaires de sauvetage afin de récupérer leur propriété.
+
+
+
+[CardDesc]
+;/////////////////////////
+;/////Campaign Cards/////
+;///////////////////////
+
+Desc0=Réduit l'effectif ennemi par 2.
+Desc1=Renforce votre équipe avec deux soldats de l'Iron Guard.
+Desc2=Renforce votre équipe avec deux droïdes de combat Liandri.
+Desc3=Vous avez été prévenu de l'attaque imminente et vous avez creusé pour vous préparer.  Les régénérateurs sont approvisionnés en équipement supplémentaire.
+Desc4=Le commandement est satisfait de vos performances et a amélioré tous vos véhicules.
+Desc5=Vos armes seront améliorées en fusils instagib pour votre prochaine mission.
+Desc6=Utilisez la technologie Necris volée pour améliorer tous les Hellbenders et Stealthbenders pour la prochaine bataille.
+
+CardTitleTacticalDiversion=Diversion tactique Carte déverrouillée!
+CardTitleIronGuard=Renfort Ironguard Carte déverrouillée!
+CardTitleLiandri=Renfort Liandri Carte déverrouillée!
+CardTitleRespawnUpgrade=Bonus Régénération Carte déverrouillée!
+CardTitleHeavyArmor=Armure lourde Carte déverrouillée!
+CardTitleInstaGib=Instagib Carte déverrouillée!
+
+[CampaignObjectiveDesc]
+ObjDesc0=<<Edit Me.>>
+
+[CampaignObjectives]
+;/////////////////////////////
+;/////Mission Objectives/////
+;///////////////////////////
+
+;//DEATHMATCH MAP OBJECTIVES//
+;----------------------------
+
+;//General objectives displayed before each Deathmatch mission. //
+ObjDesc2_0=Tenez les forces ennemis en échec jusqu'à ce que leurs régénérateurs soient épuisés.
+
+;//DM-Arsenal//
+ObjDesc16_1=Utilisez les bottes de saut pour accéder à la Super Santé.
+ObjDesc16_2=Sauter d'un monte-charge en mouvement vous donnera l'avantage nécessaire pour accéder au UDamage.
+
+
+;//DM-Biohazard//
+ObjDesc45_1=Vous affronterez des assassins Necris bien entraînés, et votre temps de réaction devra être très rapide pour survivre à cette rencontre.
+
+
+;//DM-Carbonfire//
+ObjDesc57_1=Piégez vos ennemis dans le dispositif d'évacuation des déchets de l'installation, ou essayez de récupérer les recharges par vous-même. 
+
+
+;//DM-Deck//
+ObjDesc139_1=Prenez garde aux risques environnementaux dans l'installation, mais rappelez-vous que de tels endroits contiennent souvent les armes les plus puissantes.
+ObjDesc139_2=De puissantes armes et recharges se trouvent dans les zones les plus dangereuses.
+
+;//DM-Deimos//
+ObjDesc33_1=Accédez à la tourelle laser en vous téléportant vers la navette en orbite autour de la station.
+ObjDesc33_2=Prenez garde aux changements irréguliers de gravité, assez courants dans cette région de l'espace.
+
+
+;//DM-Defiance//
+ObjDesc13_1=Ne restez pas coincé trop longtemps dans le réservoir inférieur.  
+ObjDesc13_2=Les meilleures recharges se trouvent en hauteur.
+
+
+;//DM-Diesel//
+ObjDesc107_1=Des lumières colorées vous alerteront quand la recharge Udamage sera disponible.
+ObjDesc107_2=Les forces ennemis ont l'avantage de la technologie améliorée des régénérateurs Axon.
+
+
+;//DM-Fearless//
+ObjDesc42_1=Cette bataille tournera autour de la recharge Invulnérabilité, au sens propre comme au figuré. 
+
+
+;//DM-Gateway//
+ObjDesc24_1=Les bottes de saut permettront à votre équipe d'avoir accès à d'autres recharges, plus vitales, cachées dans tout Taryd.
+
+
+;//DM-Heatray//
+ObjDesc21_1=Surveillez l'arrivée des Darkwalkers Necris.  Ils sont en transit et pourraient apparaître dans votre secteur.
+ObjDesc21_2=Trouvez la recharge Invisibilité et vous aurez un grand avantage sur vos ennemis.
+
+
+;//DM-RisingSun//
+ObjDesc1_1=Gardez le contrôle du champ de bataille en tenant les hauteurs.
+ObjDesc1_2=Utilisez les signaux audio pour traquer les déplacements de vos ennemis.
+
+
+;//DM-Sanctuary//
+ObjDesc36_1=Le rayonnement des flèches de la plate-forme au loin vous alertera de la présence d'un Redeemer.
+
+
+;//DM-Sentinel//
+ObjDesc41_0=Tuez Akasha.
+
+
+;//DM-ShangriLa//
+ObjDesc2_1=Une recharge UDamage se trouve dans la cour centrale.
+
+
+;//CAPTURE THE FLAG MAP OBJECTIVES//
+;----------------------------------
+
+;// General Objectives displayed before each CTF / vCTF mission. //
+ObjDesc3_0=Désactivez le régénérateur ennemi en enlevant ses drapeaux.
+
+;//CTF-Coret//
+ObjDesc20_1=Remarquez que la recharge UDamage se trouve sur le pont enjambant la chambre centrale de l'installation.
+ObjDesc20_2=Jester est avec l'informateur et ne se battra pas à vos côtés.
+
+
+;//CTF-OmicronDawn//
+ObjDesc34_1=Restez concentré en courant entre les bases.  Un faux pas peut vous envoyer à toute allure dans l'espace.
+
+
+;//CTF-Hydrosis//
+ObjDesc8_1=Faites attention aux snipers en traversant les ponts centraux.
+ObjDesc8_2=Protégez le porteur de drapeau pour vous assurer de son retour en sécurité.
+
+
+;//CTF-Reflection//
+ObjDesc3_1=En se reliant  à un coéquipier au moyen du feu alternatif de votre Link Gun multipliera la puissance de l'arme.
+ObjDesc3_2=On vous a remis un téléporteur capable de vous téléporter sur de courtes distances.  Remarquez que les drapeaux ne peuvent être téléportés.
+ObjDesc3_3=Le casque vous donnera 20 points armure supplémentaires et vous protègera d'un tir de sniper à la tête.
+
+
+;//CTF-Strident//
+ObjDesc23_0=<<See ObjDesc3_0>>
+ObjDesc23_1=Prenez garde aux bases de drapeaux instables.
+ObjDesc23_2=Déplacer des forces magnétiques à l'intérieur du Strident fait bouger les plate-formes.
+
+
+;//CTF-Vertebrae//
+ObjDesc39_0=<<See ObjDesc3_0>>
+ObjDesc39_1=Les recharges les plus puissantes sont cachées au plus profond de la ville.
+ObjDesc39_2=Utilisez votre téléporteur à votre avantage et évitez les bas niveaux.
+ObjDesc39_3=Vous pouvez briser les défenses de l'ennemi en tirant à travers le bouclier nanoblack qui sépare les pièces contenant les drapeaux.
+
+
+;//CTF-Searchlight//
+ObjDesc37_1=Contrôlez les bottes de saut du milieu de champ pour faciliter le déplacement avec le drapeau.
+ObjDesc37_2=Les projecteurs à l'extérieur illuminent les porteurs de drapeaux.
+
+;/VEHICLE CAPTURE THE FLAG MAP OBJECTIVES//
+;-----------------------------------------
+
+;//vCTF-Corruption//
+ObjDesc28_1=Les meilleures recharges se trouvent sous les chutes d'eau les plus basses.
+ObjDesc28_2=Entrez dans les caves pour échapper aux plus gros véhicules sur le champ de bataille.
+
+
+;//vCTF-Containment//
+ObjDesc52_1=Le Darkwalker de la chambre centrale ne peut être déplacé, mais ses puissantes armes sont disponibles aux deux équipes.
+ObjDesc53_1=Le Darkwalker a été relâché et peut désormais se déplacer librement sur le champ de bataille.
+
+
+;//vCTF-Kargo//
+ObjDesc7_1=Gardez le contrôle du bateau situé à mi-hauteur pour avoir accès à un Goliath.
+ObjDesc7_2=Utilisez un boost Scorpion pour sauter de passerelle en passerelle à travers le bateau.
+
+
+;//vCTF-Necropolis//
+ObjDesc38_1=Le Darkwalker situé près de l'aqueduc central est disponible aux deux équipes.
+ObjDesc38_2=Tirez sur les lumières pour attirer une vague de flammes qui grillera les ennemis.
+
+
+;//vCTF-Sandstorm//
+ObjDesc35_1=Couvrez-vous grâce aux tempêtes de sable pour masquer vos tentatives de récupération de drapeau.
+
+
+;//vCTF-Suspense//
+ObjDesc10_1=Les tours du pont sont des positions idéales pour les snipers.
+ObjDesc10_2=Un Redeemer se trouve sur le chemin en contrebas, sous le pont.
+
+
+
+;//WARFARE MAP OBJECTIVES//
+;-------------------------
+
+;// General objectives displayed before each Warfare mission. //
+ObjDesc11_0=Reliez les nodes pour avoir accès au core énergétique de votre ennemi.
+ObjDesc31_0=Reliez les nodes pour avoir directement accès au core énergétique infecté.
+ObjDesc11_1=Prenez et maintenez le node minier pour engager les drones miniers.
+ObjDesc11_2=Ils commenceront automatiquement à extraire et stocker le Tarydium.
+
+
+;//WAR-ColdHarbor//
+ObjDesc31_1=ontrôlez le Node au sommet de la Colline pour activer l'attaque des missiles contre le Core ennemi.
+ObjDesc31_2=Contrôlez le Node de la Colline pour accéder aux tourelles de défense.
+
+;//WAR-Avalanche//
+ObjDesc32_1=Les nodes situés à l'intérieur de la caverne sont essentiels pour contrôler le champ de bataille.
+ObjDesc32_2=Contrôler deux de ces nodes poussera un tube d'infection Necris à attaquer le node primaire de l'ennemi.
+ObjDesc32_3=Une charge creuse est disponible en cas d'urgence.
+ObjDesc32_4=Utilisez la charge creuse pour créer une avalanche qui vous débarassera de vos ennemis et déverrouillera le Node primaire.
+
+
+;//WAR-Downtown//
+ObjDesc12_1=Utilisez la charge creuse ou le Redeemer pour détruire les barricades.
+ObjDesc12_2=Une fois les barricades détruites, les véhicules lourds ont accès au champ de bataille principal.
+ObjDesc12_3=Les forces Axon ont une emprise solide sur cette zone.  Défendez votre Core à tout prix.
+
+
+;/WAR-Dusk//
+ObjDesc18_1=Contrôlez les nodes des deux côtés de l'entrée de la mine pour ouvrir les portes de sécurité principales et permettre à votre équipe d'accéder à Cicada.
+ObjDesc18_2=Utilisez la charge creuse ou le Redeemer pour détruire les barricades et bloquer les gros véhicules.
+ObjDesc18_3=Utilisez la sphère pour prendre directement le contrôle d'un Node.
+
+
+;//WAR-Floodgate//
+ObjDesc40_0=Reliez-vous au Node central pour avoir accès au Core ennemi.
+ObjDesc40_1=Contrôlez le Node Inondation pour rediriger un tube nanoblack Necris et  endommager le Core ennemi.
+
+
+;//WAR-Islander//
+ObjDesc22_0=Contrôlez le Node primaire pour avoir accès au Core ennemi.
+ObjDesc22_1=Gardez le contrôle de ce Node pour protéger votre Core.
+ObjDesc22_2=Utilisez une charge creuse ou un Redeemer pour détruire les barricades ennemies.
+ObjDesc22_3=Faites attention aux tourelles ennemies.  Elles offrent une vue dégagée du champ de bataille central.
+ObjDesc22_4=Contrôlez le Node de soutien pour avoir accès à un Raptor.
+
+ObjDesc55_1=Utilisez les tourelles pour contrôler le champ de bataille central.
+ObjDesc55_2=Les tourelles offrent une vue dégagée du Core ennemi quand il est exposé.
+
+ObjDesc25_0=Vous affrontez une force Necris agressive et dangereuse.
+ObjDesc25_1=Les Nodes infectés par le nanoblack génèrent des véhicules Necris.
+
+
+
+;//WAR-MarketDistrict//
+ObjDesc5_0=Reliez-vous au Node primaire pour avoir accès au Core énergétique de votre ennemi.
+ObjDesc5_1=Contrôlez les nodes de soutien pour avoir accès aux tourelles laser. 
+ObjDesc5_2=Utilisez les tourelles mobiles pour protéger les Node primaire.
+ObjDesc5_3=Court-circuitez le système de refroidissement du Core ennemi en contrôlant simultanément les deux Nodes de soutien.
+ObjDesc5_4=Un Core en surchauffe s'élève et devient vulnérable aux tirs des tourelles.
+
+
+;//WAR-OnyxCoast//
+ObjDesc30_0=Conduisez le Leviathan en territoire ennemi et prenez le contrôle du champ de bataille.
+ObjDesc30_1=Contrôlez le Node du pont pour permettre à votre Leviathan d'avoir accès au Core ennemi.
+ObjDesc30_2=Le Core ennemi est renforcé par une barrière nanoblack modulée.
+ObjDesc30_3=Seul le canon principal du Leviathan a la puissance de feu nécessaire pour détruire la barricade.
+ObjDesc30_4=Contrôlez les Nodes de soutien pour avoir accès aux véhicules volants et à un Hellfire.
+ObjDesc30_5=Utilisez le Hellbender pour vous faufiler derrière les lignes ennemis et poser des pièges.
+
+
+;//WAR-Powersurge//
+ObjDesc19_3=La surcharge de la mine produit une haute-tension électrique qui endommage le Core énergétique ennemi.
+ObjDesc19_4=Les nodes des cuves Est et Ouest vous apporteront l'importante puissance de feu d'un Goliath.
+
+ObjDesc65_0=Les forces Necris ont sévèrement endommagé votre core.
+
+
+;//WAR-Serenity//
+ObjDesc11_3=La production du Leviathan commence automatiquement dès que vos ressources de Tarydium sont au maximum. 
+ObjDesc11_4=Avancez avec précaution, les forces Axon ont déjà un Leviathan à leur disposition.
+
+
+;//WAR-Sinkhole//
+ObjDesc4_0=Reliez votre core au node primaire situé au centre des terrains d'entraînement.
+ObjDesc4_1=Détruisez le Core ennemi.
+
+
+;//WAR-TankCrossing//
+ObjDesc6_0=Activez le node du pont central pour abaisser le pont-levis.
+ObjDesc6_1=Traversez le pont avec votre char Goliath.
+ObjDesc6_2=Garez le char sur la rampe de pression pour ouvrir les portes.
+ObjDesc6_3=Détruisez le core énergétique ennemi.
+
+
+;//WAR-Torlan//
+ObjDesc9_1=Un Node de soutien sous le pont central donnera plus d'équipement à votre équipe.
+
+ObjDesc15_1=Les forces Krall tenteront de submerger leurs ennemis en attaquant en meute.
+ObjDesc15_2=Certains Nodes sont déjà sous le contrôle des forces Krall.
+
+ObjDesc47_3=Les forces Necris sont bien plus nombreuses que les Ronin dans cette bataille.
+ObjDesc47_4=Les Nodes infectés ne généreront que des véhicules Necris.
+
+
+
+[Tutorials]
+TUT_SkipTutorial=Bienvenue. Vous pouvez passer le didacticiel en appuyant sur <StringAliasBindings:GBA_ShowMenu>.
+TUT_Jump=Appuyez sur <StringAliasBindings:GBA_Jump> pour sauter.
+TUT_MoveCon=Utilisez <StringAliasBindings:GBA_MoveForward> pour vous déplacer et <StringAliasBindings:GBA_TurnLeft>  pour observer les alentours.
+TUT_MovePC=Utilisez <StringAliasBindings:GBA_MoveForward><StringAliasBindings:GBA_Backward><StringAliasBindings:GBA_StrafeLeft><StringAliasBindings:GBA_StrafeRight> pour bouger et votre souris pour regarder aux alentours.
+TUT_2xJump=Appuyez plusieurs fois rapidement sur <StringAliasBindings:GBA_Jump> pour effectuer un double saut.
+TUT_Pickup=Prenez le fusil Shock et les munitions devant vous en les touchant.
+TUT_PriFire=Tirez sur le bon verrou de sécurité avec le feu principal <StringAliasBindings:GBA_Fire>
+TUT_AltFire=Tirez sur le verrou de sécurité gauche avec le feu secondaire <StringAliasBindings:GBA_AltFire>.
+TUT_CrouchPC=Appuyez sur <StringAliasBindings:GBA_Duck> pour vous abaisser et passer la porte cassée.
+TUT_CrouchCon=Approchez-vous de la porte cassée, vous vous abaisserez automatiquement pour passer dessous.
+TUT_SwitchPC=Appuyez sur <StringAliasBindings:GBA_SwitchWeapon1> pour basculer sur le Marteau Impact.
+TUT_SwitchCon=Appuyez sur <StringAliasBindings:GBA_ToggleMelee> pour basculer sur le Marteau Impact.
+TUT_WepSelectCon=Appuyez sur et maintenez enfoncé <StringAliasBindings:GBA_WeaponPicker> pour faire apparaître votre menu de sélection d'armes. Positionnez <StringAliasBindings:GBA_TurnLeft> vers le bas pour mettre le fusil Shock en surbrillance et relâchez <StringAliasBindings:GBA_WeaponPicker> pour sélectionner le fusil Shock.
+TUT_WepSelectPC=Appuyez sur <StringAliasBindings:GBA_SwitchWeapon4> pour sélectionner le fusil Shock.
+TUT_Impact=Appuyez et maintenez enfoncé <StringAliasBindings:GBA_Fire> pour charger le Marteau Impact puis allez percuter le drone afin de libérer la charge.
+TUT_Trans1Con=Appuyez sur <StringAliasBindings:GBA_Use> pour sélectionner votre téléporteur.
+TUT_Trans1PC=Appuyez sur <StringAliasBindings:GBA_ToggleTranslocator> pour sélectionner votre téléporteur.
+TUT_Trans2=<StringAliasBindings:GBA_Fire> pour projeter le disque, puis <StringAliasBindings:GBA_AltFire> pour s'y téléporter.
+TUT_HoverCon=Appuyez sur <StringAliasBindings:GBA_Use> pour utiliser votre hoverboard.
+TUT_HoverPC=Appuyez sur <StringAliasBindings:GBA_ToggleTranslocator> pour utiliser votre hoverboard.
+
+[CharLocData]
+Lauren_Description=Une femme dure, à jamais marquée par la mort de ses parents et des années de tournoi.
+Barktooth_Description=Barktooth se délecte du désordre que provoque un combat rapproché au canon Flak. Il n'est pas votre ami.
+Harlin_Description=Harlin a rejoint les Iron Guard après avoir vu les troupes d'assaut du N.E.G. exécuter sa famille au cours d'un raid.
+Slain_Description=Slain est incapable d'oublier le jour où son meilleur ami, Jihan Nyhn, a été assassiné alors qu'il était sous sa protection.
+Blackjack_Description=Blackjack a grandi dans la rue.  Un groupe de mercenaires l'a adoptée et elle n'a plus lâché ses armes depuis.
+Ariel_Description=Fille unique d'une longue lignée de soldats, Ariel a rejoint la garde pour perpétuer la tradition militaire de sa famille.
+Cain_Description=Inconnu.
+Johnson_Description=Inconnu.
+Karag_Description=Inconnu.
+Wraith_Description=Inconnu.
+Blaine_Description=Inconnu.
+Drake_Description=Inconnu.
+Kregore_Description=Inconnu.
+Talan_Description=Inconnu.
+Avalon_Description=Inconnu.
+Desiree_Description=Inconnu.
+Reaper_Description=Reaper a tout perdu sur les Twin Souls.  Il ne connaîtra pas le repos tant que les responsables ne seront pas totalement anéantis.
+Bishop_Description=La plupart des gens pensent qu'il est instable, mais sa grande concentration, sa personnalité affirmée, et sa solide visée, en font un précieux atout.
+Othello_Description=Othello est un vagabond qui se défie lui-même par des jobs mortels et des aventures dopées à l'adrénaline tout autour de la galaxie.
+Jester_Description=Autrefois connue pour sa nature gaie, le monde de Jester a basculé quand les Krall ont massacré ses parents et amis.
+Kai_Description=Kai marche humblement avec ses ancêtres, cherchant la lumière et suivant la voie du guerrier dans la Légion Fantôme.
+Arashi_Description=Inconnu.
+Kensai_Description=Inconnu.
+Rook_Description=Inconnu.
+Ushido_Description=Inconnu.
+Connor_Description=Inconnu.
+Harkin_Description=Inconnu.
+Hunter_Description=Inconnu.
+Cassidy_Description=Inconnu.
+Kira_Description=Inconnu.
+Metridia_Description=Inconnu.
+Scythe_Description=Scythe contrôle sa tribu avec cruauté, et ses sbires le craignent plus qu'ils ne le respectent.
+Cerberus_Description=Cerberus est lunatique et irritable. S'il ressent le soudain besoin de chasser, il s'attaquera à n'importe qui sans raison.
+Gnasher_Description=L'intelligence rudimentaire de Gnasher ne lui permet que de formuler de simples phrases avec autant de grognements que de mots.
+Scorn_Description=Une bête ignoble, répugnante et sauvage, mais fiable et intrépide au combat.  Il incarne l'idéal Krall.
+Lockjaw_Description=Inconnu.
+Scar_Description=Inconnu.
+Sharptooth_Description=Inconnu.
+Worg_Description=Inconnu.
+Claw_Description=Inconnu.
+Bargest_Description=Inconnu.
+Blackfang_Description=Inconnu.
+Hellhound_Description=Inconnu.
+Akasha_Description=En tant que haut inquisiteur Necris, Akasha parle avec la voix du Prophète.  Sa parole exigeante et implacable fait loi.
+Loque_Description=Loque est Maître Phayder de la Légion Noire Necris, Aumônier Noir, responsable du moral du groupe.
+Damian_Description=Quoique encore nouvelle recrue dans les rangs de l'Élite Phayder, Damian garde son calme sous pression et est intrépide au combat.
+Kragoth_Description=Appelé 'Tueur des Étoiles', Kragoth est un assassin Dread Phayder sans conscience ni remords.  Il tue purement par sport.
+Malakai_Description=La souffrance et la mort sont des notions étrangères à Malakai.  Sa vie appartient au Prophète et il n'existe que pour la Cause.
+Alanna_Description=Alanna sert dans les Blademaidens et ne rend compte qu'au Haut Inquisiteur Akasha, loyale jusqu'à la mort et au-delà.
+Grail_Description=Inconnu.
+Judas_Description=Inconnu.
+Nocturne_Description=Inconnu.
+Samael_Description=Inconnu.
+Harbinger_Description=Inconnu.
+Pagan_Description=Inconnu.
+Thannis_Description=Inconnu.
+Arachne_Description=Inconnu.
+Freylis_Description=Inconnu.
+Malise_Description=Inconnu.
+Raven_Description=Inconnu.
+Visse_Description=Inconnu.
+Matrix_Description=Autrefois fait de chair et de sang, Matrix a commencé le processus de 'mise à niveau' vers l'état d'automate à la demande des Liandri.
+Aspect_Description=Les spécifications de l'Aspect le destinaient à l'origine au minage de force, mais ce modèle a été rééquipé pour le combat.
+Cathode_Description=Le bot de sécurité modèle Cathode a été spécifiquement programmé pour éliminer ses adversaires de la manière la plus sanglante possible.
+Enigma_Description=On en sait peu à propos de ce modèle particulier.  La corporation Liandri n'a jamais publié ses spécifications.
+Nova_Description=On en sait peu à propos de ce modèle particulier.  La corporation Liandri n'a jamais publié ses spécifications.
+Kana_Description=Inconnu.
+Collossus_Description=Inconnu.
+Entropy_Description=Inconnu.
+Monarch_Description=Inconnu.
+OSC_Description=Inconnu.
+Evolution_Description=Inconnu.
+Mihr_Description=Inconnu.
+Raptor_Description=Inconnu.
+Syntax_Description=Inconnu.
+Torque_Description=Inconnu.
+
+[FactionData]
+IronGuard_FriendlyName=Iron Guard
+IronGuard_Description=Un groupe de mercenaires très compétents et entraînés, experts dans virtuellement tout scénario de combat.
+Ronin_FriendlyName=Ronin
+TwinSouls_FriendlyName=Ronin
+Ronin_Description=Les seuls survivants du tristement célèbre massacre des Twin Souls, soudés par un sens du devoir, de l'honneur et de la vengeance.
+Krall_FriendlyName=Krall
+Krall_Description=Les Necris utilisent ces formidables reptiles pour pacifier les planètes nouvellement conquises.
+Necris_FriendlyName=Necris
+Necris_Description=La corporation secrète Phayder a développé le processus Necris pour produire ce groupe d'assassins d'élite.
+Liandri_FriendlyName=Liandri
+Liandri_Description=Versions de combat modifiées des drones de sécurité de la Liandri Mining Corporation.
+
+[FriendlyMapNames]
+Arsenal=Arsenal
+Avalanche=Avalanche
+Avalanchetwofronts=Avalanche Two Fronts
+AxonTreaty=Traité Axon
+Betrayal=Betrayal
+Biohazard=Biohazard
+Carbonfire=Carbon Fire
+ColdHarbor=Cold Harbor
+CombatBriefing=Instruction de combat
+Conclusion=Conclusion
+Confrontation=Confrontation
+Containment=Containment
+Coret=Coret
+Corruption=Corruption
+Credits=Crédits
+DarkMatch=DarkMatch
+Deck=Deck
+Defiance=Defiance
+Deimos=Deimos
+Diesel=Diesel
+Downtown=Downtown
+Downtowntwofronts=Downtown Two Fronts
+DowntownNecris=Downtown Necris
+Dusk=Dusk
+Duskfreemine=Dusk Free Mine
+FacingWorlds=Facing Worlds
+Fearless=Fearless
+Floodgate=Floodgate
+Gateway=Gateway
+Heatray=Heat Ray
+Hostile=Hostile
+Hydrosis=Hydrosis
+Infection=Infection
+Intercession=Intercession
+Islander=Islander
+Islandernecris=Islander Necris
+Kargo=Kargo
+KBarge=Koos Barge
+LostCause=Lost Cause
+Marketdistrict=Market District
+Morbias=Morbias Arena
+Morbid=Morbid
+Nanoblack=Nanoblack
+Necropolis=Necropolis
+NewGame=Unknown
+OceanRelic=Ocean Relic
+OmicronDawn=Omicron Dawn
+Onyxcoast=Onyx Coast
+Powersurge=Power Surge
+Rails=Rails
+Reflection=Reflection
+Risingsun=Rising Sun
+Sanctuary=Sanctuary
+Sandstorm=Sandstorm
+Searchlight=Searchlight
+Sentinel=Sentinel
+Serenity=Serenity
+Serenitynecris=Serenity Necris
+Shaft=Shaft
+Shangrila=Shangri La
+Sinkhole=Sinkhole
+EdenInc=Eden Inc
+Stranded=Stranded
+Strident=Strident
+Suspense=Suspense
+SuspenseNecris=Suspense Necris
+Tankcrossing=Tank Crossing
+TheDecks=The Decks
+Torlan=Torlan
+TorlanDelta=Torlan Delta
+Torlanclassic=Torlan Classic
+Torlandelta=Torlan Delta
+Torlandoubleprime=Torlan Double Prime
+Torlannecris=Torlan Necris
+Torlanshort=Torlan Short
+Turbine=Turbine
+Tutorial=Didactiel
+Vertebrae=Vertebrae
+
+[MapLocationDescription]
+Arsenal=Territoires à la limite de Hyperion
+Avalanche=La côte Onyx
+Avalanchetwofronts=La côte Onyx
+AxonTreaty=QG Izanagi, Tokaido
+Betrayal=Omicron 6, sous Absalom
+Biohazard=La côte Onyx
+Carbonfire=Strate de Hyperion
+CombatBriefing=QG Izanagi, Tokaido
+Conclusion=Omicron 6, Absalom
+Containment=Territoires à la limite de Hyperion
+Coret=Strate de Hyperion, Coret Acquisition Center
+Corruption=Tokaido
+Credits=Epic Games
+Deck=Territoires à la limite de Hyperion
+Defiance=Centre-ville d'Oxida Nova
+Deimos=En orbite au-dessus de Taryd
+Diesel=Centre-ville d'Oxida Nova
+Downtown=Centre-ville d'Oxida Nova
+Downtowntwofronts=Centre-ville d'Oxida Nova
+Dusk=Territoires à la limite de Hyperion
+Duskfreemine=Territoires à la limite de Hyperion
+Fearless=Omicron 6, centre-ville d'Absalom
+Floodgate=Omicron 6, sous Absalom
+Gateway=Taryd, lieux divers.
+Heatray=Les taudis de Hyperion
+Hydrosis=Vallée du fleuve Alluvion
+Infection=Taryd
+Intercession=En orbite au-dessus de Taryd
+Islander=Archipel de Hyperion
+Islandernecris=Archipel de Hyperion
+Kargo=Vallée du fleuve Alluvion
+Marketdistrict=Centre-ville de Tokaido, Quartier du marché de Kimpu
+Necropolis=Omicron 6, centre-ville d'Absalom
+OmicronDawn=En orbite au-dessus de Omicron 6
+Onyxcoast=La côte Onyx
+Powersurge=Territoires à la limite de Hyperion, Tarydium mine
+Reflection=Territoires frontaliers avec Tokaido
+Risingsun=Tokaido, terrain d'entraînement de la légion fantôme
+Sanctuary=Omicron 6, île de Babel
+Sandstorm=Omicron 6, désert Acidus
+Sentinel=Omicron 6, Absalom
+Serenity=Vallée du fleuve Alluvion
+Serenitynecris=Vallée du fleuve Alluvion
+Shangrila=Tokaido, secteur Shangri La
+Sinkhole=Centre-ville de Tokaido, sous le quartier du marché Kimpu
+Strident=Le Strident, sous Hyperion
+Suspense=Territoires frontaliers avec Oxida Nova
+Taryd=Taryd
+Tankcrossing=Territoires frontaliers avec Tokaido
+TheDecks=Oxida Nova, les Decks
+Torlan=Delta du fleuve Torlan
+TorlanDelta=Delta du fleuve Torlan
+Torlanclassic=Delta du fleuve Torlan
+Torlandelta=Delta du fleuve Torlan
+Torlandoubleprime=Delta du fleuve Torlan
+Torlannecris=Delta du fleuve Torlan
+Torlanshort=Delta du fleuve Torlan
+Tutorial=Centre-ville de Tokaido, Quartier du marché de Kimpu
+Vertebrae=Omicron 6, sous Absalom
+FacingWorlds=Tokaido
+Searchlight=Omicron 6, proche d'Absalom
+Coldharbor=Onyx Coast
+
+[LoadingHints_UTDeathmatch]
+Hint_0=Chaque arme a au moins deux modes de feu. Certaines en ont même plus en combinant le mode de feu normal et secondaire de différentes façons.
+Hint_1=Pour un regain de hauteur supplémentaire, appuyer une nouvelle fois sur "sauter" lorsque vous êtes en hauteur.
+Hint_2=Vous pouvez également esquiver contre les murs quand vous êtes en l'air.
+Hint_3=Le combo Shock est une puissante explosion provoquée par un fusil Shock en tirant sur un core Shock au moyen d'un rayon Shock.
+Hint_4=Quand vous chargez des roquettes dans le lance-roquettes au moyen du feu secondaire, appuyez une fois sur le bouton du feu principal avant de relâcher les roquettes pour les tirer en spirale serrée, ou deux fois pour les lancer comme des grenades.
+Hint_5=Vous pouvez afficher ou masquer le tableau des scores à tout instant en appuyant sur la touche "Affichage des scores".
+Hint_6=Vous pouvez abattre les missiles Redeemer ennemis avec un tir bien placé.
+Hint_7=La recharge Udamage augmentera de manière significative les dégâts faits par vos tirs pour une durée limitée.
+Hint_8=La recharge Berserk double la cadence de feu de toutes vos armes pour une durée limitée.
+Hint_9=La ceinture-bouclier absorbera totalement jusqu'à 100 points de dégâts.
+Hint_10=Le casque vous protègera de 20 points de dégâts supplémentaires ou d'un seul tir direct à la tête.
+Hint_11=Vous pouvez utiliser l'EMP du feu secondaire du Marteau Impact pour enlever une recharge à un joueur ennemi.
+Hint_12=Le feu alternatif du Stinger est plus lent mais mortel, et peut être utilisé pour clouer les ennemis au mur.
+Hint_13=Vous pouvez feindre votre mort et dérouter ainsi vos ennemis.
+Hint_14=Ayez l'esprit sportif.  Vous avez aussi été débutant autrefois.
+Hint_Count=15
+
+[LoadingHints_UTOnslaughtGame]
+Hint_0=Utiliser une sphère pour capturer un Node le protègera de tout dégât pendant une courte durée.
+Hint_1=Les charges creuses et les missiles de Redeemer sont les seules armes capables de détruire des barricades.
+Hint_2=Les sphères ennemis en approche sont visibles sur la minicarte..
+Hint_3=Si vous êtes touché lorsque vous êtes sur un hoverboard, vous tomberez au sol et vous lâcherez la sphère si vous la transportiez.
+Hint_4=Le Paladin dispose d'un grand bouclier et peut le décharger pour créer une zone d'attaque très efficace contre des cibles situées à courte portée.
+Hint_5=Vous pouvez utiliser le grappin du hoverboard pour être remorqué par des véhicules amis de passage.
+Hint_6=Vous pouvez réparer un véhicule ami avec le feu secondaire du Link Gun.
+Hint_Count=7
+
+[LoadingHints_UTVehicleCTFGame]
+Hint_0=Le hoverboard est le seul véhicule vous permettant de transporter un drapeau.
+Hint_1=Vous pouvez utiliser le grappin du hoverboard pour être remorqué par des véhicules amis de passage.
+Hint_2=Pour un regain de vitesse, suivez les flèches brillantes qui indiquent la zone d'accélération du hoverboard.
+Hint_3=Vous pouvez réparer un véhicule ami avec le feu secondaire du Link Gun.
+Hint_4=Si vous êtes touché lorsque vous êtes sur un hoverboard, vous tomberez au sol et vous lâcherez le drapeau si vous le transportiez.
+Hint_5=Le Paladin dispose d'un grand bouclier et peut le décharger pour créer une zone d'attaque très efficace contre des cibles situées à courte portée.
+Hint_Count=6
+
+[LoadingHints_UTCTFGame]
+Hint_0=Servez-vous de votre téléporteur pour vous déplacer sur le champ de bataille et gagner du terrain sur les porteurs de drapeau ennemi.
+Hint_1=Utiliser le téléporteur quand vous portez le drapeau vous obligera à laisser tomber le drapeau.
+Hint_2=Utilisez votre touche de téléporteur pour passer rapidement du téléporteur à votre arme précédente.
+Hint_Count=3
+
+[LoadingHints_UTTeamGame]
+Hint_0=Utilisez le feu secondaire du Link Gun pour vous relier à d'autres membres de votre équipe portant des Link Guns. Le premier d'une chaîne de liaison recevra un regain de puissance significatif dans son Link Gun.
+Hint_Count=1
+
+
+[UT3G]
+InstalledContent=CONTENU INSTALLÉ
+AvailableForDownload=DISPONIBLE POUR TÉLÉDÉCHARGER
+DownloadingMod=Télédéchargement '`URL`', `% en cours.
+DownloadFailed=Échec du télédéchargement '`URL`'. Le mod n'a pas été installée.
+InstalledContentDesc=Montre la liste de mods installées.
+AvailableForDownloadDesc=Montre les mods disponibles à la télédécharge directe. Tu peux utiliser le chemin Importer pour importer les mods depuis un dispositif de mémoire USB.
+DownloadingList=(Télédéchargement en cours de la liste des mods disponibles...)
+
+
+
+[Community]
+AchievementProgress=PROGRESSION DES TROPHÉES
+
+
+[AchievementNames]
+;///////////////////////////
+;/////Achievement Names/////
+;///////////////////////////
+Name0  =Sang de soldat
+HowTo0 =Compléter le Chapitre 2.
+Name1  =Pas de substitution
+HowTo1 =Compléter le Chapitre 3.
+Name2  =Loin de chez soi
+HowTo2 =Compléter le Chapitre 4.
+Name3  =Juste un boulot
+HowTo3 =Compléter le Chapitre 2 en niveau Dément.
+Name4  =Du lourd 
+HowTo4 =Compléter le Chapitre 3 en niveau Dément.
+Name5  =Guerre Ouverte 
+HowTo5 =Compléter le Chapitre 4 en niveau Dément.
+Name6  =Besoin de renfort 
+HowTo6 =Compléter 1 mission en mode Campagne en ligne.
+Name7  =Je te couvre 
+HowTo7 =Compléter 10 missions en mode Campagne en ligne.
+Name8  =Merci aux compagnons 
+HowTo8 =Compléter une Campagne entière en ligne.
+Name9  =Faire le tour
+HowTo9 =Compléter une partie Action Instantanée dans chaque mode de jeu.
+Name10 =Intouchable 
+HowTo10=Tuer 20 fois un bot au niveau Divin dans une partie Action instantanée sans se faire tuer.
+Name11 =Les yeux fermés 
+HowTo11=Ramasser tous les bonus sur chaque carte.
+Name12 =Un peu d'épices 
+HowTo12=Jouer une partie avec chaque mutateur, en utilisant un seul mutateur par partie.
+Name13 =Chirurgien du cerveau 
+HowTo13=Obtenir la récompense "Chasseur de têtes" dans 10 parties.
+Name14 =Enchaîne !
+HowTo14=Obtenir la récompense "Roi du Combo" dans 10 parties.
+Name15 =Engluer 
+HowTo15=Obtenir la récompense "Risque biologique" dans 10 parties.
+Name16 =Pistolero 
+HowTo16=Obtenir la récompense "Tireur d'élite" dans 10 parties.
+Name17 =Marteau 
+HowTo17=Obtenir la récompense "Tortionnaire" dans 10 parties.
+Name18 =Le maillon fort 
+HowTo18=Obtenir la récompense "Maître Shaft" dans 10 parties.
+Name19 =On s'éclate ! 
+HowTo19=Obtenir les récompenses "Expert en roquettes" et "Maître Flak" dans 10 parties.
+Name20 =Chasseur Incroyable 
+HowTo20=Obtenir la récompense "Chasseur Incroyable" dans 10 parties.
+Name21 =Comme une crêpe
+HowTo21=Obtenir la récompense "Furie routière" dans 10 parties.
+Name22 =Tueur Polyvalent 
+HowTo22=Tuer un ennemi avec chaque véhicule (excepté l'hoverboard).
+Name23 =As des as 
+HowTo23=Obtenir la récompense "Meilleur Tireur" dans 20 parties.
+Name24 =Kamikaze 
+HowTo24=Obtenir la récompense "Dans le mille" (autodestruction dans un véhicule ennemi) dans 20 parties.
+Name25 =Tueur en série 
+HowTo25=Obtenir la récompense "Folie Meurtrière" dans 20 parties.
+Name26 =Monsieur est un monstre 
+HowTo26=Obtenir la récompense "Tuerie Monstrueuse" dans 20 parties.
+Name27 =Trouble-fête 
+HowTo27=Mettre fin à une série dans 20 parties.
+Name28 =C'est parti 
+HowTo28=Compléter une partie multijoueur dans chaque type de jeu.
+Name29 =Autour du monde 
+HowTo29=Gagner une partie multijoueur sur chaque carte.
+Name30 =Faut prendre l'air un peu... 
+HowTo30=Tuer 200 fois par jour en mode multijoueur durant un total de 50 jours.
+Name31 =Seule la victoire compte 
+HowTo31=Termine avec les points les plus hauts d'une partie classifiée.
+Name32 =Classé avec classe
+HowTo32=Achève une partie classifiée dans chaque type de jeu.
+Name33 =Juste un échauffement 
+HowTo33=Termine de jouer une partie de classification « Versus ».
+Name34 =Hat Trick 
+HowTo34=Réussir un "Hat Trick" dans 10 parties CDD ou CDD avec véhicules.
+Name35 =Champion en ligne
+HowTo35=Gagner 500 parties en ligne.
+Name36 =Craindre la faucheuse 
+HowTo36=Battre Akasha et compléter la campagne en niveau Dément.
+Name37 =Pas en guerre sainte 
+HowTo37=Battre Akasha et compléter la campagne.
+Name38 =Partir du bon pied 
+HowTo38=Obtenir la récompense "Premiers Sangs" dans 40 parties.
+Name39 =Prêt à faire feu 
+HowTo39=Compléter le Chapitre 1
+Name40 =Éclat-o-matique
+HowTo40=Obtenir la récompense "Série Bleue" dans 10 parties.
+Name41 =Voir rouge
+HowTo41=Passer plus de 20 minutes en "Temps Berserk".
+Name42 =Rien vu venir 
+HowTo42=Passer plus de 20 minutes en "Temps invisible".
+Name43 =Même pas mal 
+HowTo43=Passer plus de 10 minutes en "Temps invulnérable".
+Name44 =Source de dégâts 
+HowTo44=Passer plus de 20 minutes en "Temps Udamage".
+Name45 =Être un héros 
+HowTo45=Ramener 100 sphères dans des parties Guerre.
+Name46 =Brandir le drapeau 
+HowTo46=Compléter 100 parties CDD avec 3 captures minimum par partie.
+Name47 =Accélère ! 
+HowTo47=Compléter 100 parties CDD avec véhicules avec 3 captures minimum par partie.
+Name48 =Repeindre la ville en rouge 
+HowTo48=Compléter 100 parties Deathmatch ou Duel avec 20 tués minimum par partie.
+Name49 =Relier les points 
+HowTo49=Compléter 100 parties Guerre avec 3 points minimum par partie.
+Name50=Traître
+HowTo50=Ramasser 200 points de cagnottes de trahison [nécessite le Pack UT3 Titan].
+Name51=Vengeur 
+HowTo51=Réaliser 20 revanches contre un traître [nécessite le Pack UT3 Titan].
+Name52=Sac d'os
+HowTo52=Ramener 50 crânes en une seule livraison dans Avarice contre des bots au niveau Adepte ou supérieur [nécessite le Pack UT3 Titan].
+Name53=Collectionneur de crânes
+HowTo53=Ramener 500 crânes dans Avarice [nécessite le Pack UT3 Titan].
+Name54=Titanesque 
+HowTo54=Devenir un Titan 20 fois [nécessite le Pack UT3 Titan].
+Name55=Behemoth
+HowTo55=Devenir un Behemoth 20 fois [nécessite le Pack UT3 Titan].
+Name56=Infernal 
+HowTo56=Tuer 10 fois avec chaque arme du Titan dans une seule transformation Titan [nécessite le Pack UT3 Titan].
+Name57=Tout en lenteur
+HowTo57=Utiliser les générateurs de champ lent pendant un total de 10 minutes [nécessite le Pack UT3 Titan].
+Name58=Éradication
+HowTo58=Tuer 100 fois avec l'Éradicateur [nécessite le Pack UT3 Titan].
+Name59=Arachnophobie
+HowTo59=Tuer 10 personnages avec les mines araignées dans une partie Deathmatch [nécessite le Pack UT3 Titan].
+
+[MidGameMenu]
+Completed=Terminé
+Incomplete=Incomplet
+Achievements=Trophées
+
+[Extras]
+Players10to16=10 à 16 joueurs
+Players10to12=10 à 12 joueurs
+Players2to6=2 à 6 joueurs
+HiddenAchievement1=Masqué ; exige UT3 Map Pack 
+HiddenAchievement1Desc=Télécharge et installe l'ensemble "Unreal Tournament 3 Titan Pack" pour montrer cette partie de la prime.
+HiddenAchievement2=Masqué ; exige UT3 Titan Pack
+HiddenAchievement2Desc=Télécharge et installe l'ensemble "Unreal Tournament 3 Titan Pack" pour montrer cette partie de la prime.

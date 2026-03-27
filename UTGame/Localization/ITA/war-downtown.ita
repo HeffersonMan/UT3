@@ -1,0 +1,20 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Carro armato"
+AttackAnnouncement.AnnouncementText="Attacca il nodo del carro armato!"
+DefendAnnouncement.AnnouncementText="Difendi il nodo del carro armato!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Centrale"
+AttackAnnouncement.AnnouncementText="Attacca il nodo centrale"
+DefendAnnouncement.AnnouncementText="Difendi il nodo centrale"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Primario"
+AttackAnnouncement.AnnouncementText="Attacca il nodo nemico primario!"
+DefendAnnouncement.AnnouncementText="Difendi il tuo nodo primario!"
+

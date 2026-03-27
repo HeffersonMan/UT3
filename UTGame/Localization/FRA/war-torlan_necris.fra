@@ -1,0 +1,35 @@
+[UTOnslaughtPowernode_Content_0 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Sud"
+AttackAnnouncement.AnnouncementText="Attaquez le Réservoir Sud!"
+DefendAnnouncement.AnnouncementText="Défendez le Réservoir Sud!"
+
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Voie Centrale"
+AttackAnnouncement.AnnouncementText="Attaquez la Voie Centrale!"
+DefendAnnouncement.AnnouncementText="Défendez la Voie Centrale!"
+
+[UTOnslaughtPowernode_Content_3 UTOnslaughtPowernode_Content]
+ObjectiveName="Réservoir Nord"
+AttackAnnouncement.AnnouncementText="Attaquez le Réservoir Nord !"
+DefendAnnouncement.AnnouncementText="Défendez le Réservoir Nord !"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Principal"
+AttackAnnouncement.AnnouncementText="Attaquez le Node Principal!"
+DefendAnnouncement.AnnouncementText="Défendez le node principal!"
+
+[UTOnslaughtPowernode_Content_5 UTOnslaughtPowernode_Content]
+ObjectiveName="Voie Ouest"
+AttackAnnouncement.AnnouncementText="Attaquez la Voie Ouest!"
+DefendAnnouncement.AnnouncementText="Défendez la Voie Ouest!"
+
+[UTOnslaughtPowernode_Content_6 UTOnslaughtPowernode_Content]
+ObjectiveName="Voie Est"
+AttackAnnouncement.AnnouncementText="Attaquez la Voie Est!"
+DefendAnnouncement.AnnouncementText="Défendez la Voie Est!"
+

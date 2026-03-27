@@ -1,0 +1,15 @@
+[UTOnslaughtPowernode_Content_1 UTOnslaughtPowernode_Content]
+ObjectiveName="Prim‰r"
+AttackAnnouncement.AnnouncementText="Greife den Prim‰rknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige deinen Prim‰rknoten!"
+
+[UTOnslaughtPowernode_Content_2 UTOnslaughtPowernode_Content]
+ObjectiveName="Hauptstraﬂe"
+AttackAnnouncement.AnnouncementText="Greife den Hauptstraﬂenknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige den Hauptstraﬂenknoten!"
+
+[UTOnslaughtPowernode_Content_4 UTOnslaughtPowernode_Content]
+ObjectiveName="Prim‰r"
+AttackAnnouncement.AnnouncementText="Greife den Prim‰rknoten an!"
+DefendAnnouncement.AnnouncementText="Verteidige deinen Prim‰rknoten!"
+

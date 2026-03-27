@@ -1,0 +1,27 @@
+;///////////////
+; UT3 Deployables
+;///////////////
+[UTDeployableXRayVolume]
+ItemName="X-Ray Field Generator"
+PickupMessage="X-Ray Field Generator"
+NeedToPickupAnnouncement.AnnouncementText="Grab the X-Ray Field Generator!"
+
+[UTDeployableLinkGenerator]
+ItemName="Link Generator"
+PickupMessage="Link Generator"
+NeedToPickupAnnouncement.AnnouncementText="Grab the Link Generator!"
+
+;///////////////
+; UT3 Pickups
+;///////////////
+[UTSlowField_Content]
+PickupMessage="SLOW FIELD!"
+
+;///////////////
+; UT3 Weapons
+;///////////////
+[UTVWeap_EradicatorCannon_Content]
+ItemName="Eradicator"
+
+[UTVWeap_StealthBenderGold_Content]
+ItemName="StealthBender"
